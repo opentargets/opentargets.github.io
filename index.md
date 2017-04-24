@@ -4,3 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+
+Open Targets is a public-private initiative to generate evidence on the validity of therapeutic targets based on genome-scale experiments and analysis. Open Targets is working to create an R&D framework that applies to a wide range of human diseases, and is committed to sharing its data openly with the scientific community.
+
+Explore the [Open Targets Platform](https://www.targetvalidation.org)

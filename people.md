@@ -4,14 +4,16 @@ title: People
 permalink: /people/
 ---
 
-Leadership
-Director
+## Leadership
 
-Dr Jeffrey Barrett
-Wellcome Trust Sanger Institute (WTSI)
+### Director
+
+### Dr. Jeffrey Barrett
+_Wellcome Trust Sanger Institute (WTSI)_
+
 Jeffrey Barrett has been involved in Open Targets since it launched as the CTTV in 2014 and began his role as Director on 1 May 2015. Jeff is a statistical geneticist who has led several of the largest genome-wide association studies of complex disease. He first became interested in human genetics in Mark Daly’s lab at the Whitehead Institute before moving to Lon Cardon’s group in Oxford, where he received a D. Phil in statistical genetics. Jeff was an analyst in the Wellcome Trust Case Control Consortium, and led early GWAS meta-analyses in inflammatory bowel disease and type 1 diabetes while a postdoc with David Clayton in Cambridge. Since joining the Sanger Institute as a group leader in 2008, he has used next-generation sequencing in thousands of individuals to find variation associated with both rare and common human diseases.
 
-Scientific Director
+## Scientific Director
 
 Dr Ian Dunham
 European Bioinformatics Institute (EMBL-EBI)
