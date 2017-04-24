@@ -1,3 +1,9 @@
+---
+layout: page
+title: People
+permalink: /people/
+---
+
 Leadership
 Director
 

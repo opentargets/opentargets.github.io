@@ -1,3 +1,9 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
 Projects
 Open Targets employs large-scale human genetics and genomics data to change the way drug targets are identified and validated. We have established a set of interlinking projects to develop both the data and analytical processes that implicate targets as valid, and the core platform to provide the information to a diverse audience of users. We are developing 2 major areas of work, which in each case can be further subdivided into individual workstreams. The major areas are the core bioinformatics platforms, including pipelines and a database to integrate existing target validation data as well as a public web portal to serve the integrated views, and experimental projects which will generate new data to feed into the database.
 
