@@ -9,12 +9,18 @@ permalink: /people/
 <ul class="post-list">
     {% for leader in site.data.leaders %}
       <li>
-      <img src="{{ site.url }}/assets/images/{{ leader.pic }}" height="150">
         <h4>
           <!--<a class="post-link" href="{{ post.url | relative_url }}">-->
           {{ leader.name | escape }}, {{ leader.role }}
         </h4>
+        <div id="left">
+         {% if leader.pic %}
+      <img src="{{ site.url }}/assets/images/{{ leader.pic }}" height="150" class="biopic">
+      {% endif %}
+      </div>
+      <div id="right">
         {{leader.bio}}
+        </div>
       </li>
     {% endfor %}
   </ul>

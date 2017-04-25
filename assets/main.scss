@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-title {
-  @include relative-font-size(1);
+  font-size: $base-font-size * 1;
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: +1px;
@@ -72,4 +72,26 @@ h1, h2, h3, h4, h5, h6 {
   &:visited {
     color: $grey-color-dark;
   }
+}
+
+
+#left {
+      width: 200px;
+      float: left;
+    }
+    #right {
+      margin-left: 200px;
+      /* Change this to whatever the width of your left column is*/
+    }
+    .clear {
+      clear: both;
+    }
+
+.biopic{
+    float: left;
+    width: 150px;
+    clear: both;
+    padding: $spacing-unit;
+      @extend %clearfix;
+
 }
