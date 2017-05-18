@@ -9,6 +9,35 @@ h1, h2, h3, h4, h5, h6 {
   color: $brand-color;
 }
 
+body {
+    color: #444;
+}
+
+.site-nav .page-link {
+    color: #444;
+
+
+        //display: block;
+        //padding: 0.7rem 1rem;
+        padding: 0.5rem 0.5rem;
+    &:hover{
+        background: $brand-color;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    &:not(:last-child){
+        margin-right:0px;
+    }
+
+    &:last-child{
+        color: $brand-color;
+        &:hover{
+            color:#FFF;
+        };
+    }
+}
+
 .button-small{
     color: #fff !important;
     // word-spacing: 0.25em;
@@ -46,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blue_normal {
-    background: $brand-color;  
+    background: $brand-color;
 }
 
 .rounded3 {
@@ -94,4 +123,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: $spacing-unit;
       @extend %clearfix;
 
+}
+
+
+
+.site-header {
+    border-bottom: none;
+    padding-top: 20px;
 }
