@@ -1,0 +1,15 @@
+- name: Luca Fumis
+  team: frontend
+  institute: EMBL-EBI
+  pic: luca_mugshot.jpg
+  github: lucafumis
+  experience: >
+      Luca is awesome, etctera, etctera.
+
+- name: Eliseo Papa
+  team: Backend & Analysis
+  pic: eliseo_mugshot.jpg
+  institute: Biogen
+  github: elipapa
+  bio: >
+      Eliseo is a bit less awesome.
