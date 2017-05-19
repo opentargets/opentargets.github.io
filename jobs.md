@@ -2,7 +2,6 @@
 layout: page
 title: Jobs
 permalink: /jobs/
-order: 3
 ---
 
 #### [Advanced Research Assistant: Genetic Screens in Dementia](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=314056)
