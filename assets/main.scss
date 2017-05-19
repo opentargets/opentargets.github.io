@@ -5,6 +5,9 @@
 
 @import "minima";
 
+
+$brand-color: #0091EB;
+
 h1, h2, h3, h4, h5, h6 {
   color: $brand-color;
 }
@@ -12,6 +15,20 @@ h1, h2, h3, h4, h5, h6 {
 body {
     color: #444;
 }
+
+.post-title {
+    font-size: 32px;
+}
+
+.page-content{
+    min-height: 70vh;
+}
+
+
+
+/* Navigation */
+
+
 
 .site-nav .page-link {
     color: #444;
@@ -40,10 +57,10 @@ body {
 
 .button-small{
     color: #fff !important;
-    // word-spacing: 0.25em;
-//    font-family: 'Open Sans', sans-serif;
-   text-transform: uppercase;
-   border: none;
+    //word-spacing: 0.25em;
+    //font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    border: none;
     line-height: 22px;
     padding: 12px 13px 11px;
     text-align: center;
@@ -129,5 +146,21 @@ body {
 
 .site-header {
     border-bottom: none;
+    border-top: none;
     padding-top: 20px;
 }
+
+
+.hero {
+    color: #FFF !important;
+    padding: 60px;
+    margin-bottom: 20px;
+    background-color: #0091EB;
+    background: -webkit-linear-gradient(left,#0091EB 0,#1e5799 100%);
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+    /* border-radius: 5px; */
+}
+
+
