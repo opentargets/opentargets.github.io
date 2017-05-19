@@ -1,15 +1,54 @@
-- name: Luca Fumis
-  team: frontend
+- name: Miguel Carmona
+  role: Backend Software Engineer
   institute: EMBL-EBI
-  pic: luca_mugshot.jpg
+  github: mkarmona
+
+- name: Denise Carvalho-Silva
+  role: Outreach Lead
+  institute: EMBL-EBI
+  github: deniseOme
+
+- name: Luca Fumis
+  role: Frontend developer
+  institute: EMBL-EBI
   github: lucafumis
-  experience: >
-      Luca is awesome, etctera, etctera.
+
+- name: Nikiforos Karamanis
+  role: UX lead
+  institute: EMBL-EBI
+  github: nikiforos
+
+- name: Gautier Kolscieny
+  role: GSK Lead
+  institute: GSK
+  github: gkos-bio
+
+- name: ChuangKee Kong
+  role: Bioinformatician
+  institute: EMBL-EBI
+  github: ckong
+
+- name: William Newell
+  role: Bioinformatician
+  institute: GSK
+  github: wnewell
 
 - name: Eliseo Papa
-  team: Backend & Analysis
-  pic: eliseo_mugshot.jpg
+  role: Biogen Lead
   institute: Biogen
   github: elipapa
-  bio: >
-      Eliseo is a bit less awesome.
+
+- name: Miguel Pignatelli
+  role: Frontend Lead
+  institute: EMBL-EBI
+  github: emepyc
+
+- name: Andrea Pierleoni
+  role: Backend Lead
+  institute: EMBL-EBI
+  github: apierleoni
+
+- name: Gareth Peat
+  role: Frontend developer
+  institute: EMBL-EBI
+  github: peatroot
