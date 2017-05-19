@@ -33,3 +33,11 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+#minima allows to specify the order in the header:
+header_pages:
+  - overview.md
+  - projects.md
+  - people.md
+  - jobs.md
+  - contact.md

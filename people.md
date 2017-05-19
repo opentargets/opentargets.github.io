@@ -2,7 +2,6 @@
 layout: page
 title: People
 permalink: /people/
-order: 3
 ---
 
 # Leadership
@@ -44,10 +43,13 @@ The Open Targets Scientific Advisory Board established in 2016 comprises of:
 
 The [Open Targets Platform](https://www.targetvalidation.org) is developed by a diverse group of individuals with skills in bioinformatics, computer science and web development:
 
+
 <ul>
 {% for member in site.data.platformteam %}
   <li>
-      {{ member.name }} {% include icon-github.html username=member.github %},{{ member.team }},{{ member.institute }}
+      {{ member.name }} {% include icon-github.html username=member.github %},{{ member.role }},{{ member.institute }}
   </li>
 {% endfor %}
 </ul>
+
+*in alphabetical order*
