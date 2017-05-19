@@ -1,17 +1,37 @@
 <footer class="site-footer">
 
   <div class="wrapper">
-    
-    <h2 class="footer-heading">
+
+    <!-- <h2 class="footer-heading">
     <img class="logos" src="{{ site.url }}/assets/images/biogen_main_logo.png" alt="Biogen">
     <img class="logos" src="{{ site.url }}/assets/images/EMBL_EBI_web_200px.png" alt="EMBL-EBI">
     <img class="logos" src="{{ site.url }}/assets/images/gsk.png" alt="GSK">
     <img class="logos" src="{{ site.url }}/assets/images/sanger-logo_0.png" alt="Sanger">
-    </h2>
+    </h2> -->
     <!--<h2 class="footer-heading">{{ site.title | escape }}</h2>-->
+    <div class="footer-heading">
+        <div class="bsdf">
+            <img class="logos" src="{{ site.url }}/assets/images/partners/biogen.png" alt="Biogen" width="143">
+            <img class="logos" src="{{ site.url }}/assets/images/partners/ebi.png" alt="EMBL-EBI" width="171">
+            <img class="logos" src="{{ site.url }}/assets/images/partners/gsk.png" alt="GSK" width="68">
+            <img class="logos" src="{{ site.url }}/assets/images/partners/sanger.png" alt="Sanger" width="169">
+        </div>
+    </div>
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+        <div class="footer-col footer-col-3">
+            <ul class="social-media-list">
+                <li><a href="https://www.linkedin.com/company/centre-for-therapeutic-target-validation">Linkedin</a></li>
+                <li><a href="http://twitter.com/targetvalidate">Twitter</a></li>
+                <li><a href="https://www.facebook.com/OpenTargets/">Facebook</a></li>
+                <li><a href="https://github.com/opentargets">GitHub</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col footer-col-3">
+            Copyright (c) 2016 Open Targets. All rights reserved.
+        </div>
+      <!-- <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>
             {% if site.author %}
@@ -39,12 +59,13 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
+
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description | escape }}</p>
-      </div>
+      </div> -->
     </div>
 
   </div>

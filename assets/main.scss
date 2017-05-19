@@ -6,14 +6,26 @@
 @import "minima";
 
 
+
+
 $brand-color: #0091EB;
+$brand-red: #FF6350;
+$brand-darkblue: #1e5799;
 
 h1, h2, h3, h4, h5, h6 {
   color: $brand-color;
 }
 
 body {
-    color: #444;
+    color: #555;
+}
+
+a, a:visited{
+    color: $brand-color;
+    &:hover{
+        text-decoration: none;
+        color: $brand-darkblue;
+    };
 }
 
 .post-title {
@@ -24,6 +36,15 @@ body {
     min-height: 70vh;
 }
 
+.site-footer{
+    border-top: 1px solid #e8e8e8;
+    background: #f5f5f5;
+}
+
+.footer-col-wrapper{
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
 
 
 /* Navigation */
@@ -102,8 +123,9 @@ body {
 }
 
 .logos {
-    padding-right: $spacing-unit / 4;
-    padding-left: $spacing-unit / 4;
+    //padding-right: $spacing-unit / 4;
+    //padding-left: $spacing-unit / 4;
+    padding: 0px 20px;
 }
 
 .site-title {
@@ -157,10 +179,11 @@ body {
     margin-bottom: 20px;
     background-color: #0091EB;
     background: -webkit-linear-gradient(left,#0091EB 0,#1e5799 100%);
-    font-size: 24px;
+    font-size: 32px;
     text-align: center;
     font-weight: 300;
     /* border-radius: 5px; */
 }
+
 
 
