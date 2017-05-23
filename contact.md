@@ -13,9 +13,9 @@ permalink: /contact/
 
 <ul class="social-media-list">
     <li><span class="fa fa-envelope"></span> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-    <li><span class="fa fa-linkedin"></span> <a href="https://www.linkedin.com/company/centre-for-therapeutic-target-validation">Linkedin</a></li>
+    <li><span class="fa fa-linkedin"></span> <a href="{{ site.linkedin }}">Linkedin</a></li>
     <li><span class="fa fa-twitter"></span> <a href="http://twitter.com/targetvalidate">Twitter</a></li>
-    <li><span class="fa fa-facebook"></span> <a href="https://www.facebook.com/OpenTargets/">Facebook</a></li>
+    <li><span class="fa fa-facebook"></span> <a href="{{ site.facebook }}">Facebook</a></li>
     <li><span class="fa fa-github"></span> <a href="https://github.com/opentargets">GitHub</a></li>
 </ul>
 
@@ -36,6 +36,6 @@ As part of our ongoing efforts to improve this valuable public resource, we want
 
 If you would like to talk to us, please email [{{ site.email }}][email].
 
-[LinkedIn]: https://www.linkedin.com/company/centre-for-therapeutic-target-validation
-[Facebook]: https://www.facebook.com/OpenTargets/
+[LinkedIn]: {{ site.linkedin }}
+[Facebook]: {{ site.facebook }}
 [email]: mailto:{{ site.email }}
