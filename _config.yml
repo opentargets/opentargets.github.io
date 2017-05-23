@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Open Targets
 author: Open Targets Team
-email: support@targetvalidation.org
+email: contact@opentargets.org
 description: > # this means to ignore newlines until "baseurl:"
   Open Targets is a public-private initiative to generate evidence on the validity of therapeutic targets based on genome-scale experiments and analysis. 
 baseurl: "" # the subpath of your site, e.g. /blog
