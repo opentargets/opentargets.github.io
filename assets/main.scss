@@ -47,6 +47,11 @@ a, a:visited{
     padding-top: 15px;
 }
 
+.footer-col-3 {
+    width: -webkit-calc(50% - (30px / 2));
+    width: calc(50% - (30px / 2));
+}
+
 
 /* Navigation */
 
