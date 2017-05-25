@@ -6,7 +6,7 @@ layout: home
 ---
 <div class="hero">
     <div class="">
-        Open Targets is a public-private initiative to generate evidence on the validity of therapeutic targets based on genome-scale experiments and analysis.
+        Open Targets is a public-private initiative to transform drug discovery by enabling the systematic identification and prioritisation of targets
     </div>
 </div>
 
@@ -14,7 +14,7 @@ layout: home
 
 <!-- Learn [more about our projects](overview), learn more about our [projects](projects) and get to know [our team](people). -->
 
-Learn more about our [projects](projects) and our [team](people).
+Learn more about [us](overview), our [projects](projects) and get to know our [team](people)
 
 We are committed to Open Data. All the data produced as part of this initiative will be published on our [platform](https://www.targetvalidation.org).
 You can already use it to identify which targets are most likely to impact a disease process when modulated: <!-- ASK IAN -->
