@@ -16,8 +16,7 @@ layout: home
 
 Learn more about [us](overview), our [projects](projects) and get to know our [team](people)
 
-We are committed to Open Data. All the data produced as part of this initiative will be published on our [platform](https://www.targetvalidation.org).
-You can already use it to identify which targets are most likely to impact a disease process when modulated: <!-- ASK IAN -->
+We are committed to openly releasing our data through publications, the internationally recognised databases and the [Open Targets Platform](https://www.targetvalidation.org). The Open Targets Platform provides an integration of public domain data to enable target identification and prioritisation.
 
 <a class="button-small blue_normal" href="https://www.targetvalidation.org">Visit the Open Targets Platform</a>
 
