@@ -4,7 +4,7 @@
   github: mkarmona
 
 - name: Denise Carvalho-Silva
-  role: Outreach Lead
+  role: Scientific Outreach Officer
   institute: EMBL-EBI
   github: deniseOme
 
@@ -23,10 +23,10 @@
   institute: GSK
   github: gkos-bio
 
-- name: ChuangKee Kong
-  role: Bioinformatician
+- name: ChuangKee Ong
+  role: Data Coordinator
   institute: EMBL-EBI
-  github: ckong
+  github: ckongEbi
 
 - name: William Newell
   role: Bioinformatician

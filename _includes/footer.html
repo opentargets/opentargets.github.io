@@ -1,17 +1,52 @@
 <footer class="site-footer">
 
   <div class="wrapper">
-    
-    <h2 class="footer-heading">
+
+    <!-- <h2 class="footer-heading">
     <img class="logos" src="{{ site.url }}/assets/images/biogen_main_logo.png" alt="Biogen">
     <img class="logos" src="{{ site.url }}/assets/images/EMBL_EBI_web_200px.png" alt="EMBL-EBI">
     <img class="logos" src="{{ site.url }}/assets/images/gsk.png" alt="GSK">
     <img class="logos" src="{{ site.url }}/assets/images/sanger-logo_0.png" alt="Sanger">
-    </h2>
+    </h2> -->
     <!--<h2 class="footer-heading">{{ site.title | escape }}</h2>-->
+    <div class="footer-heading">
+        <div class="">
+            <a href="https://www.biogen.com/"><img class="footer-logos" src="{{ site.url }}/assets/images/partners/biogen.png" alt="Biogen" width="143"></a>
+            <a href="http://www.ebi.ac.uk"><img class="footer-logos" src="{{ site.url }}/assets/images/partners/ebi.png" alt="EMBL-EBI" width="171"></a>
+            <a href="http://www.gsk.com"><img class="footer-logos" src="{{ site.url }}/assets/images/partners/gsk.png" alt="GSK" width="68"></a>
+            <a href="http://www.sanger.ac.uk"><img class="footer-logos" src="{{ site.url }}/assets/images/partners/sanger.png" alt="Sanger" width="169"></a>
+        </div>
+    </div>
+
+    <!-- ****************** -->
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+
+        <div class="footer-col footer-col-3">
+            Follow us:
+            <ul class="social-media-list">
+                <li><span class="fa fa-linkedin"></span> <a href="{{ site.linkedin }}">Linkedin</a></li>
+                <li><span class="fa fa-twitter"></span> <a href="http://twitter.com/targetvalidate">Twitter</a></li>
+                <li><span class="fa fa-facebook"></span> <a href="{{ site.facebook }}">Facebook</a></li>
+                <li><span class="fa fa-github"></span> <a href="https://github.com/opentargets">GitHub</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col footer-col-3">
+            Contact us:
+            <ul class="social-media-list">
+                <li><span class="fa fa-envelope"></span> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            </ul>
+
+            <p>
+                Copyright <span class="fa fa-copyright"></span> 2017 Open Targets. All rights reserved.<br />
+                 <a href="http://www.ebi.ac.uk/Information/termsofuse.html">Terms of Use</a><span>&nbsp;|&nbsp;</span><a href="http://www.ebi.ac.uk/Information/privacy.html">Privacy</a><span>&nbsp;|&nbsp;</span><a href="http://www.ebi.ac.uk/Information/e-directive.html">Cookies</a>
+            </p>
+
+        </div>
+
+
+      <!-- <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>
             {% if site.author %}
@@ -39,12 +74,13 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
+
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description | escape }}</p>
-      </div>
+      </div> -->
     </div>
 
   </div>

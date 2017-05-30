@@ -4,12 +4,18 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+<div class="hero">
+    <div class="">
+        Open Targets is a public-private initiative to transform drug discovery by enabling the systematic identification and prioritisation of targets
+    </div>
+</div>
 
-Open Targets is a public-private initiative to generate evidence on the validity of therapeutic targets based on genome-scale experiments and analysis. Open Targets is working to create an R&D framework that applies to a wide range of human diseases, and is committed to sharing its data openly with the scientific community.
+<!-- Open Targets is a public-private initiative to generate evidence on the validity of therapeutic targets based on genome-scale experiments and analysis. -->Open Targets is working to create an R&D framework that applies to a wide range of human diseases, and is committed to sharing its data openly with the scientific community.
 
-Here you can read [more about us](overview), learn more about our [projects](projects) and get to know [our team](people).  
+<!-- Learn [more about our projects](overview), learn more about our [projects](projects) and get to know [our team](people). -->
 
-We are committed to Open Data. All the data produced as part of this initiative will be published on our [platform](https://www.targetvalidation.org). 
-You can already use it to identify which targets are most likely to impact a disease process when modulated:
+Learn more about [us](overview), our [projects](projects) and get to know our [team](people)
 
-<a class="button-small blue_normal rounded3" href="https://www.targetvalidation.org">Visit the Open Targets Platform</a>
+We are committed to openly releasing our data through publications, the internationally recognised databases and the [Open Targets Platform](https://www.targetvalidation.org).  The Open Targets Platform provides an integration of public domain data to enable target identification and prioritisation.
+
+<a class="button-small blue_normal" href="https://www.targetvalidation.org">Visit the Open Targets Platform</a>
