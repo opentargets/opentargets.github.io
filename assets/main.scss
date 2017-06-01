@@ -34,7 +34,13 @@ a, a:visited{
 }
 
 .page-content{
-    min-height: 70vh;
+    min-height: 80vh;
+}
+
+.main-bst-page{
+    margin-top:30px;
+    margin-bottom: 10vh;
+    min-height: 80vh;
 }
 
 .site-footer{
@@ -185,14 +191,27 @@ a, a:visited{
     }
 
 .biopic{
-    float: left;
+    /*float: left;
     width: 150px;
     clear: both;
     padding: $spacing-unit;
-      @extend %clearfix;
+      @extend %clearfix;*/
 
+    margin-bottom: 20px;
+    height: 150px;
 }
 
+.bioentry{
+    margin-bottom: 10vw;
+}
+
+
+.embed-container {
+    position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+}
 
 
 .site-header {
