@@ -14,7 +14,7 @@ Open Targets brings together expertise from four complementary institutions. [GS
 * We are committed to rapid publication and making data, methods and results publically available as soon as possible
 * We believe in non-exclusive partnerships that foster the free exchange of ideas and expertise
 
-<div class='embed-container'><iframe src='http://player.vimeo.com/video/186414362' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+<div class='embed-container'><iframe src='https://player.vimeo.com/video/186414362' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 <p>An <a href="https://vimeo.com/186414362">introductory video on Open Targets</a>, also available on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ## Diseases
