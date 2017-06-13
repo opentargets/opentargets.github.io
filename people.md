@@ -1,16 +1,15 @@
 ---
-layout: page
+layout: bootstrap
 title: People
 permalink: /people/
 ---
 
 # Leadership
 
-<ul class="post-list">
+<!-- <ul class="post-list">
     {% for leader in site.data.leaders %}
       <li>
         <h4>
-          <!--<a class="post-link" href="{{ post.url | relative_url }}">-->
           {{ leader.name | escape }}, {{ leader.role }}
         </h4>
         <div id="left">
@@ -23,7 +22,32 @@ permalink: /people/
         </div>
       </li>
     {% endfor %}
-  </ul>
+  </ul> -->
+
+<!-- <ul class="post-list"> -->
+<div class="container">
+    {% for leader in site.data.leaders %}
+    <div>
+
+
+        <!-- <div> -->
+            <div class="row bioentry">
+                <div class="col-sm-3 text-center">
+
+                {% if leader.pic %}
+                    <img src="{{ site.url }}/assets/images/{{ leader.pic }}" class="biopic img-thumbnail img-circle">
+                {% endif %}
+                </div>
+                <div class="col-sm-9">
+                <h4>{{ leader.name | escape }}, {{ leader.role }}</h4>
+                    {{leader.bio}}
+                </div>
+            </div>
+        <!-- </div> -->
+    </div>
+    {% endfor %}
+<!-- </ul> --></div>
+
 
 
 # Scientific Advisory Board

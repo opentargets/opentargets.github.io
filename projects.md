@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: bootstrap
 title: Projects
 permalink: /projects/
 ---
