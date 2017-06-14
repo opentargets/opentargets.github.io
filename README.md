@@ -2,6 +2,19 @@
 
 This is a static site, built with [Jekyll](https://jekyllrb.com) and deployed thanks to [Netlify Open Source Plan](https://www.netlify.com)
 
+## Change/Edit the content
+
+1. create a branch (see [github help](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) )
+<img src="https://help.github.com/assets/images/help/branch/branch-selection-dropdown.png" width="240">
+
+2. edit the files you want to change (see [github help](https://help.github.com/articles/editing-files-in-your-repository/) )
+the content is kept in `about.md`, `contact.md`, `index.md`, `jobs.md`, `overview.md`, `people.md` and `projects.md`.
+<img src="https://help.github.com/assets/images/help/repository/edit-file-edit-button.png" width="240">
+
+3. when all your changes are ready, create a pull request (shortened to PR, see [github help](https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request) )
+<img src="https://help.github.com/assets/images/help/pull_requests/pull-request-start-review-button.png" width="240">
+
+
 ## Developing
 
 Similarly to [github-pages setup](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) you can use bundler to install all dependencies, including jekyll:
