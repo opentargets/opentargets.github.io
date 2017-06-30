@@ -4,14 +4,15 @@ title: Jobs
 permalink: /jobs/
 ---
 
-#### [Scientific Curator](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_00965&newlang=1)
-*Variation Annotation team at the EMBL-EBI*
-Closing date: 29 June 2017
+#### [Bioinformatician](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_00995&newlang=1)
+*Open Targets core database at the EMBL-EBI*
+Closing date: 30 July 2017
 
-We are looking for a curator to join the Variation Annotation team at the European Bioinformatics Institute (EMBL-EBI) located on the Wellcome Trust Genome Campus near Cambridge in the UK. Our work involves extraction of detailed scientific information from published scientific papers into the Genome-Wide Association Study (GWAS) Catalog. As part of the OpenTargets Array Prioritisation project this position will focus on extracting data to support the Open Targets project. This will provide evidence for possible therapeutic targets.
+We are looking for an experienced Bioinformatician to be involved in large-scale biological data analysis and integration for target identification and prioritisation within the core Open Targets team. The post-holder will join the Open Targets team developing the data processing and database infrastructure to provide the core deliver of the centre, a genome-wide database of target validity (https://www.targetvalidation.org). Responsibilities will involve development and refinement of suitable data feeds from databases witin and outside the partnership including interaction with other groups, establishment of automated processing pipelines and quality control procedures, as well as exploratory data analysis in the area of target prioritisation.
+In addition the post will involve extensive interaction with backend database developers to refine and test the data processing pipeline. 
 
 
-[More details at the EMBL-EBI website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_00965&newlang=1)
+[More details at the EMBL-EBI website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_00995&newlang=1)
 
 
 ***
