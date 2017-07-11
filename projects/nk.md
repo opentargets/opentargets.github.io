@@ -1,6 +1,7 @@
 ---
-layout: bootstrap
+layout: projects
 title: NK cells
+category: Immunology
 ---
 
 # Experimental Projects
