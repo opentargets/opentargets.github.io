@@ -18,15 +18,4 @@ In addition the post will involve extensive interaction with backend database de
 ***
 
 
-#### [Research Assistant - Experimental Cancer Genetics](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=317806)
-*Dr David Adams’s group at the Wellcome Trust Sanger Institute*
-Closing date: 14 July 2017
-
-A new project funded by Open Targets, joint between the Experimental Cancer Genetics group headed by Dr David Adams at WTSI and GSK immuno-oncology, is to perform in depth analysis of Natural Killer (NK) cell surface protein interactors. The first phase of this project is a protein microarray screen to identify ligands for orphan NK cell receptors and to identify additional interactions. Following on from the identification of these ligand/receptor pairs their expression in normal tissue and tumours will be investigated. Finally, the functional importance of these pairs will be interrogated using a variety of assays.
-
-We are looking for an enthusiastic individual to contribute to the generation of this data using a variety of laboratory techniques such as cell culture including manipulation of genes, flow cytometry, gene and protein expression analysis. Detailed record keeping is required, as is contribution to data analysis, review and reporting.
-
-
-[More details at the Sanger website](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=317806)
-
 
