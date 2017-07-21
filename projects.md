@@ -8,7 +8,7 @@ permalink: /projects/
 Open Targets have identified two connected, over-arching scientific requirements to achieve our vision of systematically identifying and prioritising targets. The first is to integrate information relevant to targets and diseases, and to make it as useful as possible to drug discovery scientists. The [Open Targets Platform](http://targetvalidation.org) has been developed to marshal the resources of existing databases around a common infrastructure to specifically facilitate early target decisions. The second requirement is to increase the wealth of data that provides causal links between targets and diseases. Here, we have developed high throughput experimental projects that generate target-centred data in human, physiologically relevant systems such as organoids and induced pluripotent stem cells. 
 
 
-<p align="center"><img src="{{ site.url }}/assets/images/knowledge_cycle.png"></p>
+<p align="center"><img src="{{ site.url }}/assets/images/knowledge_cycle.png" height="387" width="691"></p>
 
 
 To deliver our projects Open Targets combines the expertise of its partners in emerging and established technologies such as:
@@ -38,7 +38,7 @@ Our next major bioinformatics focus is the development of a genetics pipeline to
 
 # Collaborative Experimental Projects
 
-<p align="center"><img src="{{ site.url }}/assets/images/Project_grid.png"></p>
+<p align="center"><img src="{{ site.url }}/assets/images/Project_grid.png" height="319" width="561"></p>
 
 We have established a portfolio of experimental projects that will provide target identification and prioritisation information relevant to key therapeutic areas. Our approach is to use high throughput methodologies that can address as near as possible the full range of relevant targets (ideally the whole genome) in systems that are relevant to the physiology of diseases with high unmet need.
 
