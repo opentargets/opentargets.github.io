@@ -8,15 +8,15 @@ Open Targets is a public-private initiative established in 2014 to use extensive
 
 
 Open Targets brings together expertise from four complementary institutions to systematically identify and prioritise targets from which safe and effective medicines can be developed. 
-
-<img src="{{ site.url }}/assets/images/OpenTargetsPartners.png" height="295" width="650">
-
+<br><br>
+<p align="center"><img src="{{ site.url }}/assets/images/OpenTargetsPartners.png" height="295" width="650"></p>
+<br><br>
 The challenges in selecting a good target include insufficient knowledge about whether targets are involved in disease, how to alter complex disease mechanisms, and whether laboratory assays and animal studies will translate to successful clinical trials. We believe that mechanistic evidence in humans on causal links between targets and diseases will have a significant impact on successful development of new medicines. Generating and interpreting this evidence demands a diverse set of skills, backgrounds, data types and technologies, which do not exist today in any single entity. Open Targets unique capabilities address these challenges through the following high-level objectives:
 1.	Identify and validate causal links between targets, pathways and diseases based on combining human based evidence in a multidisciplinary approach.
 2.	Develop a standardized infrastructure that allows users to make data-driven decisions based on diverse, interconnected information about target and disease biology gathered in a single place.
 3.	Have a substantial scientific impact in the research community, in particular by releasing new informatics tools, experimental methods, platforms, and associated data related to target validation according to the principles of open data sharing and knowledge exchange.
 
-<p></p>
+<br><br><br><br>
 
 ## Core principles
 Our partnership works towards these objectives with the following principles:
@@ -24,7 +24,7 @@ Our partnership works towards these objectives with the following principles:
 * We are committed to __rapid publication__ and making data, methods and results publically available as soon as possible.
 * We believe in non-exclusive __partnerships__ that foster the free exchange of ideas and expertise
 
-
+<br><br><br>
 
 <p>An <a href="https://vimeo.com/186414362">introductory video on Open Targets</a>, also available on <a href="https://vimeo.com">Vimeo</a>.</p> 
 <div class='embed-container'><iframe src='https://player.vimeo.com/video/186414362' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
