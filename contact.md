@@ -30,7 +30,7 @@ E-mail.: [press@opentargets.org](mailto:press@opentargets.org)
 Tel.: +44 (0)1223 494 665
 
 ## Scientific leadership
-For information about how your company might interact with Open Targets, email [{{ site.email }}][email]. Your message will be sent to the scientific coordinators.
+For information about how your company might interact with Open Targets, email [{{ site.email }}](email). Your message will be sent to the scientific coordinators.
 
 ## Help us improve the Open Targets Platform!
 The [Open Targets Platform](https://www.targetvalidation.org) aims to support researchers in identifying early drug targets faster and with more confidence. The platform integrates data from several public databases and is the result of a collaboration between the Sanger Institute, GlaxoSmithKline (GSK), the European Bioinformatics Institute (EBI) and Biogen.
