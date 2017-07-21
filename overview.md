@@ -9,7 +9,7 @@ Open Targets is a public-private initiative established in 2014 to use extensive
 
 Open Targets brings together expertise from four complementary institutions to systematically identify and prioritise targets from which safe and effective medicines can be developed. 
 
-
+<p><img src="{{ site.url }}/assets/images/tvp_-_ot.jpg" ></p>
 
 The challenges in selecting a good target include insufficient knowledge about whether targets are involved in disease, how to alter complex disease mechanisms, and whether laboratory assays and animal studies will translate to successful clinical trials. We believe that mechanistic evidence in humans on causal links between targets and diseases will have a significant impact on successful development of new medicines. Generating and interpreting this evidence demands a diverse set of skills, backgrounds, data types and technologies, which do not exist today in any single entity. Open Targets unique capabilities address these challenges through the following high-level objectives:
 1.	Identify and validate causal links between targets, pathways and diseases based on combining human based evidence in a multidisciplinary approach.
