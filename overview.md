@@ -19,9 +19,9 @@ The challenges in selecting a good target include insufficient knowledge about w
 Our partnership works towards these objectives with the following principles:
 
 ## Core principles
-* We are focused on pre-competitive research that will enable the systematic identification and prioritisation of targets.
-* We are committed to rapid publication and making data, methods and results publically available as soon as possible.
-* We believe in non-exclusive partnerships that foster the free exchange of ideas and expertise
+* We are focused on __pre-competitive research__ that will enable the systematic identification and prioritisation of targets.
+* We are committed to __rapid publication__ and making data, methods and results publically available as soon as possible.
+* We believe in non-exclusive __partnerships__ that foster the free exchange of ideas and expertise
 
 <div class='embed-container'><iframe src='https://player.vimeo.com/video/186414362' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 <p>An <a href="https://vimeo.com/186414362">introductory video on Open Targets</a>, also available on <a href="https://vimeo.com">Vimeo</a>.</p>
