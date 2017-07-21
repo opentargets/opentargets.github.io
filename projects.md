@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 
-Open Targets have identified two connected, over-arching scientific requirements to achieve our vision of systematically identifying and prioritising targets. The first is to integrate information relevant to targets and diseases, and to make it as useful as possible to drug discovery scientists. The Open Targets Platform (http://targetvalidation.org) has been developed to marshal the resources of existing databases around a common infrastructure to specifically facilitate early target decisions. The second requirement is to increase the wealth of data that provides causal links between targets and diseases. Here, we have developed high throughput experimental projects that generate target-centred data in human, physiologically relevant systems such as organoids and induced pluripotent stem cells. 
+Open Targets have identified two connected, over-arching scientific requirements to achieve our vision of systematically identifying and prioritising targets. The first is to integrate information relevant to targets and diseases, and to make it as useful as possible to drug discovery scientists. The [Open Targets Platform](http://targetvalidation.org) has been developed to marshal the resources of existing databases around a common infrastructure to specifically facilitate early target decisions. The second requirement is to increase the wealth of data that provides causal links between targets and diseases. Here, we have developed high throughput experimental projects that generate target-centred data in human, physiologically relevant systems such as organoids and induced pluripotent stem cells. 
 
 
 <img src
