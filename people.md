@@ -71,7 +71,9 @@ The [Open Targets Platform](https://www.targetvalidation.org) is developed by a 
 <ul>
 {% for member in site.data.platformteam %}
   <li>
-      {{ member.name }}, {{ member.role }}, {{ member.institute }} {% include icon-github.html username=member.github %}
+      {{ member.name }}, {{ member.role }}, {{ member.institute }}
+      {% if member.github %}{% include icon-github.html username=member.github %}{% endif %}
+      {% if member.twitter %}{% include icon-twitter.html username=member.twitter %}{% endif %}
   </li>
 {% endfor %}
 </ul>
