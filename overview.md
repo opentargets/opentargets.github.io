@@ -3,8 +3,8 @@ layout: bootstrap
 title: Overview
 permalink: /overview/
 ---
-
-Open Targets is a public-private initiative established in 2014 to use extensive human genetics and genomics data to transform drug discovery through systematic targets identification and prioritisation, and share its data openly with the scientific community. It is an innovative, large-scale, multi-year alliance that fully exploits genomic information to provide an R&D framework that can be applied to all aspects of human disease. We currently focus on oncology, immunology, respiratory and neurodegenerative disease. Open Targets is a growing endeavour and welcomes new partners who share its philosophies and scientific interests to work together to transform target identification and prioritisation.
+## Overview
+Open Targets is a public-private initiative established in 2014 to use extensive human genetics and genomics data to transform drug discovery through systematic target identification and prioritisation, and share its data openly with the scientific community. It is an innovative, large-scale, multi-year alliance that fully exploits genomic information to provide an R&D framework that can be applied to all aspects of human disease. We currently focus on oncology, immunology, respiratory and neurodegenerative disease. Open Targets is a growing endeavour and welcomes new partners who share its philosophies and scientific interests to work together to transform target identification and prioritisation.
 
 
 Open Targets brings together expertise from four complementary institutions to systematically identify and prioritise targets from which safe and effective medicines can be developed. 
@@ -16,7 +16,7 @@ The challenges in selecting a good target include insufficient knowledge about w
 2.	Develop a standardized infrastructure that allows users to make data-driven decisions based on diverse, interconnected information about target and disease biology gathered in a single place.
 3.	Have a substantial scientific impact in the research community, in particular by releasing new informatics tools, experimental methods, platforms, and associated data related to target validation according to the principles of open data sharing and knowledge exchange.
 
-<br><br><br><br>
+<br><br>
 
 ## Core principles
 Our partnership works towards these objectives with the following principles:
@@ -24,7 +24,7 @@ Our partnership works towards these objectives with the following principles:
 * We are committed to __rapid publication__ and making data, methods and results publically available as soon as possible.
 * We believe in non-exclusive __partnerships__ that foster the free exchange of ideas and expertise
 
-<br><br><br>
+<br><br>
 
 <p>An <a href="https://vimeo.com/186414362">introductory video on Open Targets</a>, also available on <a href="https://vimeo.com">Vimeo</a>.</p> 
 <div class='embed-container'><iframe src='https://player.vimeo.com/video/186414362' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
