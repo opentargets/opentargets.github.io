@@ -48,7 +48,7 @@ Open Targets portfolio of experimental projects is designed to provide new infor
 
 <br>
 # Oncology
-
+<br>
 <p><img src="{{ site.url }}/assets/images/oncology.png"></p> 
 
 
@@ -56,7 +56,7 @@ Our projects in Oncology are connect to resources and expertise within the Sange
 
 <br>
 # Immunology
-
+<br>
 <p><img src="{{ site.url }}/assets/images/immunology.png"></p> 
 
 
@@ -64,7 +64,7 @@ We have initially focussed on inflammatory bowel disease (IBD) where there is bo
 
 <br>
 # Neurodegeneration
-
+<br>
 <p><img src="{{ site.url }}/assets/images/neurodegeneration.png"></p> 
 
 In Neurodegeneration we have used the collective expertise of our partners and through collaboration with the Gurdon Institute built a set of projects based around Alzheimer’s and Parkinson’s disease. These projects use similar approaches to those described above, such as gene editing in neurons derived from iPS cells to identify modifiers of the response to oxidative stress, mechanism of Tau uptake and the effects of Alzheimer’s disease specific mutations. We are using fine mapping of GWAS in Alzheimer’s and Parkinson’s disease to identify and test potential targets in the same neuron systems and also characterising these systems at the single cell genomics level.
