@@ -14,7 +14,7 @@ layout: bootstrap
 
 <!-- Learn [more about our projects](overview), learn more about our [projects](projects) and get to know [our team](people). -->
 
-Learn more about [us](overview), our [projects](projects) and get to know our [team](people)
+Learn more about [us](overview), our [science](science) and get to know our [team](people)
 
 We are committed to openly releasing our data through publications, the internationally recognised databases and the [Open Targets Platform](https://www.targetvalidation.org). The Open Targets Platform provides an integration of public domain data to enable target identification and prioritisation.
 
