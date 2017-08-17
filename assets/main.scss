@@ -43,6 +43,10 @@ a, a:visited{
     min-height: 70vh;
 }
 
+.main-bst-page-h{
+    min-height: 30vh;
+}
+
 .site-footer{
     border-top: 1px solid #e8e8e8;
     background: #f5f5f5;
@@ -220,10 +224,16 @@ a, a:visited{
     padding-top: 20px;
 }
 
+.site-logo {
+    display: inline-block;
+    height: 50px;
+    padding: 7px 0px;
+}
+
 
 .hero {
     color: #FFF !important;
-    padding: 60px 50px;
+    /*padding: 60px 50px;*/
     margin-bottom: 20px;
     background-color: #0091EB;
     background: -webkit-linear-gradient(left,#0091EB 0,#1e5799 100%);
@@ -231,10 +241,16 @@ a, a:visited{
     text-align: center;
     font-weight: 300;
     /* border-radius: 5px; */
+    .container{
+        padding: 15vh 10vw;
+    }
 }
 
 .masthead{
-    margin-top: 10px
+    /*margin-top: 10px;*/
+    /*padding-top: 10px;*/
+    background-color: #0091EB;
+    background: -webkit-linear-gradient(left,#0091EB 0,#1e5799 100%);
 }
 
 .masthead-navigation {
@@ -250,21 +266,23 @@ a, a:visited{
         float: left;
 
         a.page-link, a.page-link-special{
-            color: #444;
+            color: #FFF;
             padding: 0 10px;
             height: 50px;
             display: table-cell;
             vertical-align: middle;
 
             &:hover{
-                background: $brand-color;
+                background: rgba(0,0,0,.1);
                 color: #FFF;
                 text-decoration: none;
             }
         }
 
         a.page-link-special{
-            color: $brand-color;
+            /*color: $brand-color;*/
+            color: #FFF;
+            background: $brand-color;
             &:hover{
                 color:#FFF;
             };
