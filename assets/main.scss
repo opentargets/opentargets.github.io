@@ -236,7 +236,13 @@ a, a:visited{
     /*padding: 60px 50px;*/
     margin-bottom: 20px;
     background-color: #0091EB;
-    background: -webkit-linear-gradient(left,#0091EB 0,#1e5799 100%);
+    background: -webkit-linear-gradient(left,#0091EB 0,#1e5799 100%);  /* For Safari 5.1 to 6.0 */
+    background: -moz-linear-gradient(left,#0091EB,#1e5799); /* For Firefox 3.6 to 15 */
+    background: -o-linear-gradient(#0091EB, #1e5799); /* For Opera 11.1 to 12.0 */
+    background: linear-gradient(left,#0091EB,#1e5799); /* Standard syntax */
+    background: linear-gradient(to right, #0091EB, #1e5799); /* IE ? */
+    background: -ms-linear-gradient(left, #0091EB, #1e5799); /* IE 11 */
+
     font-size: 32px;
     text-align: center;
     font-weight: 300;
@@ -250,7 +256,12 @@ a, a:visited{
     /*margin-top: 10px;*/
     /*padding-top: 10px;*/
     background-color: #0091EB;
-    background: -webkit-linear-gradient(left,#0091EB 0,#1e5799 100%);
+    background: -webkit-linear-gradient(left,#0091EB 0,#1e5799 100%);  /* For Safari 5.1 to 6.0 */
+    background: -moz-linear-gradient(left,#0091EB,#1e5799); /* For Firefox 3.6 to 15 */
+    background: -o-linear-gradient(#0091EB, #1e5799); /* For Opera 11.1 to 12.0 */
+    background: linear-gradient(left,#0091EB,#1e5799); /* Standard syntax */
+    background: linear-gradient(to right, #0091EB, #1e5799); /* IE ? */
+    background: -ms-linear-gradient(left, #0091EB, #1e5799); /* IE 11 */
 }
 
 .masthead-navigation {
