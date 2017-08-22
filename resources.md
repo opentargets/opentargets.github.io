@@ -15,10 +15,14 @@ permalink: /resources/
 * [Open Targets : a platform for therapeutic target](https://academic.oup.com/nar/article/45/D1/D985/2605745/Open-Targets-a-platform-for-therapeutic-target) Koscielny G et al. DOI:10.1093/nar/gkw1055
 * [The ChEMBL Database in 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210557/) Gaulton A et al. DOI:10.1093/nar/gkw1074
 
+<br/>
+<br/>
 
 # [Open Targets Platform](http://www.targetvalidation.org/)
 We have developed the [Open Targets Platform](http://www.targetvalidation.org/) to provide summaries of the evidence for the involvement of a specific gene with a selected disease.
 
+<br/>
+<br/>
 
 # [DoRothEA (Discriminant Regulon Expression Analysis)](http://dorothea.opentargets.io/#/)
 [DoRothEA](http://dorothea.opentargets.io/#/) (Discriminant Regulon Expression Analysis) is a research resource that can be used to search candidate TF-drug interactions in cancer.
