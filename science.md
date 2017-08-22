@@ -40,10 +40,6 @@ Our next major bioinformatics focus is the development of a genetics pipeline to
 
 <br><br>
 # Collaborative Experimental Projects
-<br>
-<p align="center"><img src="{{ site.url }}/assets/images/Project_grid.png" height="319" width="561"></p>
-<br><br>
-
 Open Targets portfolio of experimental projects is designed to provide new information in our key therapy areas to enable target identification and prioritisation. We use high throughput methods to address as near as possible the full range of relevant targets (ideally the whole genome) in systems that are most relevant to the disease. We currently focus on __Oncology__, __Immunology__ and __Neurodegeneration__ as therapeutic areas for Open Targets both because they represent substantial unmet patient need, and there is complementary expertise within the partners.
 
 <br>
