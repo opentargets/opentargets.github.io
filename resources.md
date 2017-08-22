@@ -15,3 +15,16 @@ permalink: /resources/
 * [Open Targets : a platform for therapeutic target](https://academic.oup.com/nar/article/45/D1/D985/2605745/Open-Targets-a-platform-for-therapeutic-target) Koscielny G et al. DOI:10.1093/nar/gkw1055
 * [The ChEMBL Database in 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210557/) Gaulton A et al. DOI:10.1093/nar/gkw1074
 
+
+# [Open Targets Platform](http://www.targetvalidation.org/)
+We have developed the [Open Targets Platform](http://www.targetvalidation.org/) to provide summaries of the evidence for the involvement of a specific gene with a selected disease.
+
+
+# DoRothEA (Discriminant Regulon Expression Analysis
+[DoRothEA]((http://dorothea.opentargets.io/#/) (Discriminant Regulon Expression Analysis) is a research resource that can be used to search candidate TF-drug interactions in cancer.
+
+Due to their location as downstream effectors of signalling pathways, aberrant activities in upstream driver genes (even if not mutated) will cause altered TF activities, thus proposing TFs as sensors of pathway dysregulation and alternative markers. Here we study the role of 127 TFs in drug sensitivity across ~1,000 cancer cell lines screened with 265 anti-cancer compounds from the GDSC. In our first approach we studied how the TF activity pattern of an individual affects drug response and mined for single TF-drug statistical interactions. In our second approach we screened for TFs whose activity patterns complement or improve well-established genomic markers in the prediction of drug response.
+
+Please see Garcia-Alonso et al. for an explanation of the approach.
+
+
