@@ -31,6 +31,8 @@ Due to their location as downstream effectors of signalling pathways, aberrant a
 
 Please see Garcia-Alonso et al. for an explanation of the approach.
 
+<br/>
+<br/>
 
 # Open Targets Principles
 
