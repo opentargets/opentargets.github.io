@@ -36,7 +36,6 @@ Open Targets is committed to openly sharing our data with the scientific communi
 
 We welcome discussions with new partners who share our philosophies and scientific interests.  Get to know our team and find our [contact details here.](contact)
 
-<br><br>
-
+<br>
 <p>For more information about Open Targets please see this <a href="https://vimeo.com/186414362">introductory video</a>, also available on <a href="https://vimeo.com">Vimeo</a>.</p> 
 <div class='embed-container'><iframe src='https://player.vimeo.com/video/186414362' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
