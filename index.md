@@ -40,5 +40,3 @@ Generating and interpreting this evidence demands a diverse set of skills, backg
 
 <p>For more information about Open Targets please see this <a href="https://vimeo.com/186414362">introductory video</a>, also available on <a href="https://vimeo.com">Vimeo</a>.</p> 
 <div class='embed-container'><iframe src='https://player.vimeo.com/video/186414362' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
-
-
