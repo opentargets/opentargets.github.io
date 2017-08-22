@@ -21,7 +21,7 @@ We have developed the [Open Targets Platform](http://www.targetvalidation.org/) 
 
 
 # DoRothEA (Discriminant Regulon Expression Analysis
-[DoRothEA]((http://dorothea.opentargets.io/#/) (Discriminant Regulon Expression Analysis) is a research resource that can be used to search candidate TF-drug interactions in cancer.
+[DoRothEA](http://dorothea.opentargets.io/#/) (Discriminant Regulon Expression Analysis) is a research resource that can be used to search candidate TF-drug interactions in cancer.
 
 Due to their location as downstream effectors of signalling pathways, aberrant activities in upstream driver genes (even if not mutated) will cause altered TF activities, thus proposing TFs as sensors of pathway dysregulation and alternative markers. Here we study the role of 127 TFs in drug sensitivity across ~1,000 cancer cell lines screened with 265 anti-cancer compounds from the GDSC. In our first approach we studied how the TF activity pattern of an individual affects drug response and mined for single TF-drug statistical interactions. In our second approach we screened for TFs whose activity patterns complement or improve well-established genomic markers in the prediction of drug response.
 
