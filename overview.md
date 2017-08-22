@@ -1,7 +1,7 @@
 ---
 layout: bootstrap
-title: Overview
-permalink: /overview/
+title: Resouces
+permalink: /resources/
 ---
 
 Open Targets aims to provide evidence on the biological validity of therapeutic targets and provide an initial assessment of the likely effectiveness of pharmacological intervention on these targets, using genome-scale experiments and analysis. This open innovation, public-private partnership aims to provide an R&D framework that applies to all aspects of human disease, and to share its data openly with the scientific community.
