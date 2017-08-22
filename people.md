@@ -41,8 +41,7 @@ permalink: /people/
                 <div class="col-sm-9">
                 <h4>{{ leader.name | escape }}, {{ leader.role }}</h4>
                     {{leader.bio}}
-                </div>
-            </div>
+                     </div>
         <!-- </div> -->
     </div>
     {% endfor %}
