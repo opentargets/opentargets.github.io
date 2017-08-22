@@ -35,7 +35,7 @@ We currently focus on oncology, immunology and neurodegeneration through an R&D 
 
 Open Targets is committed to openly sharing our data with the scientific community through publications, the internationally recognised databases and the [Open Targets Platform](https://www.targetvalidation.org). Access our [resources here.](resources)
 
-We welcome discussions with new partners who share our philosophies and scientific interests.  Get to know our team and find our [contact details here.](contact)
+We welcome discussions with new partners who share our philosophies and scientific interests.  Get to know [our team](people) and find our [contact details here.](contact)
 
 <br>
 <p>For more information about Open Targets please see this <a href="https://vimeo.com/186414362">introductory video</a>, also available on <a href="https://vimeo.com">Vimeo</a>.</p> 
