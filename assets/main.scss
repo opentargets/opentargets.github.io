@@ -231,11 +231,7 @@ a, a:visited{
     padding: 7px 0px;
 }
 
-
-.hero {
-    color: #FFF !important;
-    /*padding: 60px 50px;*/
-    margin-bottom: 20px;
+.bob{
     background-color: #0091EB;
     background: -webkit-linear-gradient(left,#0091EB 0,#1e5799 100%);  /* For Safari 5.1 to 6.0 */
     background: -moz-linear-gradient(left,#0091EB,#1e5799); /* For Firefox 3.6 to 15 */
@@ -243,15 +239,66 @@ a, a:visited{
     background: linear-gradient(left,#0091EB,#1e5799); /* Standard syntax */
     background: linear-gradient(to right, #0091EB, #1e5799); /* IE ? */
     background: -ms-linear-gradient(left, #0091EB, #1e5799); /* IE 11 */
+}
+
+.hero {
+    color: #FFF !important;
+    /*padding: 60px 50px;*/
+    margin-bottom: 20px;
+
+    /* option 1: works with other div */
+    background: #0091EB;
+    background-image: -webkit-linear-gradient(left,#0091EB 0,#1e5799 100%);
+    position: relative;
+    text-shadow: 0px 0px 40px #000;
+    /*background-image: url('images/backgrounds/aerial_b60pc.png') center center no-repeat, -webkit-linear-gradient(left,#0091EB 0,#1e5799 100%);*/
+
+    /* option 2: combo */
+    /*background: #0091EB;
+    background-image: url('images/backgrounds/groupshot2.jpg'), -webkit-linear-gradient(left,#0091EB 0,#1e5799 100%);
+    background-position: center center;
+    background-repeat: no repeat;
+    background-size: cover;
+    background-blend-mode: multiply;*/
 
     font-size: 32px;
     text-align: center;
     font-weight: 300;
-    /* border-radius: 5px; */
+
+
     .container{
         padding: 15vh 10vw;
+        position: relative;
     }
+
+
 }
+
+
+.hero-background-image{
+   /* position: absolute;
+    top:0;
+    left:0;
+    background-blend-mode: multiply;
+    background-image: url('images/backgrounds/aerial_b60pc.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;*/
+
+    /* option 1: works with gradient in other div */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('images/backgrounds/groupshot2.jpg');
+    /*background-image: url('images/backgrounds/aerial_b3.jpg');*/
+    /*background-image: url('images/backgrounds/groupshot2.jpg');*/
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+
 
 .masthead{
     /*margin-top: 10px;*/
@@ -263,6 +310,15 @@ a, a:visited{
     background: linear-gradient(left,#0091EB,#1e5799); /* Standard syntax */
     background: linear-gradient(to right, #0091EB, #1e5799); /* IE ? */
     background: -ms-linear-gradient(left, #0091EB, #1e5799); /* IE 11 */
+
+    -webkit-box-shadow: 0 0 5px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 0 5px 1px rgba(0,0,0,.3);
+    -ms-box-shadow: 0 0 5px 1px rgba(0,0,0,.3);
+    -o-box-shadow: 0 0 5px 1px rgba(0,0,0,.3);
+    box-shadow: 0 0 5px 1px rgba(0,0,0,.3);
+
+    position: relative;
+    z-index: 10;
 }
 
 .masthead-navigation {
