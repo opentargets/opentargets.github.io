@@ -6,7 +6,7 @@ layout: bootstrap-hero
 ---
 <!-- <div class="hero">
     <div class="">
-        Open Targets is a public-private initiative to transform drug discovery by enabling the systematic identification and prioritisation of targets
+        A partnership to transform drug discovery through the systematic identification and prioritisation of targets
     </div>
 </div> -->
 
