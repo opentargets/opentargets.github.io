@@ -29,7 +29,7 @@ Generating and interpreting the data required to identify a good drug target dem
 Our goals are to:
 *	Systematically find the best targets to safely & effectively treat disease
 *	Help others find good targets
-*	Get our targets adopted into drug discovery pipelines
+*	Get those targets adopted into drug discovery pipelines
 
 
 We currently focus on oncology, immunology and neurodegeneration through an R&D framework that can be applied to all aspects of human disease. We believe that evidence generated in the most human relevant systems showing which targets are causing disease will have a significant impact on the successful development of new medicines. To build a good therapeutic hypothesis we need to find not only which targets are involved but also how we might alter complex disease mechanisms, and how predictive laboratory and animal results are for humans.  Learn more about our [science](science).
