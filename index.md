@@ -22,6 +22,7 @@ Generating and interpreting the data required to identify a good drug target dem
 
 <br><br>
 <p align="center"><img src="{{ site.url }}/assets/images/OpenTargetsPartners.png" height="295" width="650"></p>
+<div class='embed-container'><iframe src='{{ site.url }}/assets/images/OpenTargetsPartners.png' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 <br><br>
 
 Our goals are to:
