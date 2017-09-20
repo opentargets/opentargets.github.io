@@ -12,7 +12,7 @@ We work in two areas to assist early drug target decisions. First, we integrate 
 
 <div class="image-container">
   <img class="scale" data-scale="best-fit-down" data-align="center" src="{{ site.url }}/assets/images/knowledge_cycle.png">
-
+</div>
 <br><br>
 
 
