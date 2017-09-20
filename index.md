@@ -21,7 +21,9 @@ Visit the [Open Targets Platform](https://www.targetvalidation.org) which provid
 Generating and interpreting the data required to identify a good drug target demands a diverse set of skills, backgrounds, evidence types and technologies, which do not exist today in any single entity. Open Targets brings together expertise from four complementary institutions to systematically identify and prioritise targets from which safe and effective medicines can be developed.
 
 <br><br>
-<p align="center"><img src="{{ site.url }}/assets/images/OpenTargetsPartners.png" height="100%" width="100%" object-fit:"contain"></p>
+<div class="image-container">
+  <img class="scale" data-scale="best-fit-down" data-align="center" src="{{ site.url }}/assets/images/OpenTargetsPartners.png">
+</div>
 <br><br> 
 
 Our goals are to:
