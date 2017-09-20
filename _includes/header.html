@@ -1,47 +1,49 @@
 {% assign default_paths = site.pages | map: "path" %}
 {% assign page_paths = site.header_pages | default: default_paths %}
 
-<div class="container masthead">
-    <div class="row">
-        <div class="col-xs-12">
-            <div class="pull-left">
-                <a class="site-title" href="{{ "/" | relative_url }}">
-                    <img src="{{ site.url }}/assets/images/ot_logo_webheader.svg" alt="" width="150" heigth="55">
-                </a>
-            </div>
-
-            {% if page_paths %}
-            <div class="pull-right">
-
-                <ul class="masthead-navigation hidden-xs">
-                    <li class="masthead-nav-item"><a class="page-link" href="{{ site.url }}/overview/">Overview</a></li>
-                    <li class="masthead-nav-item"><a class="page-link" href="{{ site.url }}/projects/">Projects</a></li>
-                    <li class="masthead-nav-item"><a class="page-link" href="{{ site.url }}/people/">People</a></li>
-                    <li class="masthead-nav-item"><a class="page-link" href="{{ site.url }}/contact/">Contact</a></li>
-                    <li class="masthead-nav-item"><a class="page-link" href="https://blog.opentargets.org">Blog</a></li>
-                    <li class="masthead-nav-item"><a class="page-link" href="{{ site.url }}/jobs/">Jobs</a></li>
-                    <li class="masthead-nav-item"><a class="page-link page-link-special" href="https://www.targetvalidation.org">Platform</a> </li>
-                </ul>
-
-                <ul class="masthead-navigation hidden-sm hidden-md hidden-lg">
-                    <li class=" masthead-nav-item dropdown">
-                        <a class="page-link dropdown-toggle" data-toggle="dropdown"><span class="fa fa-bars fa-lg"></span></a>
-                        <ul class="dropdown-menu dropdown-menu-right">
-                            <!-- <li role="separator" class="divider"></li> -->
-                            <li><a href="{{ site.url }}/overview/">Overview</a></li>
-                            <li><a href="{{ site.url }}/projects/">Projects</a></li>
-                            <li><a href="{{ site.url }}/people/">People</a></li>
-                            <li><a href="{{ site.url }}/contact/">Contact</a></li>
-                            <li><a href="https://blog.opentargets.org">Blog</a></li>
-                            <li><a href="{{ site.url }}/jobs/">Jobs</a></li>
-                            <li><a href="https://www.targetvalidation.org">Platform</a> </li>
-                        </ul>
-                    </li>
-                </ul>
-
+<div class="masthead">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="pull-left">
+                    <a class="site-logo" href="{{ "/" | relative_url }}">
+                        <img src="{{ site.url }}/assets/images/ot_logo_masthead_130x30_w.svg" alt="" width="156" heigth="36">
+                    </a>
                 </div>
+
+                {% if page_paths %}
+                <div class="pull-right">
+
+                    <ul class="masthead-navigation hidden-xs">
+                        <li class="masthead-nav-item"><a class="page-link" href="{{ site.url }}/science/">Science</a></li>
+                        <li class="masthead-nav-item"><a class="page-link" href="{{ site.url }}/people/">People</a></li>
+                        <li class="masthead-nav-item"><a class="page-link" href="{{ site.url }}/resources/">Resources</a></li>
+                        <li class="masthead-nav-item"><a class="page-link" href="{{ site.url }}/contact/">Contact</a></li>
+                        <li class="masthead-nav-item"><a class="page-link" href="https://blog.opentargets.org">Blog</a></li>
+                        <li class="masthead-nav-item"><a class="page-link" href="{{ site.url }}/jobs/">Jobs</a></li>
+                        <li class="masthead-nav-item"><a class="page-link" href="https://www.targetvalidation.org">Platform</a> </li>
+                    </ul>
+
+                    <ul class="masthead-navigation hidden-sm hidden-md hidden-lg">
+                        <li class=" masthead-nav-item dropdown" onclick="void(0)">
+                            <a class="page-link dropdown-toggle" data-toggle="dropdown" onclick="void(0)"><span class="fa fa-bars fa-lg"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <!-- <li role="separator" class="divider"></li> -->
+                                <li><a href="{{ site.url }}/science/">Science</a></li>
+                                <li><a href="{{ site.url }}/people/">People</a></li>
+                                <li><a href="{{ site.url }}/resources/">Resources</a></li>
+                                <li><a href="{{ site.url }}/contact/">Contact</a></li>
+                                <li><a href="https://blog.opentargets.org">Blog</a></li>
+                                <li><a href="{{ site.url }}/jobs/">Jobs</a></li>
+                                <li><a href="https://www.targetvalidation.org">Platform</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    </div>
+                </div>
+                {% endif %}
             </div>
-            {% endif %}
         </div>
     </div>
 </div>
