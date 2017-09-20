@@ -47,7 +47,7 @@ Open Targets portfolio of experimental projects is designed to provide new infor
 <br>
 # Oncology
 <p><div class="image-container">
-  <img class="scale" data-scale="best-fit-down" data-align="left" src="{{ site.url }}/assets/images/oncology.png">/p>
+  <img class="scale" data-scale="best-fit-down" data-align="left" src="{{ site.url }}/assets/images/oncology.png"></p>
 
 
 Our projects in Oncology are connect to resources and expertise within the Sanger Institute’s cancer program, which has played an important role in understanding the genetic basis of cancer. A shared theme is the use of accessible cancer resources to curate and analyse clinical genomic datasets to identify driver genes (mutations, amplification, deletions and gene-fusions) across multiple cancer sub-types. A key resource is the unique collection of >1000 human cancer cell lines at the Sanger Institute along with their drug sensitivities. Genomic information including RNA-seq and synthetic lethality from genome editing in model systems that best reflect the biology of tumours will identify new target opportunities. 
