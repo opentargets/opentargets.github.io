@@ -35,7 +35,7 @@ We have developed the [Open Targets Platform](http://www.targetvalidation.org/) 
 
 Due to their location as downstream effectors of signalling pathways, aberrant activities in upstream driver genes (even if not mutated) will cause altered TF activities, thus proposing TFs as sensors of pathway dysregulation and alternative markers. Here we study the role of 127 TFs in drug sensitivity across ~1,000 cancer cell lines screened with 265 anti-cancer compounds from the GDSC. In our first approach we studied how the TF activity pattern of an individual affects drug response and mined for single TF-drug statistical interactions. In our second approach we screened for TFs whose activity patterns complement or improve well-established genomic markers in the prediction of drug response.
 
-Please see Garcia-Alonso et al. for an explanation of the approach.
+Please see [Garcia-Alonso et al.](http://www.biorxiv.org/content/early/2017/04/21/129478) for an explanation of the approach.
 
 <br/>
 <br/>
