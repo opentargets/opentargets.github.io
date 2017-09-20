@@ -12,7 +12,7 @@ permalink: /resources/
 * [Literature Evidence in Open Targets – a target validation platform](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-017-0131-3)  Kafkas S et al. DOI:10.1186/s13326-017-0131-3
 * [Dissecting the genomic heterogeneity of cancer hallmarks' acquisition with SLAPenrich](http://www.biorxiv.org/content/early/2017/03/27/077701) Iorio F et al. DOI:10.1101/077701 
 * [Transcription factor activities enhance markers of drug response in cancer](http://www.biorxiv.org/content/early/2017/04/21/129478) Garcia-Alonso L et al. DOI:10.1101/129478
-* [Open Targets : a platform for therapeutic target](https://academic.oup.com/nar/article/45/D1/D985/2605745/Open-Targets-a-platform-for-therapeutic-target) Koscielny G et al. DOI:10.1093/nar/gkw1055
+* [Open Targets: a platform for therapeutic target identification and validation](https://academic.oup.com/nar/article/45/D1/D985/2605745/Open-Targets-a-platform-for-therapeutic-target) Koscielny G et al. DOI:10.1093/nar/gkw1055
 * [The ChEMBL Database in 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210557/) Gaulton A et al. DOI:10.1093/nar/gkw1074
 * [Reactome pathway analysis: a high-performance in-memory approach](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1559-2) Fabregat A et al. DOI:10.1186/s12859-017-1559-2
 * [ProtVista: visualization of protein sequence annotations](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btx120) Watkins X et al. DOI:10.1093/bioinformatics/btx120
