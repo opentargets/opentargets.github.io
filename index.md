@@ -30,13 +30,13 @@ Our goals are to:
 *	Get our targets adopted into drug discovery pipelines
 
 
-We currently focus on oncology, immunology and neurodegeneration through an R&D framework that can be applied to all aspects of human disease. We believe that evidence generated in the most human relevant systems showing which targets are causing disease will have a significant impact on the successful development of new medicines. To build a good therapeutic hypothesis we need to find not only which targets are involved but also how we might alter complex disease mechanisms, and how predictive laboratory and animal results are for humans.  Learn more about our [science here](science).
+We currently focus on oncology, immunology and neurodegeneration through an R&D framework that can be applied to all aspects of human disease. We believe that evidence generated in the most human relevant systems showing which targets are causing disease will have a significant impact on the successful development of new medicines. To build a good therapeutic hypothesis we need to find not only which targets are involved but also how we might alter complex disease mechanisms, and how predictive laboratory and animal results are for humans.  Learn more about our [science](science).
 
 
-Open Targets is committed to openly sharing our data with the scientific community through publications, the internationally recognised databases and the [Open Targets Platform](https://www.targetvalidation.org). Access our [resources here.](resources)
+Open Targets is committed to openly sharing our data with the scientific community through publications, the internationally recognised databases and the [Open Targets Platform](https://www.targetvalidation.org). Access our [resources.](resources)
 
-We welcome discussions with new partners who share our philosophies and scientific interests.  Get to know [our team](people) and find our [contact details here.](contact)
+We welcome discussions with new partners who share our philosophies and scientific interests.  Get to know [our team](people) and find our [contact details.](contact)
 
 <br>
-<p>For more information about Open Targets please see this <a href="https://vimeo.com/186414362">introductory video</a>, also available on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p>For more information about Open Targets please see this <a href="https://vimeo.com/186414362">introductory video</a>.</p>
 <div class='embed-container'><iframe src='https://player.vimeo.com/video/186414362' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
