@@ -79,4 +79,4 @@ The [Open Targets Platform](https://www.targetvalidation.org) is developed by a 
 {% endfor %}
 </ul>
 
-*in alphabetical order*
+
