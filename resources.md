@@ -5,21 +5,21 @@ permalink: /resources/
 ---
 
 # Publications
-* [Using human genetics to make new medicines](http://europepmc.org/abstract/MED/26370900) Barrett JC et al.  DOI:10.1038/nrg3998
-* [Linking rare and common disease: mapping clinical disease-phenotypes to ontologies in therapeutic target validation](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-016-0051-7) Sarntivijai S et al. DOI:10.1186/s13326-016-0051-7
-* [Warped Matrix Factorisation](https://link.springer.com/chapter/10.1007%2F978-3-319-46227-1_49) Pratanwanich N et al. DOI:10.1007/978-3-319-46227-1_49
-* [TnT: A set of libraries for visualising trees and track-based annotations in the web](https://www.ncbi.nlm.nih.gov/pubmed/27153646) Pignatelli M DOI:10.1093/bioinformatics/btw210
-* [Literature Evidence in Open Targets – a target validation platform](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-017-0131-3)  Kafkas S et al. DOI:10.1186/s13326-017-0131-3
-* [Dissecting the genomic heterogeneity of cancer hallmarks' acquisition with SLAPenrich](http://www.biorxiv.org/content/early/2017/03/27/077701) Iorio F et al. DOI:10.1101/077701 
-* [Transcription factor activities enhance markers of drug response in cancer](http://www.biorxiv.org/content/early/2017/04/21/129478) Garcia-Alonso L et al. DOI:10.1101/129478
-* [Open Targets: a platform for therapeutic target identification and validation](https://academic.oup.com/nar/article/45/D1/D985/2605745/Open-Targets-a-platform-for-therapeutic-target) Koscielny G et al. DOI:10.1093/nar/gkw1055
-* [The ChEMBL Database in 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210557/) Gaulton A et al. DOI:10.1093/nar/gkw1074
-* [Reactome pathway analysis: a high-performance in-memory approach](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1559-2) Fabregat A et al. DOI:10.1186/s12859-017-1559-2
-* [ProtVista: visualization of protein sequence annotations](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btx120) Watkins X et al. DOI:10.1093/bioinformatics/btx120
-* [Reactome enhanced pathway visualization](https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btx441/3930125/Reactome-enhanced-pathway-visualization) Sidiropoulos K et al. DOI:10.1093/bioinformatics/btx441
-* [Designing an intuitive web application for scientists](http://www.biorxiv.org/content/early/2017/07/27/169193) Karamanis N et al. DOI:10.1101/169193 
+* [Uncovering novel repositioning opportunities using the Open Targets platform](http://www.sciencedirect.com/science/article/pii/S1359644617301897) Khaladkar M et al. DOI:10.1016/j.drudis.2017.09.007
 * [In silico prediction of novel therapeutic targets using gene–disease association data](https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-017-1285-6) Ferrero E et al. DOI:10.1186/s12967-017-1285-6
-
+* [Designing an intuitive web application for scientists](http://www.biorxiv.org/content/early/2017/07/27/169193) Karamanis N et al. DOI:10.1101/169193 
+* [Reactome enhanced pathway visualization](https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btx441/3930125/Reactome-enhanced-pathway-visualization) Sidiropoulos K et al. DOI:10.1093/bioinformatics/btx441
+* [ProtVista: visualization of protein sequence annotations](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btx120) Watkins X et al. DOI:10.1093/bioinformatics/btx120
+* [Reactome pathway analysis: a high-performance in-memory approach](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1559-2) Fabregat A et al. DOI:10.1186/s12859-017-1559-2
+* [The ChEMBL Database in 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210557/) Gaulton A et al. DOI:10.1093/nar/gkw1074
+* [Open Targets: a platform for therapeutic target identification and validation](https://academic.oup.com/nar/article/45/D1/D985/2605745/Open-Targets-a-platform-for-therapeutic-target) Koscielny G et al. DOI:10.1093/nar/gkw1055
+* [Transcription factor activities enhance markers of drug response in cancer](http://www.biorxiv.org/content/early/2017/04/21/129478) Garcia-Alonso L et al. DOI:10.1101/129478
+* [Dissecting the genomic heterogeneity of cancer hallmarks' acquisition with SLAPenrich](http://www.biorxiv.org/content/early/2017/03/27/077701) Iorio F et al. DOI:10.1101/077701 
+* [Literature Evidence in Open Targets – a target validation platform](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-017-0131-3)  Kafkas S et al. DOI:10.1186/s13326-017-0131-3
+* [TnT: A set of libraries for visualising trees and track-based annotations in the web](https://www.ncbi.nlm.nih.gov/pubmed/27153646) Pignatelli M DOI:10.1093/bioinformatics/btw210
+* [Warped Matrix Factorisation](https://link.springer.com/chapter/10.1007%2F978-3-319-46227-1_49) Pratanwanich N et al. DOI:10.1007/978-3-319-46227-1_49
+* [Linking rare and common disease: mapping clinical disease-phenotypes to ontologies in therapeutic target validation](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-016-0051-7) Sarntivijai S et al. DOI:10.1186/s13326-016-0051-7
+* [Using human genetics to make new medicines](http://europepmc.org/abstract/MED/26370900) Barrett JC et al.  DOI:10.1038/nrg3998
 
 <br/>
 <br/>
