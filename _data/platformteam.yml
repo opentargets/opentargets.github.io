@@ -13,7 +13,12 @@
   institute: EMBL-EBI
   github: lucafumis
 
-- name: Nikiforos Karamanis
+- name: Andrew Hercules
+  role: UX lead
+  institute: EMBL-EBI
+  github: andrewhercules
+  
+  - name: Nikiforos Karamanis
   role: UX lead
   institute: EMBL-EBI
   twitter: technorasis
