@@ -13,7 +13,7 @@ Are you looking for a challenging role in web application development? Do you wa
 The post holder will work in a global, team-oriented environment and collaborative closely with developers, bioinformaticians and scientists across EMBL-EBI and with external partners both in the UK and internationally.
 
 
-[More details at the WTSI website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01067&newlang=1)
+[More details at the EMBL website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01067&newlang=1)
 
 
 ***
