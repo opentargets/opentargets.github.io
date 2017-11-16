@@ -18,7 +18,7 @@ Visit the [Open Targets Platform](https://www.targetvalidation.org) which provid
 <a class="button-small blue_normal" href="https://www.targetvalidation.org">Visit the Open Targets Platform</a>
 
 # *BREAKING NEWS* 
-_Takeda joins drug target discovery initiative_<br>
+**Takeda joins drug target discovery initiative**<br>
 *Cambridge, DATE 2017 – Japan-based pharmaceutical company Takeda has joined Open Targets, the pioneering public-private collaboration that aims to transform drug discovery by improving the success rate for discovering new medicines. Takeda’s expertise in oncology, gastroenterology (GI) and central nervous system (CNS) disease will complement the offerings of GSK, Biogen, the Wellcome Trust Sanger Institute and the European Bioinformatics Institute (EMBL-EBI), and build on the initiative’s success.*
 
 <br>
