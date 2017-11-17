@@ -21,7 +21,7 @@
 
 - name: Birgit Kerber
   role: Business Developer
-  pic: birgitkerber.jpg
+  pic: Birgit_Kerber.png
   institution: EMBLEM
   bio: >
       Birgit has been actively engaged in establishing technology transfer at the European Molecular Biology Laboratory (EMBL) more than 16 years ago and over the years she held various positions at EMBL’s technology transfer arm, EMBLEM. In addition, she is currently responsible for business development at EMBL-EBI and Open Targets. Birgit has been engaged in starting companies out of EMBL, as well as in managing and licensing intellectual property in a number of fields with biotech and large pharma companies as customers. She holds a diploma in biology from Philipps-University Marburg, did her PhD work in molecular developmental genetics at the Max-Planck-Institute for biophysical chemistry in Goettingen with Michael Hoch and a postdoc with Stephen Cohen at EMBL Heidelberg. She is a member of BIO Deutschland and the Licensing Executives Society as well as an alumna of St Gallen Business School, CEIPI, Boehringer Ingelheim Fonds, DFG and EMBO.
@@ -45,7 +45,7 @@
 - name: Oliver Stegle
   role: Joint EMBL-EBI Scientific Lead
   title: Research Group Leader
-  pic: stegl_oliver_2015.jpg
+  pic: STEGLE_Oliver.jpg
   institution: EMBL-EBI
   bio: >
       Oliver is a Research Group Leader at EMBL-EBI. Oliver's team develops and applies advances statistical and machine learning methods to fully exploit high-throughput molecular data. He is particularly interested methods to link genotype to molecular traits and phenotypes and computational single-cell biology. Prior to his work at EMBL-EBI, he received his PhD from the University of Cambridge (2009) while working with David MacKay on statistical machine learning and computational biology. He did his postdoctoral work at the Max Planck campus Tuebingen (2009-2012) before setting up his own group at EMBL-EBI in 2012.
@@ -60,7 +60,7 @@
 
 - name: Nizar Smaoui
   title: Senior Medical Director Pharmacogenomics
-  pic:  Nizar Smaoui.png
+  pic:  Nizar_Smaoui.png
   role: Takeda Scientific Lead
   institution: Takeda
   bio: >
