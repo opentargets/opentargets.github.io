@@ -5,6 +5,7 @@ permalink: /resources/
 ---
 
 # Publications
+* [Unsupervised correction of gene-independent cell responses to CRISPR-Cas9 targeting](https://www.biorxiv.org/content/early/2017/12/03/228189) Iorio F et al. DOI:10.1101/228189 
 * [Uncovering novel repositioning opportunities using the Open Targets platform](http://www.sciencedirect.com/science/article/pii/S1359644617301897) Khaladkar M et al. DOI:10.1016/j.drudis.2017.09.007
 * [In silico prediction of novel therapeutic targets using gene–disease association data](https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-017-1285-6) Ferrero E et al. DOI:10.1186/s12967-017-1285-6
 * [Designing an intuitive web application for scientists](http://www.biorxiv.org/content/early/2017/07/27/169193) Karamanis N et al. DOI:10.1101/169193 
@@ -13,7 +14,7 @@ permalink: /resources/
 * [Reactome pathway analysis: a high-performance in-memory approach](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1559-2) Fabregat A et al. DOI:10.1186/s12859-017-1559-2
 * [The ChEMBL Database in 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210557/) Gaulton A et al. DOI:10.1093/nar/gkw1074
 * [Open Targets: a platform for therapeutic target identification and validation](https://academic.oup.com/nar/article/45/D1/D985/2605745/Open-Targets-a-platform-for-therapeutic-target) Koscielny G et al. DOI:10.1093/nar/gkw1055
-* [Transcription factor activities enhance markers of drug response in cancer](http://www.biorxiv.org/content/early/2017/04/21/129478) Garcia-Alonso L et al. DOI:10.1101/129478
+* [Transcription factor activities enhance markers of drug sensitivity in cancer](http://cancerres.aacrjournals.org/content/early/2017/12/09/0008-5472.CAN-17-1679) Garcia-Alonso L et al. DOI:10.1158/0008-5472.CAN-17-1679
 * [Dissecting the genomic heterogeneity of cancer hallmarks' acquisition with SLAPenrich](http://www.biorxiv.org/content/early/2017/03/27/077701) Iorio F et al. DOI:10.1101/077701 
 * [Literature Evidence in Open Targets – a target validation platform](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-017-0131-3)  Kafkas S et al. DOI:10.1186/s13326-017-0131-3
 * [TnT: A set of libraries for visualising trees and track-based annotations in the web](https://www.ncbi.nlm.nih.gov/pubmed/27153646) Pignatelli M DOI:10.1093/bioinformatics/btw210
@@ -35,7 +36,7 @@ We have developed the [Open Targets Platform](http://www.targetvalidation.org/) 
 
 Due to their location as downstream effectors of signalling pathways, aberrant activities in upstream driver genes (even if not mutated) will cause altered TF activities, thus proposing TFs as sensors of pathway dysregulation and alternative markers. Here we study the role of 127 TFs in drug sensitivity across ~1,000 cancer cell lines screened with 265 anti-cancer compounds from the GDSC. In our first approach we studied how the TF activity pattern of an individual affects drug response and mined for single TF-drug statistical interactions. In our second approach we screened for TFs whose activity patterns complement or improve well-established genomic markers in the prediction of drug response.
 
-Please see [Garcia-Alonso et al.](http://www.biorxiv.org/content/early/2017/04/21/129478) for an explanation of the approach.
+Please see [Garcia-Alonso et al.](http://cancerres.aacrjournals.org/content/early/2017/12/09/0008-5472.CAN-17-1679) for an explanation of the approach.
 
 <br/>
 <br/>
