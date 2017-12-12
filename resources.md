@@ -5,6 +5,7 @@ permalink: /resources/
 ---
 
 # Publications
+* [Unsupervised correction of gene-independent cell responses to CRISPR-Cas9 targeting](https://www.biorxiv.org/content/early/2017/12/03/228189) Iorio F et al. DOI:10.1101/228189 
 * [Uncovering novel repositioning opportunities using the Open Targets platform](http://www.sciencedirect.com/science/article/pii/S1359644617301897) Khaladkar M et al. DOI:10.1016/j.drudis.2017.09.007
 * [In silico prediction of novel therapeutic targets using gene–disease association data](https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-017-1285-6) Ferrero E et al. DOI:10.1186/s12967-017-1285-6
 * [Designing an intuitive web application for scientists](http://www.biorxiv.org/content/early/2017/07/27/169193) Karamanis N et al. DOI:10.1101/169193 
