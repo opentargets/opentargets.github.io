@@ -5,10 +5,10 @@ permalink: /resources/
 ---
 
 # Publications
+* [Designing an intuitive web application for drug discovery scientists](https://doi.org/10.1016/j.drudis.2018.01.032) Karamanis N et al. DOI:10.1016/j.drudis.2018.01.032
 * [Unsupervised correction of gene-independent cell responses to CRISPR-Cas9 targeting](https://www.biorxiv.org/content/early/2017/12/03/228189) Iorio F et al. DOI:10.1101/228189 
 * [Uncovering novel repositioning opportunities using the Open Targets platform](http://www.sciencedirect.com/science/article/pii/S1359644617301897) Khaladkar M et al. DOI:10.1016/j.drudis.2017.09.007
 * [In silico prediction of novel therapeutic targets using gene–disease association data](https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-017-1285-6) Ferrero E et al. DOI:10.1186/s12967-017-1285-6
-* [Designing an intuitive web application for scientists](http://www.biorxiv.org/content/early/2017/07/27/169193) Karamanis N et al. DOI:10.1101/169193 
 * [Reactome enhanced pathway visualization](https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btx441/3930125/Reactome-enhanced-pathway-visualization) Sidiropoulos K et al. DOI:10.1093/bioinformatics/btx441
 * [ProtVista: visualization of protein sequence annotations](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btx120) Watkins X et al. DOI:10.1093/bioinformatics/btx120
 * [Reactome pathway analysis: a high-performance in-memory approach](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1559-2) Fabregat A et al. DOI:10.1186/s12859-017-1559-2
