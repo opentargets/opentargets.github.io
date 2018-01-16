@@ -23,3 +23,39 @@ It is envisaged that interviews will take place on Tuesday, 13th March 2018.
 
 ***
 
+#### [Software Developer: Open Targets Core team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01125&newlang=1&pos[]=0&loc[]=0)
+*Open Targets Core Team at EMBL-EBI*
+Closing date: 18 February 2018
+
+We are looking for a talented python software engineer to join the the Open Targets Core team. You will be involved in running large-scale biological data analysis and integration and developing the REST API powering the Open Targets platform at www.targetvalidation.org.
+
+The main responsibilities will involve design and implementation of backend micro-services and data processing pipelines in Python on Unix-based systems, and maintenance of those services in a cloud environment (Google Cloud or AWS).
+
+You will join a startup-like environment, where we use a range of modern technologies and we continously look for improvement. We work following Agile practices and you are encouraged to take ownership of what you work on.
+
+This is an exciting opportunity to work on a growing project at the interface of academic and industry research (www.opentargets.org).
+
+[More details at the EMBL website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01125&newlang=1&pos[]=0&loc[]=0)
+
+***
+
+#### [Web Developer: Open Targets Core team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01126&newlang=1&pos[]=0&loc[]=0)
+*Open Targets Core Team at EMBL-EBI*
+Closing date: 18 February 2018
+
+We are looking for an enthusiastic and talented Web Developer to join the the Open Targets Core team.
+
+Your primary tasks will be development of the web frontend for the core Open Targets deliverable, a genome-wide database of target validity (www.targetvalidation.org).
+
+Your responsibilities will include:
+* Designing, developing and improving a robust, testable web application to facilitate target validation;
+* Working with other developers in the team to ensure consistency in the web application;
+* Working with scientists and UX professionals to ensure a positive user experience and an integrated display of information;
+* Developing, integrating and maintaining reusable data visualisation components for data display.
+
+This is an exciting opportunity to work on a growing project at the interface of academic and industry research (www.opentargets.org).
+
+[More details at the EMBL website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01126&newlang=1&pos[]=0&loc[]=0)
+
+***
+
