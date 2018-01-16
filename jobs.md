@@ -12,8 +12,8 @@ We are seeking to recruit a Postdoctoral Fellow for a position in the Thornton R
 
 The aims of the project are twofold:
 
-    To develop meta-analysis methods for identifying gene expression signatures and linking these to disease phenotypes.
-    To investigate links between rare diseases and complex diseases with similar phenotypes, using expression data as an intermediate phenotype. 
+To develop meta-analysis methods for identifying gene expression signatures and linking these to disease phenotypes.
+To investigate links between rare diseases and complex diseases with similar phenotypes, using expression data as an intermediate phenotype.
 
 You will work closely with our pharma collaborators in Open Targets initially to identify gene signatures for Alzheimer's disease progression phenotypes, but the approach will also be extended to other diseases. Your methods will directly contribute to the data production pipelines of the Expression Atlas, which is one of EMBL-EBI’s core open resources. The atlas provides a powerful route to find information about gene and protein expression across species and biological conditions, such as different tissues, cell types, developmental stages and diseases among others. There are now expression data for more than 3,000 experiments (microarray and RNA-sequencing) from over 30 different organisms. Analyses on human disease data are directly fed into the Target Validation Platform of the Open Targets project and this project will contribute to this platform by providing expression disease signatures.
 
