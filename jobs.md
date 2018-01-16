@@ -21,7 +21,7 @@ It is envisaged that interviews will take place on Tuesday, 13th March 2018.
 
 [More details at the EMBL website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01119&newlang=1&loc%5B%5D=2)
 
-
+***
 
 #### [Software Developer: Open Targets Core team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01125&newlang=1&pos[]=0&loc[]=0)
 *Open Targets Core Team at EMBL-EBI*
@@ -37,7 +37,7 @@ This is an exciting opportunity to work on a growing project at the interface of
 
 [More details at the EMBL website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01125&newlang=1&pos[]=0&loc[]=0)
 
-
+***
 
 #### [Web Developer: Open Targets Core team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01126&newlang=1&pos[]=0&loc[]=0)
 *Open Targets Core Team at EMBL-EBI*
