@@ -19,7 +19,7 @@ You will work closely with our pharma collaborators in Open Targets initially to
 
 It is envisaged that interviews will take place on Tuesday, 13th March 2018.
 
-[More details at the WTSI website](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=324029)
+[More details at the EMBL website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01119&newlang=1&loc%5B%5D=2)
 
 ***
 
