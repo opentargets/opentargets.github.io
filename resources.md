@@ -31,6 +31,12 @@ We have developed the [Open Targets Platform](http://www.targetvalidation.org/) 
 <br/>
 <br/>
 
+# [LINK (LIterature coNcept Knowledgebase)](https://link.opentargets.io/)
+A new tool called [LINK](https://link.opentargets.io/) (LIterature coNcept Knowledgebase) has been developed that allows the exploration of half a billion relations between genes, diseases, drugs and key concepts extracted from PubMed abstracts using NLP (Natural Language Processing).
+
+<br/>
+<br/>
+
 # [DoRothEA (Discriminant Regulon Expression Analysis)](http://dorothea.opentargets.io/#/)
 [DoRothEA](http://dorothea.opentargets.io/#/) (Discriminant Regulon Expression Analysis) is a research resource that can be used to search candidate TF-drug interactions in cancer.
 
