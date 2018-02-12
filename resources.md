@@ -31,6 +31,20 @@ We have developed the [Open Targets Platform](http://www.targetvalidation.org/) 
 <br/>
 <br/>
 
+# [LINK (LIterature coNcept Knowledgebase)](https://link.opentargets.io/)
+A new tool called [LINK](https://link.opentargets.io/) (LIterature coNcept Knowledgebase) has been developed that allows the exploration of half a billion relations between genes, diseases, drugs and key concepts extracted from PubMed abstracts using NLP (Natural Language Processing).
+
+Once MEDLINE relaxed their license for obtaining and analysing publication data last year, we started looking for novel ways to mine their data. We wanted to exploit the biomedical knowledge often buried in the literature to help scientists generate new hypotheses for the identification of new drug targets.
+For this purpose, we have built Library, an open source ecosystem comprising:
+* a pipeline that allows us to quickly run a large scale NLP analysis.
+* an API that serves the resulting data.
+* a user interface to explore this data.
+
+Our pipeline annotates genes, diseases and drugs present in PubMed abstracts, and extracts key concepts. 
+
+<br/>
+<br/>
+
 # [DoRothEA (Discriminant Regulon Expression Analysis)](http://dorothea.opentargets.io/#/)
 [DoRothEA](http://dorothea.opentargets.io/#/) (Discriminant Regulon Expression Analysis) is a research resource that can be used to search candidate TF-drug interactions in cancer.
 
