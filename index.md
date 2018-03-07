@@ -29,7 +29,7 @@ Generating and interpreting the data required to identify a good drug target dem
 
 <br><br>
 <div class="image-container">
-  <img class="scale" data-scale="best-fit-down" data-align="center" src="{{ site.url }}/assets/images/OpenTargets5Partners.png">
+  <img class="scale" data-scale="best-fit-down" data-align="center" src="{{ site.url }}/assets/images/OpenTargetsPartners.png">
 </div>
 <br><br> 
 
