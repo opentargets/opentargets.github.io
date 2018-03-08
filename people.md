@@ -80,3 +80,17 @@ The [Open Targets Platform](https://www.targetvalidation.org) is developed by a 
 </ul>
 
 
+# Genetics Core Team
+
+The Genetics Core team focuses on using human genetics data to guide therapeutic target identification and prioritisation, inform drug repositioning and predict toxicity effects. The team is currently developing a first of its kind Genetics portal that will enable users to browse, visualise and interpret human genetics and genomics data to unravel the genetic underpinnings of human diseases and traits and to give insights into disease biology so that this knowledge gets translated into therapeutic hypothesis. 
+
+
+<ul>
+{% for member in site.data.geneticscore %}
+  <li>
+      {{ member.name }}, {{ member.role }}, {{ member.institute }}
+      {% if member.github %}{% include icon-github.html username=member.github %}{% endif %}
+      {% if member.twitter %}{% include icon-twitter.html username=member.twitter %}{% endif %}
+  </li>
+{% endfor %}
+</ul>
