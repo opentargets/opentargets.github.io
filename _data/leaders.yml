@@ -1,9 +1,10 @@
-- name: Jeff Barrett
-  role: Director
-  institute: Wellcome Trust Sanger Institute
-  pic: BARRET_Jeffery_web.jpg
+- name: Rolf Apweiler
+  role: Interim Head
+  institute: EMBL-EBI
+  pic: rolf.jpg
   bio: >
-      Jeffrey has been involved in Open Targets since it launched as the CTTV in 2014 and began his role as Director on 1 May 2015. Jeff is a statistical geneticist who has led several of the largest genome-wide association studies of complex disease. He first became interested in human genetics in Mark Daly’s lab at the Whitehead Institute before moving to Lon Cardon’s group in Oxford, where he received a D. Phil in statistical genetics. Jeff was an analyst in the Wellcome Trust Case Control Consortium, and led early GWAS meta-analyses in inflammatory bowel disease and type 1 diabetes while a postdoc with David Clayton in Cambridge. Since joining the Sanger Institute as a group leader in 2008, he has used next-generation sequencing in thousands of individuals to find variation associated with both rare and common human diseases.
+      Rolf stepped into the temporary position of Interim Head of Open Targets when Jeff Barrett stepped down in March 2018 after 3 years as Director. Rolf is Director of EMBL-EBI, together with Ewan Birney. Prior to this position he was Joint Associate Director, after many years of leading protein resources such as EMBL-EBI's contribution to the UniProt Consortium. He also leads EMBL-EBI’s contribution to the Gene Ontology. Rolf received his PhD from the University of Heidelberg in 1994, and has been at EMBL since 1987. His major contribution to the field of proteomics was recognised by his election to President of the Human Proteomics Organisation, which he held in 2007 and 2008. In 2012, he was elected as a member of EMBO.
+
 
 - name: Ian Dunham
   role: Scientific Director
@@ -67,9 +68,9 @@
       Nizar has received his medical degree from the faculty of medicine in Tunis and had his medical training in clinical genetics in Charles Nicolle Hospital in Tunis. He is also board certified in clinical molecular genetics from the American College of Medical Genetics and Genomics. In 1996, he obtained the Master Diploma in human genetics University Pierre-Marie Curie, Paris France. In 1995, he joined the FMF French consortium in Genethon in France to successfully identify the MEFV gene causing Familial Mediterranean Fever. He then started a postdoctoral fellowship in the Ophthalmic Genetics branch at the National Eye Institute at the National Institutes of Health (NIH). He was then appointed as the Medical Director of GeneDx, a leading genetic testing company for rare disease. He joined Takeda in 2014 and is a member of the translation and early clinical team. At Takeda, he works with the drug discovery teams to address the application of human genetics and genomics in reverse translation to identify genetic factors and identify/validate targets that cause or influence human disease and drug response.
       
 - name: Mathew Garnett
-  role: WTSI Scientific Lead
+  role: Sanger Scientific Lead
   title: Translational Cancer Genomics Laboratory Group Leader
   pic: GARNETT_Matt_WEB.png
-  institution: Wellcome Trust Sanger Institute
+  institution: Wellcome Sanger Institute
   bio: >
-      Mathew leads the Translational Cancer Genomics laboratory and Genomics of Drug Sensitivity in Cancer Project at the Wellcome Trust Sanger Institute. Mathew's team uses high-throughput drug sensitivity screens and genome-editing technology in cancer and normal human cells to understand how cancer genes contribute to disease and to facilitate the development of new treatments. After obtaining a BSc in Biochemistry (Hons.) at the University of British Columbia, Canada, Mathew completed his PhD with Prof. Richard Marais at the Institute of Cancer Research (London, UK) on the characterisation of BRAF as a cancer gene.  In 2005 Mathew moved to the laboratory of Prof. Ashok Venkitaraman (Cambridge, UK) for his post-doctoral research, where he discovered a new regulator of cell division.  Mathew joined the Sanger Institute in 2009.
+      Mathew leads the Translational Cancer Genomics laboratory and Genomics of Drug Sensitivity in Cancer Project at the Wellcome Sanger Institute. Mathew's team uses high-throughput drug sensitivity screens and genome-editing technology in cancer and normal human cells to understand how cancer genes contribute to disease and to facilitate the development of new treatments. After obtaining a BSc in Biochemistry (Hons.) at the University of British Columbia, Canada, Mathew completed his PhD with Prof. Richard Marais at the Institute of Cancer Research (London, UK) on the characterisation of BRAF as a cancer gene.  In 2005 Mathew moved to the laboratory of Prof. Ashok Venkitaraman (Cambridge, UK) for his post-doctoral research, where he discovered a new regulator of cell division.  Mathew joined the Sanger Institute in 2009.
