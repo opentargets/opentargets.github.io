@@ -21,7 +21,7 @@
       David has a PhD from the University of Cambridge in Organic Chemistry and conducted postdoctoral research at the University of Toronto in Canada.  He joined GSK in 2007 initially in the Process Chemistry group to develop manufacturing processes for small molecule therapies.  Through his time at GSK he has held project leadership and line management roles in R&D and led research and technology transfer programmes between R&D and Global Manufacturing.  Before joining Open Targets David was engaged in developing and implementing strategic projects for GSK through a secondment to the office of the CEO and CFO as part of the CEO’s Future Strategy Group.  As Operations Director, David oversees the management of a number of informatics and experimental target validation projects as well as ensuring the strategic deployment and operational translation of Open Targets.
 
 - name: Birgit Kerber
-  role: Business Developer
+  role: Business Developer Lead
   pic: Birgit_Kerber.png
   institution: EMBLEM
   bio: >
@@ -30,7 +30,7 @@
 - name: Will Chen
   institution: Biogen
   title: Head of Computational Biology at Biogen
-  role: Biogen Scientific lead
+  role: Biogen Scientific Lead
   pic: will_chen.png
   bio: >
       Will is the Head of Computational and Systems Biology at Biogen.  His group leverages mathematical and computational technologies, and analysis of genomics scale data for drug discovery and development in the area of neurodegenerative and neuroinflammatory diseases.  Prior to joining Biogen in 2016 to build up its systems biology capabilities, he was a faculty member at Harvard Medical School where he led the computational and analytics effort of the nascent multi-investigator HMS Laboratory of Systems Pharmacology that was devoted to developing and advancing quantitative therapeutic sciences, toxicology and regulatory sciences, working across a number of disease areas with investigators from experimental labs, research hospitals and biotech and pharma organizations. He completed his postdoctoral training at Harvard Medical School (HMS) in 2013 on large-scale nonlinear dynamical modeling of cancer signal transduction, and his PhD on theoretical biophysics of protein folding at Harvard University in 2006.
@@ -39,7 +39,7 @@
   institution: EMBL-EBI
   title: Protein function (Development) Team Leader
   pic: martin_maria_300.jpg
-  role: Joint EMBL-EBI Scientific lead
+  role: Joint EMBL-EBI Scientific Lead
   bio: >
       Maria  is the Team Leader of Protein function developments at EMBL-EBI. She manages  the  bioinformatics  infrastructure  of  the Universal  Protein Resource  (UniProt), the  world  leading  database  of  classified  and  functionally  annotated  protein sequences. Her group also manages and develops software for the Gene Ontology annotation and the  Enzyme portal projects.  She holds a M.Sc. in Veterinary Medicine and a PhD in Molecular Biology and Bioinformatics, and she has been working in developing infrastructure for scientific data for 19 years. Her  research  interests  include the  study of  novel  methods for protein function prediction, and protein annotation and visualization.
 
