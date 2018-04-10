@@ -23,15 +23,15 @@
   institute: GSK
   github: gkos-bio
 
-- name: ChuangKee Ong
-  role: Data Coordinator
-  institute: EMBL-EBI
-  github: ckongEbi
-
 - name: William Newell
   role: Bioinformatician
   institute: GSK
   github: wnewell
+  
+- name: ChuangKee Ong
+  role: Data Coordinator
+  institute: EMBL-EBI
+  github: ckongEbi
 
 - name: Eliseo Papa
   role: Biogen Lead
