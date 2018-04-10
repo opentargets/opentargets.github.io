@@ -17,11 +17,6 @@
   role: UX lead
   institute: EMBL-EBI
   github: andrewhercules
-  
-- name: Nikiforos Karamanis
-  role: UX lead
-  institute: EMBL-EBI
-  twitter: technorasis
 
 - name: Gautier Koscielny
   role: GSK Lead
@@ -43,17 +38,12 @@
   institute: Biogen
   github: elipapa
 
-- name: Miguel Pignatelli
-  role: Frontend Lead
-  institute: EMBL-EBI
-  github: emepyc
-
-- name: Andrea Pierleoni
-  role: Backend Lead
-  institute: EMBL-EBI
-  github: apierleoni
-
 - name: Gareth Peat
   role: Frontend developer
   institute: EMBL-EBI
   github: peatroot
+
+- name: Michaela Spitzer
+  role: Bioinformatician
+  institute: EMBL-EBI
+  github: MichaelaEBI
