@@ -5,6 +5,7 @@ permalink: /resources/
 ---
 
 # Publications
+* [Interleukins and their signaling pathways in the Reactome biological pathway database](https://www.ncbi.nlm.nih.gov/pubmed/29378288) Jupe S et al. DOI:10.1016/j.jaci.2017.12.992
 * [Designing an intuitive web application for drug discovery scientists](https://doi.org/10.1016/j.drudis.2018.01.032) Karamanis N et al. DOI:10.1016/j.drudis.2018.01.032
 * [Unsupervised correction of gene-independent cell responses to CRISPR-Cas9 targeting](https://www.biorxiv.org/content/early/2017/12/03/228189) Iorio F et al. DOI:10.1101/228189 
 * [Uncovering novel repositioning opportunities using the Open Targets platform](http://www.sciencedirect.com/science/article/pii/S1359644617301897) Khaladkar M et al. DOI:10.1016/j.drudis.2017.09.007
