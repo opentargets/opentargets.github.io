@@ -4,25 +4,46 @@ title: Resouces
 permalink: /resources/
 ---
 
-# Publications
+# Research Publications
+* [Pathway-based dissection of the genomic heterogeneity of cancer hallmarks’ acquisition with SLAPenrich](https://www.nature.com/articles/s41598-018-25076-6) Iorio F et al. DOI:10.1038/s41598-018-25076-6 
 * [Interleukins and their signaling pathways in the Reactome biological pathway database](https://www.ncbi.nlm.nih.gov/pubmed/29378288) Jupe S et al. DOI:10.1016/j.jaci.2017.12.992
 * [Designing an intuitive web application for drug discovery scientists](https://doi.org/10.1016/j.drudis.2018.01.032) Karamanis N et al. DOI:10.1016/j.drudis.2018.01.032
+* [Comparison, alignment, and synchronization of cell line information between CLO and EFO](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1979-z) Ong E et al. DOI:10.1186/s12859-017-1979-z  
 * [Unsupervised correction of gene-independent cell responses to CRISPR-Cas9 targeting](https://www.biorxiv.org/content/early/2017/12/03/228189) Iorio F et al. DOI:10.1101/228189 
-* [Uncovering novel repositioning opportunities using the Open Targets platform](http://www.sciencedirect.com/science/article/pii/S1359644617301897) Khaladkar M et al. DOI:10.1016/j.drudis.2017.09.007
+* [The European Bioinformatics Institute in 2017: data coordination and integration](https://academic.oup.com/nar/article/46/D1/D21/4658830) Cook CE et al. DOI:10.1093/nar/gkx1154 
+* [Expression Atlas: gene and protein expression across multiple studies and organisms](https://academic.oup.com/nar/article/46/D1/D246/4641906) Papatheodorou I et al. DOI:10.1093/nar/gkx1158 
+* [Ensembl 2018](https://academic.oup.com/nar/article/46/D1/D754/4634002) Zerbino DR et al. DOI:10.1093/nar/gkx1098 
 * [In silico prediction of novel therapeutic targets using gene–disease association data](https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-017-1285-6) Ferrero E et al. DOI:10.1186/s12967-017-1285-6
 * [Reactome enhanced pathway visualization](https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btx441/3930125/Reactome-enhanced-pathway-visualization) Sidiropoulos K et al. DOI:10.1093/bioinformatics/btx441
 * [ProtVista: visualization of protein sequence annotations](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btx120) Watkins X et al. DOI:10.1093/bioinformatics/btx120
 * [Reactome pathway analysis: a high-performance in-memory approach](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1559-2) Fabregat A et al. DOI:10.1186/s12859-017-1559-2
 * [The ChEMBL Database in 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210557/) Gaulton A et al. DOI:10.1093/nar/gkw1074
+* [Ensembl core software resources: storage and programmatic access for DNA sequence and genome annotation](https://academic.oup.com/database/article/doi/10.1093/database/bax020/3074789) Ruffier M et al. DOI:10.1093/database/bax020
 * [Open Targets: a platform for therapeutic target identification and validation](https://academic.oup.com/nar/article/45/D1/D985/2605745/Open-Targets-a-platform-for-therapeutic-target) Koscielny G et al. DOI:10.1093/nar/gkw1055
 * [Transcription factor activities enhance markers of drug sensitivity in cancer](http://cancerres.aacrjournals.org/content/early/2017/12/09/0008-5472.CAN-17-1679) Garcia-Alonso L et al. DOI:10.1158/0008-5472.CAN-17-1679
-* [Dissecting the genomic heterogeneity of cancer hallmarks' acquisition with SLAPenrich](http://www.biorxiv.org/content/early/2017/03/27/077701) Iorio F et al. DOI:10.1101/077701 
+* [Fine-mapping inflammatory bowel disease loci to single-variant resolution](https://www.nature.com/articles/nature22969) Huang H et al. DOI:10.1038/nature22969
 * [Literature Evidence in Open Targets – a target validation platform](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-017-0131-3)  Kafkas S et al. DOI:10.1186/s13326-017-0131-3
 * [TnT: A set of libraries for visualising trees and track-based annotations in the web](https://www.ncbi.nlm.nih.gov/pubmed/27153646) Pignatelli M DOI:10.1093/bioinformatics/btw210
+* [Ensembl 2017](https://academic.oup.com/nar/article/45/D1/D635/2605734) Aken BL et al. DOI:10.1093/nar/gkw1104
 * [Warped Matrix Factorisation](https://link.springer.com/chapter/10.1007%2F978-3-319-46227-1_49) Pratanwanich N et al. DOI:10.1007/978-3-319-46227-1_49
+* [Webulous and the Webulous Google Add-On--a web service and application for ontology building from templates](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-016-0055-3) Jupp S et al. DOI:10.1186/s13326-016-0055-3
 * [Linking rare and common disease: mapping clinical disease-phenotypes to ontologies in therapeutic target validation](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-016-0051-7) Sarntivijai S et al. DOI:10.1186/s13326-016-0051-7
-* [Using human genetics to make new medicines](http://europepmc.org/abstract/MED/26370900) Barrett JC et al.  DOI:10.1038/nrg3998
+* [Ensembl 2016](https://academic.oup.com/nar/article/44/D1/D710/2502651) Yates A et al.  DOI:10.1093/nar/gkv1157 
+* [Expression Atlas update--an integrated database of gene and protein expression in humans, animals and plants](https://academic.oup.com/nar/article/44/D1/D746/2502589) Petryszak R et al.  DOI:10.1093/nar/gkv1045
+* [Improving the Sequence Ontology terminology for genomic variant annotation](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-015-0030-4) Cunningham F et al.  DOI:10.1186/s13326-015-0030-4
 
+
+# Review Articles 
+* [Uncovering novel repositioning opportunities using the Open Targets platform](http://www.sciencedirect.com/science/article/pii/S1359644617301897) Khaladkar M et al. DOI:10.1016/j.drudis.2017.09.007
+* [Computational approaches for interpreting scRNA-seq data](https://febs.onlinelibrary.wiley.com/doi/abs/10.1002/1873-3468.12684) Rostom R et al. DOI:10.1002/1873-3468.12684 
+* [Harnessing public domain data to discover and validate therapeutic targets](https://www.tandfonline.com/doi/abs/10.1080/17460441.2017.1329296?journalCode=iedc20) Reisdorf WC et al. DOI:10.1080/17460441.2017.1329296
+* [The impact of rare and low-frequency genetic variants in common disease](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1212-4) Bomba L et al. DOI:10.1186/s13059-017-1212-4
+* [Use of Biomedical Ontologies for Integration of Biological Knowledge for Learning and Prediction of Adverse Drug Reactions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5398297/) Zaman S et al. DOI:10.1177/1177625017696075
+* [Genetics and immunity in the era of single cell genomics](https://academic.oup.com/hmg/article/25/R2/R141/2198146) Vieira Braga FA et al. DOI:10.1093/hmg/ddw192 
+* [Reporting phenotypes in mouse models when considering body size as a potential confounder](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-016-0050-8) Oellrich A et al. DOI:10.1186/s13326-016-0050-8
+* [Using human genetics to make new medicines](http://europepmc.org/abstract/MED/26370900) Barrett JC et al.  DOI:10.1038/nrg3998
+* [Understanding inflammatory bowel disease via immunogenetics](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-015-0030-4) de Lange KM et al. DOI:10.1016/j.jaut.2015.07.013
+* [Strategies for fine-mapping complex traits](https://academic.oup.com/hmg/article/24/R1/R111/671614) Spain SL et al. DOI:10.1093/hmg/ddv260
 <br/>
 <br/>
 
