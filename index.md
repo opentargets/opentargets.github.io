@@ -20,11 +20,11 @@ Visit the [Open Targets Platform](https://www.targetvalidation.org) which provid
 <br>
 
 ## Celgene joins Open Targets
-<br>*Cambridge, 3 May 2018* – 
+<br>*Cambridge, 3 May 2018*
 
 We are excited to announce that Celgene has joined Open Targets expanding our collective efforts to transform drug discovery through the systematic identification and prioritisation of drug targets.  Celgene is a global biopharmaceutical company with expertise in the discovery, development and commercialisation of innovative therapies for patients with cancer, immune-inflammatory and other unmet medical needs, which will enhance the offerings of the current Open Targets collaborators GSK, Biogen, Takeda, the Wellcome Sanger Institute and the European Bioinformatics Institute (EMBL-EBI).
 
-[Full press release]({{ site.url }}assets/Celgene_Announcement.pdf)
+[Full announcement]({{ site.url }}assets/Celgene_Announcement.pdf)
 
 <br>
 
