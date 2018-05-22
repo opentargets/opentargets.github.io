@@ -59,5 +59,18 @@ We are looking for a talented Postdoctoral Fellow to be responsible for the immu
 
 
 ***
+#### [Software Engineer - The Samples, Phenotypes and Ontologies team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01229)
+*An EMBL-EBI contract*
+Closing date: 24th June 2018
 
+The Samples, Phenotypes and Ontologies team are looking for an experienced software developer to join their group. You will be working on a project specific to the Open Targets initiative to help develop the infrastructure behind the high-profile GWAS Catalog. The GWAS Catalog is a manually curated, high quality repository of all published genome wide association studies that has been running since 2008. It is considered the “go-to” resource for looking up findings relating human genotype to phenotype associations.
+
+If you’re an experienced developer with an interest in helping solve big biological problems about the genetic basis of disease, this job is perfect for you! Most of the GWAS Catalog infrastructure is written in Java, so you’ll need previous Java experience, but we also have data pipeline services developed in Python and we make use of modern javascript frameworks for our user interfaces. We make good use of tools and frameworks like Spring and Docker to deliver our resources. SPOT is a multitalented team, so you should also be flexible enough to learn new languages to find the right tool for the right problem. You should be enthusiastic about full-stack development, as you’ll be expected to develop, test and deploy tools from database to user interface. You should be keen to advance your knowledge of the latest industry standard toolkits to help continuously innovate the catalog.
+
+In this role, we’ll be asking you to help develop the infrastructure that manages the data in the GWAS Catalog - this means you’ll be building tools and pipelines to capture new data from submitters, and to serve it back to the community through the Open Targets platform, via APIs. Individual GWAS datasets can be very large - tens or hundreds of gigabytes - and we’re storing billions of records, so this requires someone who can get creative to build solutions to these sort of big data problems.
+
+[More details at the EMBL-EBI website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01229)
+
+
+***
 
