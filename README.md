@@ -36,7 +36,11 @@ bundle exec jekyll serve --watch
 ```
 
 ## Deploying
-Any PR will generate a [deploy preview](https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews-in-netlify/) in netlify. The URL for each deploy preview will show up in the comment of the PR. 
+Any PR will generate a [deploy preview](https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews-in-netlify/) in netlify. The URL for each deploy preview will show up in the comment of the PR.
 
-Master branch is in sync with production, however deploys to production are currently locked and will not automatically sync. 
+Master branch is in sync with production, however deploys to production are currently locked and will not automatically sync.
 When a PR to master is merged, to deploy the changes one needs to unlock/lock in the netlify interface.
+
+# Keep it up-to-date with github pages gem
+
+Read the [official instructions](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#keeping-your-site-up-to-date-with-the-github-pages-gem)
