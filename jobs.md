@@ -73,4 +73,18 @@ In this role, we’ll be asking you to help develop the infrastructure that mana
 
 
 ***
+#### [Senior Database Curator - Cancer Genetics](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=352145)
+*A Wellcome Sanger Institute contract*
+Closing date: 24th June 2018
+
+We are seeking a motivated and experienced scientist in cancer informatics to play a crucial role in the expansion and curation of the Cancer Gene Census in the COSMIC team at the Sanger institute, Hinxton. In this project, we aim to describe in detail every cancer-causing gene and how its mutated dysfunction drives disease.
+
+COSMIC (http://cancer.sanger.ac.uk) is working with Open Targets (http://www.targetvalidation.org) to expand the world’s most comprehensive description of the genes causing human cancer. This is an exciting position within the COSMIC team, where you will have the opportunity to explore & interpret a wide range of literature, database and analytic resources to maximise the impact of this high-profile global resource, the Cancer Gene Census.
+
+You will work together with COSMIC scientific team, bringing a range of analytic, curation and literature techniques to describe the oncogenic impact of genes implicated in cancer, including content across broad genomic surveys and model organism experiments. Currently the Census contains over 700 genes with full mechanistic description, together with a complete dysfunction impact assessment of approx. 1/3 of them. Our aim is to expand the Cancer Gene Census with new genes, and to generate full descriptive coverage of all Census genes with evidence of oncogenic activity, with descriptive evidence-based content including: mechanistic processes by which these genes are mutated to drive disease, definition of their impact in every cancer type, and description of oncogenic dysfunction of each gene in terms of the 10 Hallmarks of Cancer.
+
+[More details at the Sanger website](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=352145)
+
+
+***
 
