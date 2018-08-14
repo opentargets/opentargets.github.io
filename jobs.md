@@ -25,13 +25,13 @@ You will join a fast-paced, startup-like environment, where we use a range of mo
 *An EMBL-EBI contract*
 Closing date: 2 September 2018
 
-We are seeking an experienced Senior Scientific Programmer/Bioinformatician to join the Samples, Phenotypes and Ontologies team (https://www.ebi.ac.uk/about/spot-team) to deliver new components for our Semantics as a Service platform used by the OpenTargets platform, the GWAS Catalog and several industrial partners from large pharma. The platform is essential in big data approaches to biological data analysis and is funded from several sources including the CORBEL project - a cross lifesciences infrastructure project which consumes the platform. The tools are highly accessed, use cutting edge technologies, including Java Spring, Neo4j, MongoDB, Apache Solr, OWL/RDF and Docker. The postholder will join at team of >30 people working on common problems in lifescience and will deliver tools for accessing, building and using ontologies.
+We are seeking an experienced Senior Scientific Programmer/Bioinformatician to join the Samples, Phenotypes and Ontologies team (https://www.ebi.ac.uk/about/spot-team) to deliver new components for our Semantics as a Service platform used by the Open Targets platform, the GWAS Catalog and several industrial partners from large pharma. The platform is essential in big data approaches to biological data analysis and is funded from several sources including the CORBEL project - a cross lifesciences infrastructure project which consumes the platform. The tools are highly accessed, use cutting edge technologies, including Java Spring, Neo4j, MongoDB, Apache Solr, OWL/RDF and Docker. The postholder will join at team of >30 people working on common problems in lifescience and will deliver tools for accessing, building and using ontologies.
 
 * The Ontology Lookup Service that provides Web service to access over 200 biomedical ontologies
 * The Zooma service is our curated knowledgebase for mapping free text to ontology terms
 * The OxO ontology mappings service that is used to discover mappings between ontology terms
 * Our Webulous toolkit that helps our users build and contribute new terms to ontologies using GoogleSheets.
-* The Experimental Factor Ontology is our in-house application ontology that serves a large number of projects including OpenTargets, GWAS catalog, BioSamples, ArrayExpress and Gene Expression Atlas and the Human Cell Atlas projects.
+* The Experimental Factor Ontology is our in-house application ontology that serves a large number of projects including Open Targets, GWAS catalog, BioSamples, ArrayExpress and Gene Expression Atlas and the Human Cell Atlas projects.
 
 You will be involved in the shaping the future direction of these services, and develop new features to support our growing user base through working closely with an interdisciplinary team of scientists and software engineers to rapidly translate requirements into technical solutions.
 
