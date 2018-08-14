@@ -31,7 +31,7 @@ We are seeking an experienced Senior Scientific Programmer/Bioinformatician to j
 * The Zooma service is our curated knowledgebase for mapping free text to ontology terms
 * The OxO ontology mappings service that is used to discover mappings between ontology terms
 * Our Webulous toolkit that helps our users build and contribute new terms to ontologies using GoogleSheets.
-* The Experimental Factor Ontology is our in-house application ontology that serves a large number of projects including OpenTargets, GWAS catalog, BioSamples, ArrayExpress and Gene Expression Atlas and the Human Cell Atlas projects.
+* The Experimental Factor Ontology is our in-house application ontology that serves a large number of projects including Open Targets, GWAS catalog, BioSamples, ArrayExpress and Gene Expression Atlas and the Human Cell Atlas projects.
 
 You will be involved in the shaping the future direction of these services, and develop new features to support our growing user base through working closely with an interdisciplinary team of scientists and software engineers to rapidly translate requirements into technical solutions.
 
