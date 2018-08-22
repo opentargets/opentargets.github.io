@@ -6,9 +6,8 @@ permalink: /jobs/
 
 Please note applications will be reviewed on an ongoing basis and therefore the advertised post(s) may be filled before the stated deadline. 
 
+***
 
-***
-***
 #### [Senior Scientific Programmer/Bioinformatician - Samples, Phenotypes and Ontologies Team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01271)
 *An EMBL-EBI contract*
 Closing date: 2 September 2018
