@@ -8,7 +8,7 @@ Please note applications will be reviewed on an ongoing basis and therefore the 
 
 ***
 
-#### [Senior Scientific Programmer/Bioinformatician - Samples, Phenotypes and Ontologies Team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01271)
+#### [Senior Scientific Programmer/Bioinformatician - Samples, Phenotypes and Ontologies Team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01271)
 *An EMBL-EBI contract*
 Closing date: 2 September 2018
 
@@ -22,11 +22,11 @@ We are seeking an experienced Senior Scientific Programmer/Bioinformatician to j
 
 You will be involved in the shaping the future direction of these services, and develop new features to support our growing user base through working closely with an interdisciplinary team of scientists and software engineers to rapidly translate requirements into technical solutions.
 
-[More details at the EMBL website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01271)
+[More details at the EMBL website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01271)
 
 ***
 
-#### [Software Engineer - Open Targets Core Team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01279)
+#### [Software Engineer - Open Targets Core Team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01279)
 *An EMBL-EBI contract*
 Closing date: 9 September 2018
 
@@ -36,7 +36,7 @@ The main responsibilities will involve design and implementation of backend micr
 
 You will join a fast-paced, startup-like environment, where we use a range of modern technologies including ElasticSearch, Spark, ClickHouse and a variety of Google cloud services including Dataproc and BigQuery. We continuously look for improvement and follow Agile practices. You are encouraged to take ownership of what you work on.
 
-[More details at the EMBL website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI_01279)
+[More details at the EMBL website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01279)
 
 ***
 
@@ -55,7 +55,7 @@ The successful candidate will be able to extensively use computational pipelines
 
 ***
 
-#### [Data Scientist/Text Miner - ChEMBLTeam](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01282)
+#### [Data Scientist/Text Miner - ChEMBL Team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01282)
 *An EMBL-EBI contract*
 Closing date: 30 September 2018
 
