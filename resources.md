@@ -5,6 +5,7 @@ permalink: /resources/
 ---
 
 # Research Publications
+* [Unsupervised correction of gene-independent cell responses to CRISPR-Cas9 targeting](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4989-y) Iorio F et al. DOI:10.1186/s12864-018-4989-y
 * [Pathway-based dissection of the genomic heterogeneity of cancer hallmarks’ acquisition with SLAPenrich](https://www.nature.com/articles/s41598-018-25076-6) Iorio F et al. DOI:10.1038/s41598-018-25076-6 
 * [Interleukins and their signaling pathways in the Reactome biological pathway database](https://www.ncbi.nlm.nih.gov/pubmed/29378288) Jupe S et al. DOI:10.1016/j.jaci.2017.12.992
 * [Designing an intuitive web application for drug discovery scientists](https://doi.org/10.1016/j.drudis.2018.01.032) Karamanis N et al. DOI:10.1016/j.drudis.2018.01.032
@@ -41,6 +42,15 @@ permalink: /resources/
 # [Open Targets Platform](http://www.targetvalidation.org/)
 We have developed the [Open Targets Platform](http://www.targetvalidation.org/) to provide summaries of the evidence for the involvement of a specific gene with a selected disease. 
 
+
+<br/>
+<br/>
+
+# [CRISPRcleanR](https://github.com/francescojm/CRISPRcleanR)
+Genome editing by CRISPR-Cas9 technology allows large-scale screening of gene essentiality in cancer. A confounding factor when interpreting CRISPR-Cas9 screens is the high false-positive rate in detecting essential genes within copy number amplified regions of the genome. We have developed the computational tool CRISPRcleanR which is capable of identifying and correcting gene-independent responses to CRISPR-Cas9 targeting. CRISPRcleanR uses an unsupervised approach based on the segmentation of single-guide RNA fold change values across the genome, without making any assumption about the copy number status of the targeted genes.
+CRISPRcleanR is implemented as an R package and as an interactive Python package with full documentation, tutorials, built in datasets to reproduce the results in this manuscript, and is publically available (R package: https://github.com/francescojm/CRISPRcleanR and Python package: https://github.com/cancerit/pyCRISPRcleanR). The Python implementation is dockerized making it platform independent and usable in cloud environments (https://dockstore.org/containers/quay.io/wtsicgp/dockstore-pycrisprcleanr).
+
+Please see [Iorio et al. 2019](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4989-y) for more information. 
 
 <br/>
 <br/>
