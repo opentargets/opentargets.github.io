@@ -4,7 +4,7 @@ title: Jobs
 permalink: /jobs/
 ---
 
-Please note applications will be reviewed on an ongoing basis and therefore the advertised post(s) may be filled before the stated deadline. 
+Please note that some applications will be reviewed on an ongoing basis and the advertised post(s) may be filled before the stated deadline. 
 
 ***
 
