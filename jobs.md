@@ -9,21 +9,6 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
-#### [Senior Bioinformatician - Cancer Dependency Map Analytics](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=364222)
-*A Wellcome Sanger Institute contract*
-Closing date: 23 September 2018
-
-The Wellcome Sanger Institute is seeking for an experienced Bioinformatician to provide computational support to the international Cancer Dependency Map consortium, and to other projects engaged in the analysis of data from genome-editing and functional-genomics screens, in collaboration with Open Targets.
-
-The selected candidate will join the Cancer Dependency Map Analytics team, actively interacting with the Cancer Dependency Map consortium, whose broad goal is to identify vulnerabilities and dependencies that could be exploited therapeutically in every cancer cell.
-
-The successful candidate will be able to extensively use computational pipelines for pre-processing and quality control assessment of data from genome-editing screens, and to implement new analytical pipelines on an individual project needs’ basis extending existing software, writing, documenting and maintaining code packages on public/internal repositories. Past experience with genomic data curation and familiarity with the management of data from large-scale in-vitro drug/functional-genomic screens will be positively considered.
-
-[More details at the Sanger website](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=364222)
-
-
-***
-
 #### [Data Scientist/Text Miner - ChEMBL Team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01282)
 *An EMBL-EBI contract*
 Closing date: 30 September 2018
