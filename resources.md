@@ -50,7 +50,7 @@ We have developed the [Open Targets Platform](http://www.targetvalidation.org/) 
 Genome editing by CRISPR-Cas9 technology allows large-scale screening of gene essentiality in cancer. A confounding factor when interpreting CRISPR-Cas9 screens is the high false-positive rate in detecting essential genes within copy number amplified regions of the genome. We have developed the computational tool CRISPRcleanR which is capable of identifying and correcting gene-independent responses to CRISPR-Cas9 targeting. CRISPRcleanR uses an unsupervised approach based on the segmentation of single-guide RNA fold change values across the genome, without making any assumption about the copy number status of the targeted genes.
 CRISPRcleanR is implemented as an R package and as an interactive Python package with full documentation, tutorials, built in datasets to reproduce the results in this manuscript, and is publically available (R package: https://github.com/francescojm/CRISPRcleanR and Python package: https://github.com/cancerit/pyCRISPRcleanR). The Python implementation is dockerized making it platform independent and usable in cloud environments (https://dockstore.org/containers/quay.io/wtsicgp/dockstore-pycrisprcleanr).
 
-Please see [Iorio et al. 2019](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4989-y) for more information. 
+Please see [Iorio et al. 2018](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4989-y) for more information. 
 
 <br/>
 <br/>
