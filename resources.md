@@ -5,6 +5,7 @@ permalink: /resources/
 ---
 
 # Research Publications
+* [The COSMIC Cancer Gene Census: describing genetic dysfunction across all human cancers](https://www.nature.com/articles/s41568-018-0060-1) Sondka Z et al. DOI:10.1038/s41568-018-0060-1
 * [Unsupervised correction of gene-independent cell responses to CRISPR-Cas9 targeting](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4989-y) Iorio F et al. DOI:10.1186/s12864-018-4989-y
 * [Pathway-based dissection of the genomic heterogeneity of cancer hallmarks’ acquisition with SLAPenrich](https://www.nature.com/articles/s41598-018-25076-6) Iorio F et al. DOI:10.1038/s41598-018-25076-6 
 * [Interleukins and their signaling pathways in the Reactome biological pathway database](https://www.ncbi.nlm.nih.gov/pubmed/29378288) Jupe S et al. DOI:10.1016/j.jaci.2017.12.992
@@ -41,6 +42,13 @@ permalink: /resources/
 
 # [Open Targets Platform](http://www.targetvalidation.org/)
 We have developed the [Open Targets Platform](http://www.targetvalidation.org/) to provide summaries of the evidence for the involvement of a specific gene with a selected disease. 
+
+
+<br/>
+<br/>
+
+# [epiChoose](http://epichoose.shiny.opentargets.io/epiChoose/)
+epiChoose is an application for quantifying the relatedness between cell lines and primary cells. We have extensively profiled a number of commonly used cell line models across a number of tissues. This profiling consists of epigenetic (histone modification, CTCF, ATAC-seq) and transcriptional (RNA-seq) whole-genome measurements. From this data, we have established a platform that provides information on the “distance” between candidate cell models and target primary cells. By ranking and selecting cell line models in a data-driven manner, the best model for the experiment can be chosen, based on epigenetic and transcriptional evidence and not historical usage.
 
 
 <br/>
