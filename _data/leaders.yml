@@ -36,11 +36,19 @@
 
 - name: Shameek Biswas
   institution: Celgene
-  title: Principle Scientist in the research Analtics group at Biogen
-  role: Celgene Scientific Lead
+  title: 
+  role: Joint Celgene Scientific Lead
   pic: shameek.jpg
   bio: >
       Shameek is a Principal Scientist in the Research Analytics group working on TIDVAL and biomarker studies in neurodegeneration. He is focused on statistical fine mapping of GWAS hits and generating disease evidence by integrating genetics with molecular profiling and clinical data. Prior to joining Celgene in 2016, he spent seven years in Novo Nordisk working on target validation and patient stratification for inflammatory and metabolic conditions. He received his Ph.D. in Genome Sciences from University of Washington in 2010, where he worked on problems in population genetics and eQTL analysis.
+
+- name: Joe Maranville
+  institution: Celgene
+  title: 
+  role: Joint Celgene Scientific Lead
+  pic: joe_maranville.jpg
+  bio: >
+      Joe is a Genetics Research Fellow at Celgene. He is a scientist with an interdisciplinary background in human genetics, clinical pharmacology, and drug development. He obtained his PhD in Human Genetics from the University of Chicago and a Bachelor's Degree in Molecular Bioscience and Biotechnology, Summa Cum Lande from Arizona State University.
 
 - name: Maria Martin
   institution: EMBL-EBI
@@ -50,13 +58,13 @@
   bio: >
       Maria  is the Team Leader of Protein function developments at EMBL-EBI. She manages  the  bioinformatics  infrastructure  of  the Universal  Protein Resource  (UniProt), the  world  leading  database  of  classified  and  functionally  annotated  protein sequences. Her group also manages and develops software for the Gene Ontology annotation and the  Enzyme portal projects.  She holds a M.Sc. in Veterinary Medicine and a PhD in Molecular Biology and Bioinformatics, and she has been working in developing infrastructure for scientific data for 19 years. Her  research  interests  include the  study of  novel  methods for protein function prediction, and protein annotation and visualization.
 
-- name: Oliver Stegle
+- name: Moritz Gerstung
   role: Joint EMBL-EBI Scientific Lead
   title: Research Group Leader
-  pic: STEGLE_Oliver.jpg
+  pic: moritz_gerstung.jpg
   institution: EMBL-EBI
   bio: >
-      Oliver is a Research Group Leader at EMBL-EBI. Oliver's team develops and applies advances statistical and machine learning methods to fully exploit high-throughput molecular data. He is particularly interested methods to link genotype to molecular traits and phenotypes and computational single-cell biology. Prior to his work at EMBL-EBI, he received his PhD from the University of Cambridge (2009) while working with David MacKay on statistical machine learning and computational biology. He did his postdoctoral work at the Max Planck campus Tuebingen (2009-2012) before setting up his own group at EMBL-EBI in 2012.
+      Moritz leads a research group at EMBL-EBI investigating the underlying mechanisms of cancer development and seeking to understand the differences in therapy success and outcomes in different individuals. His team develops statistical models for relating different layers of genomic, molecular and clinical data to establish connections between genotype and phenotype, and tools to predict outcomes based on comprehensive, high-dimensional datasets. The group also explores the evolutionary dynamics of cancer. He has a PhD in Computational Biology from ETH Zurich (2012), and carried out postdoctoral work at the Wellcome Trust Sanger Institute (2012-2015). Moritz joined EMBL-EBI as a Research group leader in August 2015. 
 
 - name: Philippe Sanseau
   title: Head of Computational Biology
@@ -66,14 +74,14 @@
   bio: >
       Philippe is Head of Computational Biology at GSK. He has a PhD from University of Rennes in France and conducted his postdoctoral training at the Imperial Cancer Research Fund in London (now Cancer Research UK), with a focus on immunogenetics. He joined GSK to work initially in the Genetics and Genomics Departments. Since 2001 he has held various senior roles in bioinformatics and computational biology. Philippe is currently leading the Computational Biology (CB) Department at GSK with scientists located in the UK and US. The CB Department is working on multiple therapeutic areas supporting drug discovery and development projects at all phases of the pipeline using diverse bioinformatics approaches applied to biomedical internal and external data. The Department maintains a strong scientific innovation agenda as demonstrated by our activities in target validation, drug repositioning, systems approaches, or microbiome analyses. CB at GSK has also developed an international network of academic collaborators and maintains a strong publication record. Philippe is a member of several international advisory boards and different UK and international funding committees.
 
-- name: Nizar Smaoui
-  title: Senior Medical Director Pharmacogenomics
-  pic:  Nizar_Smaoui.png
+- name: Narender Gavva
+  title: 
+  pic:  Narender_gavva.jpg.png
   role: Takeda Scientific Lead
   institution: Takeda
   bio: >
-      Nizar has received his medical degree from the faculty of medicine in Tunis and had his medical training in clinical genetics in Charles Nicolle Hospital in Tunis. He is also board certified in clinical molecular genetics from the American College of Medical Genetics and Genomics. In 1996, he obtained the Master Diploma in human genetics University Pierre-Marie Curie, Paris France. In 1995, he joined the FMF French consortium in Genethon in France to successfully identify the MEFV gene causing Familial Mediterranean Fever. He then started a postdoctoral fellowship in the Ophthalmic Genetics branch at the National Eye Institute at the National Institutes of Health (NIH). He was then appointed as the Medical Director of GeneDx, a leading genetic testing company for rare disease. He joined Takeda in 2014 and is a member of the translation and early clinical team. At Takeda, he works with the drug discovery teams to address the application of human genetics and genomics in reverse translation to identify genetic factors and identify/validate targets that cause or influence human disease and drug response.
-
+      Narender is the Head of Early Target Discovery (ETD) group at Takeda Research, California. The group focuses on gene expression, regulation and human genetics follow up TIDVAL for different indications in gastroenterology, neuroscience, and oncology Drug Discovery Units (DDUs). Prior to joining Takeda, he was a Scientific Director at Amgen Discovery Research where he spent 18 years in leading drug discovery projects and group of scientists in molecular biology, human genetics follow up, in vitro pharmacology, evaluation of new technologies, optimization of automated HTS assays, conducting focused screens, supporting lead optimization, clinical candidate selection. He led the teams that pursued small molecule, antibody and peptide modalities toward clinical candidate nomination. Narender contributed to research reports, patents, and/or IND/IBs for AMG 517, AMG 333, AMG 747, AMG 334 (erenumab/Aimovig™).  Prior to joining Amgen, Narender did a post-doctoral training in gene regulation at UC Davis and a PhD in University of Hyderabad, India. 
+      
 - name: Mathew Garnett
   role: Sanger Scientific Lead
   title: Translational Cancer Genomics Laboratory Group Leader
