@@ -8,6 +8,11 @@
   institute: EMBL-EBI
   github: deniseOme
 
+- name: Adan Faulconbridge
+  role: Backend Software Engineer
+  institute: EMBL-EBI
+  github: afaulconbridge
+  
 - name: Luca Fumis
   role: Frontend developer
   institute: EMBL-EBI
@@ -23,25 +28,15 @@
   institute: GSK
   github: gkos-bio
 
+- name: Elaine McAuley
+  role: Project Manager
+  institute: EMBL-EBI
+  github:
+  
 - name: Alfredo Miranda
   role: Frontend developer
   institute: EMBL-EBI
   github: mirandaio 
-
-- name: William Newell
-  role: Bioinformatician
-  institute: GSK
-  github: wnewell
-  
-- name: ChuangKee Ong
-  role: Data Coordinator
-  institute: EMBL-EBI
-  github: ckongEbi
-
-- name: Eliseo Papa
-  role: Biogen Lead
-  institute: Biogen
-  github: elipapa
 
 - name: Gareth Peat
   role: Frontend developer
