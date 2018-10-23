@@ -13,10 +13,9 @@ layout: bootstrap-hero
 <!-- Open Targets is a public-private initiative to generate evidence on the validity of therapeutic targets based on genome-scale experiments and analysis. -->Open Targets is an innovative, large-scale, multi-year, public-private partnership that uses human genetics and genomics data for systematic drug target identification and prioritisation.
 
 
-Visit the [Open Targets Platform](https://www.targetvalidation.org) which provides an integration of public domain data to enable target identification and prioritisation.
+Visit the [Open Targets Platform](https://www.targetvalidation.org) which integrates public domain data to enable target identification and prioritisation, or [Open Targets Genetics](https://genetics.opentargets.org) which identifies targets based on GWAS and functional genomics.
 
-<a class="button-small blue_normal" href="https://www.targetvalidation.org">Visit the Open Targets Platform</a>
-
+<a class="button-small blue_normal" href="https://www.targetvalidation.org">Visit the Open Targets Platform</a>       <a class="button-small blue_normal" href="https://genetics.opentargets.org">Visit Open Targets Genetics</a>
 <br>
 
 ## Overview
