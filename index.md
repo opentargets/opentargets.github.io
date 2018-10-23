@@ -15,7 +15,7 @@ layout: bootstrap-hero
 
 Visit the [Open Targets Platform](https://www.targetvalidation.org) which integrates public domain data to enable target identification and prioritisation, or [Open Targets Genetics](https://genetics.opentargets.org) which identifies targets based on GWAS and functional genomics.
 
-<a class="button-small blue_normal" href="https://www.targetvalidation.org">Visit the Open Targets Platform</a> <br> <a class="button-small blue_normal" href="https://genetics.opentargets.org">Visit the Open Targets Genetics</a>
+<a class="button-small blue_normal" href="https://www.targetvalidation.org">Visit the Open Targets Platform</a>       <a class="button-small blue_normal" href="https://genetics.opentargets.org">Visit the Open Targets Genetics</a>
 <br>
 
 ## Overview
