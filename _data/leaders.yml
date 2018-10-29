@@ -36,7 +36,7 @@
 
 - name: Shameek Biswas
   institution: Celgene
-  title: 
+  title:
   role: Joint Celgene Scientific Lead
   pic: shameek.jpg
   bio: >
@@ -44,7 +44,7 @@
 
 - name: Joe Maranville
   institution: Celgene
-  title: 
+  title:
   role: Joint Celgene Scientific Lead
   pic: joe_maranville.jpg
   bio: >
@@ -64,7 +64,7 @@
   pic: moritz_gerstung.jpg
   institution: EMBL-EBI
   bio: >
-      Moritz leads a research group at EMBL-EBI investigating the underlying mechanisms of cancer development and seeking to understand the differences in therapy success and outcomes in different individuals. His team develops statistical models for relating different layers of genomic, molecular and clinical data to establish connections between genotype and phenotype, and tools to predict outcomes based on comprehensive, high-dimensional datasets. The group also explores the evolutionary dynamics of cancer. He has a PhD in Computational Biology from ETH Zurich (2012), and carried out postdoctoral work at the Wellcome Trust Sanger Institute (2012-2015). Moritz joined EMBL-EBI as a Research group leader in August 2015. 
+      Moritz leads a research group at EMBL-EBI investigating the underlying mechanisms of cancer development and seeking to understand the differences in therapy success and outcomes in different individuals. His team develops statistical models for relating different layers of genomic, molecular and clinical data to establish connections between genotype and phenotype, and tools to predict outcomes based on comprehensive, high-dimensional datasets. The group also explores the evolutionary dynamics of cancer. He has a PhD in Computational Biology from ETH Zurich (2012), and carried out postdoctoral work at the Wellcome Trust Sanger Institute (2012-2015). Moritz joined EMBL-EBI as a Research group leader in August 2015.
 
 - name: Philippe Sanseau
   title: Head of Computational Biology
@@ -75,29 +75,29 @@
       Philippe is Head of Computational Biology at GSK. He has a PhD from University of Rennes in France and conducted his postdoctoral training at the Imperial Cancer Research Fund in London (now Cancer Research UK), with a focus on immunogenetics. He joined GSK to work initially in the Genetics and Genomics Departments. Since 2001 he has held various senior roles in bioinformatics and computational biology. Philippe is currently leading the Computational Biology (CB) Department at GSK with scientists located in the UK and US. The CB Department is working on multiple therapeutic areas supporting drug discovery and development projects at all phases of the pipeline using diverse bioinformatics approaches applied to biomedical internal and external data. The Department maintains a strong scientific innovation agenda as demonstrated by our activities in target validation, drug repositioning, systems approaches, or microbiome analyses. CB at GSK has also developed an international network of academic collaborators and maintains a strong publication record. Philippe is a member of several international advisory boards and different UK and international funding committees.
 
 - name: Jack Pollard
-  title: 
+  title:
   pic:  Jack_Pollard.jpg
   role: Joint Sanofi Scientific Lead
   institution: Sanofi
   bio: >
-      Jack Pollard is Director of Translational and Experimental Medicine, Bioinformatics at Sanofi since 2013. He is a leader at identifying both (1) novel relevant disease targets/signatures and (2) compounds with novel mechanisms of action by applying and developing statistical and computational methods. He also is an innovator at generating testable hypotheses about target/compound mechanisms and/or biomarkers via computational and pathway modeling systems. Jack Pollard started his career at Sanofi in 2005 as Principal Research Investigator, Bioinformatics. In 2007, he took a role as Senior Manager and later became Associate Director, Oncology Translational and Experimental Medicine, Bioinformatics, before taking over his current position. Prior to joining Sanofi he was Director of Discovery Science at “Genestruct”. Jack Pollard hold a BS in Biochemistry from Indiana University Bloomington, and a Ph.D. in Biochemistry and Molecular Pharmacology from Harvard Medical School.. 
+      Jack Pollard is Director of Translational and Experimental Medicine, Bioinformatics at Sanofi since 2013. He is a leader at identifying both (1) novel relevant disease targets/signatures and (2) compounds with novel mechanisms of action by applying and developing statistical and computational methods. He also is an innovator at generating testable hypotheses about target/compound mechanisms and/or biomarkers via computational and pathway modeling systems. Jack Pollard started his career at Sanofi in 2005 as Principal Research Investigator, Bioinformatics. In 2007, he took a role as Senior Manager and later became Associate Director, Oncology Translational and Experimental Medicine, Bioinformatics, before taking over his current position. Prior to joining Sanofi he was Director of Discovery Science at “Genestruct”. Jack Pollard hold a BS in Biochemistry from Indiana University Bloomington, and a Ph.D. in Biochemistry and Molecular Pharmacology from Harvard Medical School..
 
 - name: Emanuele de Rinaldis
-  title: 
+  title:
   pic:  Emanuele_de_Rinaldis.jpg
   role: Joint Sanofi Scientific Lead
   institution: Sanofi
   bio: >
-      Emanuele de Rinaldis is Senior Director Precision Immunology at Sanofi since November 2017. Prior to joining Sanofi, he was BRC Head of Translational Bioinformatics & Honorary Senior Lecturer. In his role he was leading an inter-disciplinary team of bioinformaticians and computer scientists working on translational and personalized medicine projects. Emanuele de Rinaldis was with BRC from 2009, first as Research Fellow and Team Leader before advancing to Head of Translational Bioinformatics. Before working at the BRC, he was a Research Fellow and Team Leader at Merck (US). As scientific leader of bioinformatics and genomics-based research projects his responsibilities were the identification of novel therapeutic targets/pathways in the areas of oncology and cardiovascular diseases and software development for competitive evaluation of scientific patents. He holds an MSc in Biological Sciences/Molecular Biology and a PhD from Sapienzia Universitá di Roma. 
-      
+      Emanuele de Rinaldis is Senior Director Precision Immunology at Sanofi since November 2017. Prior to joining Sanofi, he was BRC Head of Translational Bioinformatics & Honorary Senior Lecturer. In his role he was leading an inter-disciplinary team of bioinformaticians and computer scientists working on translational and personalized medicine projects. Emanuele de Rinaldis was with BRC from 2009, first as Research Fellow and Team Leader before advancing to Head of Translational Bioinformatics. Before working at the BRC, he was a Research Fellow and Team Leader at Merck (US). As scientific leader of bioinformatics and genomics-based research projects his responsibilities were the identification of novel therapeutic targets/pathways in the areas of oncology and cardiovascular diseases and software development for competitive evaluation of scientific patents. He holds an MSc in Biological Sciences/Molecular Biology and a PhD from Sapienza Universitá di Roma.
+
 - name: Narender Gavva
-  title: 
+  title:
   pic:  Narender_Gavva.jpg
   role: Takeda Scientific Lead
   institution: Takeda
   bio: >
-      Narender is the Head of Early Target Discovery (ETD) group at Takeda Research, California. The group focuses on gene expression, regulation and human genetics follow up TIDVAL for different indications in gastroenterology, neuroscience, and oncology Drug Discovery Units (DDUs). Prior to joining Takeda, he was a Scientific Director at Amgen Discovery Research where he spent 18 years in leading drug discovery projects and group of scientists in molecular biology, human genetics follow up, in vitro pharmacology, evaluation of new technologies, optimization of automated HTS assays, conducting focused screens, supporting lead optimization, clinical candidate selection. He led the teams that pursued small molecule, antibody and peptide modalities toward clinical candidate nomination. Narender contributed to research reports, patents, and/or IND/IBs for AMG 517, AMG 333, AMG 747, AMG 334 (erenumab/Aimovig™).  Prior to joining Amgen, Narender did a post-doctoral training in gene regulation at UC Davis and a PhD in University of Hyderabad, India. 
-      
+      Narender is the Head of Early Target Discovery (ETD) group at Takeda Research, California. The group focuses on gene expression, regulation and human genetics follow up TIDVAL for different indications in gastroenterology, neuroscience, and oncology Drug Discovery Units (DDUs). Prior to joining Takeda, he was a Scientific Director at Amgen Discovery Research where he spent 18 years in leading drug discovery projects and group of scientists in molecular biology, human genetics follow up, in vitro pharmacology, evaluation of new technologies, optimization of automated HTS assays, conducting focused screens, supporting lead optimization, clinical candidate selection. He led the teams that pursued small molecule, antibody and peptide modalities toward clinical candidate nomination. Narender contributed to research reports, patents, and/or IND/IBs for AMG 517, AMG 333, AMG 747, AMG 334 (erenumab/Aimovig™).  Prior to joining Amgen, Narender did a post-doctoral training in gene regulation at UC Davis and a PhD in University of Hyderabad, India.
+
 - name: Mathew Garnett
   role: Sanger Scientific Lead
   title: Translational Cancer Genomics Laboratory Group Leader
