@@ -23,7 +23,7 @@ Visit the [Open Targets Platform](https://www.targetvalidation.org) which integr
 *Cambridge, 29 October 2018*
 Open Targets announced today that Sanofi has joined its pioneering public-private collaboration to transform drug discovery by improving the success rate for developing new medicines. Sanofi’s expertise in immunology, oncology, neurosciences and diabetes will complement the offerings of the current partners GSK, Biogen, Takeda, Celgene, the Wellcome Sanger Institute and EMBL’s European Bioinformatics Institute (EMBL-EBI).
 
-[Full announcement]({{ site.url }}assets/Sanofi_Announcement.pdf)
+[Full announcement]({{ site.url }}assets/Sanofi_Announcement2.pdf)
 
 <br>
 
