@@ -17,6 +17,7 @@ Visit the [Open Targets Platform](https://www.targetvalidation.org) which integr
 
 <a class="button-small blue_normal" href="https://www.targetvalidation.org">Visit the Open Targets Platform</a>       <a class="button-small blue_normal" href="https://genetics.opentargets.org">Visit Open Targets Genetics</a>
 <br>
+<br>
 
 ## Sanofi joins Open Targets
 <br>*Cambridge, 29 October 2018*
