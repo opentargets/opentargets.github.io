@@ -18,6 +18,15 @@ Visit the [Open Targets Platform](https://www.targetvalidation.org) which integr
 <a class="button-small blue_normal" href="https://www.targetvalidation.org">Visit the Open Targets Platform</a>       <a class="button-small blue_normal" href="https://genetics.opentargets.org">Visit Open Targets Genetics</a>
 <br>
 
+## Sanofi joins Open Targets
+<br>*Cambridge, 29 October 2018*
+
+Open Targets announced today that Sanofi has joined its pioneering public-private collaboration to transform drug discovery by improving the success rate for developing new medicines. Sanofi’s expertise in immunology, oncology, neurosciences and diabetes will complement the offerings of the current partners GSK, Biogen, Takeda, Celgene, the Wellcome Sanger Institute and EMBL’s European Bioinformatics Institute (EMBL-EBI).
+
+[Full announcement]({{ site.url }}assets/Sanofi_Announcement.pdf)
+
+<br>
+
 ## Overview
 Generating and interpreting the data required to identify a good drug target demands a diverse set of skills, backgrounds, evidence types and technologies, which do not exist today in any single entity. Open Targets brings together expertise from six complementary institutions to systematically identify and prioritise targets from which safe and effective medicines can be developed.
 
