@@ -29,6 +29,7 @@ permalink: /resources/
 
 
 # Review Articles 
+* [Ten simple rules for delivering live distance training in bioinformatics across the globe using webinars](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006419) Carvalho-Silve D et al. DOI:10.1371/journal.pcbi.1006419 
 * [Computational approaches for interpreting scRNA-seq data](https://febs.onlinelibrary.wiley.com/doi/abs/10.1002/1873-3468.12684) Rostom R et al. DOI:10.1002/1873-3468.12684 
 * [Harnessing public domain data to discover and validate therapeutic targets](https://www.tandfonline.com/doi/abs/10.1080/17460441.2017.1329296?journalCode=iedc20) Reisdorf WC et al. DOI:10.1080/17460441.2017.1329296
 * [The impact of rare and low-frequency genetic variants in common disease](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1212-4) Bomba L et al. DOI:10.1186/s13059-017-1212-4
