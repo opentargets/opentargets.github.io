@@ -5,7 +5,7 @@ permalink: /resources/
 ---
 
 # Research Publications
-* [Open Targets Platform: new developments and updates two years on](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1133/5193331) Carvalho-Silve D Z et al. DOI:10.1093/nar/gky1133
+* [Open Targets Platform: new developments and updates two years on](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1133/5193331) Carvalho-Silva D et al. DOI:10.1093/nar/gky1133
 * [The COSMIC Cancer Gene Census: describing genetic dysfunction across all human cancers](https://rdcu.be/9Zcg) Sondka Z et al. DOI:10.1038/s41568-018-0060-1
 * [Unsupervised correction of gene-independent cell responses to CRISPR-Cas9 targeting](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4989-y) Iorio F et al. DOI:10.1186/s12864-018-4989-y
 * [Pathway-based dissection of the genomic heterogeneity of cancer hallmarks’ acquisition with SLAPenrich](https://www.nature.com/articles/s41598-018-25076-6) Iorio F et al. DOI:10.1038/s41598-018-25076-6 
