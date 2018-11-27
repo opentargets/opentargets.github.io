@@ -5,8 +5,12 @@ permalink: /resources/
 ---
 
 # Research Publications
+* [The NHGRI-EBI GWAS Catalog of published genome-wide association studies, targeted arrays and summary statistics 2019](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1120/5184712) Buniello A et al. DOI:10.1093/nar/gky1120
+* [ChEMBL: Towards Direct Deposition of Bioassay Data](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1075/5162468) Mendez D et al. DOI:10.1093/nar/gky1075
 * [Open Targets Platform: new developments and updates two years on](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1133/5193331) Carvalho-Silva D et al. DOI:10.1093/nar/gky1133
+* [Complex Portal 2018 - extended content and enhanced visualisation tools](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1001/5144138) Meldal B et al. DOI:10.1093/nar/gky1001
 * [The COSMIC Cancer Gene Census: describing genetic dysfunction across all human cancers](https://rdcu.be/9Zcg) Sondka Z et al. DOI:10.1038/s41568-018-0060-1
+* [Uncovering new disease indications for G-protein coupled receptors and their endogenous ligands](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2392-y) Freudenberg J et al. DOI:10.1186/s12859-018-2392-y
 * [Unsupervised correction of gene-independent cell responses to CRISPR-Cas9 targeting](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4989-y) Iorio F et al. DOI:10.1186/s12864-018-4989-y
 * [Pathway-based dissection of the genomic heterogeneity of cancer hallmarks’ acquisition with SLAPenrich](https://www.nature.com/articles/s41598-018-25076-6) Iorio F et al. DOI:10.1038/s41598-018-25076-6 
 * [Interleukins and their signaling pathways in the Reactome biological pathway database](https://www.ncbi.nlm.nih.gov/pubmed/29378288) Jupe S et al. DOI:10.1016/j.jaci.2017.12.992
