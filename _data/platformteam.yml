@@ -8,7 +8,7 @@
   institute: EMBL-EBI
   github: deniseOme
 
-- name: Adan Faulconbridge
+- name: Adam Faulconbridge
   role: Backend Software Engineer
   institute: EMBL-EBI
   github: afaulconbridge
@@ -18,6 +18,11 @@
   institute: EMBL-EBI
   github: lucafumis
 
+- name: Asier Gonzalez
+  role: Bioinformatician
+  institute: EMBL-EBI
+  github: AsierGonzalez
+  
 - name: Andrew Hercules
   role: UX lead
   institute: EMBL-EBI
@@ -32,6 +37,11 @@
   role: Project Manager
   institute: EMBL-EBI
   github: ElaineMcA 
+  
+- name: Cinzia Malangone
+  role: Software Developer
+  institute: EMBL-EBI
+  github:  
   
 - name: Alfredo Miranda
   role: Frontend developer
