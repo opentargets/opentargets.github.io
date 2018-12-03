@@ -4,4 +4,4 @@ title: Jobs
 permalink: /jobs/
 ---
 
-There are currently no positions avialbe. 
+There are currently no positions available. 
