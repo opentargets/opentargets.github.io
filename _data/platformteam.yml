@@ -21,7 +21,7 @@
 - name: Asier Gonzalez
   role: Bioinformatician
   institute: EMBL-EBI
-  github: asiergonzalez
+  github: AsierGonzalez
 
 - name: Andrew Hercules
   role: UX lead
@@ -42,6 +42,11 @@
   role: Project Manager
   institute: EMBL-EBI
   github: ElaineMcA 
+  
+- name: Cinzia Malangone
+  role: Software Developer
+  institute: EMBL-EBI
+  github:  
   
 - name: Alfredo Miranda
   role: Frontend developer
