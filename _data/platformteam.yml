@@ -22,7 +22,7 @@
   role: Bioinformatician
   institute: EMBL-EBI
   github: AsierGonzalez
-  
+
 - name: Andrew Hercules
   role: UX lead
   institute: EMBL-EBI
@@ -32,6 +32,11 @@
   role: GSK Lead
   institute: GSK
   github: gkos-bio
+
+- name: Cinzia Malangone
+  role: Software developer
+  institute: EMBL-EBI
+  github:  
 
 - name: Elaine McAuley
   role: Project Manager
