@@ -8,6 +8,23 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
+#### [Open Targets Senior Administrator - Open Targets Core Team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01335)
+*An EMBL-EBI contract*
+Closing date: 25 January 2019
+
+We are looking for a Senior Administrator to provide high-level administrative support to the Open Targets Executive Team and members of the Open Targets team.
+
+The main responsibilities of the role are to provide high-level day-to-day administrative support to the Open Targets Executive Team, incorporating the relevant administrative systems and processes that are associated with their employers (currently Sanger, EBI & GSK). Duties include diary management, support to meetings and travel arrangements.
+
+The post holder will organise several scientific and non-scientific meetings and events, some of which will need to be minuted. Other duties include tracking project budgets, website updates, maintaining the teams Office 365 portal and its associated documentation.
+
+The position is based in dedicated Open Targets space within EMBL-EBI and reports to the Open Targets Operations Director and the Open Targets Scientific Director.
+
+[More details at the EMBL-EBI website](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01335)
+
+
+***
+
 #### [Open Targets Platform Coordinator - Open Targets Core Team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01323)
 *An EMBL-EBI contract*
 Closing date: 31 January 2019
