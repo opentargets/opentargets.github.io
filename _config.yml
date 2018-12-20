@@ -17,7 +17,7 @@ title: Open Targets
 author: Open Targets Team
 email: contact@opentargets.org
 description: > # this means to ignore newlines until "baseurl:"
-  Open Targets is a public-private initiative to generate evidence on the validity of therapeutic targets based on genome-scale experiments and analysis. 
+  Open Targets is a public-private initiative to generate evidence on the validity of therapeutic targets based on genome-scale experiments and analysis.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: targetvalidate
@@ -29,7 +29,7 @@ repository: opentargets/opentargets.github.io
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
