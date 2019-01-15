@@ -24,7 +24,7 @@
   github: AsierGonzalez
 
 - name: Andrew Hercules
-  role: UX lead
+  role: User Experience Lead
   institute: EMBL-EBI
   github: andrewhercules
 
@@ -34,19 +34,14 @@
   github: gkos-bio
 
 - name: Cinzia Malangone
-  role: Software developer
+  role: Backend Software Engineer
   institute: EMBL-EBI
-  github:  
+  github:  cmalangone
 
 - name: Elaine McAuley
   role: Project Manager
   institute: EMBL-EBI
   github: ElaineMcA 
-  
-- name: Cinzia Malangone
-  role: Software Developer
-  institute: EMBL-EBI
-  github:  
   
 - name: Alfredo Miranda
   role: Frontend developer
@@ -57,6 +52,11 @@
   role: Frontend developer
   institute: EMBL-EBI
   github: peatroot
+
+- name: Eirini Petsalaki
+  role: Bioinformatician
+  institute: EMBL-EBI
+  github: EPetsalaki
 
 - name: Michaela Spitzer
   role: Bioinformatician

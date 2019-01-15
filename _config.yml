@@ -22,7 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: targetvalidate
 github_username:  opentargets
-linkedin: https://www.linkedin.com/company/centre-for-therapeutic-target-validation
+linkedin: https://www.linkedin.com/company/open-targets
 facebook: https://www.facebook.com/OpenTargets/
 repository: opentargets/opentargets.github.io
 
