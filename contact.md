@@ -17,9 +17,9 @@ permalink: /contact/
 
 <ul class="footer-social-list">
     <li><a href="{{ site.linkedin }}"><span class="fa fa-linkedin"></span> <span class="hidden-xs">Linkedin</span></a></li>
-    <li><a href="http://twitter.com/targetvalidate"><span class="fa fa-twitter"></span> <span class="hidden-xs">Twitter</span></a></li>
+    <li><a href="http://twitter.com/{{site.twitter_username}}"><span class="fa fa-twitter"></span> <span class="hidden-xs">Twitter</span></a></li>
     <li><a href="{{ site.facebook }}"><span class="fa fa-facebook"></span> <span class="hidden-xs">Facebook</span></a></li>
-    <li><a href="https://github.com/opentargets"><span class="fa fa-github"></span> <span class="hidden-xs">GitHub</span></a></li>
+    <li><a href="https://github.com/{{site.github_username}}"><span class="fa fa-github"></span> <span class="hidden-xs">GitHub</span></a></li>
 </ul>
 
 ## Scientific leadership
