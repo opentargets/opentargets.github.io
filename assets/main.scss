@@ -11,6 +11,7 @@
 $brand-color: #0091EB;
 $brand-red: #FF6350;
 $brand-darkblue: #1e5799;
+$brand-grey: #5a5f5f;
 
 h1, h2, h3, h4, h5, h6 {
   color: $brand-color;
@@ -18,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 body {
-    color: #555;
+    color: $brand-grey;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -397,4 +398,7 @@ hr {
     }
 */
 
-
+// setting style for News section headline
+.news-headline {
+    color: $brand-grey
+}
