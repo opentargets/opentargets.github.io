@@ -19,6 +19,17 @@ Visit the [Open Targets Platform](https://www.targetvalidation.org) which integr
 <br>
 <br>
 
+## Ian Dunham appointed as Open Targets Director
+
+*Cambridge, 23 January 2019*
+
+Open Targets has appointed Ian Dunham as its new Director. He will focus on the delivery of Open Targets’ established research programme to exploit advances in genetics and genomics for drug target identification and prioritisation. He also aims to increase the use of new approaches to the programme, including single-cell
+sequencing, CRISPR and artificial intelligence.
+
+[Read the full announcement]({{ site.url }}assets/Ian_Dunham_Director_announcement.pdf)
+
+<br>
+
 ## Overview
 Generating and interpreting the data required to identify a good drug target demands a diverse set of skills, backgrounds, evidence types and technologies, which do not exist today in any single entity. Open Targets brings together expertise from seven complementary institutions to systematically identify and prioritise targets from which safe and effective medicines can be developed.
 
