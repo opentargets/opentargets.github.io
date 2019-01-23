@@ -12,12 +12,24 @@ layout: bootstrap-hero
 
 <!-- Open Targets is a public-private initiative to generate evidence on the validity of therapeutic targets based on genome-scale experiments and analysis. -->Open Targets is an innovative, large-scale, multi-year, public-private partnership that uses human genetics and genomics data for systematic drug target identification and prioritisation.
 
-
 Visit the [Open Targets Platform](https://www.targetvalidation.org) which integrates public domain data to enable target identification and prioritisation, or [Open Targets Genetics](https://genetics.opentargets.org) which identifies targets based on GWAS and functional genomics.
 
-<a class="button-small blue_normal" href="https://www.targetvalidation.org">Visit the Open Targets Platform</a>       <a class="button-small blue_normal" href="https://genetics.opentargets.org">Visit Open Targets Genetics</a>
-<br>
-<br>
+<a class="button-small blue_normal" href="https://www.targetvalidation.org">Visit the Open Targets Platform</a>   <a class="button-small blue_normal" href="https://genetics.opentargets.org">Visit Open Targets Genetics</a>
+
+*** 
+
+## News
+
+<h3 class="news-headline">Ian Dunham appointed as Open Targets Director</h3>
+
+*Cambridge, 23 January 2019*
+
+Open Targets is pleased to announce that it has appointed Ian Dunham as its new Director. Building upon his work as Open Targets' Scientific Director, he will focus on the delivery of Open Targets' established research programme to exploit advances in genetics and genomics for drug target identification and prioritisation. He also aims to increase the use of new approaches to the programme, including single-cell
+sequencing, CRISPR and artificial intelligence.
+
+<a class="button-small blue_normal" href="{{ site.url }}/assets/Ian_Dunham_Director_announcement.pdf">Read the full announcement</a>
+
+***
 
 ## Overview
 Generating and interpreting the data required to identify a good drug target demands a diverse set of skills, backgrounds, evidence types and technologies, which do not exist today in any single entity. Open Targets brings together expertise from seven complementary institutions to systematically identify and prioritise targets from which safe and effective medicines can be developed.

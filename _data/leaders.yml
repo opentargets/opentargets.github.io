@@ -1,12 +1,5 @@
-- name: Rolf Apweiler
-  role: Interim Head
-  institute: EMBL-EBI
-  pic: rolf.jpg
-  bio: >
-      Rolf stepped into the temporary position of Interim Head of Open Targets when Jeff Barrett stepped down in March 2018 after 3 years as Director. Rolf is Director of EMBL-EBI, together with Ewan Birney. Prior to this position he was Joint Associate Director, after many years of leading protein resources such as EMBL-EBI's contribution to the UniProt Consortium. He also leads EMBL-EBI’s contribution to the Gene Ontology. Rolf received his PhD from the University of Heidelberg in 1994, and has been at EMBL since 1987. His major contribution to the field of proteomics was recognised by his election to President of the Human Proteomics Organisation, which he held in 2007 and 2008. In 2012, he was elected as a member of EMBO.
-
 - name: Ian Dunham
-  role: Scientific Director
+  role: Open Targets Director
   pic: DUNHAM_Ian_web.jpg
   institute: EMBL-EBI
   bio: >
