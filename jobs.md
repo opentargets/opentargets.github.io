@@ -7,21 +7,17 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
-### [Open Targets Senior Administrator - Open Targets Core Team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01335)
-*An EMBL-EBI contract - closing date: 25 January 2019*
+### [Advanced Research Assistant - Experimental Cancer Genetics](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=373804)
+*A Wellcome Sanger Institute contract - closing date: 3 February 2019*
 
-We are looking for a Senior Administrator to provide high-level administrative support to the Open Targets Executive Team and members of the Open Targets team.
+A new project funded by Open Targets, joint between the Experimental Cancer Genetics group headed by Dr David Adams at the Wellcome Sanger Institute together with Open Targets partners, is to perform in depth analysis of factors that control T cell survival and differentiation within the tumour microenvironment. This will involve the use of bespoke targeted CRISPR screens applied to primary cells and using *in vivo* tumour models in order to identify novel candidate genes and/or pathways for validation and in-depth characterization.
 
-The main responsibilities of the role are to provide high-level day-to-day administrative support to the Open Targets Executive Team, incorporating the relevant administrative systems and processes that are associated with their employers (currently Sanger, EBI & GSK). Duties include diary management, support to meetings and travel arrangements.
-
-The post holder will organise several scientific and non-scientific meetings and events, some of which will need to be minuted. Other duties include tracking project budgets, website updates, maintaining the teams Office 365 portal and its associated documentation.
-
-The position is based in dedicated Open Targets space within EMBL-EBI and reports to the Open Targets Operations Director and the Open Targets Scientific Director ... __[read more](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01335)__
+We are looking for an enthusiastic individual to contribute to the generation of this data including cell culture and performing *in vivo* tumour models. Detailed record keeping is required, as is contribution to data analysis, review and reporting. ... __[read more](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=373804)__
 
 ***
 
 ### [Open Targets Platform Coordinator - Open Targets Core Team](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01323)
-*An EMBL-EBI contract - closing date: 31 January 2019*
+*An EMBL-EBI contract - closing date: 14 February 2019*
 
 We are looking for an experienced bioinformatician, computer scientist or drug discovery scientist to provide leadership for the core Open Targets Platform project involved in large-scale biological data analysis and integration for drug target identification and prioritisation.
 
