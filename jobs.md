@@ -7,14 +7,6 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
-### [Statistical Geneticist](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=371402)
-*A Wellcome Sanger Institute contract - closing date: 28 February 2019*
-
-A Statistical Geneticist role funded by Open Targets, is available at the Wellcome Sanger Institute in a new team under the leadership of Dr. Maya Ghoussaini. This is an exciting opportunity for you to participate in the enhancement of the existing [Open Targets Genetics Portal](https://genetics.opentargets.org) through the development of new functionality and features. You will actively engage in the integration of new eQTL datasets and tissue-specific chromatin interaction datasets. 
-... __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=371402)__
-
-***
-
 ### [Scientist Curator - Genetic Drivers of Cancer](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=377809)
 *A Wellcome Sanger Institute contract - closing date: 10 March 2019*
 
@@ -40,3 +32,17 @@ Applications are invited for a 3-year Postdoctoral Fellowship at the Wellcome Sa
 *A Wellcome Sanger Institute contract - closing date: 18 March 2019*
 
 Applications are invited for a 3-year Postdoctoral Fellowship within the Genomics of Inflammation and Immunity group at the Wellcome Sanger Institute (WSI), headed by Dr. Carl Anderson (www.andersonlab.info). The project will generate single-cell transcriptomic data from intestinal biopsies obtained from 300 healthy individuals undergoing colonoscopy. All individuals will also be genotyped, with the goal of combining these datasets to map eQTLs across the more than forty different cell-types in the gut. The results from these analyses will then be combined with our detailed maps of inflammatory bowel disease (IBD) risk loci (and other gastrointestinal diseases) to identify genes that are dysregulated to bring about disease. The ultimate goal of the research is thus to improve our basic knowledge of IBD pathogenesis and identify novel candidate drug targets for treating disease. ... __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=377005)__
+
+***
+
+### [Postdoctoral Fellow](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01339)
+*An EMBL-EBI contract - closing date: 4 April 2019*
+
+We are seeking to recruit a Postdoctoral Fellow for a position in the [Thornton Research Group at EMBL-EBI](https://www.ebi.ac.uk/research/thornton). You will work closely with Open Targets to identify gene signatures for Alzheimer's disease progression phenotypes, but the approach will also be extended to other diseases. You will analyse datasets and develop new methods for signature derivation and also applications to specific diseases. This will address the challenging problem of how we diagnose diseases and identify their causes and possible therapeutics. Your methods will directly contribute to the data production pipelines of the Expression Atlas, which is one of EBI’s core open resources. ... __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01339)__
+
+***
+
+### [Machine Learning / Text Mining Scientist](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01372)
+*An EMBL-EBI contract - closing date: 8 April 2019*
+
+We are seeking to recruit an expert with experience in entity recognition, NLP and machine learning to work on text mining workflows within the Open Targets Platform. This position will be located within the [Literature Services Team at the European Bioinformatics Institute (EMBL-EBI)](https://www.ebi.ac.uk/about/people/johanna-mcentyre). This position will focus on the extraction of target-disease associations from abstracts and full text publications available in Europe PMC, for consumption by the Open Targets Platform, improving the precision and recall of existing workflows and extending the extraction of concepts to other entities such as drugs or mutations. ... __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01372)__
