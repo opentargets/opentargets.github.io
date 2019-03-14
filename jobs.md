@@ -7,13 +7,6 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
-### [Scientist Curator - Genetic Drivers of Cancer](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=377809)
-*A Wellcome Sanger Institute contract - closing date: 10 March 2019*
-
-[COSMIC](http://cancer.sanger.ac.uk) is working with Open Targets to expand the world’s most comprehensive description of the genes causing human cancer, the Cancer Gene Census. This is an exciting position within the COSMIC team, where you will have the opportunity to explore & interpret a wide range of literature, database and analytic resources to create a complete landscape of genetic dysfunctions across all cancer types and explain which molecular mechanisms are most important in development of these diseases. ... __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=377809)__
-
-***
-
 ### [Advanced Research Assistant](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=377013)
 *A Wellcome Sanger Institute contract - closing date: 18 March 2019*
 
