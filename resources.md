@@ -54,12 +54,23 @@ We have developed the [Open Targets Platform](http://www.targetvalidation.org/) 
 <br/>
 <br/>
 
+
+# [Project Score](https://score.depmap.sanger.ac.uk)
+[Project Score](https://score.depmap.sanger.ac.uk) is a web portal that allows researchers to explore the results of CRISPR-Cas9 whole-genome drop out screens across a diverse collection of human cancer cell models and to identify dependencies in cancer cells to help guide precision cancer medicines.
+
+Please see [Behan et al. 2019]() for more information. 
+
+<br/>
+<br/>
+
+
 # [Open Targets Genetics](https://genetics.opentargets.org/)
 [Open Targets Genetics](https://genetics.opentargets.org/) is a portal for investigation of Genome Wide Association Study (GWAS) data to assist in identifying the causal genes underlying each assoication, and hence to prioritise drug targets. The portal aggregates and merges genetic associations curated from literature and newly-derived loci from UK Biobank with (open source) functional genomics data including epigenetics (e.g., chromatin conformation, chromatin interactions) and quantitative trait loci (e.g., eQTLs from GTEX, pQTL), and applies statistical fine-mapping across thousands of trait-associated loci, to resolve association signals and link each variant to its proximal and distal target gene(s), using a single evidence score. 
 
 
 <br/>
 <br/>
+
 
 # [epiChoose](http://epichoose.shiny.opentargets.io/epiChoose/)
 epiChoose is an application for quantifying the relatedness between cell lines and primary cells. We have extensively profiled a number of commonly used cell line models across a number of tissues. This profiling consists of epigenetic (histone modification, CTCF, ATAC-seq) and transcriptional (RNA-seq) whole-genome measurements. From this data, we have established a platform that provides information on the “distance” between candidate cell models and target primary cells. By ranking and selecting cell line models in a data-driven manner, the best model for the experiment can be chosen, based on epigenetic and transcriptional evidence and not historical usage.
