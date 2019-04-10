@@ -7,25 +7,10 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
-### [Machine Learning / Text Mining Scientist](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01372)
-*An EMBL-EBI contract - closing date: 8 April 2019*
-
-We are seeking to recruit an expert with experience in entity recognition, NLP and machine learning to work on text mining workflows within the Open Targets Platform. This position will be located within the [Literature Services Team at the European Bioinformatics Institute (EMBL-EBI)](https://www.ebi.ac.uk/about/people/johanna-mcentyre). This position will focus on the extraction of target-disease associations from abstracts and full text publications available in Europe PMC, for consumption by the Open Targets Platform, improving the precision and recall of existing workflows and extending the extraction of concepts to other entities such as drugs or mutations. ... __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01372)__
-
-***
-
-### [Open Targets Senior Administrator](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01395)
-*An EMBL-EBI contract - closing date: 9 April 2019*
-
-We are looking for a Senior Administrator to provide high-level administrative support to the Open Targets Executive Team and members of the Open Targets team. The main responsibilities of the role include: providing high-level day-to-day administrative support to the Open Targets Executive Team; incorporating the relevant administrative systems and processes that are associated with their employers (currently Sanger, EBI & GSK); organising several scientific and non-scientific meetings and events and taking minutes; tracking project budgets; updating various websites; and maintaining the team's Office 365 portal and its associated documentation. ... __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01395)__
-
-
-***
-
 ### [Postdoctoral Fellow - Complex Disease Genetics](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=377008)
 *A Wellcome Sanger Institute contract - closing date: 21 April 2019*
 
-Applications are invited for a 3-year Postdoctoral Fellowship at the Wellcome Sanger Institute based jointly in the teams of Dr. Carl Anderson (Human Genetics Programme, www.andersonlab.info) and Dr. Maya Ghoussaini (Open Targets). This is an exciting opportunity for you to bring together cutting-edge genetic and genomic datasets to identify novel candidate therapeutic targets for inflammatory bowel disease (IBD). During this fellowship, you will lead a collaborative project to build a causal evidence base for every gene within IBD associated GWAS loci. Your affiliation with the Ghoussaini Team will bring access to the massive cross-disease genetic and genomic datasets aggregated by Open Targets and presented in their web-based resources - [the Open Targets Platform](https://www.targetvalidation.org/) and [the Open Targets Genetics Portal](https://genetics.opentargets.org/). As a member of the Anderson group, you will also have access to the latest large-scale genetic association data for IBD. ... __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=377008)__
+Applications are invited for a 3-year Postdoctoral Fellowship at the Wellcome Sanger Institute based jointly in the teams of Dr. Carl Anderson (Human Genetics Programme, www.andersonlab.info) and Dr. Maya Ghoussaini (Open Targets). This is an exciting opportunity for you to bring together cutting-edge genetic and genomic datasets to identify novel candidate therapeutic targets for inflammatory bowel disease (IBD). During this fellowship, you will lead a collaborative project to build a causal evidence base for every gene within IBD associated GWAS loci. Your affiliation with the Ghoussaini Team will bring access to the massive cross-disease genetic and genomic datasets aggregated by Open Targets and presented in [the Open Targets Platform](https://www.targetvalidation.org/) and [the Open Targets Genetics Portal](https://genetics.opentargets.org/). As a member of the Anderson group, you will also have access to the latest large-scale genetic association data for IBD. ... __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=377008)__
 
 ***
 
@@ -40,3 +25,18 @@ Applications are invited for a 3-year Postdoctoral Fellowship within the Genomic
 *A Wellcome Sanger Institute contract - closing date: 21 April 2019*
 
 The Wellcome Sanger Institute is seeking an experienced Bioinformatician to join the the [Cancer Dependency Map Analytics team](https://www.sanger.ac.uk/science/groups/cancer-dependency-map-analytics) and provide computational analysis for the new international [Cancer Dependency Map](http://depmap.sanger.ac.uk/) consortium, whose broad goal is to identify vulnerabilities and dependencies that could be exploited therapeutically in every cancer cell. This is an exciting opportunity to work at one of the world’s leading genomic centres at the forefront of genomic research. You will have access to Sanger's computational resources, including a 15000+ core computational cluster, the largest in life science research in Europe, and multiple petabytes of high-speed cluster file systems. ... __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=380819)__
+
+***
+
+### [Computational Biologist/Bioinformatician](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=383908)
+*A Wellcome Sanger Institute contract - closing date: 25 May 2019*
+
+A Computational Biologist/Bioinformatician role funded by Open Targets, is available at the Wellcome Sanger Institute in a new team under the leadership of Dr. Maya Ghoussaini. This is an exciting opportunity for you to participate in the enhancement of the existing [Open Targets Genetics Portal](https://genetics.opentargets.org/) through the development of new functionality and features.
+
+You will have the opportunity to work across a range of analysis such as:
+
+* Integrate genetic and cell-specific genomic data to identify and validate casual links between targets and diseases and improve the Genetics Portal
+* Perform association analysis on UK Biobank data with a particular focus on therapeutic areas important for Open Targets
+* Work together with other members of the Open Targets team on statistical genetics analysis for large scale sequence analysis
+
+ You will also have the opportunity to interact with active computational and experimental research teams using cutting edge genomic techniques.  __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=383908)__
