@@ -18,6 +18,16 @@ Visit the [Open Targets Platform](https://www.targetvalidation.org) which integr
 
 *** 
 
+## News
+
+<h3 class="news-headline">Open Targets announces results from its whole-genome drop out in cancer cell models project</h3>
+
+Open Targets is pleased to announce that one our first experimental projects has published its findings in [Nature (Behan et. al, 2019)](). In one of the largest studies of its kind, researchers used CRISPR-Cas9 technology to conduct whole-genome drop out screens in over 300 cancer models from 30 different cancer types. They discovered thousands of key genes essential for cancer’s survival and developed a new system to prioritise and rank 600 drug targets that show the most promise for development into treatments.
+
+<a class="button-small blue_normal" href="">Read the full announcement</a>
+
+*** 
+
 ## Overview
 Generating and interpreting the data required to identify a good drug target demands a diverse set of skills, backgrounds, evidence types and technologies, which do not exist today in any single entity. Open Targets brings together expertise from seven complementary institutions to systematically identify and prioritise targets from which safe and effective medicines can be developed.
 
