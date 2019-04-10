@@ -24,11 +24,9 @@ Visit the [Open Targets Platform](https://www.targetvalidation.org) which integr
 
 <i>Cambridge, 10 April 2019</i>
 
-Open Targets is pleased to announce that one of our first experimental projects has published its findings in [Nature (Behan et. al, 2019)](https://www.nature.com/articles/s41586-019-1103-9). In one of the largest studies of its kind, researchers used CRISPR-Cas9 technology to conduct whole-genome drop out screens in over 300 cancer cell lines from 30 different cancer types. The team discovered thousands of key genes essential for cancer’s survival and developed a new system to prioritise and rank 600 potential drug targets that show the most promise for development into treatments.
+Open Targets is pleased to announce that one of our first experimental projects has published its findings in [<i>Nature</i>](https://www.nature.com/articles/s41586-019-1103-9). In one of the largest studies of its kind, researchers used CRISPR-Cas9 technology to conduct whole-genome drop out screens in over 300 cancer cell lines from 30 different cancer types. The team discovered thousands of key genes essential for cancer’s survival and developed a new system to prioritise and rank 600 potential drug targets that show the most promise for development into treatments.
 
-<a class="button-small blue_normal" href="https://www.sanger.ac.uk/news/view/new-cancer-drug-targets-accelerate-path-precision-medicine" target="_blank">Read the full announcement</a>
-
-<a class="button-small blue_normal" href="https://www.nature.com/articles/s41586-019-1103-9" target="_blank">Read the article</a>
+<a class="button-small blue_normal" href="https://www.sanger.ac.uk/news/view/new-cancer-drug-targets-accelerate-path-precision-medicine" target="_blank">Read the full announcement</a> <a class="button-small blue_normal" href="https://www.nature.com/articles/s41586-019-1103-9" target="_blank">Read the article (Behan et. al, 2019)</a>
 
 *** 
 
