@@ -5,6 +5,7 @@ permalink: /resources/
 ---
 
 # Research Publications
+* [Prioritisation of cancer therapeutic targets using CRISPR-Cas9 screens]() Behan et al. DOI: 10.1038/s41586-019-1103-9 
 * [The NHGRI-EBI GWAS Catalog of published genome-wide association studies, targeted arrays and summary statistics 2019](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1120/5184712) Buniello A et al. DOI:10.1093/nar/gky1120
 * [ChEMBL: Towards Direct Deposition of Bioassay Data](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1075/5162468) Mendez D et al. DOI:10.1093/nar/gky1075
 * [Open Targets Platform: new developments and updates two years on](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1133/5193331) Carvalho-Silva D et al. DOI:10.1093/nar/gky1133
