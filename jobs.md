@@ -21,10 +21,10 @@ Applications are invited for a 3-year Postdoctoral Fellowship within the Genomic
 
 ***
 
-### [Senior Bioinformatician - Cancer Dependency Map Analytics](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=380819)
-*A Wellcome Sanger Institute contract - closing date: 21 April 2019*
+### [Senior/Principal Bioinformatician - Cancer Dependency Map Analytics](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=384596)
+*A Wellcome Sanger Institute contract - closing date: 12 May 2019*
 
-The Wellcome Sanger Institute is seeking an experienced Bioinformatician to join the the [Cancer Dependency Map Analytics team](https://www.sanger.ac.uk/science/groups/cancer-dependency-map-analytics) and provide computational analysis for the new international [Cancer Dependency Map](http://depmap.sanger.ac.uk/) consortium, whose broad goal is to identify vulnerabilities and dependencies that could be exploited therapeutically in every cancer cell. This is an exciting opportunity to work at one of the world’s leading genomic centres at the forefront of genomic research. You will have access to Sanger's computational resources, including a 15000+ core computational cluster, the largest in life science research in Europe, and multiple petabytes of high-speed cluster file systems. ... __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=380819)__
+The Wellcome Sanger Institute is seeking an experienced Bioinformatician to join the the [Cancer Dependency Map Analytics team](https://www.sanger.ac.uk/science/groups/cancer-dependency-map-analytics) and provide computational analysis for the new international [Cancer Dependency Map](http://depmap.sanger.ac.uk/) consortium. This is an exciting opportunity to work at one of the world's leading genomic centres at the forefront of genomic research. You will have access to Sanger's computational resources, including a 15000+ core computational cluster, the largest in life science research in Europe, and multiple petabytes of high-speed cluster file systems. ... __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=384596)__
 
 ***
 
