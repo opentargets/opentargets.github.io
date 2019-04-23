@@ -7,20 +7,6 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
-### [Postdoctoral Fellow - Complex Disease Genetics](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=377008)
-*A Wellcome Sanger Institute contract - closing date: 21 April 2019*
-
-Applications are invited for a 3-year Postdoctoral Fellowship at the Wellcome Sanger Institute based jointly in the teams of Dr. Carl Anderson (Human Genetics Programme, www.andersonlab.info) and Dr. Maya Ghoussaini (Open Targets). This is an exciting opportunity for you to bring together cutting-edge genetic and genomic datasets to identify novel candidate therapeutic targets for inflammatory bowel disease (IBD). During this fellowship, you will lead a collaborative project to build a causal evidence base for every gene within IBD associated GWAS loci. Your affiliation with the Ghoussaini Team will bring access to the massive cross-disease genetic and genomic datasets aggregated by Open Targets and presented in [the Open Targets Platform](https://www.targetvalidation.org/) and [the Open Targets Genetics Portal](https://genetics.opentargets.org/). As a member of the Anderson group, you will also have access to the latest large-scale genetic association data for IBD. ... __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=377008)__
-
-***
-
-### [Postdoctoral Fellow - Single Cell Genomics](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=377005)
-*A Wellcome Sanger Institute contract - closing date: 21 April 2019*
-
-Applications are invited for a 3-year Postdoctoral Fellowship within the Genomics of Inflammation and Immunity group at the Wellcome Sanger Institute (WSI), headed by Dr. Carl Anderson (www.andersonlab.info). The project will generate single-cell transcriptomic data from intestinal biopsies obtained from 300 healthy individuals undergoing colonoscopy. All individuals will also be genotyped, with the goal of combining these datasets to map eQTLs across the more than forty different cell-types in the gut. The results from these analyses will then be combined with our detailed maps of inflammatory bowel disease (IBD) risk loci (and other gastrointestinal diseases) to identify genes that are dysregulated to bring about disease. The ultimate goal of the research is thus to improve our basic knowledge of IBD pathogenesis and identify novel candidate drug targets for treating disease. ... __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=377005)__
-
-***
-
 ### [Senior/Principal Bioinformatician - Cancer Dependency Map Analytics](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=384596)
 *A Wellcome Sanger Institute contract - closing date: 12 May 2019*
 
@@ -40,3 +26,10 @@ You will have the opportunity to work across a range of analysis such as:
 * Work together with other members of the Open Targets team on statistical genetics analysis for large scale sequence analysis
 
  You will also have the opportunity to interact with active computational and experimental research teams using cutting edge genomic techniques.  __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=383908)__
+
+ ***
+
+### [Protein Computational Scientist](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01392)
+*An EMBL-EBI contract - closing date: 26 May 2019*
+
+An exciting opportunity has been created for a talented scientist to work on methods to assess and quantify the tractability (also known as “druggability” or “ligandability”) of potential new targets for drug discovery. Reporting to the ChEMBL team leader, you will develop, assess and validate methods for quantifying target tractability with the ultimate goal of incorporating such methodologies into the [Open Targets Platform](https://www.targetvalidation.org/) building upon and extending our [current algorithms](https://docs.targetvalidation.org/getting-started/target-tractability). We now wish to develop new approaches based on protein structure and sequence, exploit the full spectrum of drug discovery data in ChEMBL and explore new modalities beyond the current small molecule and antibody pipelines. As part of the EU Horizon 2020 EOSC-Life project, you will work with collaborators across Europe to deliver pipelines that integrate data and computational methods in cloud-based environments.  __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01392)__
