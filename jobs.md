@@ -20,7 +20,6 @@ The Wellcome Sanger Institute is seeking an experienced Bioinformatician to join
 A Computational Biologist/Bioinformatician role funded by Open Targets, is available at the Wellcome Sanger Institute in a new team under the leadership of Dr. Maya Ghoussaini. This is an exciting opportunity for you to participate in the enhancement of the existing [Open Targets Genetics Portal](https://genetics.opentargets.org/) through the development of new functionality and features.
 
 You will have the opportunity to work across a range of analysis such as:
-
 * Integrate genetic and cell-specific genomic data to identify and validate casual links between targets and diseases and improve the Genetics Portal
 * Perform association analysis on UK Biobank data with a particular focus on therapeutic areas important for Open Targets
 * Work together with other members of the Open Targets team on statistical genetics analysis for large scale sequence analysis
