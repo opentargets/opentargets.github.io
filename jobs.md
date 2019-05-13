@@ -59,6 +59,6 @@ We are seeking an enthusiastic Advanced Research Assistant to join the research 
 
 A position is now available for a postdoctoral fellow to join our collaborative team to unlock the potential of rational target/pathway combinations in oncology through integrative network biology and large-scale functional genomics screens. You will handle very large and diverse omics datasets, from genomics to phosphoproteomics, as well as CRIPSR perturbation data. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01412&newlang=1&pos[]=POS&loc[]=2)__
 
-
+***
 
 
