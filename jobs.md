@@ -35,23 +35,30 @@ An exciting opportunity has been created for a talented scientist to work on met
 
  ***
 
-### [Postdoctoral Fellow - Computational](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01392)
+### [Postdoctoral Fellow - Computational](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=385704)
 *A Wellcome Sanger Institute contract - closing date: 2 June 2019*
 
 A postdoctoral position is available at the Wellcome Sanger Institute under the leadership of Dr Ana Cvejic and Dr Peter Campbell as part of the [Open Targets](http://www.opentargets.org) project. You will have a PhD in Bioinformatics, Computational Biology, Biostatistics or in a related quantitative field (e.g. Mathematics, Physics, Statistics) and combine state-of-the-art single-cell experimental data generation with computational analysis using novel methods to reveal the full spectrum of transcriptional and epigenetic changes that are associated with myeloid progenitors’ migration and differentiation at the tumour sites.  __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=385704)__
 
  ***
 
-### [Postdoctoral Fellow - Experimental Data Generation](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01392)
+### [Postdoctoral Fellow - Experimental Data Generation](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=385863)
 *A Wellcome Sanger Institute contract - closing date: 2 June 2019*
 
 A position is now available for a highly motivated Postdoctoral Fellow to join the research group of Dr. Ana Cvejic, Dr Peter Campbell and [Open Targets](http://www.opentargets.org) partners at the Wellcome Sanger Institute (WSI). You will have a PhD with significant experience in molecular and cell biology. Experience in CRISPR screening will be highly desirable. Knowledge or interest in the field of haematology, cancer biology and inflammation would be highly advantageous. You will be able to demonstrate independent, critical thinking, will be passionate about science, and keen to learn and improve skills in an outstanding research environment. __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=385863)__
 
  ***
 
-### [Advanced Research Assistant](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01392)
+### [Advanced Research Assistant](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=385887)
 *A Wellcome Sanger Institute contract - closing date: 2 June 2019*
 
 We are seeking an enthusiastic Advanced Research Assistant to join the research group of Dr. Ana Cvejic, Dr Peter Campbell and [Open Targets](http://www.opentargets.org) partners at the Wellcome Sanger Institute (WSI). You will carry out both routine and more bespoke laboratory protocols and procedures on the regulation of haematopoiesis in homeostasis and disease. Excellent verbal and email communication is essential to keep both the team and senior staff fully appraised of progress. __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=385887)__
+
+### [Postdoctoral Fellow](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01412)
+*An EMBL-EBI contract - closing date: 13 June 2019*
+
+A position is now available for a postdoctoral fellow to join our collaborative team to unlock the potential of rational target/pathway combinations in oncology through integrative network biology and large-scale functional genomics screens. You will handle very large and diverse omics datasets, from genomics to phosphoproteomics, as well as CRIPSR perturbation data. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01412&newlang=1&pos[]=POS&loc[]=2)__
+
+
 
 
