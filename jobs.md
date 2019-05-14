@@ -56,21 +56,21 @@ A position is now available for a computational postdoctoral scientist to use CR
 
 ***
  
- ### [Computational Postdoctoral Fellow - Cancer Drug Combinations](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386938)
+### [Computational Postdoctoral Fellow - Cancer Drug Combinations](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386938)
 *A Wellcome Sanger Institute contract - closing date: 9 June 2019*
 
-A postdoctoral position is available at the Wellcome Sanger Institute to develop dual-knockout CRISPR-based screening approaches and lead efforts to experimentally evaluate combination targets for cancer. You will analyse large-scale CRISPR screening in cancer cell lines to identify and investigate new combination therapies, aiming at inhibiting multiple targets or cancer pathways to combat resistance and exploit new actionable dependencies in defined genetic contexts.. __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386938)__
+A postdoctoral position is available at the Wellcome Sanger Institute to develop dual-knockout CRISPR-based screening approaches and lead efforts to experimentally evaluate combination targets for cancer. You will analyse large-scale CRISPR screening in cancer cell lines to identify and investigate new combination therapies, aiming at inhibiting multiple targets or cancer pathways to combat resistance and exploit new actionable dependencies in defined genetic contexts. __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386938)__
 
 ***
  
- ### [Postdoctoral Fellow - Tumour Cell Immune Response CRISPR](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386941)
+### [Postdoctoral Fellow - Tumour Cell Immune Response CRISPR](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386941)
 *A Wellcome Sanger Institute contract - closing date: 9 June 2019*
 
-We are seeking a talented postdoctoral scientist to develop CRISPR base-editing screens in cancer cells to characterise regulation of tumour cell mediated immune signaling to understand mechanisms of resistance to checkpoint therapies. You will work as part of multidisciplinary and collaborative team within Open Targets and in collaboration with the Netherlands Cancer Institute. ***. __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386941)__
+We are seeking a talented postdoctoral scientist to develop CRISPR base-editing screens in cancer cells to characterise regulation of tumour cell mediated immune signaling to understand mechanisms of resistance to checkpoint therapies. You will work as part of multidisciplinary and collaborative team within Open Targets and in collaboration with the Netherlands Cancer Institute.  __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386941)__
 
  ***
  
- ### [Postdoctoral Fellow](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01412)
+### [Postdoctoral Fellow](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01412)
 *An EMBL-EBI contract - closing date: 13 June 2019*
 
 A position is now available for a postdoctoral fellow to join our collaborative team to unlock the potential of rational target/pathway combinations in oncology through integrative network biology and large-scale functional genomics screens. You will handle very large and diverse omics datasets, from genomics to phosphoproteomics, as well as CRIPSR perturbation data. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01412&newlang=1&pos[]=POS&loc[]=2)__
