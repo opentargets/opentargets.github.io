@@ -21,6 +21,24 @@ You will have the opportunity to work across a range of analysis such as:
 
 ***
 
+### [Research Associate (Fixed Term)](https://www.jobs.cam.ac.uk/job/21303/)
+*A University of Cambridge contract - closing date: 26 May 2019*
+
+We are looking for a post-doctoral researcher to join the research team of Prof. Ludovic Vallier at The Wellcome Trust - Medical Research Council Cambridge Stem Cell Institute. The Vallier lab studies the mechanisms controlling human pluripotent stem cells (hPSCs) differentiation to generate cell types with a clinical interest for disease modelling and cell-based therapies. 
+
+The postholder will explore the molecular mechanisms controlling lipid accumulation, lipid toxicity, inflammation and fibrosis in NAFLD using a 3D culture system mimicking the architecture of the liver aiming to identify new targets genes for drug development.  __[[read more]](https://www.jobs.cam.ac.uk/job/21303/)__
+
+***
+
+### [Research Assistant (Fixed Term)](https://www.jobs.cam.ac.uk/job/21302/)
+*A University of Cambridge contract - closing date: 26 May 2019*
+
+We are looking to recruit a research assistant to join the research team of [Prof Ludovic Vallier](https://www.stemcells.cam.ac.uk/research/pis/vallier). 
+
+The post holder will be involved in a project aiming to explore the molecular mechanisms controlling lipid accumulation, lipid toxicity, inflammation and fibrosis in NAFLD using a 3D culture system mimicking the architecture of the liver. For that, the postholder will genetically modify hPSCs to knock out genes associated with NAFLD progression. The resulting cell lines will be then differentiated into a diversity of cell types including hepatocytes and cholangiocytes. The function of candidate genes will be studied in vitro using hPSCs. Techniques anticipated to be used include hPSCs culture and differentiation, CRISPR directed mutagenesis, and metabolic assays. Homepage:   __[[read more]](https://www.jobs.cam.ac.uk/job/21302/)__
+
+***
+
 ### [Protein Computational Scientist](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01392)
 *An EMBL-EBI contract - closing date: 26 May 2019*
 
