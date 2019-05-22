@@ -28,11 +28,6 @@
   institute: EMBL-EBI
   github: andrewhercules
 
-- name: Gautier Koscielny
-  role: GSK Lead
-  institute: GSK
-  github: gkos-bio
-
 - name: Cinzia Malangone
   role: Backend Software Engineer
   institute: EMBL-EBI
@@ -47,6 +42,11 @@
   role: Frontend Developer
   institute: EMBL-EBI
   github: mirandaio 
+
+- name: David Ochoa
+  role: Platform Coordinator
+  institute: EMBL-EBI
+  github: d0choa
 
 - name: Gareth Peat
   role: Frontend Developer
