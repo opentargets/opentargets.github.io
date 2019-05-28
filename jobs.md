@@ -7,45 +7,6 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
-### [Computational Biologist/Bioinformatician](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=383908)
-*A Wellcome Sanger Institute contract - closing date: 25 May 2019*
-
-A Computational Biologist/Bioinformatician role funded by Open Targets, is available at the Wellcome Sanger Institute in a new team under the leadership of Dr. Maya Ghoussaini. This is an exciting opportunity for you to participate in the enhancement of the existing [Open Targets Genetics](https://genetics.opentargets.org/) through the development of new functionality and features.
-
-You will have the opportunity to work across a range of analysis such as:
-* Integrate genetic and cell-specific genomic data to identify and validate casual links between targets and diseases and improve the Genetics Portal
-* Perform association analysis on UK Biobank data with a particular focus on therapeutic areas important for Open Targets
-* Work together with other members of the Open Targets team on statistical genetics analysis for large scale sequence analysis
-
- You will also have the opportunity to interact with active computational and experimental research teams using cutting edge genomic techniques.  __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=383908)__
-
-***
-
-### [Research Associate (Fixed Term)](https://www.jobs.cam.ac.uk/job/21303/)
-*A University of Cambridge contract - closing date: 26 May 2019*
-
-We are looking for a post-doctoral researcher to join the research team of Prof. Ludovic Vallier at The Wellcome Trust - Medical Research Council Cambridge Stem Cell Institute. The Vallier lab studies the mechanisms controlling human pluripotent stem cells (hPSCs) differentiation to generate cell types with a clinical interest for disease modelling and cell-based therapies. 
-
-The postholder will explore the molecular mechanisms controlling lipid accumulation, lipid toxicity, inflammation and fibrosis in NAFLD using a 3D culture system mimicking the architecture of the liver aiming to identify new targets genes for drug development.  __[[read more]](https://www.jobs.cam.ac.uk/job/21303/)__
-
-***
-
-### [Research Assistant (Fixed Term)](https://www.jobs.cam.ac.uk/job/21302/)
-*A University of Cambridge contract - closing date: 26 May 2019*
-
-We are looking to recruit a research assistant to join the research team of [Prof Ludovic Vallier](https://www.stemcells.cam.ac.uk/research/pis/vallier). 
-
-The post holder will be involved in a project aiming to explore the molecular mechanisms controlling lipid accumulation, lipid toxicity, inflammation and fibrosis in NAFLD using a 3D culture system mimicking the architecture of the liver. For that, the postholder will genetically modify hPSCs to knock out genes associated with NAFLD progression. The resulting cell lines will be then differentiated into a diversity of cell types including hepatocytes and cholangiocytes. The function of candidate genes will be studied in vitro using hPSCs. Techniques anticipated to be used include hPSCs culture and differentiation, CRISPR directed mutagenesis, and metabolic assays. Homepage:   __[[read more]](https://www.jobs.cam.ac.uk/job/21302/)__
-
-***
-
-### [Protein Computational Scientist](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01392)
-*An EMBL-EBI contract - closing date: 26 May 2019*
-
-An exciting opportunity has been created for a talented scientist to work on methods to assess and quantify the tractability (also known as “druggability” or “ligandability”) of potential new targets for drug discovery. Reporting to the ChEMBL team leader, you will develop, assess and validate methods for quantifying target tractability with the ultimate goal of incorporating such methodologies into the [Open Targets Platform](https://www.targetvalidation.org/) building upon and extending our [current algorithms](https://docs.targetvalidation.org/getting-started/target-tractability). We now wish to develop new approaches based on protein structure and sequence, exploit the full spectrum of drug discovery data in ChEMBL and explore new modalities beyond the current small molecule and antibody pipelines. As part of the EU Horizon 2020 EOSC-Life project, you will work with collaborators across Europe to deliver pipelines that integrate data and computational methods in cloud-based environments.  __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01392)__
-
-***
-
 ### [Postdoctoral Fellow - Computational](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=385704)
 *A Wellcome Sanger Institute contract - closing date: 2 June 2019*
 
@@ -92,6 +53,13 @@ We are seeking a talented postdoctoral scientist to develop CRISPR base-editing 
 *An EMBL-EBI contract - closing date: 13 June 2019*
 
 A position is now available for a postdoctoral fellow to join our collaborative team to unlock the potential of rational target/pathway combinations in oncology through integrative network biology and large-scale functional genomics screens. You will handle very large and diverse omics datasets, from genomics to phosphoproteomics, as well as CRIPSR perturbation data. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01412&newlang=1&pos[]=POS&loc[]=2)__
+
+***
+ 
+### [Postdoctoral Fellow - Single Cell Genomics](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-single-cell-genomics-386309.html)
+*A Wellcome Sanger Institute contract - closing date: 16 June 2019*
+
+Applications are invited for a 3-year Postdoctoral Fellowship within the Genomics of Inflammation and Immunity group at the Wellcome Sanger Institute (WSI), headed by [Dr. Carl Anderson](http://www.andersonlab.info). The project will generate single-cell transcriptomic data from intestinal biopsies obtained from 300 healthy individuals undergoing colonoscopy. All individuals will also be genotyped, with the goal of combining these datasets to map eQTLs across the more than forty different cell-types in the gut. The results from these analyses will then be combined with our detailed maps of IBD risk loci (and other gastrointestinal diseases) to identify genes that are dysregulated to bring about disease. The ultimate goal of the research is thus to improve our basic knowledge of IBD pathogenesis and identify novel candidate drug targets for treating disease. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-single-cell-genomics-386309.html)__
 
 ***
  
