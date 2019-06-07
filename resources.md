@@ -50,7 +50,7 @@ permalink: /resources/
 <br/>
 
 # [Open Targets Platform](http://www.targetvalidation.org/)
-We have developed the [Open Targets Platform](http://www.targetvalidation.org/) to provide summaries of the evidence for the involvement of a specific gene with a selected disease. 
+The [Open Targets Platfor](http://www.targetvalidation.org/) - previously called the Target Validation Platform - is a freely available resource for the integration of genetics, omics and chemical data to aid systematic drug target identification and prioritisation. The Platform provides summaries of the evidence (e.g. germline variants, somatic mutations, pathways, drugs) for the involvement of a specific gene with a selected disease. It supports disease and target centric workflows, displays the evidence for target-disease associations, as well as profiles of relevant target and disease annotations. Please see [Carvalho-Silva et al. 2019](https://academic.oup.com/nar/article/47/D1/D1056/5193331) for more information.
 
 
 <br/>
