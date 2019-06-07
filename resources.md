@@ -50,7 +50,9 @@ permalink: /resources/
 <br/>
 
 # [Open Targets Platform](http://www.targetvalidation.org/)
-The [Open Targets Platform](http://www.targetvalidation.org/) - previously called the Target Validation Platform - is a freely available resource for the integration of genetics, omics and chemical data to aid systematic drug target identification and prioritisation. The Platform provides summaries of the evidence (e.g. germline variants, somatic mutations, pathways, drugs) for the involvement of a specific gene with a selected disease. It supports disease and target centric workflows, displays the evidence for target-disease associations, as well as profiles of relevant target and disease annotations. Please see [Carvalho-Silva et al. 2019](https://academic.oup.com/nar/article/47/D1/D1056/5193331) for more information.
+The [Open Targets Platform](http://www.targetvalidation.org/) - previously called the Target Validation Platform - is a freely available resource for the integration of genetics, omics and chemical data to aid systematic drug target identification and prioritisation. The Platform provides summaries of the evidence (e.g. germline variants, somatic mutations, pathways, drugs) for the involvement of a specific gene with a selected disease. It supports disease and target centric workflows, displays the evidence for target-disease associations, as well as profiles of relevant target and disease annotations. 
+
+Please see [Carvalho-Silva et al. 2019](https://academic.oup.com/nar/article/47/D1/D1056/5193331) for more information.
 
 
 <br/>
@@ -107,6 +109,8 @@ For this purpose, we have built Library, an open source ecosystem comprising:
 
 Our pipeline annotates genes, diseases and drugs present in PubMed abstracts, and extracts key concepts. 
 
+Please see [Andrea Pierleoni's blog post](https://blog.opentargets.org/2018/01/18/link/) for more information.
+
 <br/>
 <br/>
 
@@ -115,7 +119,7 @@ Our pipeline annotates genes, diseases and drugs present in PubMed abstracts, an
 
 Due to their location as downstream effectors of signalling pathways, aberrant activities in upstream driver genes (even if not mutated) will cause altered TF activities, thus proposing TFs as sensors of pathway dysregulation and alternative markers. Here we study the role of 127 TFs in drug sensitivity across ~1,000 cancer cell lines screened with 265 anti-cancer compounds from the GDSC. In our first approach we studied how the TF activity pattern of an individual affects drug response and mined for single TF-drug statistical interactions. In our second approach we screened for TFs whose activity patterns complement or improve well-established genomic markers in the prediction of drug response.
 
-Please see [Garcia-Alonso et al.](http://cancerres.aacrjournals.org/content/early/2017/12/09/0008-5472.CAN-17-1679) for an explanation of the approach.
+Please see [Garcia-Alonso et al. 2017](http://cancerres.aacrjournals.org/content/early/2017/12/09/0008-5472.CAN-17-1679) for an explanation of the approach.
 
 <br/>
 <br/>
