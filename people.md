@@ -97,8 +97,6 @@ The Genetics Core team focuses on using human genetics data to guide therapeutic
 
 # Operations
 
-The Open Targets Operations team provides day-to-day administrative support for the Open Targets Leadership team along with specialised support for our bioinformatics and experimental projects.
-
 <ul>
 {% for member in site.data.operations %}
   <li>
