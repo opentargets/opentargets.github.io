@@ -7,7 +7,6 @@ permalink: /resources/
 # Research Publications
 * [Functional linkage of gene fusions to cancer cell fitness assessed by pharmacological and CRISPR-Cas9 screening](https://www.nature.com/articles/s41467-019-09940-1) Picco G et al. DOI: 10.1038/s41467-019-09940-1 
 * [Prioritisation of cancer therapeutic targets using CRISPR-Cas9 screens](https://www.nature.com/articles/s41586-019-1103-9) Behan F et al. DOI: 10.1038/s41586-019-1103-9 
-* [Applications of machine learning in drug discovery and development](https://www.nature.com/articles/s41573-019-0024-5) Vamathevan, J et al. DOI: 10.1038/s41573-019-0024-5
 * [The NHGRI-EBI GWAS Catalog of published genome-wide association studies, targeted arrays and summary statistics 2019](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1120/5184712) Buniello A et al. DOI:10.1093/nar/gky1120
 * [ChEMBL: Towards Direct Deposition of Bioassay Data](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1075/5162468) Mendez D et al. DOI:10.1093/nar/gky1075
 * [Open Targets Platform: new developments and updates two years on](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1133/5193331) Carvalho-Silva D et al. DOI:10.1093/nar/gky1133
@@ -37,6 +36,7 @@ permalink: /resources/
 
 
 # Review Articles 
+* [Applications of machine learning in drug discovery and development](https://www.nature.com/articles/s41573-019-0024-5) Vamathevan, J et al. DOI: 10.1038/s41573-019-0024-5
 * [Ten simple rules for delivering live distance training in bioinformatics across the globe using webinars](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006419) Carvalho-Silva D et al. DOI:10.1371/journal.pcbi.1006419 
 * [Computational approaches for interpreting scRNA-seq data](https://febs.onlinelibrary.wiley.com/doi/abs/10.1002/1873-3468.12684) Rostom R et al. DOI:10.1002/1873-3468.12684 
 * [Harnessing public domain data to discover and validate therapeutic targets](https://www.tandfonline.com/doi/abs/10.1080/17460441.2017.1329296?journalCode=iedc20) Reisdorf WC et al. DOI:10.1080/17460441.2017.1329296
@@ -50,17 +50,10 @@ permalink: /resources/
 <br/>
 
 # [Open Targets Platform](http://www.targetvalidation.org/)
-We have developed the [Open Targets Platform](http://www.targetvalidation.org/) to provide summaries of the evidence for the involvement of a specific gene with a selected disease. 
+The [Open Targets Platform](http://www.targetvalidation.org/) - previously called the Target Validation Platform - is a freely available resource for the integration of genetics, omics and chemical data to aid systematic drug target identification and prioritisation. The Platform provides summaries of the evidence (e.g. germline variants, somatic mutations, pathways, drugs) for the involvement of a specific gene with a selected disease. It supports disease and target centric workflows, displays the evidence for target-disease associations, as well as profiles of relevant target and disease annotations. 
 
+Please see [Carvalho-Silva et al. 2019](https://academic.oup.com/nar/article/47/D1/D1056/5193331) for more information.
 
-<br/>
-<br/>
-
-
-# [Project Score](https://score.depmap.sanger.ac.uk)
-[Project Score](https://score.depmap.sanger.ac.uk) is a web portal that allows researchers to explore the results of CRISPR-Cas9 whole-genome drop out screens across a diverse collection of human cancer cell models and to identify dependencies in cancer cells to help guide precision cancer medicines.
-
-Please see [Behan et al. 2019](https://www.nature.com/articles/s41586-019-1103-9) for more information. 
 
 <br/>
 <br/>
@@ -73,6 +66,13 @@ Please see [Behan et al. 2019](https://www.nature.com/articles/s41586-019-1103-9
 <br/>
 <br/>
 
+# [Project Score](https://score.depmap.sanger.ac.uk)
+[Project Score](https://score.depmap.sanger.ac.uk) is a web portal that allows researchers to explore the results of CRISPR-Cas9 whole-genome drop out screens across a diverse collection of human cancer cell models and to identify dependencies in cancer cells to help guide precision cancer medicines.
+
+Please see [Behan et al. 2019](https://www.nature.com/articles/s41586-019-1103-9) for more information. 
+
+<br/>
+<br/>
 
 # [epiChoose](http://epichoose.shiny.opentargets.io/epiChoose/)
 epiChoose is an application for quantifying the relatedness between cell lines and primary cells. We have extensively profiled a number of commonly used cell line models across a number of tissues. This profiling consists of epigenetic (histone modification, CTCF, ATAC-seq) and transcriptional (RNA-seq) whole-genome measurements. From this data, we have established a platform that provides information on the “distance” between candidate cell models and target primary cells. By ranking and selecting cell line models in a data-driven manner, the best model for the experiment can be chosen, based on epigenetic and transcriptional evidence and not historical usage.
@@ -109,6 +109,8 @@ For this purpose, we have built Library, an open source ecosystem comprising:
 
 Our pipeline annotates genes, diseases and drugs present in PubMed abstracts, and extracts key concepts. 
 
+Please see [Andrea Pierleoni's blog post](https://blog.opentargets.org/2018/01/18/link/) for more information.
+
 <br/>
 <br/>
 
@@ -117,7 +119,7 @@ Our pipeline annotates genes, diseases and drugs present in PubMed abstracts, an
 
 Due to their location as downstream effectors of signalling pathways, aberrant activities in upstream driver genes (even if not mutated) will cause altered TF activities, thus proposing TFs as sensors of pathway dysregulation and alternative markers. Here we study the role of 127 TFs in drug sensitivity across ~1,000 cancer cell lines screened with 265 anti-cancer compounds from the GDSC. In our first approach we studied how the TF activity pattern of an individual affects drug response and mined for single TF-drug statistical interactions. In our second approach we screened for TFs whose activity patterns complement or improve well-established genomic markers in the prediction of drug response.
 
-Please see [Garcia-Alonso et al.](http://cancerres.aacrjournals.org/content/early/2017/12/09/0008-5472.CAN-17-1679) for an explanation of the approach.
+Please see [Garcia-Alonso et al. 2017](http://cancerres.aacrjournals.org/content/early/2017/12/09/0008-5472.CAN-17-1679) for an explanation of the approach.
 
 <br/>
 <br/>

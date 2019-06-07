@@ -94,3 +94,15 @@ The Genetics Core team focuses on using human genetics data to guide therapeutic
   </li>
 {% endfor %}
 </ul>
+
+# Operations
+
+<ul>
+{% for member in site.data.operations %}
+  <li>
+      {{ member.name }}, {{ member.role }}, {{ member.institute }}, {{ member.email }}
+      {% if member.github %}{% include icon-github.html username=member.github %}{% endif %}
+      {% if member.twitter %}{% include icon-twitter.html username=member.twitter %}{% endif %}
+  </li>
+{% endfor %}
+</ul>

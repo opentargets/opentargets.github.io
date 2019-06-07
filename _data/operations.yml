@@ -1,0 +1,14 @@
+- name: Paris Litterick
+  role: Senior Administrator
+  institute: EMBL-EBI
+  email: paris@ebi.ac.uk
+
+- name: Alice Mann
+  role: Operations Manager
+  institute: Sanger
+  email: alice.mann@sanger.ac.uk
+
+- name: Sarah Spain
+  role: Operations Manager
+  institute: Sanger
+  email: sarah.spain@sanger.ac.uk
