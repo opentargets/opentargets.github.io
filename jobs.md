@@ -7,27 +7,6 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
-### [Postdoctoral Fellow - Computational](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=385704)
-*A Wellcome Sanger Institute contract - closing date: 2 June 2019*
-
-A postdoctoral position is available at the Wellcome Sanger Institute to combine state-of-the-art single-cell experimental data generation with computational analysis using novel methods to reveal the full spectrum of transcriptional and epigenetic changes that are associated with myeloid progenitors’ migration and differentiation at the tumour sites. You will have a PhD in Bioinformatics, Computational Biology, Biostatistics or in a related quantitative field (e.g. Mathematics, Physics, Statistics).  __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=385704)__
-
-***
-
-### [Postdoctoral Fellow - Experimental Data Generation](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=385863)
-*A Wellcome Sanger Institute contract - closing date: 2 June 2019*
-
-A position is now available for a highly motivated Postdoctoral Fellow to join the Wellcome Sanger Institute in collaboration with Open Targets. You will have a PhD with significant experience in molecular and cell biology. Experience in CRISPR screening will be highly desirable. Knowledge or interest in the field of haematology, cancer biology and inflammation would be highly advantageous. You will be able to demonstrate independent, critical thinking, will be passionate about science, and keen to learn and improve skills in an outstanding research environment. __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=385863)__
-
-***
-
-### [Advanced Research Assistant](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=385887)
-*A Wellcome Sanger Institute contract - closing date: 2 June 2019*
-
-We are seeking an enthusiastic Advanced Research Assistant to join the Wellcome Sanger Institute and other Open Targets partners. You will carry out both routine and more bespoke laboratory protocols and procedures on the regulation of haematopoiesis in homeostasis and disease. Excellent verbal and email communication is essential to keep both the team and senior staff fully appraised of progress. __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=385887)__
-
-***
-
 ### [Postdoctoral Fellow - Cancer Drug Combinations](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386939)
 *A Wellcome Sanger Institute contract - closing date: 9 June 2019*
 
