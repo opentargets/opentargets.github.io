@@ -6,27 +6,6 @@ permalink: /jobs/
 Please note that some applications will be reviewed on an ongoing basis and the advertised post(s) may be filled before the stated deadline. 
 
 ***
-
-### [Postdoctoral Fellow - Cancer Drug Combinations](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386939)
-*A Wellcome Sanger Institute contract - closing date: 9 June 2019*
-
-A position is now available for a computational postdoctoral scientist to use CRISPR-Cas9 screening to identify combination targets for cancer. You will develop analytical and statistical approaches to model gene-gene interactions using large-scale CRISPR screening datasets, and combine these results with genomic, transcriptomic and proteomic datasets.  __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386939)__
-
-***
- 
-### [Computational Postdoctoral Fellow - Cancer Drug Combinations](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386938)
-*A Wellcome Sanger Institute contract - closing date: 9 June 2019*
-
-A postdoctoral position is available at the Wellcome Sanger Institute to develop dual-knockout CRISPR-based screening approaches and lead efforts to experimentally evaluate combination targets for cancer. You will analyse large-scale CRISPR screening in cancer cell lines to identify and investigate new combination therapies, aiming at inhibiting multiple targets or cancer pathways to combat resistance and exploit new actionable dependencies in defined genetic contexts. __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386938)__
-
-***
- 
-### [Postdoctoral Fellow - Tumour Cell Immune Response CRISPR](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386941)
-*A Wellcome Sanger Institute contract - closing date: 9 June 2019*
-
-We are seeking a talented postdoctoral scientist to develop CRISPR base-editing screens in cancer cells to characterise regulation of tumour cell mediated immune signaling to understand mechanisms of resistance to checkpoint therapies. You will work as part of multidisciplinary and collaborative team within Open Targets and in collaboration with the Netherlands Cancer Institute.  __[[read more]](https://jobs.sanger.ac.uk/wd/plsql/wd_portal.show_job?p_web_site_id=1764&p_web_page_id=386941)__
-
- ***
  
 ### [Postdoctoral Fellow](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01412)
 *An EMBL-EBI contract - closing date: 13 June 2019*
@@ -42,7 +21,7 @@ Applications are invited for a 3-year Postdoctoral Fellowship within the Genomic
 
 ***
 
-### [Postdoctoral Fellow: Bioinformatician, Immunology](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01542)
+### [Postdoctoral Fellow - Bioinformatician, Immunology](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01542)
 *An EMBL-Heidelberg contract - closing date: 23 June 2019*
 
 The research group of Lars Steinmetz seeks for an ambitious computational postdoctoral fellow to lead an intersectoral functional genomics project with the aim of dissecting the genetic basis of immune diseases. The project aims to achieve a deep understanding of immune-disease etiology by combining technologies, including single-cell transcriptomics, genomics, and CRISPR/Cas9. You will develop and apply computational methods to analyze large-scale functional genomics and single-cell transcriptomics datasets and to integrate and interpret data. This project will be strongly supported by a dedicated experimental scientist, along with our industry partners at GSK/Cellzome.. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01542)__
@@ -50,8 +29,13 @@ The research group of Lars Steinmetz seeks for an ambitious computational postdo
 ***
  
 ### [Imaging Mass Spectrometrist](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01538)
-*An EMBL-Heidelberg,  contract - closing date: 7 July 2019*
+*An EMBL-Heidelberg contract - closing date: 7 July 2019*
 
 The European Molecular Biology Laboratory (EMBL) in Heidelberg is looking for an a university graduate with a degree in Analytical Chemistry (or related disciplines) to apply MALDI-imaging mass spectrometry methods to investigate metabolites, small molecules and/or lipids in immune human cells. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01538)__
 
 ***
+
+### [Postdoctoral Fellow - Open Targets](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01432)
+*An EMBL-EBI contract - closing date: 19 July 2019*
+
+This is an exciting opportunity to work at the cutting edge of evidence generation in fast moving field of drug target identification and prioritisation. You will be embedded in a dynamic team working with cloud based technologies, integrating evidence from across EMBL-EBI and other databases to identify and prioritise drug targets. The post will involve use of natural language processing to develop comprehensive entity recognition, testing and refinement of entity dictionaries, building a knowledge graph combining literature relationships with other evidence from the [Open Targets Platform](https://www.targetvalidation.org) and machine learning to predict novel relationships including disease-target associations and drug repurposing opportunities. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01432)__
