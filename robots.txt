@@ -1,6 +1,2 @@
 User-agent: *
 Allow: /
-
-{% if jekyll.environment == 'production' %}
-    # Rule 2
-{% endif %}
