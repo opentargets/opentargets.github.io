@@ -6,13 +6,6 @@ permalink: /jobs/
 Please note that some applications will be reviewed on an ongoing basis and the advertised post(s) may be filled before the stated deadline. 
 
 ***
-
-### [Postdoctoral Fellow - Bioinformatician, Immunology](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01542)
-*An EMBL-Heidelberg contract - closing date: 23 June 2019*
-
-The research group of Lars Steinmetz seeks for an ambitious computational postdoctoral fellow to lead an intersectoral functional genomics project with the aim of dissecting the genetic basis of immune diseases. The project aims to achieve a deep understanding of immune-disease etiology by combining technologies, including single-cell transcriptomics, genomics, and CRISPR/Cas9. You will develop and apply computational methods to analyze large-scale functional genomics and single-cell transcriptomics datasets and to integrate and interpret data. This project will be strongly supported by a dedicated experimental scientist, along with our industry partners at GSK/Cellzome.. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01542)__
-
-***
  
 ### [Imaging Mass Spectrometrist](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01538)
 *An EMBL-Heidelberg contract - closing date: 7 July 2019*
