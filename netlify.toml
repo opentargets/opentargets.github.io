@@ -5,3 +5,7 @@
 [context.production]
   [context.production.environment]
     JEKYLL_ENV = "production"
+
+
+[context.deploy-preview]
+  APP_ENV = "deploy-preview"
