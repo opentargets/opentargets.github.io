@@ -26,12 +26,12 @@ This is an exciting opportunity to work at the cutting edge of evidence generati
 
 A position is now available for a highly motivated Postdoctoral Fellow to join the research group of Dr. Ana Cvejic, Dr Peter Campbell and Open Targets partners at the Wellcome Sanger Institute (WSI). The project will combine state-of-the-art single-cell experimental data generation with computational analysis using novel methods to reveal the full spectrum of transcriptional and epigenetic changes that are associated with myeloid progenitors' migration and differentiation at the tumour sites. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-experimental-data-generation-391940.html)__
 
-***
+<!-- ***
 
 ### [Postdoctoral Fellow - Single Cell Genomics](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-single-cell-genomics-392297.html)
 *A Wellcome Sanger Institute contract - closing date: 28 July 2019*
 
-Applications are invited for a 3-year Postdoctoral Fellowship within the Genomics of Inflammation and Immunity group at the Wellcome Sanger Institute (WSI), headed by [Dr. Carl Anderson](http://www.andersonlab.info). The project will generate single-cell transcriptomic data from intestinal biopsies obtained from 300 healthy individuals undergoing colonoscopy. All individuals will also be genotyped, with the goal of combining these datasets to map eQTLs across the more than forty different cell-types in the gut. The results from these analyses will then be combined with our detailed maps of IBD risk loci (and other gastrointestinal diseases) to identify genes that are dysregulated to bring about disease. The ultimate goal of the research is thus to improve our basic knowledge of IBD pathogenesis and identify novel candidate drug targets for treating disease. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-single-cell-genomics-392297.html)__
+Applications are invited for a 3-year Postdoctoral Fellowship within the Genomics of Inflammation and Immunity group at the Wellcome Sanger Institute (WSI), headed by [Dr. Carl Anderson](http://www.andersonlab.info). The project will generate single-cell transcriptomic data from intestinal biopsies obtained from 300 healthy individuals undergoing colonoscopy. All individuals will also be genotyped, with the goal of combining these datasets to map eQTLs across the more than forty different cell-types in the gut. The results from these analyses will then be combined with our detailed maps of IBD risk loci (and other gastrointestinal diseases) to identify genes that are dysregulated to bring about disease. The ultimate goal of the research is thus to improve our basic knowledge of IBD pathogenesis and identify novel candidate drug targets for treating disease. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-single-cell-genomics-392297.html)__ -->
 
 ***
 
