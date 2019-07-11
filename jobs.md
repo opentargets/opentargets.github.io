@@ -32,3 +32,10 @@ We are looking to appoint a computational postdoctoral fellow in functional geno
 *An EMBL-EBI contract - closing date: 13 August 2019*
 
 The Open Targets Platform Data Team analyse and collate the data that enters the Platform and build the appropiate models for integrating and scoring targets-disease associations. We are seeking an enthutiastic Senior Bioinformatician to lead the Data team within the Open Targets Platform. The post holder will not only lead current and future challenges in data integration and data analysis, but also collaborate closely with data providers across the Open Targets consortia. The Senior Bioinformatician will help to interpret large-scale biological data in the context of drug discovery, including data from some of our research projects utilising the latest technologies (i.e. CRISPR screenings, single-cell transcriptomics, etc.). __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01469)__
+
+***
+
+### [Postdoctoral Fellow - Functional Genomics, Immunology](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01565)
+*An EMBL-Heidelberg contract - closing date: 8 September 2019*
+
+The research group of Lars Steinmetz seeks for a highly motivated postdoctoral fellow to lead the experimental work on an intersectoral functional genomics project with the aim to dissect the genetic basis of immune diseases. The project aims to develop a deep understanding of immune disease etiology by applying state-of-the-art single-cell transcriptomics and CRISPR/Cas9 technologies to disease-relevant primary cell culture model systems. You will lead study design and perform experiments, including large-scale functional genomics screens and single-cell transcriptomics in human T-cells and other cells of the immune system. The project will be strongly supported by a dedicated computational scientist, along with our industry partners at GSK/Cellzome. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01565)__
