@@ -43,6 +43,6 @@ The research group of Lars Steinmetz seeks for a highly motivated postdoctoral f
 ***
 
 ### [Computational Postdoctoral Fellow - Cancer Drug Combinations](https://jobs.sanger.ac.uk/vacancy/computational-postdoctoral-fellow-cancer-drug-combinations-394157.html)
-*A Wellcome Sanger Institute contract*
+*A Wellcome Sanger Institute contract - closing date: 20 August 2019*
 
 The [Garnett lab](https://www.sanger.ac.uk/science/groups/garnett-group) is seeking a computational postdoctoral scientist to use CRISPR-Cas9 screening in cancer cell lines to identify and investigate new target combination for cancer. The position involves development of analytical and statistical approaches to model gene-gene interactions using large-scale CRISPR screening datasets, and combining these results with genomic data, transcriptomic and proteomic datasets. __[[read more]](https://jobs.sanger.ac.uk/vacancy/computational-postdoctoral-fellow-cancer-drug-combinations-394157.html)__
