@@ -7,20 +7,6 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
-### [Postdoctoral Fellow - Experimental Data Generation](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-experimental-data-generation-391940.html)
-*A Wellcome Sanger Institute contract - closing date: 27 July 2019*
-
-A position is now available for a highly motivated Postdoctoral Fellow to join the research group of Dr. Ana Cvejic, Dr Peter Campbell and Open Targets partners at the Wellcome Sanger Institute (WSI). The project will combine state-of-the-art single-cell experimental data generation with computational analysis using novel methods to reveal the full spectrum of transcriptional and epigenetic changes that are associated with myeloid progenitors' migration and differentiation at the tumour sites. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-experimental-data-generation-391940.html)__
-
-***
-
-### [Postdoctoral Fellow - Functional Genomics](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-functional-genomics-391778.html)
-*A Wellcome Sanger Institute contract - closing date: 28 July 2019*
-
-We are looking to appoint a computational postdoctoral fellow in functional genomics to work with [Emma Davenport's](https://www.sanger.ac.uk/science/groups/davenport-group) and [Gosia Trynka's](https://www.sanger.ac.uk/science/groups/trynka-faculty) research groups at the Wellcome Sanger Institute. As part of an interdisciplinary team of experimentalists and clinical and industry collaborators you will lead an exciting project to map expression quantitative trait loci using large scale single cell RNA-seq data generated from 500 healthy and immune disease patients (sceQTLs). This is an excellent opportunity to be engaged in all aspects of a large-scale project and is particularly suitable for a candidate with a mix of experimental and computational expertise and an ambition to dive into the analysis of a large single cell dataset. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-functional-genomics-391778.html)__
-
-***
-
 ### [Senior Bioinformatician](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01469)
 *An EMBL-EBI contract - closing date: 13 August 2019*
 
@@ -35,14 +21,14 @@ We are seeking an enthusiastic, motivated senior staff scientist to lead the est
 
 ***
 
-### [Postdoctoral Fellow - Functional Genomics, Immunology](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01565)
-*An EMBL-Heidelberg contract - closing date: 8 September 2019*
-
-The research group of Lars Steinmetz seeks for a highly motivated postdoctoral fellow to lead the experimental work on an intersectoral functional genomics project with the aim to dissect the genetic basis of immune diseases. The project aims to develop a deep understanding of immune disease etiology by applying state-of-the-art single-cell transcriptomics and CRISPR/Cas9 technologies to disease-relevant primary cell culture model systems. You will lead study design and perform experiments, including large-scale functional genomics screens and single-cell transcriptomics in human T-cells and other cells of the immune system. The project will be strongly supported by a dedicated computational scientist, along with our industry partners at GSK/Cellzome. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01565)__
-
-***
-
 ### [Computational Postdoctoral Fellow - Cancer Drug Combinations](https://jobs.sanger.ac.uk/vacancy/computational-postdoctoral-fellow-cancer-drug-combinations-394157.html)
 *A Wellcome Sanger Institute contract - closing date: 20 August 2019*
 
 The [Garnett lab](https://www.sanger.ac.uk/science/groups/garnett-group) is seeking a computational postdoctoral scientist to use CRISPR-Cas9 screening in cancer cell lines to identify and investigate new target combination for cancer. The position involves development of analytical and statistical approaches to model gene-gene interactions using large-scale CRISPR screening datasets, and combining these results with genomic data, transcriptomic and proteomic datasets. __[[read more]](https://jobs.sanger.ac.uk/vacancy/computational-postdoctoral-fellow-cancer-drug-combinations-394157.html)__
+
+***
+
+### [Postdoctoral Fellow - Functional Genomics, Immunology](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01565)
+*An EMBL-Heidelberg contract - closing date: 8 September 2019*
+
+The research group of Lars Steinmetz seeks for a highly motivated postdoctoral fellow to lead the experimental work on an intersectoral functional genomics project with the aim to dissect the genetic basis of immune diseases. The project aims to develop a deep understanding of immune disease etiology by applying state-of-the-art single-cell transcriptomics and CRISPR/Cas9 technologies to disease-relevant primary cell culture model systems. You will lead study design and perform experiments, including large-scale functional genomics screens and single-cell transcriptomics in human T-cells and other cells of the immune system. The project will be strongly supported by a dedicated computational scientist, along with our industry partners at GSK/Cellzome. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01565)__
