@@ -28,6 +28,13 @@ The [Garnett lab](https://www.sanger.ac.uk/science/groups/garnett-group) is seek
 
 ***
 
+### [Advanced Research Assistant - Open Targets](https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-open-targets-395158.html)
+*A Wellcome Sanger Institute contract - closing date: 28 August 2019*
+
+We are looking for a highly-motivated, self-driven person to join as an Advanced Research Assistant and provide an experimental support for the group. The prospective candidate will work with Gosia Trynka and Emma Davenport’s groups at the Wellcome Sanger Institute. Our goal is to use genetic approaches to identify gene pathways that are driving autoimmune diseases and to propose novel targets for therapeutic validation. As a part of an interdisciplinary team of experimentalists, clinical and industry collaborators you will lead the generation of a large scale single cell RNA-seq data from 500 healthy and immune disease patients (sceQTLs). Ideally, you already have experience working with single cell RNA-seq technologies and with primary human immune cells. Due to the scale of the project, excellent organisational skills are critical. __[[read more]](https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-open-targets-395158.html)__
+
+***
+
 ### [Postdoctoral Fellow - Functional Genomics, Immunology](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01565)
 *An EMBL-Heidelberg contract - closing date: 8 September 2019*
 
