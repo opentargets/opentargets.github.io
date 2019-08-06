@@ -38,7 +38,7 @@ We are looking for a highly-motivated, self-driven person to join as an Advanced
 ### [Postdoctoral Fellow (Computational Genomics)](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-computational-genomics-394572.html)
 *A Wellcome Sanger Institute contract - closing date: 29 August 2019*
 
-The post-doctoral fellow will lead the large-scale computational analyses of RNA-seq datasets from cellular models for neurodevelopmental and psychiatric diseases. This role is part of a collaborative project between several academic groups funded by Open Targets (www.opentargets.org), a joint Sanger/EBI/Pharma initiative enabling disease relevant basic and translational research. In this project we are generating transcriptomic profiles from iPSC derived neural cells with CRISPR-engineered mutations modelling ~100 neurodevelopmental and psychiatric disorders due to mutations in chromatin-related genes, as well as transcriptomic profiles from drug response profiles of hundreds of pharmacological and genetic perturbations. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-computational-genomics-394572.html)__
+The post-doctoral fellow will lead the large-scale computational analyses of RNA-seq datasets from cellular models for neurodevelopmental and psychiatric diseases. In this project we are generating transcriptomic profiles from iPSC derived neural cells with CRISPR-engineered mutations modelling ~100 neurodevelopmental and psychiatric disorders due to mutations in chromatin-related genes, as well as transcriptomic profiles from drug response profiles of hundreds of pharmacological and genetic perturbations. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-computational-genomics-394572.html)__
 
 ***
 
