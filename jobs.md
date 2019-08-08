@@ -46,3 +46,12 @@ The post-doctoral fellow will lead the large-scale computational analyses of RNA
 *An EMBL-Heidelberg contract - closing date: 8 September 2019*
 
 The research group of Lars Steinmetz seeks for a highly motivated postdoctoral fellow to lead the experimental work on an intersectoral functional genomics project with the aim to dissect the genetic basis of immune diseases. The project aims to develop a deep understanding of immune disease etiology by applying state-of-the-art single-cell transcriptomics and CRISPR/Cas9 technologies to disease-relevant primary cell culture model systems. You will lead study design and perform experiments, including large-scale functional genomics screens and single-cell transcriptomics in human T-cells and other cells of the immune system. The project will be strongly supported by a dedicated computational scientist, along with our industry partners at GSK/Cellzome. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01565)__
+
+***
+
+### [Open Targets Informatics Science Director](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01486&newlang=1&pos[]=0&loc[]=2)
+*An EMBL-EBI contract - closing date: 19 September 2019*
+
+The Informatics Science Director will develop new projects together with key scientists from the partner institutions (EMBL-EBI, Wellcome Sanger Institute, GSK, Biogen, Celgene, Takeda and Sanofi) by screening all potential projects and developing suitably aligned projects through to resourcing. The role may involve application for grants to secure additional funding around Open Targets science. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01486&newlang=1&pos[]=0&loc[]=2)__
+
+***
