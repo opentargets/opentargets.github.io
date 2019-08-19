@@ -28,6 +28,12 @@ The [Garnett lab](https://www.sanger.ac.uk/science/groups/garnett-group) is seek
 
 ***
 
+### [Advanced Research Assistant - Open Targets](https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-open-targets-395437.html)
+*A Wellcome Sanger Institute contract - closing date: 24 August 2019*
+
+We are looking for a highly-motivated, self-driven person to join the Trynka group at Wellcome Sanger Institute as a Senior Research Assistant and provide us with experimental support. Our goal is to use genetic approaches to identify gene pathways that are driving autoimmune diseases and to propose novel targets for therapeutic validation. __[[read more]](https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-open-targets-395437.html)__
+
+***
 ### [Advanced Research Assistant - Open Targets](https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-open-targets-395158.html)
 *A Wellcome Sanger Institute contract - closing date: 28 August 2019*
 
