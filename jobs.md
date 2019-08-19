@@ -5,12 +5,6 @@ permalink: /jobs/
 ---
 Please note that some applications will be reviewed on an ongoing basis and the advertised post(s) may be filled before the stated deadline. 
 
-***
-
-### [Senior Bioinformatician](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01469)
-*An EMBL-EBI contract - closing date: 13 August 2019*
-
-The Open Targets Platform Data Team analyse and collate the data that enters the Platform and build the appropiate models for integrating and scoring targets-disease associations. We are seeking an enthutiastic Senior Bioinformatician to lead the Data team within the Open Targets Platform. The post holder will not only lead current and future challenges in data integration and data analysis, but also collaborate closely with data providers across the Open Targets consortia. The Senior Bioinformatician will help to interpret large-scale biological data in the context of drug discovery, including data from some of our research projects utilising the latest technologies (i.e. CRISPR screenings, single-cell transcriptomics, etc.). __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01469)__
 
 ***
 
