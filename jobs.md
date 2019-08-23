@@ -14,6 +14,7 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 We are looking for a highly-motivated, self-driven person to join the Trynka group at Wellcome Sanger Institute as a Senior Research Assistant and provide us with experimental support. Our goal is to use genetic approaches to identify gene pathways that are driving autoimmune diseases and to propose novel targets for therapeutic validation. __[[read more]](https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-open-targets-395437.html)__
 
 ***
+
 ### [Advanced Research Assistant - Open Targets](https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-open-targets-395158.html)
 *A Wellcome Sanger Institute contract - closing date: 28 August 2019*
 
@@ -32,6 +33,15 @@ The post-doctoral fellow will lead the large-scale computational analyses of RNA
 *An EMBL-Heidelberg contract - closing date: 8 September 2019*
 
 The research group of Lars Steinmetz seeks for a highly motivated postdoctoral fellow to lead the experimental work on an intersectoral functional genomics project with the aim to dissect the genetic basis of immune diseases. The project aims to develop a deep understanding of immune disease etiology by applying state-of-the-art single-cell transcriptomics and CRISPR/Cas9 technologies to disease-relevant primary cell culture model systems. You will lead study design and perform experiments, including large-scale functional genomics screens and single-cell transcriptomics in human T-cells and other cells of the immune system. The project will be strongly supported by a dedicated computational scientist, along with our industry partners at GSK/Cellzome. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=HD01565)__
+
+******
+
+### [Advanced Research Assistant - Open Targets](https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-open-targets-396675.html)
+*A Wellcome Sanger Institute contract - closing date: 8 September 2019*
+
+We are looking for a highly motivated Advanced Research Assistant to join a collaborative, large-scale project that aims to understand the cellular basis of neurodevelopmental disorders. The prospective candidate will be involved in studying how mutations in chromatin modifying enzymes affect neuronal development and cause disease. The primary goal of the work is to culture and differentiate human iPS cells with and without mutations to neuronal cell types, and profile the cells with a range of cellular and genomic assays. This is an exciting opportunity to be engaged in all aspects of a cutting-edge research project, from planning and pilot work to data generation and novel discoveries.
+
+The project forms part of the Open Targets collaboration (www.opentargets.org) and provides a unique opportunity to deliver translational science together with industry partners including GSK, Celgene, Sanofi, and Takeda. The prospective candidate will work at the Wellcome Sanger Institute with Dr. Helena Kilpinen and the Cellular Generation and Phenotyping (CGaP) core facility, collaborating closely with the Hurles group and other members of the Open Targets team. __[[read more]](https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-open-targets-396675.html)__
 
 ***
 
