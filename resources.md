@@ -6,7 +6,7 @@ permalink: /resources/
 
 # Research Publications
 
-* [A cellular census of human lungs identifies novel cell states in health and in asthma](https://www.nature.com/articles/s41591-019-0468-5) Vieira Braga et al. DOI: 10.1038/s41591-019-0468-5
+* [A cellular census of human lungs identifies novel cell states in health and in asthma](https://www.nature.com/articles/s41591-019-0468-5) Vieira Braga FA et al. DOI: 10.1038/s41591-019-0468-5
 * [Functional linkage of gene fusions to cancer cell fitness assessed by pharmacological and CRISPR-Cas9 screening](https://www.nature.com/articles/s41467-019-09940-1) Picco G et al. DOI: 10.1038/s41467-019-09940-1 
 * [Prioritisation of cancer therapeutic targets using CRISPR-Cas9 screens](https://www.nature.com/articles/s41586-019-1103-9) Behan F et al. DOI: 10.1038/s41586-019-1103-9 
 * [The NHGRI-EBI GWAS Catalog of published genome-wide association studies, targeted arrays and summary statistics 2019](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1120/5184712) Buniello A et al. DOI:10.1093/nar/gky1120
