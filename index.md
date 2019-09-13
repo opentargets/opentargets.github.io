@@ -21,9 +21,9 @@ Visit the [Open Targets Platform](https://www.targetvalidation.org) which integr
 ## Open Targets & Illuminating the Druggable Genome Meeting
 <h3 style="color:#5a5f5f">Friday, 15 November 2019 - Wellcome Genome Campus, Cambridge, UK</h3>
 
-Open Targets and Illuminating the Druggable Genome are working together to host a meeting showcasing our approaches to <b>Finding Targets for Drug Discovery</b>. We will cover the experimental and informatics efforts of both groups to identify, prioritise and illuminate targets that have the potential to be developed into new effective medicines in oncology, immuno-oncology, immune and neurodegenerative disease as well as showcase the informatics platforms that marshal and integrate relevant data on targets and their disease associations. We anticipate that the meeting will be of interest to anyone working in early drug discovery and related fields.
+Open Targets and Illuminating the Druggable Genome are working together to host a meeting showcasing our approaches to <b>Finding Targets for Drug Discovery</b>. We will cover the experimental and informatics efforts of both groups to identify, prioritise and illuminate targets that have the potential to be developed into new effective medicines in oncology, immuno-oncology, immune and neurodegenerative disease as well as showcase the informatics platforms that marshal and integrate relevant data on targets and their disease associations. We anticipate that the meeting will be of interest to anyone working in early drug discovery and related fields and is <span style="text-decoration:underline">free to attend</span>.
  
-If you would like to find out more about the meeting, please visit the <a href="https://www.eventbrite.com/e/finding-targets-for-drug-discovery-opentarget-idg-registration-58456484920" target="_blank" onclick="ga('send', 'event', 'External Link', 'click', 'OT-IDG Meeting Registration Page');">agenda and registration page</a>.
+If you would like to find out more about the meeting, please visit the <a href="https://www.eventbrite.com/e/finding-targets-for-drug-discovery-opentarget-idg-registration-58456484920" target="_blank" onclick="ga('send', 'event', 'External Link', 'click', 'OT-IDG Meeting Registration Page');" >agenda and registration page</a>.
 
 *** 
 
