@@ -32,11 +32,6 @@
   role: Backend Software Engineer
   institute: EMBL-EBI
   github:  cmalangone
-
-- name: Elaine McAuley
-  role: Project Manager
-  institute: EMBL-EBI
-  github: ElaineMcA 
   
 - name: Alfredo Miranda
   role: Frontend Developer
@@ -57,8 +52,3 @@
   role: Bioinformatician
   institute: EMBL-EBI
   github: EPetsalaki
-
-- name: Michaela Spitzer
-  role: Bioinformatician
-  institute: EMBL-EBI
-  github: MichaelaEBI
