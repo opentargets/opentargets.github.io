@@ -5,12 +5,19 @@ permalink: /jobs/
 ---
 Please note that some applications will be reviewed on an ongoing basis and the advertised post(s) may be filled before the stated deadline. 
 
+### [Senior Research Assistant - Open Targets](https://jobs.sanger.ac.uk/vacancy/senior-research-assistant-open-targets-400799.html)
+
+*A Wellcome Sanger Institute contract - closing date: 3 November 2019*
+
+The Garnett lab aims to identify new therapeutic approaches for the treatment of cancer by combining the use of advanced tissue cultures models, genetics, and functional genomics approaches. We are now seeking a senior research assistant (SRA) to join our team working on an exciting new project in the field of immuno-oncology. This project aims to discover the mechanisms that can modulate the reactivity of T-cells to the tumour. __[[read more]](https://jobs.sanger.ac.uk/vacancy/senior-research-assistant-open-targets-400799.html)__
+
 ***
 
-### [Postdoctoral Fellow - Statistical Genetics](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-statistical-genetics-399701.html)
-*A Wellcome Sanger Institute contract - closing date: 20 October 2019*
+### [Faculty position with Open Targets](https://jobs.sanger.ac.uk/vacancy/faculty-position-with-open-targets-401676.html)
 
-Applications are invited for 3-year Postdoctoral Fellowships within the Genomics of Inflammation and Immunity group at the Wellcome Sanger Institute, headed by Dr. Carl Anderson. Our group uses large-scale genetic and genomic data to understand the biological basis of inflammatory bowel disease (IBD) risk and progression. The ultimate goal of our IBD research is to identify new drug targets for the disease, and ascertain which individuals should be prescribed a given drug. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-statistical-genetics-399701.html)__
+*A Wellcome Sanger Institute contract - closing date: 31 October 2019*
+
+Open Targets at The Wellcome Genome Campus is seeking an exceptional mid-career stage scientist to join its Core Faculty to lead a research team for Open Targets and contribute to the Institute’s scientific portfolio. Positions carry a significant core package of salary and benefits as well as support backed by rewarding and flexible employment terms including many family friendly initiatives. Our exceptional core funding enables faculty to focus their energy on science. __[[read more]](https://jobs.sanger.ac.uk/vacancy/faculty-position-with-open-targets-401676.html)__
 
 ***
 
