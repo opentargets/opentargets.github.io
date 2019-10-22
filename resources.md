@@ -63,7 +63,7 @@ Please see [Carvalho-Silva et al. 2019](https://academic.oup.com/nar/article/47/
 
 
 # [Open Targets Genetics](https://genetics.opentargets.org/)
-[Open Targets Genetics](https://genetics.opentargets.org/) is a portal for investigation of Genome Wide Association Study (GWAS) data to assist in identifying the causal genes underlying each assoication, and hence to prioritise drug targets. The portal aggregates and merges genetic associations curated from literature and newly-derived loci from UK Biobank with (open source) functional genomics data including epigenetics (e.g., chromatin conformation, chromatin interactions) and quantitative trait loci (e.g., eQTLs from GTEX, pQTL), and applies statistical fine-mapping across thousands of trait-associated loci, to resolve association signals and link each variant to its proximal and distal target gene(s), using a single evidence score. 
+[Open Targets Genetics](https://genetics.opentargets.org/) is a portal for investigation of Genome Wide Association Study (GWAS) data to assist in identifying the causal genes underlying each association, and hence to prioritise drug targets. The portal aggregates and merges genetic associations curated from literature and newly-derived loci from UK Biobank with (open source) functional genomics data including epigenetics (e.g., chromatin conformation, chromatin interactions) and quantitative trait loci (e.g., eQTLs from GTEX, pQTL), and applies statistical fine-mapping across thousands of trait-associated loci, to resolve association signals and link each variant to its proximal and distal target gene(s), using a single evidence score. 
 
 
 <br/>
