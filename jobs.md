@@ -14,13 +14,6 @@ We are now seeking a senior research assistant (SRA) to join our team working on
 
 ***
 
-### [Senior Research Assistant](https://jobs.sanger.ac.uk/vacancy/senior-research-assistant-open-targets-400799.html)
-*A Wellcome Sanger Institute contract - closing date: 3 November 2019*
-
-The Garnett lab aims to identify new therapeutic approaches for the treatment of cancer by combining the use of advanced tissue cultures models, genetics, and functional genomics approaches. We are now seeking a senior research assistant (SRA) to join our team working on an exciting new project in the field of immuno-oncology. This project aims to discover the mechanisms that can modulate the reactivity of T-cells to the tumour. __[[read more]](https://jobs.sanger.ac.uk/vacancy/senior-research-assistant-open-targets-400799.html)__
-
-***
-
 ### [Postdoctoral Fellow - Functional Genomics](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-functional-genomics-400441.html)
 *A Wellcome Sanger Institute contract - closing date: 3 November 2019*
 
