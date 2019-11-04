@@ -7,13 +7,6 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
-### [Senior Research Assistant- Immuno-oncology](https://jobs.sanger.ac.uk/vacancy/senior-research-assistant-immunooncology-open-targets-400799.html)
-*A Wellcome Sanger Institute contract - closing date: 3 November 2019*
-
-We are now seeking a senior research assistant (SRA) to join our team working on an exciting new project in the field of immuno-oncology. This project aims to discover the mechanisms that can modulate the reactivity of T-cells to the tumour. The position is laboratory based and will involve culturing 3D organoid cancer models and lymphocyte cultures, high-throughput drug testing, and performing CRISPR screens. The individual will be involved in research and development of new protocols, so will need to be adaptable to changing priorities and to work independently. It is expected that the successful candidate will be able to use their skills and experience to trouble shoot and innovate assays. __[[read more]](https://jobs.sanger.ac.uk/vacancy/senior-research-assistant-immunooncology-open-targets-400799.html)__
-
-***
-
 ### [Postdoctoral Fellowship - Statistical Genetics](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellowship-statistical-genetics-401589.html)
 *A Wellcome Sanger Institute contract - closing date: 10 November 2019*
 
