@@ -27,3 +27,9 @@ body {
   color: $ot-corp-blue;
   font-weight: 600;
 }
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
