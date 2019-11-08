@@ -1,6 +1,9 @@
+@import url('https://rsms.me/inter/inter.css');
+
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyFont: "Inter",Helvetica,Arial,sans-serif;
+$ot-corp-blue: #3489ca;
 
 body {
   background: $backgroundColor;
@@ -16,4 +19,11 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+
+.navbar-nav .nav-item .nav-link,
+.navbar-nav .nav-item .nav-link:hover {
+  color: $ot-corp-blue;
+  font-weight: 600;
 }
