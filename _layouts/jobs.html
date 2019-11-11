@@ -27,30 +27,42 @@ layout: default
         sed rhoncus pronin sapien nunc accuan eget.
       </div>
     </div>
+  </div>
+</section>
+  
+    <section class="my-5">
+        <div class="container">
+          <div class="row">
 
-    <div class="row">
-      {% for job in active_job_ads %} 
-        {% capture closing_date %} {{job.closing_date | date: "%s" | plus: 86400}} {% endcapture %} 
-        {% if closing_date > now %}
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">{{ job.title }}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                  {{ job.organisation }}
-                </h6>
-                <p class="card-text">
-                  {{ job.closing_date | date: "%-d %B %Y" }}
-                </p>
-                <p class="card-text">
-                  {{ job.description | truncate: 200 }}
-                  <a class="btn btn-primary href="{{ job.link }}">read more</a>
-                </p>
+    {% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
+    {% assign active_job_ads = site.data.jobs | sort: 'closing_date' %}
+    
+
+        {% for job in active_job_ads %}
+            {% capture closing_date %}{{ job.closing_date | date: '%s' | plus : 86400 }}{% endcapture %}
+            {% if closing_date > now %}
+            <div class="col-lg-6 py-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">{{ job.title }}</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    {{ job.organisation }}
+                  </h6>
+                  <img src="/assets/img/logos/{{ job.logo }}" />
+                  <p class="card-text">
+                    {{ job.closing_date | date: "%-d %B %Y" }}
+                  </p>
+                  <p class="card-text">
+                    {{ job.description | truncate: 200 }}
+                    <a class="btn btn-primary" href="{{ job.link }}">read more</a>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        {% endif %}
-      {% endfor %}
+            {% endif %}
+        {% endfor %}     
     </div>
+    </div>
+  
   </div>
 </section>
