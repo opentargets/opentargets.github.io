@@ -7,13 +7,6 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
-### [Postdoctoral Fellowship - Statistical Genetics](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellowship-statistical-genetics-401589.html)
-*A Wellcome Sanger Institute contract - closing date: 10 November 2019*
-
-Applications are invited for a 3-year Postdoctoral Fellowship at the Wellcome Sanger Institute based jointly in the teams of Dr. Carl Anderson (Human Genetics Programme, www.andersonlab.info) and Dr. Maya Ghoussaini (Open Targets). This is an exciting opportunity for you to bring together cutting-edge genetic and genomic datasets to identify novel candidate therapeutic targets for inflammatory bowel disease (IBD). During this fellowship, you will lead a collaborative project to build a causal evidence base for every gene within IBD associated GWAS loci. Your affiliation with the Ghoussaini Team will bring access to the massive cross-disease genetic and genomic datasets aggregated by Open Targets and presented in their web-based portals (www.targetvalidation.org and https://genetics.opentargets.org). As a member of the Anderson group, you will also have access to the latest large-scale genetic association data for IBD. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellowship-statistical-genetics-401589.html)__
-
-***
-
 ### [Postdoctoral Fellow - Functional Genomics](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-functional-genomics-400441.html)
 *A Wellcome Sanger Institute contract - closing date: 8 December 2019*
 
