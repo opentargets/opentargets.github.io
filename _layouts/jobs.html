@@ -2,6 +2,9 @@
 layout: default
 ---
 
+{% capture now %}{{ "now" | date: "%s" | plus: 0 }}{% endcapture %} 
+{% assign active_job_ads = site.data.jobs | sort: 'closing_date' %}
+
 <header class="py-5" style="background-color:#3489ca">
   <div class="container">
     <div class="row">
@@ -24,35 +27,30 @@ layout: default
         sed rhoncus pronin sapien nunc accuan eget.
       </div>
     </div>
+
     <div class="row">
-      <div class="col-lg-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+      {% for job in active_job_ads %} 
+        {% capture closing_date %} {{job.closing_date | date: "%s" | plus: 86400}} {% endcapture %} 
+        {% if closing_date > now %}
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">{{ job.title }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  {{ job.organisation }}
+                </h6>
+                <p class="card-text">
+                  {{ job.closing_date | date: "%-d %B %Y" }}
+                </p>
+                <p class="card-text">
+                  {{ job.description | truncate: 200 }}
+                  <a class="btn btn-primary href="{{ job.link }}">read more</a>
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-      </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>
