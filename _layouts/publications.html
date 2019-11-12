@@ -32,7 +32,10 @@ layout: default
 <section class="py-5 my-5">
   <div class="container">
     <div class="row">
-        <div class="col-lg-12 ">
+        <div class="col-lg-12">
+            <h3>Research publications</h3>
+        </div>
+        <div class="col-lg-12 my-5">
           <nav>
             <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
                 <a class="nav-item nav-link" id="nav-2020-tab" data-toggle="tab" href="#nav-2020" role="tab" aria-controls="nav-2020" aria-selected="false">2020</a>
@@ -52,39 +55,61 @@ layout: default
                 {% assign all_2020_publications = site.data.publications | where_exp:"item", "item.year == 2020"  %}
                 {% if all_2020_publications.size == 0 %}
                     There are no publications available for this year. Please check back again soon!
-                {% endif %}
+                {% else %}
+                
                     {% for publication in all_2020_publications %}
                         <p>{{ publication.title }}</p>
                         <a href="{{ publication.link}}" target="_blank">{{ publication.link }}</a>
-                {% endfor %} 
+                    {% endfor %}
+                {% endif %} 
             </div>
             <div class="tab-pane fade show active" id="nav-2019" role="tabpanel" aria-labelledby="nav-2019-tab">
-                {% assign all_2019_publications = site.data.publications | where_exp:"item", "item.year == 2019"  %}
-                    {% for publication in all_2019_publications %}
-                        <p>{{ publication.title }}</p>
-                        <a href="{{ publication.link}}" target="_blank">{{ publication.link }}</a>
-                {% endfor %} 
+                    {% assign all_2019_publications = site.data.publications | where_exp:"item", "item.year == 2019"  %}
+                    {% if all_2019_publications.size == 0 %}
+                        There are no publications available for this year. Please check back again soon!
+                    {% else %}
+                    
+                        {% for publication in all_2019_publications %}
+                            <p>{{ publication.title }}</p>
+                            <a href="{{ publication.link}}" target="_blank">{{ publication.link }}</a>
+                        {% endfor %}
+                    {% endif %} 
             </div>
             <div class="tab-pane fade" id="nav-2018" role="tabpanel" aria-labelledby="nav-2018-tab">
-                {% assign all_2018_publications = site.data.publications | where_exp:"item", "item.year == 2018"  %}
-                    {% for publication in all_2018_publications %}
-                        <p>{{ publication.title }}</p>
-                        <a href="{{ publication.link}}" target="_blank">{{ publication.link }}</a>
-                {% endfor %} 
+                    {% assign all_2018_publications = site.data.publications | where_exp:"item", "item.year == 2018"  %}
+                    {% if all_2018_publications.size == 0 %}
+                        There are no publications available for this year. Please check back again soon!
+                    {% else %}
+                    
+                        {% for publication in all_2018_publications %}
+                            <p>{{ publication.title }}</p>
+                            <a href="{{ publication.link}}" target="_blank">{{ publication.link }}</a>
+                        {% endfor %}
+                    {% endif %} 
             </div>
             <div class="tab-pane fade" id="nav-2017" role="tabpanel" aria-labelledby="nav-2017-tab">
-                {% assign all_2017_publications = site.data.publications | where_exp:"item", "item.year == 2017"  %}
-                    {% for publication in all_2017_publications %}
-                        <p>{{ publication.title }}</p>
-                        <a href="{{ publication.link}}" target="_blank">{{ publication.link }}</a>
-                {% endfor %} 
+                    {% assign all_2017_publications = site.data.publications | where_exp:"item", "item.year == 2017"  %}
+                    {% if all_2017_publications.size == 0 %}
+                        There are no publications available for this year. Please check back again soon!
+                    {% else %}
+                    
+                        {% for publication in all_2017_publications %}
+                            <p>{{ publication.title }}</p>
+                            <a href="{{ publication.link}}" target="_blank">{{ publication.link }}</a>
+                        {% endfor %}
+                    {% endif %} 
             </div>
             <div class="tab-pane fade" id="nav-2016" role="tabpanel" aria-labelledby="nav-2016-tab">
-                {% assign all_2016_publications = site.data.publications | where_exp:"item", "item.year == 2016"  %}
-                    {% for publication in all_2016_publications %}
-                        <p>{{ publication.title }}</p>
-                        <a href="{{ publication.link}}" target="_blank">{{ publication.link }}</a>
-                {% endfor %} 
+                    {% assign all_2016_publications = site.data.publications | where_exp:"item", "item.year == 2016"  %}
+                    {% if all_2016_publications.size == 0 %}
+                        There are no publications available for this year. Please check back again soon!
+                    {% else %}
+                    
+                        {% for publication in all_2016_publications %}
+                            <p>{{ publication.title }}</p>
+                            <a href="{{ publication.link}}" target="_blank">{{ publication.link }}</a>
+                        {% endfor %}
+                    {% endif %} 
             </div>
              
           </div>
