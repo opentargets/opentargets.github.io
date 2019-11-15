@@ -1,0 +1,138 @@
+---
+layout: default
+---
+
+<header class="py-5" style="background-color:#3489ca">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center text-white">
+        <h1>Our team</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="my-5 py-5 ">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et 
+            viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque 
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, 
+            sed rhoncus pronin sapien nunc accuan eget.
+          </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="my-5 py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Executive leadership team</h2>
+      </div>
+    </div>
+    <div class="row">
+      {% assign executive_leadership_team = site.data.executive_leadership_team | sort: 'last_name' %}
+      {% for person in executive_leadership_team %}
+        <div class="col-lg-4">
+          <div class="card shadow-lg p-3 bg-white rounded">
+            <a data-toggle="modal" href="#modal-{{ person.last_name }}">
+              <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title mb-0">{{ person.first_name }} {{ person.last_name}}</h4>
+              <p class="card-text text-black-50">{{ person.role }}</p>
+              <div class="mb-3">
+                <img src="/assets/img/logos/{{person.organisation_logo}}" class="logo-small" />
+              </div>
+                <a class="btn btn-primary" data-toggle="modal" href="#modal-{{ person.last_name }}">
+                  Read {{ person.first_name }}'s biography
+                </a>
+            </div>
+          </div>
+        </div>  
+        <!-- Modal with biography -->
+        <div class="modal fade" id="modal-{{ person.last_name}}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ person.last_name }}Label" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content px-3 py-5">
+              <div class="text-center">
+                <h3>{{ person.first_name }} {{ person.last_name}}'s biography</h3>
+              </div>
+              <div class="modal-body">
+                <p>
+                  {{ person.biography }}
+                </p>
+              </div>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Scientific leadership team</h2>
+        </div>
+      </div>
+      <div class="row">
+        {% assign scientific_leadership_team = site.data.scientific_leadership_team | sort: 'last_name' %}
+        {% for person in scientific_leadership_team %}
+          <div class="col-lg-4">
+            <div class="card shadow-lg p-3 bg-white rounded">
+              <a data-toggle="modal" href="#modal-{{ person.last_name }}">
+                <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
+              </a>
+              <div class="card-body text-center">
+                <h4 class="card-title mb-0">{{ person.first_name }} {{ person.last_name}}</h4>
+                <p class="card-text text-black-50">{{ person.role }}</p>
+                <div class="mb-3">
+                  <img src="/assets/img/logos/{{person.organisation_logo}}" class="logo-small" />
+                </div>
+                  <a class="btn btn-primary" data-toggle="modal" href="#modal-{{ person.last_name }}">
+                    Read {{ person.first_name }}'s biography
+                  </a>
+              </div>
+            </div>
+          </div>  
+          <!-- Modal with biography -->
+          <div class="modal fade" id="modal-{{ person.last_name}}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ person.last_name }}Label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content px-3 py-5">
+                <div class="text-center">
+                  <h3>{{ person.first_name }} {{ person.last_name}}'s biography</h3>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    {{ person.biography }}
+                  </p>
+                </div>
+                <div class="text-center">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+
+
+  
+
+
+
+

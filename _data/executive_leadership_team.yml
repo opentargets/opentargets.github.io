@@ -1,0 +1,44 @@
+- first_name: Ian
+  last_name: Dunham
+  role: Open Targets Director
+  picture: ian_dunham.jpg
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid: 0000-0003-2525-5598
+  biography: >
+    Ian has been involved in genomics since around the time the term was coined. 
+    He obtained his D. Phil from Oxford University in 1989, determining the 
+    long-range structure of the human MHC. During his postdoctoral studies 
+    he worked with the genomic pioneer Maynard Olson in St Louis, before returning 
+    to the UK to construct a physical map of human chromosome 22. At the 
+    Sanger Centre from 1993 his work focussed first on genome sequencing including 
+    the first human chromosome sequence in 1999, and subsequently on developing 
+    functional maps of the human genome. This included gene structure maps, 
+    variation maps, and the first chromosome-wide linkage disequilibrium map. 
+    Recently Ian's research interests include experimental and computational 
+    approaches to genome-wide mapping of regulatory elements and chromatin state 
+    in the human genome as part of the NHGRI ENCODE project, as well as 
+    understanding the influence of variation on regulatory elements in human and 
+    other organisms. Ian has been at the European Bioinformatics organisation 
+    (EMBL-EBI) in Cambridge, UK since 2007.
+
+- first_name: David
+  last_name: Hulcoop
+  role: Strategy & Operations Director
+  picture: david_hulcoop.jpg
+  organisation: GSK
+  organisation_logo: gsk.png
+  orcid: 0000-0003-1323-1759
+  biography: >
+    David has a PhD from the University of Cambridge in Organic Chemistry 
+    and conducted postdoctoral research at the University of Toronto in Canada. 
+    He joined GSK in 2007 initially in the Process Chemistry group to develop 
+    manufacturing processes for small molecule therapies.  Through his time at 
+    GSK he has held project leadership and line management roles in R&D and led 
+    research and technology transfer programmes between R&D and Global 
+    Manufacturing. Before joining Open Targets David was engaged in developing 
+    and implementing strategic projects for GSK through a secondment to the 
+    office of the CEO and CFO as part of the CEO’s Future Strategy Group. 
+    As Operations Director, David oversees the management of a number of 
+    informatics and experimental target validation projects as well as ensuring 
+    the strategic deployment and operational translation of Open Targets.
