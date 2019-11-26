@@ -1,14 +1,40 @@
 @import url('https://rsms.me/inter/inter.css');
 
-$backgroundColor: #ffffff;
-$bodyColor: #000000;
+$white: #ffffff;
+$bodyColor: #5a5f5f;
 $bodyFont: "Inter",Helvetica,Arial,sans-serif;
 $ot-corp-blue: #3489ca;
 
 body {
-  background: $backgroundColor;
+  background: $white;
   color: $bodyColor;
   font-family: $bodyFont;
+}
+
+.bg-blue {
+  background-color:$ot-corp-blue;
+}
+
+.bg-light-grey {
+  background-color: #D1CFCF;	
+}
+
+a {
+  color: $ot-corp-blue;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #98C5E3;
+}
+
+.principles-cta-icon {
+  font-size: 125px; 
+  color: $white;
+}
+
+.partner-logo {
+  max-width: 125px;
 }
 
 .carousel-item {
