@@ -8,9 +8,9 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 ***
 
 ### [Software Developer](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01565)
-*An EMBL-EBI contract - closing date: 09 January 2020*
+*An EMBL-EBI contract - closing date: 9 January 2020*
 
-We are looking for a talented backend software engineer to join the Open Targets Core team. Open Targets (OT) is a public-private project aiming to systematically identify and prioritise drug targets by integrating complex biological data in a pre-competitive environment. As an open source project, the Open Targets platform (www.targetvalidation.org) organizes and serves the increasing amount of biomedical data, in order to publicly facilitate the drug discovery decision-making.  __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01565)__
+We are looking for a talented backend software engineer to join the Open Targets Core Platform team. The Core Platform team is a multi-disciplinary team embedded in the European Bioinformatics Institute (EMBL-EBI). We use a range of modern technologies - including ElasticSearch, Spark, ClickHouse and a variety of Google cloud services - to build open source tools that support researchers working in drug discovery. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01565)__
 
 ***
 
