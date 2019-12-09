@@ -18,13 +18,13 @@ title: Resources
     <div class="row">
       <div class="col-lg-12">
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et 
-            viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque 
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-            Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, 
-            sed rhoncus pronin sapien nunc accuan eget.
-          </p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+          bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et 
+          viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque 
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+          Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, 
+          sed rhoncus pronin sapien nunc accuan eget.
+        </p>
       </div>
     </div>
   </div>
@@ -33,14 +33,14 @@ title: Resources
 <section class="my-5 py-5">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-12 mb-5">
         <h2>Flagship resources</h2>
       </div>
     </div>
     <div class="row">
       <div class="col-md-6">
-        <div class="card">
-          <img class="img-fluid m-4" src="https://via.placeholder.com/600x400" />
+        <div class="card p-4">
+          <img class="img-fluid mb-4" src="/assets/img/open-targets-platform-screenshot.jpg" />
           <h3 class="text-center">Open Targets Platform</h3>
           <p>
             The Open Targets Platform - previously called the Target Validation Platform - 
@@ -50,14 +50,90 @@ title: Resources
             somatic mutations, pathways, drugs) for the involvement of a specific gene with 
             a selected disease. It supports disease and target centric workflows, displays 
             the evidence for target-disease associations, as well as profiles of relevant 
-            target and disease annotations. Please see Carvalho-Silva et al. 2019 for more 
-            information on the Platform features and scoring methods.
+            target and disease annotations. Please see
+            <a href="https://academic.oup.com/nar/article/47/D1/D1056/5193331" target="_blank">Carvalho-Silva et al. 2019</a>
+            for more information on the Platform features and scoring methodologies.
           </p>
         </div>
       </div>
-      <div class="col-md-6 card">
-        <img class="img-fluid" src="https://via.placeholder.com/600x400" />
+      <div class="col-md-6">
+        <div class="card p-4">
+          <img class="img-fluid mb-4" src="/assets/img/open-targets-genetics-portal-screenshot.jpg" />
+          <h3 class="text-center">Open Targets Genetics Portal</h3>
+          <p>
+            Open Targets Genetics is a portal for investigation of Genome Wide Association Study (GWAS) 
+            data to assist in identifying the causal genes underlying each association, and hence to 
+            prioritise drug targets. The portal aggregates and merges genetic associations curated from 
+            literature and newly-derived loci from UK Biobank with (open source) functional genomics 
+            data including epigenetics (e.g., chromatin conformation, chromatin interactions) and 
+            quantitative trait loci (e.g., eQTLs from GTEX, pQTL), and applies statistical fine-mapping 
+            across thousands of trait-associated loci, to resolve association signals and link each 
+            variant to its proximal and distal target gene(s), using a single evidence score.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="my-5 py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 mb-5">
+        <h2>Other informatics resources</h2>
       </div>
     </div>
+    <div class="row">
+      <div class="col-lg-12 mb-5">
+        <h3>Project Score</h3>
+        <p>
+          Project Score is a web portal that allows researchers to explore the results of CRISPR-Cas9 
+          whole-genome drop out screens across a diverse collection of human cancer cell models and to 
+          identify dependencies in cancer cells to help guide precision cancer medicines. Please see
+          <a href="https://www.nature.com/articles/s41586-019-1103-9" target="_blank">Behan et al. 2019</a>
+          for more information.
+        </p>
+        <a href="https://score.depmap.sanger.ac.uk/" class="btn btn-primary btn-sm">Visit the Project Score website</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 mb-5">
+        <h3>epiChoose</h3>
+        <p>
+          epiChoose is an application for quantifying the relatedness between cell lines and primary cells. 
+          We have extensively profiled a number of commonly used cell line models across a number of tissues. 
+          This profiling consists of epigenetic (histone modification, CTCF, ATAC-seq) and transcriptional 
+          (RNA-seq) whole-genome measurements. From this data, we have established a platform that provides 
+          information on the “distance” between candidate cell models and target primary cells. By ranking 
+          and selecting cell line models in a data-driven manner, the best model for the experiment can be 
+          chosen, based on epigenetic and transcriptional evidence and not historical usage.
+        </p>
+        <a href="http://epichoose.shiny.opentargets.io/epiChoose/" class="btn btn-primary btn-sm">Visit the epiChoose application</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 mb-5">
+        <h3>CRISPRcleanR</h3>
+        <p>
+          Genome editing by CRISPR-Cas9 technology allows large-scale screening of gene essentiality in cancer. 
+          A confounding factor when interpreting CRISPR-Cas9 screens is the high false-positive rate in detecting 
+          essential genes within copy number amplified regions of the genome. We have developed the computational 
+          tool CRISPRcleanR which is capable of identifying and correcting gene-independent responses to CRISPR-Cas9 
+          targeting. CRISPRcleanR uses an unsupervised approach based on the segmentation of single-guide RNA fold 
+          change values across the genome, without making any assumption about the copy number status of the 
+          targeted genes. CRISPRcleanR is implemented as an R package and as an interactive Python package with 
+          full documentation, tutorials, built in datasets to reproduce the results in this manuscript, and is 
+          publically available as an <a href="https://github.com/francescojm/CRISPRcleanR" target="_blank">R package</a> 
+          and as a <a href="https://github.com/cancerit/pyCRISPRcleanR" target="_blank">Python package</a>. 
+          The Python implementation is dockerised making it platform-independent and 
+          <a href="https://dockstore.org/containers/quay.io/wtsicgp/dockstore-pycrisprcleanr" target="_blank">usable in cloud environments</a>.
+          Please see <a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4989-y" target="_blank">Iorio et al. 2018</a> 
+          for more information.
+        </p>
+        <a href="https://github.com/francescojm/CRISPRcleanR" class="btn btn-primary btn-sm">Visit the CRISPRcleanR GitHub repo</a>
+      </div>
+    </div>
+
   </div>
 </section>
