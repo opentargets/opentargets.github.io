@@ -19,23 +19,20 @@ title: People
     <div class="row">
       <div class="col-lg-12">
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et 
-            viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque 
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-            Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, 
-            sed rhoncus pronin sapien nunc accuan eget.
-          </p>
+          Meet the our team, bringing together expertise from academia and pharma, 
+          pulling together skills from a wide range of disciplines including bioinformatics, 
+          computer science, web development, human genetics, functional genomics and operations.  
+        </p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="my-5 py-5">
+<section>
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h2>Executive leadership team</h2>
+        <h2 class="mb-5">Executive leadership team</h2>
       </div>
     </div>
     <div class="row">
@@ -85,7 +82,7 @@ title: People
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h2>Scientific leadership team</h2>
+          <h2 class="mb-5">Scientific leadership team</h2>
         </div>
       </div>
       <div class="row">
@@ -135,18 +132,17 @@ title: People
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h2>Scientific Advisory Board (SAB)</h2>
+          <h2 class="mb-5">Scientific Advisory Board (SAB)</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <p>The Open Targets Scientific Advisory Board established in 2016 comprises of:</p>
           {% assign scientific_advisory_board = site.data.scientific_advisory_board | sort: 'last_name' %}
-          <ul class="list-unstyled">
+          <ul class="mt-4 list-unstyled">
             {% for person in scientific_advisory_board %}
-              <li>
+              <li class="mb-4">
                 <h4>{{ person.first_name }} {{ person.last_name }}</h4>
-                <p class="mb-0">{{ person.role }}</p>
+                <p class="mb-1">{{ person.role }}</p>
                 <p>{{ person.organisation }}</p>
               </li>
             {% endfor %}

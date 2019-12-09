@@ -19,50 +19,39 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
-        justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque
-        penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam
-        fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci,
-        sed rhoncus pronin sapien nunc accuan eget.
+        Please note that some applications will be reviewed on an ongoing basis and the advertised post(s) 
+        may be filled before the stated deadline.
       </div>
     </div>
   </div>
 </section>
   
-    <section class="my-5">
-        <div class="container">
-          <div class="row">
-
-    {% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
-    {% assign active_job_ads = site.data.jobs | sort: 'closing_date' %}
-    
-
-        {% for job in active_job_ads %}
-            {% capture closing_date %}{{ job.closing_date | date: '%s' | plus : 86400 }}{% endcapture %}
-            {% if closing_date > now %}
-            <div class="col-lg-6 py-3">
+<section class="my-5">
+  <div class="container">
+      {% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
+      {% assign active_job_ads = site.data.jobs | sort: 'closing_date' %}
+      {% for job in active_job_ads %}
+          {% capture closing_date %}{{ job.closing_date | date: '%s' | plus : 86400 }}{% endcapture %}
+          {% if closing_date > now %}
+          <div class="row mb-5">
+            <div class="col-lg-12">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">{{ job.title }}</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">
-                    {{ job.organisation }}
-                  </h6>
-                  <img src="/assets/img/logos/{{ job.logo }}" />
-                  <p class="card-text">
-                    {{ job.closing_date | date: "%-d %B %Y" }}
-                  </p>
-                  <p class="card-text">
-                    {{ job.description | truncate: 200 }}
-                    <a class="btn btn-primary" href="{{ job.link }}">read more</a>
+                  <h3 class="card-title">{{ job.title }}</h3>
+                  <img class="my-3" src="/assets/img/logos/{{ job.logo }}" />
+                  <h5 class="card-text">
+                    Application closing date: <b>{{ job.closing_date | date: "%-d %B %Y" }}</b> CLOSING SOON!
+                  </h5>
+                  <p class="my-3 card-text">
+                    {{ job.description | truncate: 300 }}
+                    <a class="" href="{{ job.link }}">[ read more ]</a>
                   </p>
                 </div>
               </div>
             </div>
-            {% endif %}
-        {% endfor %}     
-    </div>
-    </div>
-  
+          </div>
+          {% endif %}
+      {% endfor %}     
+
   </div>
 </section>
