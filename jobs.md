@@ -20,3 +20,10 @@ We are looking for a talented backend software engineer to join the Open Targets
 Two postdoctoral positions are available that provide an exciting opportunity to use human induced pluripotent stem cell (hiPSC) derived microglia to screen for genes involved in neurodegeneration, especially Alzheimer’s disease. The positions will be based at the Wellcome Sanger Institute under the leadership of Dr Andrew Bassett, Dr Gosia Trynka and Dr Daniel Gaffney, and will also involve working with collaborators at the University of Oxford.  __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-crispr-screening-and-qtl-mapping-in-neurodegeneration-405888.html)__
 
 ***
+
+### [Postdoctoral Fellow (Computational Genomics)](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-computational-genomics-394572.html)
+*A Wellcome Sanger Institute contract - applications currently being accepted*
+
+We are looking for a post-doctoral fellow to join Matt Hurles' group at the Wellcome Sanger Institute and to lead a project involving the large-scale computational analyses of RNA-seq datasets from cellular models for neurodevelopmental and psychiatric diseases. The project will focus on generating transcriptomic profiles from iPSC derived neural cells with CRISPR-engineered mutations modelling ~100 neurodevelopmental and psychiatric disorders due to mutations in chromatin-related genes, as well as transcriptomic profiles from drug response profiles of hundreds of pharmacological and genetic perturbations. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-computational-genomics-394572.html)__
+
+***
