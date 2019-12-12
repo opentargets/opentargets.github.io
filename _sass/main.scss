@@ -4,10 +4,11 @@ $white: #ffffff;
 $bodyColor: #5a5f5f;
 $bodyFont: "Inter",Helvetica,Arial,sans-serif;
 $ot-corp-blue: #3489ca;
+$ot-corp-grey: #5a5f5f;
 
 body {
   background: $white;
-  color: $bodyColor;
+  color: $ot-corp-grey;
   font-family: $bodyFont;
 }
 
@@ -47,13 +48,6 @@ a:hover {
   background-size: cover;
 }
 
-
-.navbar-nav .nav-item .nav-link,
-.navbar-nav .nav-item .nav-link:hover {
-  color: $ot-corp-blue;
-  font-weight: 600;
-}
-
 .carousel-indicators li {
   width: 15px;
   height: 15px;
@@ -62,4 +56,23 @@ a:hover {
 
 .logo-small {
   max-height: 40px;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+  color: $ot-corp-blue
+}
+
+.navbar-light .navbar-nav .nav-link,
+.dropdown-item {
+  font-weight: bold;
+  color: $ot-corp-grey;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.dropdown-item:hover {
+  color: $ot-corp-blue;
+}
+
+.dropdown-menu {
+  border: 2px solid $ot-corp-grey;
 }
