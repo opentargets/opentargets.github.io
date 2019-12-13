@@ -14,33 +14,69 @@ layout: default
 
 <section class="py-5 my-5">
   <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-12">
+        <p>
+          Do you want to learn more about Open Targets? Are you interested in becoming a partner or interviewing one of our
+          scientists? Do you have a support question related to the Open Targets Platform or the Open Targets Genetics Portal?
+        </p>
+        <p>
+          If so, complete the contact form below and the right member of our team will be in touch shortly!
+        </p>
+      </div>
+    </div>
     <div class="row">
-      <div class="col-sm-12">
-        <h4>General questions</h4>
-        <p>
-          Do you want to learn more about Open Targets? Or are you interested in learning about how your 
-          organisation might interact with Open Targets? If so, please email us at 
-          <a href="mailto:contact@opentargets.org">contact@opentargets.org</a>. 
-          Your message will be sent to the executive leadership team.
-        </p>
-        <h4>Media enquiries</h4>
-        <p>
-          To learn more about Open Targets or to arrange an interview with one of our scientists, 
-          please contact our press team. Your email will be sent to the press teams at our partner
-          organisations.
-        </p>
-        <p>
-          Email: <a href="mailto:press@opentargets.org">press@opentargets.org</a>
-        </p>
-        <p>
-          Tel: +44 (0)1223 494 369
-        </p>
-        <h4>Platform or Genetics Portal questions</h4>
-        <p>
-          If you have any questions about the Platform or Genetics Portal, you can visit
-          our Platform documentation and Genetics Portal documentation. You can also email us at support@targetvalidate.org. 
-          Or you can visit our GitHub page and raise an issue.
-        </p>
+      <div class="col-lg-12">
+        <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://formspree.io/xpzwgrdw" method="POST">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-first-name">First name</label>
+                <input class="form-control form-control-lg" name="first-name" id="contact-form-first-name" type="text">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-last-name">Last name</label>
+                <input class="form-control form-control-lg" name="last-name" id="contact-form-last-name" type="text">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-email-address">Email address</label>
+                <input class="form-control form-control-lg" name="email-address" id="contact-form-email-address" type="email">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-reason">Reason for message</label>
+                <select class="form-control form-control-lg" name="reason" id="contact-form-reason">
+                  <option value="" class="disabled-select-option" disabled selected hidden></option>
+                  <option value="contact-scientific-leadership-team">Contact the Scientific Leadership Team</option>
+                  <option value="contact-press-office">Contact our press office</option>
+                  <option value="become-partner">Become an Open Targets partner</option>
+                  <option value="contact-platform-support">Contact Open Targets Platform support</option>
+                  <option value="contact-genetics-portal-support">Contact Open Targets Genetics Portal support</option>
+                  <option value="general-question">General question about Open Targets</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-message">Your message</label>
+                <textarea class="form-control" name="message" id="contact-form-message"></textarea>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <button id="send-message-btn" class="btn btn-primary btn-lg" type="submit">Send message</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </div>
