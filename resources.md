@@ -1,6 +1,6 @@
 ---
 layout: bootstrap
-title: Resouces
+title: Resources
 permalink: /resources/
 ---
 
