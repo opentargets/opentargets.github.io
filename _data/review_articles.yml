@@ -1,43 +1,10 @@
 - title: This is a sample 2019 review article 
   author: Lastname A et al.
-  publication: Sample Journal Name
+  publication_name: Sample Journal Name
   issue: 5
   volume: 1
-  year: 2019
+  publication_year: 2019
   pages: 10-20
   doi: 10.123/abc-123
-  pubmed: 123456789
-  link: https://www.opentargets.org
-
-- title: This is a sample 2018 review article 
-  author: Lastname A et al.
-  publication: Sample Journal Name
-  issue: 5
-  volume: 1
-  year: 2018
-  pages: 10-20
-  doi: 10.123/abc-123
-  pubmed: 123456789
-  link: https://www.opentargets.org
-
-- title: This is a sample 2017 review article 
-  author: Lastname A et al.
-  publication: Sample Journal Name
-  issue: 5
-  volume: 1
-  year: 2017
-  pages: 10-20
-  doi: 10.123/abc-123
-  pubmed: 123456789
-  link: https://www.opentargets.org
-
-- title: This is a sample 2016 review article 
-  author: Lastname A et al.
-  publication: Sample Journal Name
-  issue: 5
-  volume: 1
-  year: 2016
-  pages: 10-20
-  doi: 10.123/abc-123
-  pubmed: 123456789
+  pmid: 123456789
   link: https://www.opentargets.org
