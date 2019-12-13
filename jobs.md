@@ -27,3 +27,10 @@ Two postdoctoral positions are available that provide an exciting opportunity to
 We are looking for a post-doctoral fellow to join Matt Hurles' group at the Wellcome Sanger Institute and to lead a project involving the large-scale computational analyses of RNA-seq datasets from cellular models for neurodevelopmental and psychiatric diseases. The project will focus on generating transcriptomic profiles from iPSC derived neural cells with CRISPR-engineered mutations modelling ~100 neurodevelopmental and psychiatric disorders due to mutations in chromatin-related genes, as well as transcriptomic profiles from drug response profiles of hundreds of pharmacological and genetic perturbations. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-computational-genomics-394572.html)__
 
 ***
+
+### [Postdoctoral Fellowship - Statistical Genetics](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellowship-statistical-genetics-407895.html)
+*A Wellcome Sanger Institute contract - closing date: 17 January 2020*
+
+Applications are invited for a 3-year Postdoctoral Fellowship at the Wellcome Sanger Institute based jointly in the teams of Dr. Carl Anderson (Human Genetics Programme) and Dr. Maya Ghoussaini (Open Targets). This is an exciting opportunity for you to bring together cutting-edge genetic and genomic datasets to identify novel candidate therapeutic targets for inflammatory bowel disease (IBD). During this fellowship, you will lead a collaborative project to build a causal evidence base for every gene within IBD associated GWAS loci. Your affiliation with the Ghoussaini Team will bring access to the massive cross-disease genetic and genomic datasets used in the [Open Targets Platform](https://www.targetvalidation.org/) and the [Open Targets Genetics Portal](https://genetics.opentargets.org). And as a member of the Anderson group, you will also have access to the latest large-scale genetic association data for IBD. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellowship-statistical-genetics-407895.html)__
+
+***
