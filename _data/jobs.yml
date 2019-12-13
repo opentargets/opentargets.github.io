@@ -1,22 +1,58 @@
-- title: "Postdoctoral Fellow - Functional Genomics"
+- title: "Postdoctoral Fellowship - Statistical Genetics"
   organisation: "Wellcome Sanger Institute"
   logo: "wellcome-sanger.png"
-  closing_date: 2019-11-15
-  link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-functional-genomics-400441.html"
+  closing_date: 2020-01-17
+  link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellowship-statistical-genetics-407895.html"
   description: >
-    "We are looking to appoint a computational postdoctoral fellow in functional genomics to work with 
-    Emma Davenport and Gosia Trynka’s groups at the Wellcome Sanger Institute. 
-    This project is particularly suitable for a candidate with experience in analysing functional 
-    genomics datasets and the ambition to drive the analysis of a large single cell dataset."
+    "Applications are invited for a 3-year Postdoctoral Fellowship at the Wellcome Sanger Institute based jointly in the teams of 
+    Dr. Carl Anderson (Human Genetics Programme) and Dr. Maya Ghoussaini (Open Targets). This is an exciting opportunity for you 
+    to bring together cutting-edge genetic and genomic datasets to identify novel candidate therapeutic targets for inflammatory 
+    bowel disease (IBD). During this fellowship, you will lead a collaborative project to build a causal evidence base for every 
+    gene within IBD associated GWAS loci. Your affiliation with the Ghoussaini Team will bring access to the massive cross-disease 
+    genetic and genomic datasets used in the Open Targets Platform and the Open Targets Genetics Portal. And as a member of the 
+    Anderson group, you will also have access to the latest large-scale genetic association data for IBD."
 
-- title: "Senior Bioinformatician"
+- title: "Postdoctoral Fellow (Computational Genomics)"
+  organisation: "Wellcome Sanger Institute"
+  logo: "wellcome-sanger.png"
+  closing_date: 2020-01-30
+  link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-computational-genomics-394572.html"
+  description: >
+    "We are looking for a post-doctoral fellow to join Matt Hurles’ group at the Wellcome Sanger Institute and to lead a project 
+    involving the large-scale computational analyses of RNA-seq datasets from cellular models for neurodevelopmental and 
+    psychiatric diseases. The project will focus on generating transcriptomic profiles from iPSC derived neural cells with 
+    CRISPR-engineered mutations modelling ~100 neurodevelopmental and psychiatric disorders due to mutations in chromatin-related 
+    genes, as well as transcriptomic profiles from drug response profiles of hundreds of pharmacological and genetic perturbations."
+
+- title: "Software Developer"
   organisation: "EMBL-EBI"
   logo: "embl-ebi.png"
-  closing_date: 2019-11-30
-  link: "https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01552"
+  closing_date: 2020-01-09
+  link: "https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01565"
   description: >
-    "We are looking to recruit an enthusiastic Bioinformatician to join the Data Coordination and 
-    Archiving Team, contributing to the EarlyCause project. The Data Coordination team provides 
-    support to our broad user base in the use of our data resources and services as well as 
-    data coordination and other bioinformatics support services for partners around the world 
-    for a portfolio of projects."
+    "We are looking for a talented backend software engineer to join the Open Targets Core Platform team. The Core Platform team 
+    is a multi-disciplinary team embedded in the European Bioinformatics Institute (EMBL-EBI). We use a range of modern 
+    technologies - including ElasticSearch, Spark, ClickHouse and a variety of Google cloud services - to build open source 
+    tools that support researchers working in drug discovery."
+
+- title: "Postdoctoral Fellow - CRISPR screening and QTL mapping in neurodegeneration - 2 positions"
+  organisation: "Wellcome Sanger Institute"
+  logo: "wellcome-sanger.png"
+  closing_date: 2020-01-17
+  link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-crispr-screening-and-qtl-mapping-in-neurodegeneration-405888.html"
+  description: >
+    "Two postdoctoral positions are available that provide an exciting opportunity to use human induced pluripotent stem cell 
+    hiPSC) derived microglia to screen for genes involved in neurodegeneration, especially Alzheimer’s disease. The positions 
+    will be based at the Wellcome Sanger Institute under the leadership of Dr. Andrew Bassett, Dr. Gosia Trynka and Dr. Daniel 
+    Gaffney, and will also involve working with collaborators at the University of Oxford."
+
+- title: "Postdoctoral Fellow - CRISPR screening and QTL mapping in neurodegeneration - 2 positions"
+  organisation: "Wellcome Sanger Institute"
+  logo: "wellcome-sanger.png"
+  closing_date: 2019-01-17
+  link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-crispr-screening-and-qtl-mapping-in-neurodegeneration-405888.html"
+  description: >
+    "Two postdoctoral positions are available that provide an exciting opportunity to use human induced pluripotent stem cell 
+    hiPSC) derived microglia to screen for genes involved in neurodegeneration, especially Alzheimer’s disease. The positions 
+    will be based at the Wellcome Sanger Institute under the leadership of Dr. Andrew Bassett, Dr. Gosia Trynka and Dr. Daniel 
+    Gaffney, and will also involve working with collaborators at the University of Oxford."
