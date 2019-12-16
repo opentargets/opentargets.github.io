@@ -7,6 +7,13 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
+### [Technical Project Lead](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01575)
+*An EMBL-EBI contract - closing date: 3 January 2020*
+
+We are seeking a highly motivated technical lead for the Open Targets Core teams. The post holder will lead a team of 6 back-end and front-end software developers and will be responsible for the technical development of the Open Targets Platform and Open Targets Genetics Portal. They will also work directly with the Platform Coordinator to establish the technical roadmap for our informatics services. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01575)__
+
+***
+
 ### [Software Developer](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01565)
 *An EMBL-EBI contract - closing date: 9 January 2020*
 
@@ -18,13 +25,6 @@ We are looking for a talented backend software engineer to join the Open Targets
 *A Wellcome Sanger Institute contract - closing date: 17 January 2020*
 
 Two postdoctoral positions are available that provide an exciting opportunity to use human induced pluripotent stem cell (hiPSC) derived microglia to screen for genes involved in neurodegeneration, especially Alzheimer’s disease. The positions will be based at the Wellcome Sanger Institute under the leadership of Dr Andrew Bassett, Dr Gosia Trynka and Dr Daniel Gaffney, and will also involve working with collaborators at the University of Oxford.  __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-crispr-screening-and-qtl-mapping-in-neurodegeneration-405888.html)__
-
-***
-
-### [Postdoctoral Fellow (Computational Genomics)](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-computational-genomics-394572.html)
-*A Wellcome Sanger Institute contract - applications currently being accepted*
-
-We are looking for a post-doctoral fellow to join Matt Hurles' group at the Wellcome Sanger Institute and to lead a project involving the large-scale computational analyses of RNA-seq datasets from cellular models for neurodevelopmental and psychiatric diseases. The project will focus on generating transcriptomic profiles from iPSC derived neural cells with CRISPR-engineered mutations modelling ~100 neurodevelopmental and psychiatric disorders due to mutations in chromatin-related genes, as well as transcriptomic profiles from drug response profiles of hundreds of pharmacological and genetic perturbations. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-computational-genomics-394572.html)__
 
 ***
 
