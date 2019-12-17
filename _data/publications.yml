@@ -1,3 +1,18 @@
+# Below you fill find the template for adding a new publication
+# Note: there is an intentional dash before the "title" attribute and all of the other attributes 
+# for that same publication are indented with a tab of 2 spaces
+
+# - title: 
+#   author: 
+#   publication_name: 
+#   issue: 
+#   volume: 
+#   publication_year: 
+#   pages: 
+#   doi: 
+#   pmid: 
+#   link: 
+
 - title: Chromatin activity at GWAS loci identifies T cell states driving complex immune diseases
   author: Soskic B et al.
   publication_name: Nature Genetics
@@ -8,17 +23,6 @@
   doi: 10.1038/s41588-019-0493-9
   pmid: 31548716
   link: https://www.nature.com/articles/s41588-019-0493-9
-
-- title: Prioritization of cancer therapeutic targets using CRISPR–Cas9 screens
-  author: Behan F et al.
-  publication_name: Nature
-  issue: 
-  volume: 568
-  publication_year: 2019
-  pages: 511-516
-  doi: 10.1038/s41586-019-1103-9
-  pmid: 30971826
-  link: https://www.nature.com/articles/s41586-019-1103-9
 
 - title: A cellular census of human lungs identifies novel cell states in health and in asthma
   author: Vieira Braga, FA et al.
@@ -41,3 +45,289 @@
   doi: 10.1038/s41467-019-09940-1
   pmid: 31097696
   link: https://www.nature.com/articles/s41467-019-09940-1
+
+- title: Prioritization of cancer therapeutic targets using CRISPR–Cas9 screens
+  author: Behan F et al.
+  publication_name: Nature
+  issue: 
+  volume: 568
+  publication_year: 2019
+  pages: 511-516
+  doi: 10.1038/s41586-019-1103-9
+  pmid: 30971826
+  link: https://www.nature.com/articles/s41586-019-1103-9
+
+- title: The NHGRI-EBI GWAS Catalog of published genome-wide association studies, targeted arrays and summary statistics 2019
+  author: Buniello, A et al.
+  publication_name: Nucleic Acids Research
+  issue: D1
+  volume: 47
+  publication_year: 2019
+  pages: D1005-D1012
+  doi: 10.1093/nar/gky1120
+  pmid: 30445434
+  link: https://academic.oup.com/nar/article/47/D1/D1005/5184712
+
+- title: "ChEMBL: towards direct deposition of bioassay data"
+  author: Mendez, D et al.
+  publication_name: Nucleic Acids Research 
+  issue: D1
+  volume: 47
+  publication_year: 2019
+  pages: D930-D940
+  doi: 10.1093/nar/gky1075
+  pmid: 30398643
+  link: https://academic.oup.com/nar/article/47/D1/D930/5162468
+
+- title: "Open Targets Platform: new developments and updates two years on"
+  author: Carvalho-Silva, D et al.
+  publication_name: Nucleic Acids Research
+  issue: D1
+  volume: 47
+  publication_year: 2019 
+  pages: D1056–D1065
+  doi: 10.1093/nar/gky1133
+  pmid: 30462303 
+  link: https://academic.oup.com/nar/article/47/D1/D1056/5193331
+
+- title: "Complex Portal 2018: extended content and enhanced visualization tools for macromolecular complexes"
+  author: Meldal, B et al.
+  publication_name: Nucleic Acids Research
+  issue: D1
+  volume: 47
+  publication_year: 2019
+  pages:  D550–D558
+  doi: 10.1093/nar/gky1001
+  pmid: 30357405
+  link: https://academic.oup.com/nar/article/47/D1/D550/5144138
+
+- title: "The COSMIC Cancer Gene Census: describing genetic dysfunction across all human cancers"
+  author: Sondka, Z et al.
+  publication_name: Nature Reviews Cancer
+  issue: 11
+  volume: 18
+  publication_year: 2018
+  pages: 696-705
+  doi: 10.1038/s41568-018-0060-1
+  pmid: 30293088
+  link: https://www.nature.com/articles/s41568-018-0060-1
+
+- title: Uncovering new disease indications for G-protein coupled receptors and their endogenous ligands
+  author: Freudenberg, JM et al.
+  publication_name: BMC Bioinformatics
+  issue: 1
+  volume: 19
+  publication_year: 2018
+  pages: 345
+  doi: 10.1186/s12859-018-2392-y
+  pmid: 30285606
+  link: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2392-y
+
+- title: Unsupervised correction of gene-independent cell responses to CRISPR-Cas9 targeting
+  author: Iorio, F et al.
+  publication_name: BMC Genomics 
+  issue: 1
+  volume: 19 
+  publication_year: 2018
+  pages: 604
+  doi: 10.1186/s12864-018-4989-y
+  pmid: 30103702
+  link: https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4989-y
+
+- title: Pathway-based dissection of the genomic heterogeneity of cancer hallmarks’ acquisition with SLAPenrich 
+  author: Iorio, F et al.
+  publication_name: Scientific Reports
+  issue: 1
+  volume: 8
+  publication_year: 2018
+  pages: 6713
+  doi: 10.1038/s41598-018-25076-6
+  pmid: 29713020
+  link: https://www.nature.com/articles/s41598-018-25076-6
+
+- title: Interleukins and their signaling pathways in the Reactome biological pathway database
+  author: Jupe, S et al.
+  publication_name: The Journal of Allergy and Clinical Immunology
+  issue: 4
+  volume: 141
+  publication_year: 2018
+  pages: 1411-1416 
+  doi: 10.1016/j.jaci.2017.12.992 
+  pmid: 29378288
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29378288
+
+- title: Designing an intuitive web application for drug discovery scientists
+  author: Karamanis, N et al.
+  publication_name: Drug Discovery Today
+  issue: 6
+  volume: 23
+  publication_year: 2018
+  pages: 1169-1174
+  doi: 10.1016/j.drudis.2018.01.032
+  pmid: 29337199 
+  link: https://www.sciencedirect.com/science/article/pii/S1359644617304233
+
+- title: Comparison, alignment, and synchronization of cell line information between CLO and EFO
+  author: Ong, E et al.
+  publication_name: BMC Bioinformatics
+  issue: Suppl 17
+  volume: 18 
+  publication_year: 2017
+  pages: 557
+  doi: 10.1186/s12859-017-1979-z
+  pmid: 29322915
+  link: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1979-z
+
+- title: "Expression Atlas: gene and protein expression across multiple studies and organisms"
+  author: Papatheodorou, I et al.
+  publication_name: Nucleic Acids Research
+  issue: D1
+  volume: 46
+  publication_year: 2018
+  pages: D246–D25
+  doi: 10.1093/nar/gkx1158
+  pmid: 29165655 
+  link: https://academic.oup.com/nar/article/46/D1/D246/4641906
+
+- title: Uncovering novel repositioning opportunities using the Open Targets platform
+  author: Khaladkar, M et al.
+  publication_name: Drug Discovery Today
+  issue: 12
+  volume: 22
+  publication_year: 2017
+  pages: 1800-1807 
+  doi: 10.1016/j.drudis.2017.09.007
+  pmid: 28919242 
+  link: https://www.sciencedirect.com/science/article/pii/S1359644617301897
+
+- title: In silico prediction of novel therapeutic targets using gene–disease association data
+  author: Ferrero, E et al.
+  publication_name: Journal of Translational Medicine
+  issue: 1
+  volume: 15
+  publication_year: 2017
+  pages: 182
+  doi: 10.1186/s12967-017-1285-6
+  pmid: 28851378
+  link: https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-017-1285-6
+
+- title: Reactome enhanced pathway visualization
+  author: Sidiropoulos, K et al.
+  publication_name: Bioinformatics
+  issue: 21
+  volume: 33
+  publication_year: 2017
+  pages: 3461–3467
+  doi: 10.1093/bioinformatics/btx441
+  pmid: 29077811 
+  link: https://academic.oup.com/bioinformatics/article/33/21/3461/3930125
+
+- title: "ProtVista: visualization of protein sequence annotations"
+  author: Watkins, X et al.
+  publication_name: Bioinformatics
+  issue: 13
+  volume: 33
+  publication_year: 2017
+  pages: 2040–2041
+  doi: 10.1093/bioinformatics/btx120
+  pmid: 28334231
+  link: https://academic.oup.com/bioinformatics/article/33/13/2040/3063132
+
+- title: "Reactome pathway analysis: a high-performance in-memory approach"
+  author: Fabregat, A et al.
+  publication_name: BMC Bioinformatics 
+  issue: 1
+  volume: 18
+  publication_year: 2017
+  pages: 142
+  doi: 10.1186/s12859-017-1559-2
+  pmid: 28249561 
+  link: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1559-2
+
+- title: "Open Targets: a platform for therapeutic target identification and validation"
+  author: Koscielny, G et al.
+  publication_name: Nucleic Acids Research
+  issue: D1
+  volume: 45
+  publication_year: 2017
+  pages: D985–D994
+  doi: 10.1093/nar/gkw1055
+  pmid: 27899665 
+  link: https://academic.oup.com/nar/article/45/D1/D985/2605745
+
+- title: Transcription factor activities enhance markers of drug sensitivity in cancer
+  author: Garcia-Alonso, L et al.
+  publication_name: Cancer Research
+  issue: 3
+  volume: 78
+  publication_year: 2017
+  pages: 769-780
+  doi: 10.1158/0008-5472.CAN-17-1679
+  pmid: 29229604
+  link: https://cancerres.aacrjournals.org/content/early/2017/12/09/0008-5472.CAN-17-1679
+
+- title: Fine-mapping inflammatory bowel disease loci to single-variant resolution
+  author: Huang, H et al.
+  publication_name: Nature
+  issue: 7662
+  volume: 547 
+  publication_year: 2017
+  pages: 173-178
+  doi: 10.1038/nature22969 
+  pmid: 28658209
+  link: https://www.nature.com/articles/nature22969
+
+- title: Literature evidence in open targets - a target validation platform
+  author: Kafkas, Ş et al.
+  publication_name: Journal of Biomedical Semantics volume
+  issue: 1
+  volume: 8 
+  publication_year: 2017
+  pages: 20
+  doi: 10.1186/s13326-017-0131-3 
+  pmid: 28587637
+  link: https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-017-0131-3
+
+- title: "TnT: a set of libraries for visualizing trees and track-based annotations for the web"
+  author: Pignatelli, M
+  publication_name: Bioinformatics (Oxford, England)
+  issue: 16
+  volume: 32
+  publication_year: 2016
+  pages: 2524-2525
+  doi: 10.1093/bioinformatics/btw210 
+  pmid: 27153646
+  link: https://www.ncbi.nlm.nih.gov/pubmed/27153646
+
+- title: Warped Matrix Factorisation for Multi-view Data Integration
+  author: Pratanwanich, N et al.
+  publication_name: Part of the Lecture Notes in Computer Science book series
+  issue: 
+  volume: 9852
+  publication_year: 2016
+  pages: 789-804
+  doi: 10.1007/978-3-319-46227-1_49 
+  pmid: 
+  link: https://link.springer.com/chapter/10.1007%2F978-3-319-46227-1_49
+
+- title: Webulous and the Webulous Google Add-On - a web service and application for ontology building from templates
+  author: Jupp, S et al.
+  publication_name: Journal of Biomedical Semantics
+  issue: 
+  volume: 7 
+  publication_year: 2016
+  pages: 17
+  doi: 10.1186/s13326-016-0055-3
+  pmid: 27042287 
+  link: https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-016-0055-3
+
+- title: "Linking rare and common disease: mapping clinical disease-phenotypes to ontologies in therapeutic target validation"
+  author: Sarntivijai, S et al.
+  publication_name: Journal of Biomedical Semantics 
+  issue: 
+  volume: 7
+  publication_year: 2016
+  pages: 8
+  doi: 10.1186/s13326-016-0051-7
+  pmid: 27011785
+  link: https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-016-0051-7

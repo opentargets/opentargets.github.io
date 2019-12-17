@@ -1,10 +1,124 @@
-- title: This is a sample 2019 review article 
-  author: Lastname A et al.
-  publication_name: Sample Journal Name
-  issue: 5
-  volume: 1
+# Below you fill find the template for adding a new review article
+# Note: there is an intentional dash before the "title" attribute and all of the other attributes 
+# for that same review article are indented with a tab of 2 spaces
+
+# - title: 
+#   author: 
+#   publication_name: 
+#   issue: 
+#   volume: 
+#   publication_year: 
+#   pages: 
+#   doi: 
+#   pmid: 
+#   link: 
+
+- title: Applications of machine learning in drug discovery and development
+  author: Vamathevan, J et al.
+  publication_name: Nature Reviews Drug Discovery
+  issue: 6
+  volume: 18
   publication_year: 2019
-  pages: 10-20
-  doi: 10.123/abc-123
-  pmid: 123456789
-  link: https://www.opentargets.org
+  pages: 463–477
+  doi: 10.1038/s41573-019-0024-5
+  pmid: 30976107
+  link: https://www.nature.com/articles/s41573-019-0024-5
+
+- title: Ten simple rules for delivering live distance training in bioinformatics across the globe using webinars
+  author: Carvalho-Silva, D et al.
+  publication_name: Plos Computational Biology, 
+  issue: 11
+  volume: 14
+  publication_year: 2018
+  pages: e1006419
+  doi: 10.1371/journal.pcbi.1006419 
+  pmid: 30439935
+  link: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006419
+
+- title: Computational approaches for interpreting scRNA‐seq data
+  author: Rostom, R et al.
+  publication_name: Febs Letters
+  issue: 15
+  volume: 591
+  publication_year: 2017
+  pages: 2213-2225
+  doi: 10.1002/1873-3468.12684
+  pmid: 28524227 
+  link: https://febs.onlinelibrary.wiley.com/doi/full/10.1002/1873-3468.12684
+
+- title: Harnessing public domain data to discover and validate therapeutic targets 
+  author: Reisdorf WC et al.
+  publication_name: Expert Opinion on Drug Discovery
+  issue: 7
+  volume: 12
+  publication_year: 2017
+  pages: 687-693
+  doi: 10.1080/17460441.2017.1329296 
+  pmid: 28494630
+  link: https://www.tandfonline.com/doi/abs/10.1080/17460441.2017.1329296
+
+- title: The impact of rare and low-frequency genetic variants in common disease
+  author: Bomba, L et al.
+  publication_name: Genome Biology
+  issue: 
+  volume: 18
+  publication_year: 2017
+  pages: 17
+  doi: 10.1186/s13059-017-1212-4
+  pmid: 28449691
+  link: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1212-4
+
+- title: Use of Biomedical Ontologies for Integration of Biological Knowledge for Learning and Prediction of Adverse Drug Reactions
+  author: Zaman, S et al.
+  publication_name: Gene Regulation and Systems Biology
+  issue: 
+  volume: 11
+  publication_year: 2017
+  pages: 1177625017696075
+  doi: 10.1177/1177625017696075
+  pmid: 28469412
+  link: https://journals.sagepub.com/doi/10.1177/1177625017696075
+
+- title: Genetics and immunity in the era of single-cell genomics
+  author: Vieira Braga FA et al.
+  publication_name: Human Molecular Genetics
+  issue: R2
+  volume: 25
+  publication_year: 2016
+  pages: R141–R148
+  doi: 10.1093/hmg/ddw192
+  pmid: 27412011
+  link: https://academic.oup.com/hmg/article/25/R2/R141/2198146
+
+- title: Using human genetics to make new medicines
+  author: Barrett, JC et al.
+  publication_name: Nature Reviews Genetics
+  issue: 10
+  volume: 16
+  publication_year: 2015
+  pages: 561-562
+  doi: 10.1038/nrg3998 
+  pmid: 26370900 
+  link: https://www.nature.com/articles/nrg3998
+
+- title: Understanding inflammatory bowel disease via immunogenetics
+  author: de Lange, KM et al.
+  publication_name: Journal of Autoimmunity
+  issue: 
+  volume: 64
+  publication_year: 2015
+  pages: 91-100
+  doi: 10.1016/j.jaut.2015.07.013
+  pmid: 26257098
+  link: https://www.sciencedirect.com/science/article/pii/S0896841115300147
+
+- title: Strategies for fine-mapping complex traits
+  author: Spain, SL et al.
+  publication_name: Human Molecular Genetics
+  issue: R1
+  volume: 24
+  publication_year: 2015
+  pages: R111–R119
+  doi: 10.1093/hmg/ddv260
+  pmid: 26157023
+  link: https://academic.oup.com/hmg/article/24/R1/R111/671614
