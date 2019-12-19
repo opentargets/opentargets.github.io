@@ -7,21 +7,28 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
-### [Software Developer](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01565)
+### [Software Developer - Genetics Portal](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01577)
 *An EMBL-EBI contract - closing date: 28 January 2020*
 
-We are looking for an enthusiastic and talented Full Stack Developer to join the Open Targets Core team. Open Targets (OT) is a public-private partnership aiming to systematically identify and prioritise drug targets by integrating complex biological data in a pre-competitive environment. As an open source project, the Open Targets platform (www.targetvalidation.org) and Genetics Portal (http://genetics.opentargets.org) organize and present large amounts of biomedical data, in order to publicly facilitate the drug discovery decision-making process. __[[read more]] (https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01576&newlang=1&pos[]=0&loc[]=2)__
+We are seeking a talented backend software engineer to support the development of the Open Targets Genetics Portal. You  will join a dynamic and multidisciplinary team and we use a range of cutting-edge technologies to process, store, and aggregate the vast amount of human genetic data. You will have the opportunity to build on the most recent statistical genomics analysis and provide a robust infrastructure for both public and private instances of the Genetics Portal. Our current technologies include ElasticSearch, Spark, ClickHouse and a variety of Google cloud services including Dataproc and BigQuery. __[[read more]] (https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01577)__
+
+***
+
+### [Software Developer - Full-Stack](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01576)
+*An EMBL-EBI contract - closing date: 28 January 2020*
+
+We are looking for an enthusiastic and talented Full Stack Developer to join the Open Targets Core Platform team and to support the development of our informatics services. The postholder's primary tasks will be: 1) to support the active development of the Open Targets Platform and Open Targets Genetics Portal applications; and 2) to ensure a reliable interface with their respective back-ends. Both applications share a common infrastructure based on React and GraphQL and so we encourage candidates with all levels of experience to apply including Web Developers and Full Stack Engineers. __[[read more]] (https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01576)__
 
 ***
 
 ### [Technical Project Lead](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01575)
 *An EMBL-EBI contract - closing date: 3 January 2020*
 
-We are seeking a highly motivated technical lead for the Open Targets Core teams. The post holder will lead a team of 6 back-end and front-end software developers and will be responsible for the technical development of the Open Targets Platform and Open Targets Genetics Portal. They will also work directly with the Platform Coordinator to establish the technical roadmap for our informatics services. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01575)__
+We are seeking a highly motivated technical lead for the Open Targets Core teams. The postholder will lead a team of 6 back-end and front-end software developers and will be responsible for the technical development of the Open Targets Platform and Open Targets Genetics Portal. They will also work directly with the Platform Coordinator to establish the technical roadmap for our informatics services. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01575)__
 
 ***
 
-### [Software Developer](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01565)
+### [Software Developer - Back-End](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01565)
 *An EMBL-EBI contract - closing date: 9 January 2020*
 
 We are looking for a talented backend software engineer to join the Open Targets Core Platform team. The Core Platform team is a multi-disciplinary team embedded in the European Bioinformatics Institute (EMBL-EBI). We use a range of modern technologies - including ElasticSearch, Spark, ClickHouse and a variety of Google cloud services - to build open source tools that support researchers working in drug discovery. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01565)__
