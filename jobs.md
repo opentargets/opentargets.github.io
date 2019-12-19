@@ -7,6 +7,13 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
+### [Software Developer](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01565)
+*An EMBL-EBI contract - closing date: 28 January 2020*
+
+We are looking for an enthusiastic and talented Full Stack Developer to join the Open Targets Core team. Open Targets (OT) is a public-private partnership aiming to systematically identify and prioritise drug targets by integrating complex biological data in a pre-competitive environment. As an open source project, the Open Targets platform (www.targetvalidation.org) and Genetics Portal (http://genetics.opentargets.org) organize and present large amounts of biomedical data, in order to publicly facilitate the drug discovery decision-making process. __[[read more]] (https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01576&newlang=1&pos[]=0&loc[]=2)__
+
+***
+
 ### [Technical Project Lead](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01575)
 *An EMBL-EBI contract - closing date: 3 January 2020*
 
