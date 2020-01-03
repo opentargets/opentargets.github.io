@@ -1,3 +1,13 @@
+# Below you fill find the template for adding a member of the scientific advisory board (SAB)
+# Note: there is an intentional dash before the "first_name" attribute and all of the other 
+# attributes for that same board member are indented 2 spaces.
+
+# - first_name: 
+#   last_name: 
+#   role: 
+#   organisation: 
+#   link: 
+
 - first_name: Caroline
   last_name: Fox
   role: Vice President and Head, Genetics and Pharmacogenomics
@@ -15,3 +25,27 @@
   role: Professor and Founder, Center for Biological Sequence Analysis - Department of Systems Biology
   organisation: Technical University of Denmark
   link: http://www.cbs.dtu.dk/staff/show-staff.php?id=514
+
+- first_name: Tilmann 
+  last_name: Bürckstümmer
+  role: Chief Scientific Officer
+  organisation: Aelian Biotechnology GmbH
+  link: https://aelianbio.com/
+
+- first_name: Robert
+  last_name: Graham
+  role: Senior Scientist, OMNI Human Genetics
+  organisation: Genentech
+  link: https://www.gene.com/scientists/our-scientists/robert-graham
+
+- first_name: Joanna
+  last_name: Holbrook
+  role: Vice President of Bioinformatics
+  organisation: Cambridge Epigenetix
+  link: https://cambridge-epigenetix.com/company?member=2
+
+- first_name: Robert
+  last_name: Vries
+  role: Chief Executive Officer
+  organisation: Hubrecht Organoid Technology
+  link: https://hub4organoids.eu/employees/robert-vries-ph-d/
