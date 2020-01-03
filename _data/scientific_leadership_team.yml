@@ -1,3 +1,18 @@
+# Below you fill find the template for adding a member of the scientific leadership team
+# Note: there is an intentional dash before the "first_name" attribute and all of the other 
+# attributes for that same member are indented 2 spaces.
+# Note: there is an intentional chevron after the "biography" attribute and the text for the
+# biography should start on the following line and be indented 4 spaces.
+
+# - first_name:
+#   last_name: 
+#   role: 
+#   picture: 
+#   organisation: 
+#   organisation_logo: 
+#   orcid: 
+#   biography: >
+
 - first_name: Maria
   last_name: Martin
   role: EMBL-EBI Scientific Lead
@@ -37,3 +52,168 @@
     Venkitaraman (Cambridge, UK) for his post-doctoral research, where he 
     discovered a new regulator of cell division. Mathew joined the Wellcome 
     Sanger Institute in 2009.
+
+- first_name: Will
+  last_name: Chen
+  role: Biogen Scientific Lead
+  picture: will_chen.png
+  organisation: Biogen
+  organisation_logo: biogen.png 
+  orcid: 
+  biography: >
+    Will is the Head of Computational and Systems Biology at Biogen. His group 
+    leverages mathematical and computational technologies, and analysis of genomics 
+    scale data for drug discovery and development in the area of neurodegenerative 
+    and neuroinflammatory diseases. Prior to joining Biogen in 2016 to build up its 
+    systems biology capabilities, he was a faculty member at Harvard Medical School 
+    where he led the computational and analytics effort of the nascent 
+    multi-investigator HMS Laboratory of Systems Pharmacology that was devoted to 
+    developing and advancing quantitative therapeutic sciences, toxicology and 
+    regulatory sciences, working across a number of disease areas with investigators 
+    from experimental labs, research hospitals and biotech and pharma organizations. 
+    He completed his postdoctoral training at Harvard Medical School (HMS) in 2013 
+    on large-scale nonlinear dynamical modeling of cancer signal transduction, and 
+    his PhD on theoretical biophysics of protein folding at Harvard University in 
+    2006.
+
+- first_name: Shameek
+  last_name: Biswas
+  role: Celgene Scientific Lead
+  picture: shameek_biswas.png
+  organisation: Celgene 
+  organisation_logo: celgene.png
+  orcid: 0000-0002-9372-1143
+  biography: >
+    Shameek is a Principal Scientist in the Research Analytics group working on TIDVAL 
+    and biomarker studies in neurodegeneration. He is focused on statistical fine mapping 
+    of GWAS hits and generating disease evidence by integrating genetics with molecular 
+    profiling and clinical data. Prior to joining Celgene in 2016, he spent seven years 
+    in Novo Nordisk working on target validation and patient stratification for 
+    inflammatory and metabolic conditions. He received his Ph.D. in Genome Sciences from 
+    University of Washington in 2010, where he worked on problems in population genetics 
+    and eQTL analysis.
+
+- first_name: Joe
+  last_name: Maranville
+  role: Celgene Scientific Lead
+  picture: joe_maranville.png
+  organisation: Celgene
+  organisation_logo: celgene.png
+  orcid: 
+  biography: >
+    Joe is a Principal Scientist in the Informatics and Predictive Sciences group at 
+    Celgene, working closely with the Immunology and Inflammation Therapeutic Center of 
+    Excellence. In this role, he uses human genetics to identify novel drug targets, enable 
+    indication selection, perform internal pharmacogenetic studies, and support other aspects 
+    of drug development. Prior to Celgene, he worked in the Genetics and Pharmacogenomics 
+    group at Merck & Co (MSD), where he focused on mapping molecular QTL (e.g. pQTL) and 
+    integrating these data with disease GWAS to enable target identification. He has an 
+    interdisciplinary background in statistical human genetics, computational biology, and 
+    pharmacology. He completed a postdoctoral fellowship in Clinical Pharmacology at the 
+    University of Chicago in 2014, and was certified by the American Board of Clinical 
+    Pharmacology in 2015. He received his PhD in Human Genetics from the University of 
+    Chicago in 2012, where he used eQTL mapping and other functional genomics approaches 
+    to understand the molecular basis of drug response phenotypes.
+
+- first_name: Moritz
+  last_name: Gerstung
+  role: EMBL-EBI Scientific Lead
+  picture: moritz_gerstung.png
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid: 
+  biography: >
+    Moritz leads a research group at EMBL-EBI investigating the underlying mechanisms of 
+    cancer development and seeking to understand the differences in therapy success and 
+    outcomes in different individuals. His team develops statistical models for relating 
+    different layers of genomic, molecular and clinical data to establish connections 
+    between genotype and phenotype, and tools to predict outcomes based on comprehensive, 
+    high-dimensional datasets. The group also explores the evolutionary dynamics of cancer. 
+    He has a PhD in Computational Biology from ETH Zurich (2012), and carried out 
+    postdoctoral work at the Wellcome Trust Sanger Institute (2012-2015). Moritz joined 
+    EMBL-EBI as a Research group leader in August 2015.
+
+- first_name: Philippe
+  last_name: Sanseau
+  role: GSK Scientific Lead
+  picture: philippe_sanseau.png
+  organisation: GSK
+  organisation_logo: gsk.png
+  orcid: 
+  biography: >
+    Philippe is Head of Computational Biology at GSK. He has a PhD from University of 
+    Rennes in France and conducted his postdoctoral training at the Imperial Cancer Research 
+    Fund in London (now Cancer Research UK), with a focus on immunogenetics. He joined GSK to 
+    work initially in the Genetics and Genomics Departments. Since 2001 he has held various 
+    senior roles in bioinformatics and computational biology. Philippe is currently leading 
+    the Computational Biology (CB) Department at GSK with scientists located in the UK and US. 
+    The CB Department is working on multiple therapeutic areas supporting drug discovery and 
+    development projects at all phases of the pipeline using diverse bioinformatics approaches 
+    applied to biomedical internal and external data. The Department maintains a strong 
+    scientific innovation agenda as demonstrated by our activities in target validation, drug 
+    repositioning, systems approaches, or microbiome analyses. CB at GSK has also developed an 
+    international network of academic collaborators and maintains a strong publication record. 
+    Philippe is a member of several international advisory boards and different UK and 
+    international funding committees.
+
+- first_name: Jack
+  last_name: Pollard
+  role: Sanofi Scientific Lead
+  picture: jack_pollard.png
+  organisation: Sanofi
+  organisation_logo: sanofi.png
+  orcid: 
+  biography: >
+    Jack Pollard is Director of Translational and Experimental Medicine, Bioinformatics at 
+    Sanofi since 2013. He is a leader at identifying both (1) novel relevant disease 
+    targets/signatures and (2) compounds with novel mechanisms of action by applying and 
+    developing statistical and computational methods. He also is an innovator at generating 
+    testable hypotheses about target/compound mechanisms and/or biomarkers via computational 
+    and pathway modeling systems. Jack Pollard started his career at Sanofi in 2005 as Principal 
+    Research Investigator, Bioinformatics. In 2007, he took a role as Senior Manager and later 
+    became Associate Director, Oncology Translational and Experimental Medicine, Bioinformatics, 
+    before taking over his current position. Prior to joining Sanofi he was Director of 
+    Discovery Science at “Genestruct”. Jack Pollard hold a BS in Biochemistry from Indiana 
+    University Bloomington, and a Ph.D. in Biochemistry and Molecular Pharmacology from Harvard 
+    Medical School.
+
+- first_name: Emanuele
+  last_name: de Rinaldis
+  role: Sanofi Scientific Lead
+  picture: emanuele_de_rinaldis.png
+  organisation: Sanofi
+  organisation_logo: sanofi.png
+  orcid: 
+  biography: >
+    Emanuele de Rinaldis is Senior Director Precision Immunology at Sanofi since November 2017. 
+    Prior to joining Sanofi, he was BRC Head of Translational Bioinformatics & Honorary Senior 
+    Lecturer. In his role he was leading an inter-disciplinary team of bioinformaticians and 
+    computer scientists working on translational and personalized medicine projects. Emanuele de 
+    Rinaldis was with BRC from 2009, first as Research Fellow and Team Leader before advancing 
+    to Head of Translational Bioinformatics. Before working at the BRC, he was a Research Fellow 
+    and Team Leader at Merck (US). As scientific leader of bioinformatics and genomics-based 
+    research projects his responsibilities were the identification of novel therapeutic 
+    targets/pathways in the areas of oncology and cardiovascular diseases and software development 
+    for competitive evaluation of scientific patents. He holds an MSc in Biological 
+    Sciences/Molecular Biology and a PhD from Sapienza Universitá di Roma.
+
+- first_name: Narender
+  last_name: Gavva
+  role: Takeda Scientific Lead
+  picture: narender_gavva.png
+  organisation: Takeda
+  organisation_logo: takeda.png
+  orcid: 
+  biography: >
+    Narender is the Head of Early Target Discovery (ETD) group at Takeda Research, California. 
+    The group focuses on gene expression, regulation and human genetics follow up TIDVAL for 
+    different indications in gastroenterology, neuroscience, and oncology Drug Discovery Units 
+    (DDUs). Prior to joining Takeda, he was a Scientific Director at Amgen Discovery Research 
+    where he spent 18 years in leading drug discovery projects and group of scientists in 
+    molecular biology, human genetics follow up, in vitro pharmacology, evaluation of new 
+    technologies, optimization of automated HTS assays, conducting focused screens, supporting 
+    lead optimization, clinical candidate selection. He led the teams that pursued small molecule, 
+    antibody and peptide modalities toward clinical candidate nomination. Narender contributed to 
+    research reports, patents, and/or IND/IBs for AMG 517, AMG 333, AMG 747, AMG 334 
+    (erenumab/Aimovig™). Prior to joining Amgen, Narender did a post-doctoral training in gene 
+    regulation at UC Davis and a PhD in University of Hyderabad, India.
