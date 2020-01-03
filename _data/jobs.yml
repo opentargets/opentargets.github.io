@@ -1,6 +1,56 @@
+# Below you fill find the template for adding a new job ad.
+# Note: there is an intentional dash before the "title" attribute and all of the other attributes 
+# for that same job ad are indented with a tab of 2 spaces
+# Note: there is an intentional chevron after the "description" attribute and the text for the
+# description should start on the following line and be indented 4 spaces.
+
+# - title: 
+#   organisation: 
+#   logo: 
+#   closing_date: 
+#   link: 
+#   description: >
+
+- title: Senior Research Assistant
+  organisation: Wellcome Sanger Institute
+  logo: wellcome-sanger.png
+  closing_date: 2020-01-26
+  link: https://jobs.sanger.ac.uk/vacancy/senior-research-assistant-408769.html
+  description: >
+    We are seeking an enthusiastic and motivated Senior Research Assistant to provide experimental and operational 
+    support to the newly opened Open Targets Validation Lab at the Wellcome Sanger Institute. This exciting opportunity 
+    will involve working with world-leading experts from both academia and industry to validate targets in multiple 
+    disease areas, including oncology, neurodegeneration, and immunology. 
+
+- title: Software Developer - Genetics Portal
+  organisation: EMBL-EBI
+  logo: embl-ebi.png
+  closing_date: 2020-01-28
+  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01577
+  description: >
+    We are seeking a talented backend software engineer to support the development of the Open Targets Genetics Portal. 
+    You will join a dynamic and multidisciplinary team and we use a range of cutting-edge technologies to process, store, 
+    and aggregate the vast amount of human genetic data. You will have the opportunity to build on the most recent 
+    statistical genomics analysis and provide a robust infrastructure for both public and private instances of the 
+    Genetics Portal. Our current technologies include ElasticSearch, Spark, ClickHouse and a variety of Google Cloud 
+    services including Dataproc and BigQuery. 
+
+- title: Software Developer - Full-Stack
+  organisation: EMBL-EBI
+  logo: embl-ebi.png
+  closing_date: 2020-01-28
+  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01576
+  description: >
+    We are looking for an enthusiastic and talented Full Stack Developer to join the Open Targets Core Platform team 
+    and to support the development of our informatics services. The postholder’s primary tasks will be: 1) to 
+    support the active development of the Open Targets Platform and Open Targets Genetics Portal applications; and 
+    2) to ensure a reliable interface with their respective back-ends. Both applications share a common infrastructure 
+    based on React and GraphQL and so we encourage candidates with all levels of experience to apply including 
+    Front-End Web Developers and Full Stack Engineers. 
+
 - title: "Technical Project Lead"
-  organisation: "EMBL-EBI"
-  logo: "embl-ebi.png"
+  organisation: EMBL-EBI
+  logo: embl-ebi.png
   closing_date: 2020-01-03
   link: "https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01575"
   description: >
@@ -8,7 +58,6 @@
     back-end and front-end software developers and will be responsible for the technical development of the Open Targets Platform 
     and Open Targets Genetics Portal. They will also work directly with the Platform Coordinator to establish the technical 
     roadmap for our services.
-
 
 - title: "Postdoctoral Fellowship - Statistical Genetics"
   organisation: "Wellcome Sanger Institute"
@@ -36,9 +85,9 @@
     CRISPR-engineered mutations modelling ~100 neurodevelopmental and psychiatric disorders due to mutations in chromatin-related 
     genes, as well as transcriptomic profiles from drug response profiles of hundreds of pharmacological and genetic perturbations.
 
-- title: "Software Developer"
-  organisation: "EMBL-EBI"
-  logo: "embl-ebi.png"
+- title: "Software Developer - Back-End"
+  organisation: EMBL-EBI
+  logo: embl-ebi.png
   closing_date: 2020-01-09
   link: "https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01565"
   description: >
@@ -57,14 +106,3 @@
     hiPSC) derived microglia to screen for genes involved in neurodegeneration, especially Alzheimer’s disease. The positions 
     will be based at the Wellcome Sanger Institute under the leadership of Dr. Andrew Bassett, Dr. Gosia Trynka and Dr. Daniel 
     Gaffney, and will also involve working with collaborators at the University of Oxford."
-
-- title: "Postdoctoral Fellow - CRISPR screening and QTL mapping in neurodegeneration - 2 positions"
-  organisation: "Wellcome Sanger Institute"
-  logo: "wellcome-sanger.png"
-  closing_date: 2019-01-17
-  link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-crispr-screening-and-qtl-mapping-in-neurodegeneration-405888.html"
-  description: >
-    Two postdoctoral positions are available that provide an exciting opportunity to use human induced pluripotent stem cell 
-    hiPSC) derived microglia to screen for genes involved in neurodegeneration, especially Alzheimer’s disease. The positions 
-    will be based at the Wellcome Sanger Institute under the leadership of Dr. Andrew Bassett, Dr. Gosia Trynka and Dr. Daniel 
-    Gaffney, and will also involve working with collaborators at the University of Oxford.

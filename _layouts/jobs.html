@@ -25,16 +25,16 @@ layout: default
     {% for job in all_job_ads %}
       {% capture closing_date %}{{ job.closing_date | date: '%s' | plus : 86400 }}{% endcapture %}
       {% if closing_date > now %}
-      <div class="row mb-3">
+      <div class="row pb-4">
         <div class="col-lg-12">
           <div class="card">
             <div class="card-body">
               <div class="row">
                 <div class="col-md-9">
-                  <h3 class="card-title">{{ job.title }}</h3>
-                  <p class="text-muted font-weight-bold">
+                  <h4 class="card-title">{{ job.title }}</h4>
+                  <h6 class="card-subtitle mb-4">
                     Application closing date: {{ job.closing_date | date: "%-d %B %Y" }} 
-                  </p>
+                  </h6>
                 </div>
                 <div class="offset-md-1 col-md-2">
                   <img class="img-fluid" src="/assets/img/logos/{{ job.logo }}" />
@@ -42,8 +42,8 @@ layout: default
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <p>
-                    {{ job.description | truncate: 500 }} <a href="{{ job.link }}">[ read more ]</a>
+                  <p class="card-title">
+                    {{ job.description | truncate: 500 }} <a href="{{ job.link }}" class="font-weight-bold">[ read more ]</a>
                   </p>
                 </div>
               </div>   
