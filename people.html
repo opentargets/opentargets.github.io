@@ -119,7 +119,7 @@ title: People
         {% assign scientific_advisory_board = site.data.scientific_advisory_board | sort: 'last_name' %}
         <ul class="list-unstyled">
           {% for person in scientific_advisory_board %}
-            <li class="pt-3">
+            <li class="pt-4">
               <h5 class="card-title">{{ person.first_name }} {{ person.last_name }}</h5>
               <p class="card-subtitle">{{ person.role }}</p>
               <p class="card-subtitle">{{ person.organisation }}</p>
