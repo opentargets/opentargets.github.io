@@ -7,11 +7,6 @@
   role: Scientific Outreach Lead
   institute: EMBL-EBI
   github: deniseOme
-
-- name: Adam Faulconbridge
-  role: Backend Software Engineer
-  institute: EMBL-EBI
-  github: afaulconbridge
   
 - name: Luca Fumis
   role: Frontend Developer
@@ -42,13 +37,8 @@
   role: Platform Coordinator
   institute: EMBL-EBI
   github: d0choa
-
-- name: Gareth Peat
-  role: Frontend Developer
+  
+- name: Daniel Suveges
+  role: Senior Bioinformatician
   institute: EMBL-EBI
-  github: peatroot
-
-- name: Eirini Petsalaki
-  role: Bioinformatician
-  institute: EMBL-EBI
-  github: EPetsalaki
+  github: DSuveges
