@@ -5,13 +5,6 @@ permalink: /jobs/
 ---
 Please note that some applications will be reviewed on an ongoing basis and the advertised post(s) may be filled before the stated deadline. 
 
-### [Technical Project Lead](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01575)
-*An EMBL-EBI contract - closing date: 3 January 2020*
-
-We are seeking a highly motivated technical lead for the Open Targets Core teams. The postholder will lead a team of 6 back-end and front-end software developers and will be responsible for the technical development of the Open Targets Platform and Open Targets Genetics Portal. They will also work directly with the Platform Coordinator to establish the technical roadmap for our informatics services. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01575)__
-
-***
-
 ### [Software Developer - Back-End](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01565)
 *An EMBL-EBI contract - closing date: 9 January 2020*
 
