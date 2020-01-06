@@ -1,14 +1,19 @@
 - name: Maya Ghoussaini
-  role: Team Leader
-  institute: Sanger
+  role: Genetic Analysis Team Leader
+  institute: Wellcome Sanger Institute
   email: maya.ghoussaini@sanger.ac.uk 
 
+- name: Mohd Karim
+  role: Computational Biologist
+  institute: Wellcome Sanger Institute
+  email: mohd.karim@sanger.ac.uk
+  
 - name: Edward Mountjoy
-  role: Team Member
-  institute: Sanger
+  role: Statistical Geneticist
+  institute: Wellcome Sanger Institute
   email: edward.mountjoy@sanger.ac.uk
 
 - name: Ellen Schmidt
-  role: Team Member
-  institute: Sanger
+  role: Computational Biologist
+  institute: Wellcome Sanger Institute
   email: ellen.schmidt@sanger.ac.uk
