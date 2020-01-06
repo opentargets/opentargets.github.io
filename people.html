@@ -112,6 +112,10 @@ title: People
     <div class="row">
       <div class="col-lg-12">
         <h3>Platform Team</h3>
+        <p>
+          The Open Targets Platform has been developed and maintained by a diverse group of individuals with specialised skills in 
+          bioinformatics, computer science, web development, user experience design, and scientific outreach and training.
+        </p>
       </div>
     </div>
     <div class="row mb-5">
@@ -151,6 +155,57 @@ title: People
         </div>
       {% endfor %}
     </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3>Genetics Core Team</h3>
+        <p>
+          The Genetics Core team focuses on using human genetics data to guide therapeutic target identification and prioritisation, 
+          inform drug repositioning and predict toxicity effects. The team is currently developing a first of its kind Genetics 
+          Portal that will enable users to browse, visualise and interpret human genetics and genomics data to unravel the genetic 
+          underpinnings of human diseases and traits and to give insights into disease biology so that this knowledge gets translated 
+          into therapeutic hypothesis.
+        </p>
+      </div>
+    </div>
+    <div class="row mb-5">
+      {% assign genetics_team = site.data.genetics_team | sort: 'last_name' %}
+      {% for person in genetics_team %}
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
+          <div class="card shadow-lg p-4 bg-white rounded align-self-stretch">
+            <a data-toggle="modal" href="#modal-{{ person.last_name }}">
+              <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
+            </a>
+            <div class="card-body text-center">
+              <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
+              <p class="card-subtitle mb-3">{{ person.role }}</p>
+              <div>
+                <img src="/assets/img/logos/{{person.organisation_logo}}" class="logo-small" />
+              </div>
+            </div>
+          </div>
+        </div>  
+        <!-- Modal with biography -->
+        <div class="modal fade" id="modal-{{ person.last_name}}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ person.last_name }}Label" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content px-3 py-5">
+              <div class="text-center">
+                <h3>{{ person.first_name }} {{ person.last_name}}'s biography</h3>
+              </div>
+              <div class="modal-body">
+                <p>
+                  {{ person.biography }}
+                </p>
+              </div>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+
     <div class="row">
       <div class="col-lg-12">
         <h3 class=>Scientific Advisory Board (SAB)</h3>
