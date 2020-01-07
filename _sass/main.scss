@@ -67,11 +67,16 @@ a:hover {
   color: $ot-corp-grey;
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
-.dropdown-item:hover {
+.navbar-light .navbar-nav .nav-link:hover,{
   color: $ot-corp-blue;
 }
 
 .dropdown-menu {
   border: 2px solid $ot-corp-grey;
+}
+
+.dropdown-item:hover,
+.dropdown-item:active {
+  color: $ot-corp-blue;
+  background-color: lightgrey;
 }
