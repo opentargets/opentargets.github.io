@@ -80,3 +80,12 @@ a:hover {
   color: $ot-corp-blue;
   background-color: lightgrey;
 }
+
+.active-icon {
+  color: $ot-corp-blue;
+}
+
+.disabled-icon {
+  color: $ot-corp-grey;
+  opacity: 0.5;
+}
