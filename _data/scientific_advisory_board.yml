@@ -32,11 +32,11 @@
   organisation: Aelian Biotechnology GmbH
   link: https://aelianbio.com/
 
-- first_name: Robert
-  last_name: Graham
-  role: Senior Scientist, OMNI Human Genetics
-  organisation: Genentech
-  link: https://www.gene.com/scientists/our-scientists/robert-graham
+- first_name: Professor Sir Mike
+  last_name: Ferguson
+  role: Regius Professor of Life Sciences
+  organisation: School of Life Sciences, University of Dundee
+  link: https://www.lifesci.dundee.ac.uk/people/mike-ferguson
 
 - first_name: Joanna
   last_name: Holbrook
@@ -49,3 +49,9 @@
   role: Chief Executive Officer
   organisation: Hubrecht Organoid Technology
   link: https://hub4organoids.eu/employees/robert-vries-ph-d/
+
+- first_name: Núria 
+  last_name: López-Bigas
+  role: ICREA Research Professor
+  organisation: Pompeu Fabra University 
+  link: https://www.irbbarcelona.org/en/profile/nuria-lopez-bigas
