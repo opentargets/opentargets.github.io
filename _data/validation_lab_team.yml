@@ -1,0 +1,24 @@
+# Below you fill find the template for adding a member of the validation lab team
+# Note: there is an intentional dash before the "first_name" attribute and all of the other 
+# attributes for that same member are indented 2 spaces.
+# Note: there is an intentional chevron after the "biography" attribute and the text for the
+# biography should start on the following line and be indented 4 spaces.
+
+# - first_name:
+#   last_name: 
+#   role: 
+#   picture: 
+#   organisation: 
+#   organisation_logo: 
+#   orcid: 
+#   biography: >
+
+- first_name: Panos
+  last_name: Zalmas
+  role: Head, Open Targets Validation Lab
+  picture: panos_zalmas.png
+  organisation: Wellcome Sanger Institute
+  organisation_logo: wellcome-sanger.png
+  orcid: 
+  biography: >
+    Panos Zalmas joined Open Targets as the Head of the Open Targets Validation Lab in October 2019.

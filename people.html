@@ -29,7 +29,10 @@ title: People
           necessary support to facilitate the vision and its implementation across our partners. 
           Our <a href="#platform-core-team">Platform Core Team</a> and our
           <a href="#genetics-core-team">Genetics Core Team</a> are responsible for maintaining 
-          our <a href="/resources#flagship-resources">flagship informatics resources</a>. And our
+          our <a href="/resources#flagship-resources">flagship informatics resources</a> while our
+          <a href="#validation-lab-team">Validation Lab Team</a> takes targets identified from
+          our experimental projects and guides them through further screens to assess suitability
+          for our partners' drug discovery programmes. And our
           <a href="#scientific-advisory-board">Scientific Advisory Board</a> are a group of 
           well-known individuals from academia and industry that make recommendations to further
           the sucess of our partnership. 
@@ -84,7 +87,7 @@ title: People
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <h3 id="scientific-leadership-team">Scientific leadership team</h3>
+        <h3 id="scientific-leadership-team">Scientific Leadership Team</h3>
         <p>
           The Open Targets Scientific Leadership Team (SLT) is compromised of representatives from every partner
           and is responsible for setting the scientific priorities for the consortium and approving 
@@ -191,6 +194,54 @@ title: People
     <div class="row mb-5">
       {% assign genetics_team = site.data.genetics_team | sort: 'last_name' %}
       {% for person in genetics_team %}
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
+          <div class="card shadow-lg p-4 bg-white rounded align-self-stretch">
+            <a data-toggle="modal" href="#modal-{{ person.last_name }}">
+              <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
+            </a>
+            <div class="card-body text-center">
+              <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
+              <p class="card-subtitle mb-3">{{ person.role }}</p>
+              <div>
+                <img src="/assets/img/logos/{{person.organisation_logo}}" class="logo-small" />
+              </div>
+            </div>
+          </div>
+        </div>  
+        <!-- Modal with biography -->
+        <div class="modal fade" id="modal-{{ person.last_name}}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ person.last_name }}Label" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content px-3 py-5">
+              <div class="text-center">
+                <h3>{{ person.first_name }} {{ person.last_name}}'s biography</h3>
+              </div>
+              <div class="modal-body">
+                <p>
+                  {{ person.biography }}
+                </p>
+              </div>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 id="validation-lab-team">Validation Lab</h3>
+        <p>
+          The Open Targets Validation Lab aids the translation of targets identified from our other efforts to drug 
+          discovery through in silico triage, orthogonal verification and mechanistic investigation. The Validation
+          Lab is supported by <a href="/partners">our partners</a> to ensure close connections with their interests 
+          and to increase the chances of target adoption in their drug discovery pipelines. 
+        </p>
+      </div>
+    </div>
+    <div class="row mb-5">
+      {% assign validation_lab_team = site.data.validation_lab_team | sort: 'last_name' %}
+      {% for person in validation_lab_team %}
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
           <div class="card shadow-lg p-4 bg-white rounded align-self-stretch">
             <a data-toggle="modal" href="#modal-{{ person.last_name }}">
