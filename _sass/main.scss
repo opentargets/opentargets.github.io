@@ -89,3 +89,8 @@ a:hover {
   color: $ot-corp-grey;
   opacity: 0.5;
 }
+
+#blog-section {
+  height: 400px;
+  overflow-y: scroll;
+}

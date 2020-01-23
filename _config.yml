@@ -1,2 +1,9 @@
 url: "https://www.opentargets.org/" 
 title: "Open Targets" 
+
+plugins:
+  - jekyll-get-json
+  
+jekyll_get_json:
+  - data: ghost_api_response
+    json: 'https://blog.opentargets.org/ghost/api/v0.1/posts/?limit=5&include=posts%2C%20author&fields=title%2C%20meta_description%2C%20published_at%2C%20slug%2C%20author&order=published_at%20DESC&client_id=ghost-frontend&client_secret=5fd090001a81'

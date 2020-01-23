@@ -105,7 +105,7 @@ layout: default
     <div class="container">
       <div class="row">
           <div class="col-lg-12">
-            <h2 class="text-center mb-5">Our principles</h2>
+            <h2 class="text-center mb-5">Our Principles</h2>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="card">
@@ -210,4 +210,85 @@ layout: default
     </div>
   </section>  
 
-    <!-- Page Content -->
+  <section class="py-5 my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="text-center mb-5">Our News & Updates</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 py-3">
+          <div class="news-section-header">
+            <h4 class="text-center">
+              <i class="fas fa-rss-square"></i>
+              Blog
+            </h4>
+          </div>
+          <hr />
+          <div class="news-section-content">
+            <div id="blog-section">
+              {% for post in site.data.ghost_api_response.posts %}
+              {% capture post_year %}{{ post.published_at | date: '%Y' }}{% endcapture %}
+              {% capture post_month %}{{ post.published_at | date: '%m' }}{% endcapture %}
+              {% capture post_day %}{{ post.published_at | date: '%d' }}{% endcapture %}
+              <a class="font-weight-bold mb-1" href="http://blog.opentargets.org/{{post_year}}/{{post_month}}/{{post_day}}/{{post.slug}}" target="_blank">
+                {{ post.title }}
+              </a>
+              <p class="mb-1 font-weight-light">{{post.author.name}} | {{ post.published_at | date: '%B %d, %Y'}} </p>
+              <p class="mb-4">{{post.meta_description | truncate: 100}}</p>      
+            {% endfor %}
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 py-3">
+          <div class="news-section-header">
+            <h4 class="text-center">
+              <i class="fab fa-twitter-square"></i>
+              Twitter
+            </h4>
+          </div>
+          <hr />
+          <div class="news-section-content">
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a 
+              class="twitter-timeline" 
+              data-lang="en" 
+              data-height="400" 
+              data-theme="light" 
+              data-chrome="noborders noheader nofooter" 
+              href="https://twitter.com/targetvalidate">
+              Tweets by @targetvalidate
+            </a> 
+          </div>  
+        </div>
+        <div class="col-lg-4 py-3">
+          <div class="news-section-header">
+            <h4 class="text-center">
+              <i class="fab fa-facebook-square"></i>
+              Facebook
+            </h4>
+          </div>
+          <hr />
+          <div class="news-section-content">
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0"></script>
+            <div 
+              class="fb-page" 
+              data-href="https://www.facebook.com/OpenTargets" 
+              data-tabs="timeline" 
+              data-width="" 
+              data-height="400" 
+              data-small-header="true" 
+              data-adapt-container-width="true" 
+              data-hide-cover="false" 
+              data-show-facepile="false">
+                <blockquote cite="https://www.facebook.com/OpenTargets" class="fb-xfbml-parse-ignore">
+                  <a href="https://www.facebook.com/OpenTargets">Open Targets</a>
+                </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
