@@ -13,6 +13,17 @@
 #   pmid: 
 #   link: 
 
+- title: Agreement between two large pan-cancer CRISPR-Cas9 gene dependency data sets
+  author: Dempster JM & Pacini C et al.
+  publication_name: Nature Communications
+  issue:
+  volume: 10
+  publication_year: 2019
+  pages: 5817
+  doi: 10.1038/s41467-019-13805-y 
+  pmid: 31862961
+  link: https://www.nature.com/articles/s41467-019-13805-y
+
 - title: Chromatin activity at GWAS loci identifies T cell states driving complex immune diseases
   author: Soskic B et al.
   publication_name: Nature Genetics
