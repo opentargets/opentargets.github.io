@@ -7,13 +7,6 @@ Please note that some applications will be reviewed on an ongoing basis and the 
 
 ***
 
-### [Senior Research Assistant](https://jobs.sanger.ac.uk/vacancy/senior-research-assistant-408769.html)
-*A Wellcome Sanger Institute contract - closing date: 26 January 2020*
-
-We are seeking an enthusiastic and motivated Senior Research Assistant to provide experimental and operational support to the newly opened Open Targets Validation Lab at the Wellcome Sanger Institute. This exciting opportunity will involve working with world-leading experts from both academia and industry to validate targets in multiple disease areas, including oncology, neurodegeneration, and immunology. __[[read more]](https://jobs.sanger.ac.uk/vacancy/senior-research-assistant-408769.html)__
-
-***
-
 ### [Software Developer - Genetics Portal](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01577)
 *An EMBL-EBI contract - closing date: 28 January 2020*
 
