@@ -14,9 +14,16 @@ We are seeking a talented backend software engineer to support the development o
 
 ***
 
-### [Software Developer - Full-Stack](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01576)
+### [Software Developer - Front-End/Full-Stack](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01576)
 *An EMBL-EBI contract - closing date: 28 January 2020*
 
 We are looking for an enthusiastic and talented Full Stack Developer to join the Open Targets Core Platform team and to support the development of our informatics services. The postholder's primary tasks will be: 1) to support the active development of the Open Targets Platform and Open Targets Genetics Portal applications; and 2) to ensure a reliable interface with their respective back-ends. Both applications share a common infrastructure based on React and GraphQL and so we encourage candidates with all levels of experience to apply including Web Developers and Full Stack Engineers. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01576)__
+
+***
+
+### [Software Developer - Front-End](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01599)
+*An EMBL-EBI contract - closing date: 9 March 2020*
+
+We are looking for an enthusiastic and talented Front-End Software Developer to join the Open Targets team and help us build the next generation of open source and big data tools and services that support the drug discovery process. As a key member of the Core Platform Team, you will work on developing and maintaining our two flagship open-source resources - the [Open Targets Platform](https://www.targetvalidation.org/) and the [Open Targets Genetics Portal](https://genetics.opentargets.org). Together, these two resources integrate, organise, and present vast amounts of biomedical data in order to help research scientists identify and prioritise potential therapeutic drug targets. __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01599)__
 
 ***
