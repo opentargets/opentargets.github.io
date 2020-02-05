@@ -12,6 +12,13 @@
   bio: >
       David has a PhD from the University of Cambridge in Organic Chemistry and conducted postdoctoral research at the University of Toronto in Canada.  He joined GSK in 2007 initially in the Process Chemistry group to develop manufacturing processes for small molecule therapies.  Through his time at GSK he has held project leadership and line management roles in R&D and led research and technology transfer programmes between R&D and Global Manufacturing.  Before joining Open Targets David was engaged in developing and implementing strategic projects for GSK through a secondment to the office of the CEO and CFO as part of the CEO’s Future Strategy Group.  As Operations Director, David oversees the management of a number of informatics and experimental target validation projects as well as ensuring the strategic deployment and operational translation of Open Targets.
 
+- name: Gosia Trynka
+  role: Experimental Science Director
+  pic: gosiatrynka.png
+  institution: Wellcome Sanger Institute
+  bio: >
+    Gosia Trynka leads the Immune Genomics group at the Wellcome Sanger Institute. Her group is focused on translating genetic variants associated with immune diseases to function. The group combines immune cell assays with a broad genomic toolkit (from chromatin activity mapping through large scale single cell RNA-seq studies to CRISPR screens) to understand the role of human genetic variation in regulating the immune system. Gosia earned her PhD in 2011 from the University of Groningen, the Netherlands under the supervision of Prof. Cisca Wijmenga. During her PhD she became actively involved in international efforts that used genome wide association studies (GWAS) to map variants predisposing to immune diseases. She then undertook postdoctoral training at Brigham and Women’s Hospital and the Broad Institute of Harvard and MIT in Boston where she joined groups of Dr Soumya Raychaudhuri and Dr Robert Plenge. Her work included development of methods that integrate GWAS variants with functional genomics readouts to inform the role of disease associated variants, e.g. in nominating causal cell types.
+
 - name: Birgit Kerber
   role: Business Development Lead
   pic: Birgit_Kerber.png
