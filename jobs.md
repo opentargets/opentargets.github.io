@@ -15,8 +15,8 @@ We are looking for an enthusiastic and talented Front-End Software Developer to 
 ***
 
 ### [Statistical Geneticist](https://jobs.sanger.ac.uk/vacancy/statistical-geneticist-open-targets-411749.html)
-*An Wellcome Sanger Institute contract - closing date: 10 March 2020*
+*A Wellcome Sanger Institute contract - closing date: 10 March 2020*
 
-A Statistical Geneticist role is available at the Wellcome Sanger Institute in a new team under the leadership of Dr. Maya Ghoussaini. This is an exciting opportunity for you to participate in the enhancement of the existing [Open Targets Genetics Portal](https://genetics.opentargets.org/) through the development of new functionality and features. You will develop and apply computational pipelines to elucidate causal mechanisms through integrative analyses of data from GWAS, eQTL/pQTL, chromatin interactions and conformation, biobanks, and other related sources to identify and prioritise drug targets. __[[read more]](https://jobs.sanger.ac.uk/vacancy/statistical-geneticist-open-targets-411749.html)__
+A Statistical Geneticist role is available at the Wellcome Sanger Institute in a new team under the leadership of Dr. Maya Ghoussaini. This is an exciting opportunity for you to participate in the enhancement of the existing [Open Targets Genetics Portal](https://genetics.opentargets.org/) through the development of new functionality and features. You will develop and apply computational pipelines to elucidate causal mechanisms through integrative analyses of data from GWAS, eQTL/pQTL, chromatin interactions and conformation, biobanks, and other related sources to identify and prioritise potential drug targets. __[[read more]](https://jobs.sanger.ac.uk/vacancy/statistical-geneticist-open-targets-411749.html)__
 
 ***
