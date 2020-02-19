@@ -20,3 +20,10 @@ We are looking for an enthusiastic and talented Front-End Software Developer to 
 A Statistical Geneticist role is available at the Wellcome Sanger Institute in the Open Targets Genetics team under the leadership of Dr. Maya Ghoussaini. This is an exciting opportunity for you to participate in the enhancement of the existing [Open Targets Genetics Portal](https://genetics.opentargets.org/) through the development of new functionality and features. In this role, you will be actively engaged in the integration of new GWAS data (FinnGen, Biobank Japan, etc), eQTL datasets including splice QTLs and tissue-specific functional genomic datasets. You will develop and apply computational pipelines to elucidate causal mechanisms through integrative analyses of data from GWAS, eQTL/pQTL, chromatin interactions and conformation, biobanks, and other related sources to identify and prioritise drug targets. __[[read more]](https://jobs.sanger.ac.uk/vacancy/statistical-geneticist-open-targets-411749.html)__
 
 ***
+
+### [Postdoctoral Fellow - CRISPR screening and QTL mapping in neurodegeneration](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-crispr-screening-and-qtl-mapping-in-neurodegeneration-414163.html)
+*A Wellcome Sanger Institute contract - closing date: 16 March 2020*
+
+We have an exciting opportunity for a postdoctoral researcher to join an interdisciplinary team on an ambitious project aimed to identify new genes involved in neurodegeneration, especially Alzheimer’s disease. The successful candidate will use human induced pluripotent stem cell (hiPSC) derived microglia coupled with cutting edge high-throughput single cell 'omics techniques to assay the effects of natural and induced genetic variation on gene expression and cellular phenotypes. The overall aim is to identify novel genes involved in important microglial cellular processes that are relevant for disease biology and will therefore be candidate drug targets for further development. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-crispr-screening-and-qtl-mapping-in-neurodegeneration-414163.html)__
+
+***
