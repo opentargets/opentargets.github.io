@@ -11,6 +11,22 @@
 #   link: 
 #   description: >
 
+- title: Web Developer
+  organisation: EMBL-EBI
+  logo: embl-ebi.png
+  closing_date: 2020-02-24
+  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01599
+  description: >
+    We are looking for an enthusiastic and talented Front-End Software Developer to join the Open Targets team and help us build the next generation of open source and big data tools and services that support the drug discovery process. As a key member of the Core Platform Team, you will work on developing and maintaining our two flagship open-source resources - the Open Targets Platform and the Open Targets Genetics Portal. Together, these two resources integrate, organise, and present vast amounts of biomedical data in order to help research scientists identify and prioritise potential therapeutic drug targets.
+
+- title: Statistical Geneticist
+  organisation: "Wellcome Sanger Institute"
+  logo: wellcome-sanger.png
+  closing_date: 2020-03-10
+  link: https://jobs.sanger.ac.uk/vacancy/statistical-geneticist-open-targets-411749.html
+  description: >
+    A Statistical Geneticist role is available at the Wellcome Sanger Institute in the Open Targets Genetics team under the leadership of Dr. Maya Ghoussaini. This is an exciting opportunity for you to participate in the enhancement of the existing Open Targets Genetics Portal through the development of new functionality and features. In this role, you will be actively engaged in the integration of new GWAS data (FinnGen, Biobank Japan, etc), eQTL datasets including splice QTLs and tissue-specific functional genomic datasets. You will develop and apply computational pipelines to elucidate causal mechanisms through integrative analyses of data from GWAS, eQTL/pQTL, chromatin interactions and conformation, biobanks, and other related sources to identify and prioritise drug targets. 
+
 - title: Senior Research Assistant
   organisation: Wellcome Sanger Institute
   logo: wellcome-sanger.png
@@ -99,10 +115,7 @@
 - title: "Postdoctoral Fellow - CRISPR screening and QTL mapping in neurodegeneration - 2 positions"
   organisation: "Wellcome Sanger Institute"
   logo: "wellcome-sanger.png"
-  closing_date: 2020-01-17
+  closing_date: 2020-03-16
   link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-crispr-screening-and-qtl-mapping-in-neurodegeneration-405888.html"
   description: >
-    "Two postdoctoral positions are available that provide an exciting opportunity to use human induced pluripotent stem cell 
-    hiPSC) derived microglia to screen for genes involved in neurodegeneration, especially Alzheimer’s disease. The positions 
-    will be based at the Wellcome Sanger Institute under the leadership of Dr. Andrew Bassett, Dr. Gosia Trynka and Dr. Daniel 
-    Gaffney, and will also involve working with collaborators at the University of Oxford."
+    We have an exciting opportunity for a postdoctoral researcher to join an interdisciplinary team on an ambitious project aimed to identify new genes involved in neurodegeneration, especially Alzheimer’s disease. The successful candidate will use human induced pluripotent stem cell (hiPSC) derived microglia coupled with cutting edge high-throughput single cell ‘omics techniques to assay the effects of natural and induced genetic variation on gene expression and cellular phenotypes. The overall aim is to identify novel genes involved in important microglial cellular processes that are relevant for disease biology and will therefore be candidate drug targets for further development.
