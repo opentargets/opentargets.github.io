@@ -13,6 +13,17 @@
 #   pmid: 
 #   link: 
 
+- title: The Open Targets post-GWAS analysis pipeline 
+  author: Peat, G et al.
+  publication_name: Bioinformatics
+  issue: 
+  volume: 
+  publication_year: 2020
+  pages: 
+  doi: 10.1093/bioinformatics/btaa020
+  pmid: 31930349 
+  link: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaa020/5701644
+
 - title: Agreement between two large pan-cancer CRISPR-Cas9 gene dependency data sets
   author: Dempster JM & Pacini C et al.
   publication_name: Nature Communications
