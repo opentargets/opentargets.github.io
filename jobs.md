@@ -31,4 +31,13 @@ We are seeking a talented backend software engineer to join the Open Targets Cor
 ### [Senior Research Assistant](https://jobs.sanger.ac.uk/vacancy/senior-research-assistant-415335.html)
 *A Wellcome Sanger Institute contract - closing date: 31 March 2020*
 
-We are seeking an enthusiastic and motivated scientist to provide experimental, scientific and operational support to the Open Targets Validation Lab at the Wellcome Sanger Institute. This exciting opportunity will involve working with world-leading experts from both academia and industry across multiple disease areas, including oncology, neurodegeneration, and immunology. The Validation Lab is part of the Open Targets collaboration (https://www.opentargets.org/) between EMBL-EBI (European Bioinformatics Institute), GlaxoSmithKline (GSK), the Wellcome Sanger Institute (Sanger), Celgene, Sanofi, and Takeda. __[[read more]](https://jobs.sanger.ac.uk/vacancy/senior-research-assistant-415335.html)__
+We are seeking an enthusiastic and motivated scientist to provide experimental, scientific and operational support to the Open Targets Validation Lab at the Wellcome Sanger Institute. This exciting opportunity will involve working with world-leading experts from both academia and industry across multiple disease areas, including oncology, neurodegeneration, and immunology. You will perform target perturbation using CRISPR-Cas9, RNAi and small molecule inhibitors in a variety of experimental model systems. Your work will involve the use of liquid handling equipment to facilitate medium-throughput processing of multiple targets, and state of the art live-cell and high-content imaging will be part of multiple assay endpoints.__[[read more]](https://jobs.sanger.ac.uk/vacancy/senior-research-assistant-415335.html)__
+
+***
+
+### [Computational Postdoctoral Research Scientist](https://jobs.sanger.ac.uk/vacancy/computational-postdoctoral-research-scientist-415102.html)
+*A Wellcome Sanger Institute contract - closing date: 2 April 2020*
+
+We are looking for a computational postdoctoral fellow to drive a collaborative project between Dr Gosia Trynka group at Wellcome Sanger Institute and Prof Matthias Zilbauer at the University of Cambridge. This research project aims at investigating the role of transcriptional mechanisms in regulating human intestinal epithelial cell function in health and inflammatory bowel diseases (IBD). The project will use established access to a large patient cohort providing human intestinal tissue for the generation of organoids and single cell transcriptomics for profiling. You will integrate this data with results from CRISPR-screens to identify pathways relevant for prioritisation of new drug targets for IBD. __[[read more]](https://jobs.sanger.ac.uk/vacancy/computational-postdoctoral-research-scientist-415102.html)__
+
+***
