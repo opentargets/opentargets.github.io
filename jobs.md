@@ -27,3 +27,10 @@ We have an exciting opportunity for a postdoctoral researcher to join an interdi
 We are seeking a talented backend software engineer to join the Open Targets Core Team in the development of the Open Targets Genetics Portal, an open-source research tool that leverages the increasing amount of human genetic data to help scientists identify and prioritise potential drug targets. You will join a dynamic and multidisciplinary team that uses a range of cutting-edge technologies to process, store, and aggregate the vast amount of human genetic data available. You will have the opportunity to build on our most recent statistical genomics analysis pipelines and provide a robust and scalable infrastructure to support public and private instances of the Genetics Portal. Our current technologies include ElasticSearch, Spark, ClickHouse and a variety of Google Cloud Platform services including Dataproc and BigQuery.  __[[read more]](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01577)__
 
 ***
+
+### [Computational Postoctoral Research Scientist](https://jobs.sanger.ac.uk/vacancy/computational-postdoctoral-research-scientist-415102.html)
+*A Wellcome Sanger Institute contract - closing date: 02 April 2020*
+
+We are looking for a computational postdoctoral fellow to drive a collaborative project between Dr Gosia Trynka group at Wellcome Sanger Institute and Prof Matthias Zilbauer at the University of Cambridge.PROJECT: This research project aims at investigating the role of transcriptional mechanisms in regulating human intestinal epithelial cell function in health and inflammatory bowel diseases (IBD). The project will use established access to a large patient cohort providing human intestinal tissue for the generation of organoids and single cell transcriptomics for profiling.  __[[read more]](https://jobs.sanger.ac.uk/vacancy/computational-postdoctoral-research-scientist-415102.html)__
+
+***
