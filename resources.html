@@ -7,7 +7,7 @@ title: Resources
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center text-white">
-        <h1>Resources</h1>
+        <h1>Informatics tools and data</h1>
       </div>
     </div>
   </div>
@@ -19,9 +19,8 @@ title: Resources
       <div class="col-lg-12">
         <p>
           Our informatics resources are freely-available, open-source tools that help research scientists from around
-          the world identify and prioritise potential therapeutic drug targets. We currently support active development 
-          of the Open Targets Platform and the Open Targets Genetics Portal. We also maintain a vareity of 
-          <a href="#other-resources-and-tools">other specialised informatics tools and resources</a>
+          the world identify and prioritise potential therapeutic drug targets. We maintain a vareity of 
+          <a href="#other-resources-and-tools">specialised informatics tools and resources</a>
           that tackle specific research questions.
         </p>
       </div>
@@ -35,14 +34,29 @@ title: Resources
           <p>
             Project Score is a web portal that allows researchers to explore the results of CRISPR-Cas9 whole-genome 
             drop out screens across a diverse collection of human cancer cell models and to identify dependencies in 
-            cancer cells to help guide precision cancer medicines. Please see 
-            <a href="https://www.nature.com/articles/s41586-019-1103-9" target="_blank">Behan et al. 2019</a> for more information.
+            cancer cells to help guide precision cancer medicines. For more information, please see the supporting publication  
+            <a href="https://www.nature.com/articles/s41586-019-1103-9" target="_blank">Behan et al. 2019</a>.
           </p>
           <a class="text-center" href="https://score.depmap.sanger.ac.uk/" target="_blank">
-            <button class="btn btn-primary">Vist the Project Score website</button>
+            <button class="btn btn-primary">Visit the Project Score website</button>
           </a>
         </div>
       </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 py-3 d-flex">
+        <div class="card p-4">
+          <img class="img-fluid mb-3" src="/assets/img/eqtl-catalogue-screenshot.jpg" />
+          <h4 class="text-center mb-3">eQTL Catalogue</h4>
+          <p>
+            The eQTL Catalogue aims to provide uniformly processed gene expression and splicing QTLs from all available 
+            public studies on human. This resource focuses on expression cis-QTLs (cis-eQTL) where variants are associated 
+            to expression levels of nearby genes, and on splicing QTLs (sQTL) where variants are associated to specific 
+            splicing events on nearby splice junctions.
+          </p>
+          <a class="text-center" href="https://www.ebi.ac.uk/eqtl/" target="_blank">
+            <button class="btn btn-primary">Visit the eQTL Catalogue website</button>
+          </a>
+        </div>
+      </div>        
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 py-3 d-flex">
         <div class="card p-4">
           <img class="img-fluid mb-3" src="/assets/img/epichoose-screenshot.jpg" />
@@ -51,13 +65,10 @@ title: Resources
             epiChoose is an application for quantifying the relatedness between cell lines and primary cells. 
             We have extensively profiled a number of commonly used cell line models across a number of tissues. 
             This profiling consists of epigenetic (histone modification, CTCF, ATAC-seq) and transcriptional 
-            (RNA-seq) whole-genome measurements. From this data, we have established a platform that provides 
-            information on the “distance” between candidate cell models and target primary cells. By ranking 
-            and selecting cell line models in a data-driven manner, the best model for the experiment 
-            can be chosen, based on epigenetic and transcriptional evidence and not historical usage.
+            (RNA-seq) whole-genome measurements. 
           </p>
           <a class="text-center" href="http://epichoose.shiny.opentargets.io/epiChoose/" target="_blank">
-            <button class="btn btn-primary">Vist the epiChoose tool page</button>
+            <button class="btn btn-primary">Visit the epiChoose tool page</button>
           </a>
         </div>
       </div>
@@ -66,21 +77,14 @@ title: Resources
           <img class="img-fluid mb-3" src="/assets/img/cellector-screenshot.jpg" />
           <h4 class="text-center mb-3">CELLector</h4>
           <p>
-            CELLector is a computational tool implemented in an open source R Shiny application and R package that 
-            allows researchers to select the most relevant cancer cell lines in a genomic-guided fashion. 
-            CELLector combines methods from graph theory and market basket analysis; it leverages tumour genomics 
-            data to explore, rank, and select optimal cell line models in a user-friendly way, enabling scientists 
-            to make appropriate and informed choices about model inclusion/exclusion in retrospective analyses and 
-            future studies. Additionally, it allows the selection of models within user-defined contexts, for 
-            example, by focusing on genomic alterations occurring in biological pathways of interest or considering 
-            only predetermined sub-cohorts of cancer patients. Finally, CELLector identifies combinations of 
-            molecular alterations underlying disease subtypes currently lacking representative cell lines, providing 
-            guidance for the future development of new cancer models. Please see 
+            CELLector is a computational tool that allows researchers to select the most relevant cancer cell lines 
+            in a genomic-guided fashion. It combines graph theory methods and market basket analysis and it leverages 
+            tumour genomics data to explore, rank, and select optimal cell line models. Please see 
             <a href="https://www.biorxiv.org/content/early/2018/03/03/275032" target="_blank">Najgebauer et al. 2018</a> 
             for an explanation of the approach.
           </p>
-          <a class="text-center" href="http://ot-cellector.shiny.opentargets.io/CELLector_App/" target="_blank">
-            <button class="btn btn-primary">Vist the CELLector tool page</button>
+          <a class="text-center" href="https://ot-cellector.shinyapps.io/CELLector_App/" target="_blank">
+            <button class="btn btn-primary">Visit the CELLector tool page</button>
           </a>
         </div>
       </div>
