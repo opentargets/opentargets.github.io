@@ -11,7 +11,6 @@ permalink: /projects/effectorness
 <div class="row">
   <div class="col-xs-6">
     <section style="margin-bottom: 50px">
-      
       <p>
         This page contains the data generated in the study "Single-cell transcriptomics identifies an 
         effectorness gradient shaping the response of CD4+ T cells to cytokines".
@@ -33,11 +32,6 @@ permalink: /projects/effectorness
     </section>
   </div>
 </div>
-
-
-
-
-
 
 <section style="margin-bottom: 50px">
   <h3 style="color: #5a5f5f;"><i class="fa fa-table" aria-hidden="true"></i> Count tables</h3>
@@ -62,13 +56,13 @@ permalink: /projects/effectorness
       <a href="" target="_blank">Bulk RNA and protein expression:</a> Shiny app to visualise RNA and protein expression levels for any gene across cytokine-polarized CD4+ T cell states
     </li>
     <li>
-      <a href="" target="_blank">Single-cell gene expression:</a> Interactive app to visualise single-cell RNA expression in:
+      Single-cell gene expression: Interactive apps to visualise single-cell RNA expression in:
       <ul>
         <li>
-          Resting CD4+ T cells</a>
+          <a href="https://cytokines.cellgeni.sanger.ac.uk/resting" target="_blank">Resting CD4+ T cells</a>
         </li>
         <li>
-          Cytokine-polarized CD4+ T cell states
+          <a href="https://cytokines.cellgeni.sanger.ac.uk/simulated" target="_blank">Cytokine-polarized CD4+ T cell states</a>
         </li>
       </ul>
     </li>
@@ -84,7 +78,7 @@ permalink: /projects/effectorness
     <div class="col-xs-2">
       <img class="img img-thumbnail" src="/assets/images/gosiatrynka.png" />
       <p style="text-align: center;">
-        Gosia Trynka
+        <b>Gosia Trynka</b>
         <br />
         Group Leader
         <br />
@@ -94,7 +88,7 @@ permalink: /projects/effectorness
     <div class="col-xs-2">
       <img class="img img-thumbnail" src="/assets/images/eddie-cano-gamez.jpg" />
       <p style="text-align: center;">
-        Eddie Cano-Gamez
+        <b>Eddie Cano-Gamez</b>
         <br />
         PhD Student
         <br />
@@ -104,11 +98,11 @@ permalink: /projects/effectorness
     <div class="col-xs-2">
       <img class="img img-thumbnail" src="/assets/images/blagoje-soskic.jpg" />
       <p style="text-align: center;">
-        Blagoje Soskic
+        <b>Blagoje Soskic</b>
         <br />
-        Post-Doctoral Research Fellow
+        Postdoctoral Fellow
         <br />
-        <a href="mailto:gosia@sanger.ac.uk">bs11@sanger.ac.uk.</a>
+        <a href="mailto:gosia@sanger.ac.uk">bs11@sanger.ac.uk</a>
       </p>
     </div>
   </div>
