@@ -15,6 +15,7 @@ permalink: /projects/effectorness
         This page contains the data generated in the study "Single-cell transcriptomics identifies an 
         effectorness gradient shaping the response of CD4+ T cells to cytokines".
       </p>
+      <p>
         For a detailed explanation of the aims of the study and the approaches for data generation, 
         please refer to our BioRxiv publication:
       </p>
