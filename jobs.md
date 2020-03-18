@@ -14,13 +14,6 @@ Applications are invited for a 3-year Postdoctoral Fellowship at the Wellcome Sa
 
 ***
 
-### [Postdoctoral Fellow - CRISPR screening and QTL mapping in neurodegeneration](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-crispr-screening-and-qtl-mapping-in-neurodegeneration-414163.html)
-*A Wellcome Sanger Institute contract - closing date: 16 March 2020*
-
-We have an exciting opportunity for a postdoctoral researcher to join an interdisciplinary team on an ambitious project aimed to identify new genes involved in neurodegeneration, especially Alzheimer’s disease. The successful candidate will use human induced pluripotent stem cell (hiPSC) derived microglia coupled with cutting edge high-throughput single cell 'omics techniques to assay the effects of natural and induced genetic variation on gene expression and cellular phenotypes. The overall aim is to identify novel genes involved in important microglial cellular processes that are relevant for disease biology and will therefore be candidate drug targets for further development. __[[read more]](https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-crispr-screening-and-qtl-mapping-in-neurodegeneration-414163.html)__
-
-***
-
 ### [Software Developer](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01577)
 *An EMBL-EBI contract - closing date: 27 March 2020*
 
