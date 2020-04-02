@@ -20,6 +20,7 @@
   organisation: EMBL-EBI
   organisation_logo: embl-ebi.png
   orcid: 0000-0003-2525-5598
+  order: 1
   biography: >
     Ian has been involved in genomics since around the time the term was coined. 
     He obtained his D. Phil from Oxford University in 1989, determining the 
@@ -44,6 +45,7 @@
   organisation: GSK
   organisation_logo: gsk.png
   orcid: 0000-0003-1323-1759
+  order: 2
   biography: >
     David has a PhD from the University of Cambridge in Organic Chemistry 
     and conducted postdoctoral research at the University of Toronto in Canada. 
@@ -65,6 +67,7 @@
   organisation: Wellcome Sanger Institute
   organisation_logo: wellcome-sanger.png
   orcid: 0000-0002-6955-9529
+  order: 4
   biography: >
     Gosia Trynka leads the Immune Genomics group at the Wellcome Sanger Institute. 
     Her group is focused on translating genetic variants associated with immune diseases 
@@ -81,13 +84,13 @@
     readouts to inform the role of disease associated variants, e.g. in nominating causal 
     cell types.
 
-
 - first_name: Birgit
   last_name: Kerber
   role: Business Development Lead
   picture: birgit_kerber.png
   organisation: EMBL
   organisation_logo: embl.png 
+  order: 5
   orcid: 
   biography: >
     Birgit has been actively engaged in establishing technology transfer at the 
@@ -103,3 +106,14 @@
     EMBL Heidelberg. She is a member of BIO Deutschland and the Licensing Executives 
     Society as well as an alumna of St Gallen Business School, CEIPI, Boehringer 
     Ingelheim Fonds, DFG and EMBO.
+
+- first_name: Ellen
+  last_name: McDonagh
+  role: Informatics Science Director
+  picture: ellen_mcdonagh.jpg
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid: 
+  order: 3
+  biography: >
+    TBC

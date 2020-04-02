@@ -53,35 +53,12 @@
     discovered a new regulator of cell division. Mathew joined the Wellcome 
     Sanger Institute in 2009.
 
-- first_name: Will
-  last_name: Chen
-  role: Biogen Scientific Lead
-  picture: will_chen.png
-  organisation: Biogen
-  organisation_logo: biogen.png 
-  orcid: 
-  biography: >
-    Will is the Head of Computational and Systems Biology at Biogen. His group 
-    leverages mathematical and computational technologies, and analysis of genomics 
-    scale data for drug discovery and development in the area of neurodegenerative 
-    and neuroinflammatory diseases. Prior to joining Biogen in 2016 to build up its 
-    systems biology capabilities, he was a faculty member at Harvard Medical School 
-    where he led the computational and analytics effort of the nascent 
-    multi-investigator HMS Laboratory of Systems Pharmacology that was devoted to 
-    developing and advancing quantitative therapeutic sciences, toxicology and 
-    regulatory sciences, working across a number of disease areas with investigators 
-    from experimental labs, research hospitals and biotech and pharma organizations. 
-    He completed his postdoctoral training at Harvard Medical School (HMS) in 2013 
-    on large-scale nonlinear dynamical modeling of cancer signal transduction, and 
-    his PhD on theoretical biophysics of protein folding at Harvard University in 
-    2006.
-
 - first_name: Shameek
   last_name: Biswas
-  role: Celgene Scientific Lead
+  role: Bristol Myers Squibb Scientific Lead
   picture: shameek_biswas.png
-  organisation: Celgene 
-  organisation_logo: celgene.png
+  organisation: Bristol Myers Squibb
+  organisation_logo: bristol-myers-squibb-logo.png
   orcid: 0000-0002-9372-1143
   biography: >
     Shameek is a Principal Scientist in the Research Analytics group working on TIDVAL 
@@ -95,10 +72,10 @@
 
 - first_name: Joe
   last_name: Maranville
-  role: Celgene Scientific Lead
+  role: Bristol Myers Squibb Scientific Lead
   picture: joe_maranville.png
-  organisation: Celgene
-  organisation_logo: celgene.png
+  organisation: Bristol Myers Squibb
+  organisation_logo: bristol-myers-squibb-logo.png
   orcid: 
   biography: >
     Joe is a Principal Scientist in the Informatics and Predictive Sciences group at 
