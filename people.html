@@ -26,19 +26,27 @@ title: People
           <a href="#scientific-leadership-team">Scientific Leadership Team </a> determine the 
           strategic and scientific vision for the consortium and our 
           <a href="#operations-team">Operations Team</a> provide the 
-          necessary support to facilitate the vision and its implementation across our partners. 
+          necessary support to facilitate the vision and its implementation across our partners.
+        </p>
+        <p>
           Our <a href="/platform#platform-team">Platform Team</a> and our
           <a href="/genetics-portal#genetics-team">Genetics Team</a> are responsible for maintaining 
-          our <a href="/resources">informatics resources and tools</a> while our
+          our informatics resources and tools while our 
+          <a href="#projects-team">Projects Team</a> conduct experimental and informatics research and our 
           <a href="/validation-lab#validation-lab-team">Validation Lab Team</a> takes targets identified from
-          our experimental projects and guides them through further screens to assess suitability
-          for our partners' drug discovery programmes. And our
-          <a href="#scientific-advisory-board">Scientific Advisory Board</a> are a group of 
+          our these projects and guides them through further screens to assess suitability
+          for drug discovery programmes.
+        </p>
+        <p>
+          And our <a href="#scientific-advisory-board">Scientific Advisory Board</a> are a group of 
           well-known individuals from academia and industry that make recommendations to further
           the sucess of our partnership. 
         </p>
       </div>
     </div>
+
+    <hr class="m-5" />
+    
     <div class="row">
       <div class="col-lg-12">
         <h3 id="executive-leadership-team">Executive Leadership Team</h3>
@@ -49,7 +57,7 @@ title: People
       </div>
     </div>
     <div class="row mb-5">
-      {% assign executive_leadership_team = site.data.executive_leadership_team | sort: 'last_name' %}
+      {% assign executive_leadership_team = site.data.executive_leadership_team | sort: 'order' %}
       {% for person in executive_leadership_team %}
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
           <div class="card shadow-lg p-4 bg-white rounded align-self-stretch">
@@ -85,6 +93,9 @@ title: People
         </div>
       {% endfor %}
     </div>
+
+    <hr class="m-5" />
+
     <div class="row">
       <div class="col-lg-12">
         <h3 id="scientific-leadership-team">Scientific Leadership Team</h3>
@@ -106,7 +117,7 @@ title: People
             <div class="card-body text-center">
               <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
               <p class="card-subtitle mb-3">{{ person.role }}</p>
-              <div>
+              <div class="col-12">
                 <img src="/assets/img/logos/{{person.organisation_logo}}" class="logo-small" />
               </div>
             </div>
@@ -132,6 +143,21 @@ title: People
         </div>
       {% endfor %}
     </div>
+
+    <hr class="m-5" />
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 id="projects-team">Projects Team</h3>
+        <p>
+          Through our research programme, we have funding more that 90 research positions within the institutes that we work with and 
+          formed teams engaging many more scientists across industry and academia to improve targets identification and prioritisation.
+        </p>
+      </div>
+    </div>
+    
+    <hr class="m-5" />
+
     <div class="row">
       <div class="col-lg-12">
         <h3 id="operations-team">Operations Team</h3>
@@ -179,6 +205,9 @@ title: People
         </div>
       {% endfor %}
     </div>
+    
+    <hr class="m-5" />
+
     <div class="row">
       <div class="col-lg-12">
         <h3 id="scientific-advisory-board">Scientific Advisory Board (SAB)</h3>
