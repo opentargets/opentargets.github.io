@@ -107,13 +107,13 @@
     Society as well as an alumna of St Gallen Business School, CEIPI, Boehringer 
     Ingelheim Fonds, DFG and EMBO.
 
-- first_name: Ellen
-  last_name: McDonagh
-  role: Informatics Science Director
-  picture: ellen_mcdonagh.jpg
-  organisation: EMBL-EBI
-  organisation_logo: embl-ebi.png
-  orcid: 
-  order: 3
-  biography: >
-    TBC
+# - first_name: Ellen
+#   last_name: McDonagh
+#   role: Informatics Science Director
+#   picture: ellen_mcdonagh.jpg
+#   organisation: EMBL-EBI
+#   organisation_logo: embl-ebi.png
+#   orcid: 
+#   order: 3
+#   biography: >
+#     TBC
