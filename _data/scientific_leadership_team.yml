@@ -34,7 +34,7 @@
 
 - first_name: Mathew
   last_name: Garnett
-  role: Wellcome Sanger Institute Scientific Lead
+  role: Sanger Institute Scientific Lead
   picture: mathew_garnett.png
   organisation: Wellcome Sanger Institute
   organisation_logo: wellcome-sanger.png
@@ -184,3 +184,18 @@
     research reports, patents, and/or IND/IBs for AMG 517, AMG 333, AMG 747, AMG 334 
     (erenumab/Aimovig™). Prior to joining Amgen, Narender did a post-doctoral training in gene 
     regulation at UC Davis and a PhD in University of Hyderabad, India.
+
+- first_name: Bill
+  last_name: Cairs
+  role: GSK Scientific Lead
+  picture: bill_cairns.jpg
+  organisation: GSK
+  organisation_logo: gsk.png
+  orcid: 
+  biography: >
+    I am currently a Senior Director in Functional Genomics at GSK. Over the course of my career, 
+    I have gained broad experience in pharmacology, cell biology, transcriptional control and cell signalling. 
+    After joining GSK in 1998, I have led several drug discovery programs and managed teams supporting assay 
+    development for GSK’s early-stage drug-discovery portfolio. For the last 6 years, I have been working to 
+    identify potential drug targets through the integration of genetic/genomic evidence with innovative 
+    experimental biology platforms in order to improve the quality of GSK’s drug discovery pipeline.
