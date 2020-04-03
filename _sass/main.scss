@@ -94,3 +94,15 @@ a:hover {
   height: 400px;
   overflow-y: scroll;
 }
+
+// used to set <p> min-height values on /people page so that names, job titles, and logos are aligned
+@media only screen and (min-width: 576px) {
+  .line-height-3em {
+    min-height: 3em;
+  }
+  .line-height-4em {
+    min-height: 4.5em;
+  }
+}
+
+

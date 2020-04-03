@@ -32,7 +32,7 @@ title: Open Targets Validation Lab
       </div>
     </div>
     <div class="row mb-5">
-      {% assign validation_lab_team = site.data.validation_lab_team | sort: 'last_name' %}
+      {% assign validation_lab_team = site.data.validation_lab_team | sort: 'order' %}
       {% for person in validation_lab_team %}
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
           <div class="card shadow-lg p-4 bg-white rounded align-self-stretch">
@@ -41,7 +41,7 @@ title: Open Targets Validation Lab
             </a>
             <div class="card-body text-center">
               <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
-              <p class="card-subtitle mb-3">{{ person.role }}</p>
+              <p class="card-subtitle mb-3 line-height-3em">{{ person.role }}</p>
               <div>
                 <img src="/assets/img/logos/{{person.organisation_logo}}" class="logo-small" />
               </div>
