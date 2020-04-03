@@ -115,8 +115,12 @@ title: People
               <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
             </a>
             <div class="card-body text-center">
-              <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
-              <p class="card-subtitle mb-3 line-height-3em">{{ person.role }}</p>
+              {% if person.first_name == "Jack" %}
+                <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5><br />
+              {% else %} 
+                <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
+              {% endif %}
+                <p class="card-subtitle mb-3 line-height-3em">{{ person.role }}</p>
               <div class="col-12">
                 <img src="/assets/img/logos/{{person.organisation_logo}}" class="img-fluid logo-small" />
               </div>
