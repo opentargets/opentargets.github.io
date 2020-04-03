@@ -7,7 +7,7 @@ title: Resources
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center text-white">
-        <h1>Informatics tools and data</h1>
+        <h1>Informatics tools</h1>
       </div>
     </div>
   </div>
@@ -18,10 +18,8 @@ title: Resources
     <div class="row mb-5">
       <div class="col-lg-12">
         <p>
-          Our informatics resources are freely-available, open-source tools that help research scientists from around
-          the world identify and prioritise potential therapeutic drug targets. We maintain a vareity of 
-          <a href="#other-resources-and-tools">specialised informatics tools and resources</a>
-          that tackle specific research questions.
+          We maintain a vareity of specialised, freely-available, open-source informatics tools that help research scientists 
+          from around the world answer specific research questions and identify and prioritise potential therapeutic drug targets.
         </p>
       </div>
     </div>
@@ -57,6 +55,24 @@ title: Resources
           </a>
         </div>
       </div>        
+
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 py-3 d-flex">
+        <div class="card p-4">
+          <img class="img-fluid mb-3" src="/assets/img/cheers-screenshot.jpg" />
+          <h4 class="text-center mb-3">CHEERS</h4>
+          <p>
+            CHEERS (Chromatin Element Enrichment Ranking by Specificity) is a method to determine enrichment of annotations in GWAS 
+            significant loci. In addition to SNP-peak overlap, CHEERS takes into account peak properties as reflected by quantitative 
+            changes in read counts within peaks. Please see 
+            <a href="http://dx.doi.org/10.1038/s41588-019-0493-9" target="_blank">Soskic et al. 2019</a> for an explanation of the approach.
+          </p>
+          <a class="text-center" href="https://github.com/trynkaLab/CHEERS" target="_blank">
+            <button class="btn btn-primary">Visit the CHEERS tool page</button>
+          </a>
+        </div>
+      </div>
+
+
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 py-3 d-flex">
         <div class="card p-4">
           <img class="img-fluid mb-3" src="/assets/img/epichoose-screenshot.jpg" />
@@ -77,11 +93,10 @@ title: Resources
           <img class="img-fluid mb-3" src="/assets/img/cellector-screenshot.jpg" />
           <h4 class="text-center mb-3">CELLector</h4>
           <p>
-            CELLector is a computational tool that allows researchers to select the most relevant cancer cell lines 
-            in a genomic-guided fashion. It combines graph theory methods and market basket analysis and it leverages 
-            tumour genomics data to explore, rank, and select optimal cell line models. Please see 
-            <a href="https://www.biorxiv.org/content/early/2018/03/03/275032" target="_blank">Najgebauer et al. 2018</a> 
-            for an explanation of the approach.
+            CELLector is a computational tool implemented in an open source R Shiny application and R package that allows researchers to 
+            select the most relevant cancer cell lines in a genomic-guided fashion. CELLector leverages tumour genomics data to explore, rank, and select optimal cell line models, 
+            enabling scientists to make appropriate and informed choices about model inclusion/exclusion in retrospective analyses and future studies. See
+            <a href="https://www.biorxiv.org/content/early/2018/03/03/275032" target="_blank">Najgebauer et al. 2018</a> for more information.
           </p>
           <a class="text-center" href="https://ot-cellector.shinyapps.io/CELLector_App/" target="_blank">
             <button class="btn btn-primary">Visit the CELLector tool page</button>
@@ -90,17 +105,13 @@ title: Resources
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 py-3 d-flex">
         <div class="card p-4">
-          <img class="img-fluid mb-3" src="/assets/img/epichoose-screenshot.jpg" />
+          <img class="img-fluid mb-3" src="/assets/img/dorothea-screenshot.jpg" />
           <h4 class="text-center mb-3">DoRothEA</h4>
           <p>
             DoRothEA (Discriminant Regulon Expression Analysis) is a research resource that can be used to search 
             candidate TF-drug interactions in cancer. Due to their location as downstream effectors of signalling pathways, 
             aberrant activities in upstream driver genes (even if not mutated) will cause altered TF activities, thus 
-            proposing TFs as sensors of pathway dysregulation and alternative markers. Here we study the role of 127 TFs in 
-            drug sensitivity across ~1,000 cancer cell lines screened with 265 anti-cancer compounds from the GDSC. In our 
-            first approach we studied how the TF activity pattern of an individual affects drug response and mined for single 
-            TF-drug statistical interactions. In our second approach we screened for TFs whose activity patterns complement 
-            or improve well-established genomic markers in the prediction of drug response. Please see 
+            proposing TFs as sensors of pathway dysregulation and alternative markers. Please see 
             <a href="http://cancerres.aacrjournals.org/content/early/2017/12/09/0008-5472.CAN-17-1679" target="_blank">Garcia-Alonso et al. 2017</a> 
             for an explanation of the approach.
           </p>
@@ -134,7 +145,7 @@ title: Resources
           <img class="img-fluid mb-3" src="/assets/img/crispr-cleanr-screenshot.png" />
           <h4 class="text-center mb-3">CRISPRcleanR</h4>
           <p>
-            Genome editing by CRISPR-Cas9 technology allows large-scale screening of gene essentiality in cancer. 
+          Genome editing by CRISPR-Cas9 technology allows large-scale screening of gene essentiality in cancer. 
           A confounding factor when interpreting CRISPR-Cas9 screens is the high false-positive rate in detecting 
           essential genes within copy number amplified regions of the genome. We have developed the computational 
           tool CRISPRcleanR which is capable of identifying and correcting gene-independent responses to CRISPR-Cas9 
