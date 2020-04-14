@@ -36,7 +36,7 @@
     
 - first_name: Miguel
   last_name: Carmona
-  role: Software Developer
+  role: Technical Lead
   picture: miguel_carmona.png
   organisation: EMBL-EBI
   organisation_logo: embl-ebi.png
@@ -135,4 +135,16 @@
   twitter:
   github: DSuveges
   linkedin: https://uk.linkedin.com/in/daniel-suveges
+  biography: >
+
+- first_name: Javier
+  last_name: Ferrer
+  role: Software Developer
+  picture: javier_ferrer.jpg
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid:
+  twitter:
+  github: 
+  linkedin: 
   biography: >
