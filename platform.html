@@ -20,14 +20,15 @@ title: Open Targets Platform
       <div class="col-lg-6">
         <p>
           The <a class="font-weight-bold" href="https://www.targetvalidation.org" target="_blank">Open Targets Platform </a>
-          - previously called the Target Validation Platform - 
           is a freely available resource for the integration of genetics, omics and 
           chemical data to aid systematic drug target identification and prioritisation. 
           The Platform provides summaries of the evidence (e.g. germline variants, 
           somatic mutations, pathways, drugs) for the involvement of a specific gene with 
           a selected disease. It supports disease and target centric workflows, displays 
           the evidence for target-disease associations, as well as profiles of relevant 
-          target and disease annotations. Please see
+          target and disease annotations. The Platform is open-source with the data available for 
+          <a href="https://www.targetvalidation.org/downloads/data" target="_blank">download</a> 
+          and the code available on <a href="https://github.com/opentargets" target="_blank">GitHub</a>. Please see
           <a href="https://academic.oup.com/nar/article/47/D1/D1056/5193331" target="_blank">Carvalho-Silva et al. 2019</a>
           for more information on the Platform features and scoring methodologies.
         </p>
@@ -44,12 +45,11 @@ title: Open Targets Platform
       </div>
     </div>
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-lg-12">
         <h3>Getting started with the Platform</h3>
       </div>
     </div>
-
     <div class="row mb-5">
       <div class="col-lg-12">
         <h5>Search</h5>
@@ -81,7 +81,7 @@ title: Open Targets Platform
           new developments and updates two years on"
         </p>
       </div>
-    </div>
+    </div> -->
     <div class="row">
       <div class="col-lg-12">
         <h3 id="platform-team">Meet the Platform Team</h3>
@@ -97,20 +97,21 @@ title: Open Targets Platform
       {% for person in platform_team %}
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
           <div class="card shadow-lg p-4 bg-white rounded align-self-stretch">
-            <a data-toggle="modal" href="#modal-{{ person.last_name }}">
+            <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
+            <!-- <a data-toggle="modal" href="#modal-{{ person.last_name }}">
               <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
-            </a>
+            </a> -->
             <div class="card-body text-center">
               <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
               <p class="card-subtitle mb-3">{{ person.role }}</p>
-              <div>
+              <!-- <div>
                 <img src="/assets/img/logos/{{person.organisation_logo}}" class="logo-small" />
-              </div>
+              </div> -->
             </div>
           </div>
         </div>  
         <!-- Modal with biography -->
-        <div class="modal fade" id="modal-{{ person.last_name}}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ person.last_name }}Label" aria-hidden="true">
+        <!-- <div class="modal fade" id="modal-{{ person.last_name}}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ person.last_name }}Label" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content px-3 py-5">
               <div class="text-center">
@@ -126,7 +127,7 @@ title: Open Targets Platform
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       {% endfor %}
     </div>
 
