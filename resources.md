@@ -6,6 +6,7 @@ permalink: /resources/
 
 # Research Publications
 
+* [Single-cell transcriptomics identifies an effectorness gradient shaping the response of CD4+ T cells to cytokines](https://doi.org/10.1038/s41467-020-15543-y) Cano-Gamez E et al. DOI: 10.1038/s41467-020-15543-y 
 * [The Open Targets Post-GWAS analysis pipeline](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaa020/5701644) Peat, G et al. DOI: 10.1093/bioinformatics/btaa020 
 * [Agreement between two large pan-cancer CRISPR-Cas9 gene dependency data sets](https://www.nature.com/articles/s41467-019-13805-y) Dempster JM & Pacini C et al. DOI: 10.1038/s41467-019-13805-y
 * [Chromatin activity at GWAS loci identifies T cell states driving complex immune diseases](https://www.nature.com/articles/s41588-019-0493-9) Soskic B et al. DOI: 10.1038/s41588-019-0493-9
