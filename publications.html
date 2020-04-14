@@ -34,8 +34,8 @@ title: Publications
       <div class="col-lg-12">
         <nav>
           <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link font-weight-bold" id="nav-2020-research-pub-tab" data-toggle="tab" href="#nav-2020-research-pub" role="tab" aria-controls="nav-2020-research-pub" aria-selected="false">2020</a>
-            <a class="nav-item nav-link active font-weight-bold" id="nav-2019-research-pub-tab" data-toggle="tab" href="#nav-2019-research-pub" role="tab" aria-controls="nav-2019-research-pub" aria-selected="true">2019</a>
+            <a class="nav-item nav-link active font-weight-bold" id="nav-2020-research-pub-tab" data-toggle="tab" href="#nav-2020-research-pub" role="tab" aria-controls="nav-2020-research-pub" aria-selected="true">2020</a>
+            <a class="nav-item nav-link font-weight-bold" id="nav-2019-research-pub-tab" data-toggle="tab" href="#nav-2019-research-pub" role="tab" aria-controls="nav-2019-research-pub" aria-selected="false">2019</a>
             <a class="nav-item nav-link font-weight-bold" id="nav-2018-research-pub-tab" data-toggle="tab" href="#nav-2018-research-pub" role="tab" aria-controls="nav-2018-research-pub" aria-selected="false">2018</a>
             <a class="nav-item nav-link font-weight-bold" id="nav-2017-research-pub-tab" data-toggle="tab" href="#nav-2017-research-pub" role="tab" aria-controls="nav-2017-research-pub" aria-selected="false">2017</a>
             <a class="nav-item nav-link font-weight-bold" id="nav-2016-research-pub-tab" data-toggle="tab" href="#nav-2016-research-pub" role="tab" aria-controls="nav-2016-research-pub" aria-selected="false">2016</a>
@@ -46,7 +46,7 @@ title: Publications
     <div class="row mb-5">
       <div class="col-lg-12">
         <div class="tab-content py-4 px-3 px-sm-0" id="nav-tabContent">
-          <div class="tab-pane fade" id="nav-2020-research-pub" role="tabpanel" aria-labelledby="nav-2020-research-pub-tab">
+          <div class="tab-pane fade show active" id="nav-2020-research-pub" role="tabpanel" aria-labelledby="nav-2020-research-pub-tab">
             {% assign all_2020_publications = site.data.publications | where_exp:"item", "item.publication_year == 2020"  %}
             {% if all_2020_publications.size == 0 %}
               <p>
@@ -68,7 +68,7 @@ title: Publications
               {% endfor %}
             {% endif %}
           </div>
-          <div class="tab-pane fade show active" id="nav-2019-research-pub" role="tabpanel" aria-labelledby="nav-2019-research-pub-tab">
+          <div class="tab-pane fade" id="nav-2019-research-pub" role="tabpanel" aria-labelledby="nav-2019-research-pub-tab">
             {% assign all_2019_publications = site.data.publications | where_exp:"item", "item.publication_year == 2019"  %}
             {% if all_2019_publications.size == 0 %}
               <p>

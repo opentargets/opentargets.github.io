@@ -13,6 +13,17 @@
 #   pmid: 
 #   link: 
 
+- title: Single-cell transcriptomics identifies an effectorness gradient shaping the response of CD4+ T cells to cytokines 
+  author: Cano-Gamez, E et al.
+  publication_name: Nature Communications
+  issue:
+  volume: 11
+  publication_year: 2020
+  pages: "Article number: 1801"
+  doi: 10.1038/s41467-020-15543-y
+  pmid: 
+  link: https://www.nature.com/articles/s41467-020-15543-y
+
 - title: The Open Targets post-GWAS analysis pipeline 
   author: Peat, G et al.
   publication_name: Bioinformatics
