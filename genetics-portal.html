@@ -1,0 +1,169 @@
+---
+layout: default
+permalink: /genetics-portal
+title: Open Targets Genetics Portal
+---
+
+
+<header class="py-5" style="background-color:#3489ca">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center text-white">
+        <h1>Open Targets Genetics Portal</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="my-5 py5">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-6">
+        <p>
+          The <a class="font-weight-bold" href="https://genetics.opentargets.org/" target="_blank">Open Targets Genetics Portal</a> 
+          is designed for for investigation of Genome Wide Association Study (GWAS) data to assist 
+          in identifying the causal genes underlying each association, and hence to prioritise drug targets. The 
+          portal aggregates and merges genetic associations curated from literature and newly-derived loci from 
+          UK Biobank with (open source) functional genomics data including epigenetics (e.g., chromatin conformation, 
+          chromatin interactions) and quantitative trait loci (e.g., eQTLs from GTEX, pQTL), and applies statistical 
+          fine-mapping across thousands of trait-associated loci, to resolve association signals and link each 
+          variant to its proximal and distal target gene(s), using a single evidence score. The Genetics Portal also provides
+          the genetic evidence feed to the <a href="/platform">Open Targets Platform</a>. Additionally, the Genetics Portal
+          is open-source with the data available for 
+          <a href="https://genetics-docs.opentargets.org/technical-pipeline/data-download" target="_blank">download</a> 
+          and the code available on <a href="https://github.com/opentargets?q=genetics" target="_blank">GitHub</a>.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid mb-3" src="/assets/img/open-targets-genetics-portal-screenshot.jpg" />
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-lg-12 text-center">
+        <a class="btn btn-primary btn-lg" href="https://genetics.opentargets.org/" target="_blank">
+          Visit the Open Targets Genetics Portal
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 id="genetics-team">Meet the Genetics Team</h3>
+        <p>
+          The Genetics Core Team focuses on using human genetics data to guide therapeutic target identification and prioritisation, 
+          inform drug repositioning and predict toxicity effects. The team also maintains the Genetics Portal, a first of its kind 
+          tool that enables users to browse, visualise and interpret human genetics and genomics data to unravel the genetic 
+          underpinnings of human diseases and traits and to give insights into disease biology so that this knowledge gets translated 
+          into therapeutic hypothesis.
+        </p>
+      </div>
+    </div>
+    <div class="row mb-5">
+      {% assign genetics_team = site.data.genetics_team | sort: 'last_name' %}
+      {% for person in genetics_team %}
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
+          <div class="card shadow-lg p-4 bg-white rounded align-self-stretch">
+            <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
+            <!-- <a data-toggle="modal" href="#modal-{{ person.last_name }}">
+              <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
+            </a> -->
+            <div class="card-body text-center">
+              <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
+              <p class="card-subtitle mb-3">{{ person.role }}</p>
+              <!-- <div>
+                <img src="/assets/img/logos/{{person.organisation_logo}}" class="logo-small" />
+              </div> -->
+            </div>
+          </div>
+        </div>  
+        <!-- Modal with biography -->
+        <!-- <div class="modal fade" id="modal-{{ person.last_name}}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ person.last_name }}Label" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content px-3 py-5">
+              <div class="text-center">
+                <h3>{{ person.first_name }} {{ person.last_name}}'s biography</h3>
+              </div>
+              <div class="modal-body">
+                <p>
+                  {{ person.biography }}
+                </p>
+              </div>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      {% endfor %}
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h3>Contact the Genetics team</h3>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-lg-12">
+        <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://formspree.io/xoqdbnlv" method="POST">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-first-name">First name</label>
+                <input class="form-control form-control-lg" name="first-name" id="contact-form-first-name" type="text">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-last-name">Last name</label>
+                <input class="form-control form-control-lg" name="last-name" id="contact-form-last-name" type="text">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-email-address">Email address</label>
+                <input class="form-control form-control-lg" name="email-address" id="contact-form-email-address" type="email">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-reason">Reason for message</label>
+                <select class="form-control form-control-lg" name="reason" id="contact-form-reason">
+                  <option value="" class="disabled-select-option" disabled selected hidden></option>
+                  <option value="contact-platform-support">Support with using the Genetics Portal</option>
+                  <option value="book-platform-training-session">Book a Genetics Portal training session (in-person or webinar)</option>
+                  <option value="participate-in-ux-session">Participate in a feedback session to preview a new Genetics Portal feature</option>
+                  <option value="general-platform-question">General question about the Genetics Portal</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-message">Your message</label>
+                <textarea class="form-control" name="message" id="contact-form-message"></textarea>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <button id="send-message-btn" class="btn btn-primary btn-lg" type="submit">Send message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+
+
+
+
+
+

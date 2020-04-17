@@ -1,0 +1,150 @@
+# Below you fill find the template for adding a member of the Platform team
+# Note: there is an intentional dash before the "first_name" attribute and all of the other 
+# attributes for that same member are indented 2 spaces.
+# Note: there is an intentional chevron after the "biography" attribute and the text for the
+# biography should start on the following line and be indented 4 spaces.
+
+# - first_name:
+#   last_name: 
+#   role: 
+#   picture: 
+#   organisation: 
+#   organisation_logo: 
+#   orcid:
+#   twitter:
+#   github:
+#   linkedin: 
+#   biography: >
+
+- first_name: David
+  last_name: Ochoa
+  role: Platform Coordinator
+  picture: david_ochoa.png
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid: 0000-0003-1857-278X
+  twitter:
+  github: d0choa
+  linkedin: https://uk.linkedin.com/in/david-ochoa-b7852921
+  biography: >
+    David Ochoa joined Open Targets in 2019 as Platform Coordinator. David is involved in setting the scientific strategy for the OT Platform and 
+    related projects, day to day management of core database projects - including the team that generates the OT Platform - and setting priorities 
+    in line with agreed strategy together with Project Management. Prior to joining Open Targets, David obtained his PhD while using computational
+    methods and network biology for predicting protein-protein interactions. After graduating, he joined as a postdoctoral fellow the group of 
+    Pedro Beltrao at EMBL-EBI to better understand human signalling under perturbation and disease by leveraging the growing body of large-scale 
+    proteomics data and the latest computational approaches in data analysis and machine learning.
+    
+- first_name: Miguel
+  last_name: Carmona
+  role: Technical Lead
+  picture: miguel_carmona.png
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid: 0000-0002-7582-4771
+  twitter: m_karmona
+  github: mkarmona
+  linkedin: https://uk.linkedin.com/in/mkarmona
+  biography: >
+    Miguel Carmona is a highly-experienced software development professional who has spent the last decade developing applied research projects and 
+    collaborating with research groups like CISTIB (UoS), CNRS-NED and GEB.
+
+- first_name: Denise
+  last_name: Carvalho-Silva
+  role: Scientific Outreach Lead
+  picture: denise_carvalho_silva.png
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid: 0000-0001-5662-1840
+  twitter: deniseome
+  github: deniseOme
+  linkedin: https://uk.linkedin.com/in/deniseome 
+  biography: > 
+    Denise joined EMBL-EBI’s Open Targets team in June 2016, where she delivers workshops, provides user support and creates online training materials 
+    for the Open Targets projects. Denise holds a PhD in Biochemistry from the Universidade Federal de Minas Gerais, Belo Horizonte, Brazil, and 
+    completed her postdoctoral training in Genetics at the Australian National University, Canberra, Australia. Before coming to Open Targets, she 
+    worked in Ensembl at EMBL-EBI, at the Wellcome Trust Sanger Institute as a Research Associate in Human Evolution, and as a Senior Computer 
+    Biologist in the HAVANA team on the GENCODE, EUCOMM and Pig genome projects.
+
+- first_name: Luca
+  last_name: Fumis
+  role: Software Developer
+  picture: luca_fumis.png
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid: 0000-0001-6318-057X
+  twitter: lucafumis
+  github: lucafumis
+  linkedin: https://uk.linkedin.com/in/lucafumis
+  biography: >
+
+- first_name: Asier
+  last_name: Gonzalez
+  role: Bioinformatician
+  picture: asier_gonzalez.png
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid: 0000-0002-4159-6096
+  twitter: asier_gonzalez_
+  github: AsierGonzalez
+  linkedin: https://uk.linkedin.com/in/asiergonzalezuriarte
+  biography: >
+
+- first_name: Andrew
+  last_name: Hercules
+  role: User Experience Design Lead
+  picture: andrew_hercules.png
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid: 0000-0003-1531-2536
+  twitter: AndrewHercules
+  github: AndrewHercules
+  linkedin: https://www.linkedin.com/in/andrewhercules
+  biography: >
+
+- first_name: Cinzia
+  last_name: Malangone
+  role: Software Developer
+  picture: cinzia_malangone.png
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid: 0000-0003-1639-8589
+  twitter:
+  github: cmalangone
+  linkedin: https://uk.linkedin.com/in/cinziamalangone
+  biography: >
+
+- first_name: Alfredo
+  last_name: Miranda
+  role: Software Developer
+  picture: alfredo_miranda.png
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid: 0000-0001-8960-9012
+  twitter:
+  github: mirandaio
+  linkedin: https://uk.linkedin.com/in/alfredomiranda
+  biography: >
+
+- first_name: Daniel
+  last_name: Suveges
+  role: Senior Bioinformatician
+  picture: daniel_suveges.png
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid: 0000-0003-4133-0447
+  twitter:
+  github: DSuveges
+  linkedin: https://uk.linkedin.com/in/daniel-suveges
+  biography: >
+
+- first_name: Javier
+  last_name: Ferrer
+  role: Software Developer
+  picture: javier_ferrer.jpg
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid:
+  twitter:
+  github: 
+  linkedin: 
+  biography: >

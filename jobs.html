@@ -1,0 +1,86 @@
+---
+layout: default
+permalink: /jobs
+title: Jobs
+---
+
+<header class="py-5" style="background-color:#3489ca">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center text-white">
+        <h1>Jobs</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="py-5 my-5">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12">
+        <img src="assets/img/open-targets-5-year-anniversary.jpg" class="img-fluid" />
+        <small class="text-center">The Open Targets team at our 5 year anniversary celebration in June 2019</small>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h2>Join our team!</h2>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-12">
+        <p>
+          Open Targets is based on the stunning Wellcome Genome Campus, home to some of the world's foremost institutes and organisations in 
+          genomics and computational biology. We work in dynamic teams at the interface of academic and pharma industry science on a crucial
+           problem, how to be more successful in making drugs. Working with us, you will be exposed to new technologies and a dynamic set of 
+           scientists dedicated to translational research. 
+        </p>
+        <p>
+          Our posts are usually in either one of our academic partners, The Wellcome Sanger Institute or EMBL-EBI and have terms and 
+          conditions associated with the employer. 
+        </p>
+        <p>
+          Note: some applications will be reviewed on an ongoing basis and the advertised post(s) may be filled before 
+          the stated deadline.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      {% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
+      {% assign all_job_ads = site.data.jobs | sort: 'closing_date' %}
+      {% for job in all_job_ads %}
+        {% capture closing_date %}{{ job.closing_date | date: '%s' | plus : 86400 }}{% endcapture %}
+        {% if closing_date > now %}
+        <div class="row pb-4">
+          <div class="col-lg-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-9">
+                    <h4 class="card-title">{{ job.title }}</h4>
+                    <h6 class="card-subtitle mb-4">
+                      Application closing date: {{ job.closing_date | date: "%-d %B %Y" }} 
+                    </h6>
+                  </div>
+                  <div class="offset-md-1 col-md-2">
+                    <img class="img-fluid" src="/assets/img/logos/{{ job.logo }}" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="card-title">
+                      {{ job.description | truncate: 1000 }} <a href="{{ job.link }}" class="font-weight-bold" target="_blank">[ read more ]</a>
+                    </p>
+                  </div>
+                </div>   
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %} 
+
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,17 @@
+.form-control {
+  color:$ot-corp-blue;
+}
+
+.form-control:focus {
+  border-color: $ot-corp-blue;
+  box-shadow: none;
+  color: $ot-corp-blue;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+textarea#contact-form-message {
+  min-height: 175px;
+}

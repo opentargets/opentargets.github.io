@@ -1,0 +1,186 @@
+---
+layout: default
+permalink: /platform
+title: Open Targets Platform
+---
+
+<header class="py-5" style="background-color:#3489ca">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center text-white">
+        <h1>Open Targets Platform</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="my-5 py-5 ">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-6">
+        <p>
+          The <a href="https://www.targetvalidation.org" target="_blank">Open Targets Platform </a>
+          is a freely available resource for the integration of genetics, omics and 
+          chemical data to aid systematic drug target identification and prioritisation. 
+          The Platform provides summaries of the evidence (e.g. germline variants, 
+          somatic mutations, pathways, drugs) for the involvement of a specific gene with 
+          a selected disease. It supports disease and target centric workflows, displays 
+          the evidence for target-disease associations, as well as profiles of relevant 
+          target and disease annotations. The Platform is open-source with the data available for 
+          <a href="https://www.targetvalidation.org/downloads/data" target="_blank">download</a> 
+          and the code available on <a href="https://github.com/opentargets" target="_blank">GitHub</a>. Please see
+          <a href="https://academic.oup.com/nar/article/47/D1/D1056/5193331" target="_blank">Carvalho-Silva et al. 2019</a>
+          for more information on the Platform features and scoring methodologies.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid mb-3" src="/assets/img/open-targets-platform-screenshot.jpg" />
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-lg-12 text-center">
+        <a class="btn btn-primary btn-lg" href="https://www.targetvalidation.org/" target="_blank">
+          Visit the Open Targets Platform
+        </a>
+        <p>
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h3>Getting started with the Platform</h3>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-lg-12">
+        <p>
+          The Platform assists with target identification and prioritisation by scoring target-disease associations 
+          based on our <a href="https://docs.targetvalidation.org/data-sources/data-sources" target="_blank">data sources</a>.
+          Our <a href="https://docs.targetvalidation.org/getting-started/scoring" target="_blank">association score</a> ranges
+          from 0 to 1, the latter represents the strongest association, and it is calculated based on the confidence 
+          levels in the evidence.
+        </p>
+        <p>
+          To start using the Platform, you can search for a disease name, a gene name or symbol, or a protein name or symbol.
+          You can also search for synonyms and abbreviations of genes (e.g. p53) and diseases (e.g. AD for Alzheimers disease) 
+          and Ensembl or EFO IDs (e.g. ENSG00000091831).
+        </p>
+        <p class="text-center">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UjBJWd4BVY4?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>      
+        <p>
+          To learn more about the Platform, you can watch our 
+          <a href="https://www.youtube.com/channel/UCLMrondxbT0DIGx5nGOSYOQ" target="_blank">video walkthroughs on YouTube</a> or
+          read our <a href="https://docs.targetvalidation.org/" target="_blank">documentation</a>.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 id="platform-team">Meet the Platform Team</h3>
+        <p>
+          The Open Targets Platform Core Team is an experienced group of individuals with specialised skills in 
+          bioinformatics, computer science, web development, user experience design, and scientific outreach 
+          and training.
+        </p>
+      </div>
+    </div>
+    <div class="row mb-5">
+      {% assign platform_team = site.data.platform_team | sort: 'last_name' %}
+      {% for person in platform_team %}
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
+          <div class="card shadow-lg p-4 bg-white rounded align-self-stretch">
+            <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
+            <!-- <a data-toggle="modal" href="#modal-{{ person.last_name }}">
+              <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
+            </a> -->
+            <div class="card-body text-center">
+              <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
+              <p class="card-subtitle mb-3">{{ person.role }}</p>
+              <!-- <div>
+                <img src="/assets/img/logos/{{person.organisation_logo}}" class="logo-small" />
+              </div> -->
+            </div>
+          </div>
+        </div>  
+        <!-- Modal with biography -->
+        <!-- <div class="modal fade" id="modal-{{ person.last_name}}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ person.last_name }}Label" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content px-3 py-5">
+              <div class="text-center">
+                <h3>{{ person.first_name }} {{ person.last_name}}'s biography</h3>
+              </div>
+              <div class="modal-body">
+                <p>
+                  {{ person.biography }}
+                </p>
+              </div>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      {% endfor %}
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h3>Contact the Platform team</h3>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-lg-12">
+        <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://formspree.io/mjvwzrqk" method="POST">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-first-name">First name</label>
+                <input class="form-control form-control-lg" name="first-name" id="contact-form-first-name" type="text">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-last-name">Last name</label>
+                <input class="form-control form-control-lg" name="last-name" id="contact-form-last-name" type="text">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-email-address">Email address</label>
+                <input class="form-control form-control-lg" name="email-address" id="contact-form-email-address" type="email">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-reason">Reason for message</label>
+                <select class="form-control form-control-lg" name="reason" id="contact-form-reason">
+                  <option value="" class="disabled-select-option" disabled selected hidden></option>
+                  <option value="contact-platform-support">Support with using the Platform</option>
+                  <option value="book-platform-training-session">Book a Platform training session (in-person or webinar)</option>
+                  <option value="participate-in-ux-session">Participate in a feedback session to preview a new Platform feature</option>
+                  <option value="general-platform-question">General question about the Platform</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-message">Your message</label>
+                <textarea class="form-control" name="message" id="contact-form-message"></textarea>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <button id="send-message-btn" class="btn btn-primary btn-lg" type="submit">Send message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

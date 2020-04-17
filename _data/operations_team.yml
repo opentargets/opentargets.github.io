@@ -1,0 +1,82 @@
+# Below you fill find the template for adding a member of the Operations team
+# Note: there is an intentional dash before the "first_name" attribute and all of the other 
+# attributes for that same member are indented 2 spaces.
+# Note: there is an intentional chevron after the "biography" attribute and the text for the
+# biography should start on the following line and be indented 4 spaces.
+
+# - first_name:
+#   last_name: 
+#   role: 
+#   picture: 
+#   organisation: 
+#   organisation_logo: 
+#   orcid:
+#   twitter:
+#   github:
+#   linkedin: 
+#   biography: >
+
+- first_name: Paris
+  last_name: Litterick
+  role: Senior Administrator
+  picture: paris_litterick.jpg
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid:
+  twitter:
+  github: ParisLitterick
+  linkedin: 
+  biography: >
+    Paris is the Open Targets Senior Administrator and provides day-to-day support to our Executive Leadership Team.
+    Prior to joining the Open Targets team, she worked at the Wellcome Sanger Institute as the Human Genetics Team Administrator
+    and oversaw the diary management and administrative support for five faculty members (Anderson, Barrett, Sandhu, Soranzo & Zeggini).
+
+- first_name: Alice
+  last_name: Mann
+  role: Operations Manager
+  picture: alice_mann.png
+  organisation: Wellcome Sanger Institute
+  organisation_logo: wellcome-sanger.png
+  orcid: 0000-0003-2402-8545
+  twitter: alicel_mann
+  github: alicelmann
+  linkedin: https://uk.linkedin.com/in/alice-mann-a845b7124
+  biography: >
+    Alice is an Operations Manager for Open Targets. Alice aims to use her scientific expertise and background in genomics to 
+    facilitate the smooth running of Open Targets experimental projects that utilise cutting-edge technologies and approaches. 
+    Alice also supports Open Targets core operations, combining her knowledge of large-scale genetic studies and skills in 
+    project management, communication and strategic thinking. Alice works to the overall mission of the team; to create clarity, 
+    fight chaos and make things happen across all aspects of Open Targets. Previously she worked as a Postdoctoral Fellow and 
+    PhD student for Professor Nicole Soranzo in Human Genetics at the Wellcome Sanger Institute. Her scientific background 
+    involved combining functional datasets with genetic studies to understand biological mechanisms at genetic risk loci and 
+    identify potential novel targets. Alice's scientific background began in molecular and cellular biochemistry. During her 
+    Masters research, she was supervised by Professor Shona Murphy at the William Dunn School of Pathology, and investigated 
+    the mechanisms of transcriptional elongation of protein-coding genes. Later, Alice's PhD and postdoc research then combined 
+    her established knowledge of biology with the analysis of large-scale genetic and genomic datasets to further understand 
+    the functional consequences of regulatory genetic variation. In this work, she explored GWAS and genomic data in 
+    haematopoietic cell types and combined molecular and functional data to systematically interrogate loci of clinical 
+    importance. Alice's move to Open Targets was motivated by a desire to facilitate the translational benefit of genetics 
+    research by building on her skills gained beyond the research environment.
+
+- first_name: Sarah
+  last_name: Spain
+  role: Operations Manager
+  picture: sarah_spain.png
+  organisation: Wellcome Sanger Institute
+  organisation_logo: wellcome-sanger.png
+  orcid: 0000-0002-7591-8364
+  twitter:
+  github:
+  linkedin: 
+  biography: >
+    Sarah is an Operations Manager for Open Targets. She originally joined the Sanger Institute as a post-doctoral statistical 
+    geneticist working on the genetics of complex diseases with a focus on Inflammatory Bowel Disease (IBD), in particular, utilising 
+    fine-mappng data to infer genes that are potential drug targets. She has a molecular biology background and moved from the 
+    laboratory bench into statistical genetics during her PhD, which focused on the genetic analysis of the Colorectal Cancer 
+    genome-wide association study (GWAS). Since then, she has developed my analytical skills through two post-doctoral positions 
+    at King's College London. She has worked with GWAS, Immunochip finemapping and exome chip genotype data for a variety of international 
+    collaborative projects in complex diseases such as psoriasis, cognitive ability and Inflammatory Bowel Disease. Her scientific interests 
+    are focused on the genetic differences between individuals that confer an increased susceptibility to common diseases. 
+    In her research, as part of Open Targets, she utilised publically available and in-house tools to analyse large scale genetic data with 
+    the aim to identify target genes that may have therapeutic potential for diseases, such as IBD. More recently, Sarah has moved into a 
+    research administrator role to facilitate the smooth running of Open Targets' research projects.

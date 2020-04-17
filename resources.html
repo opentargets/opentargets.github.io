@@ -1,0 +1,188 @@
+---
+layout: default
+permalink: /resources
+title: Resources
+---
+<header class="py-5" style="background-color:#3489ca">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center text-white">
+        <h1>Informatics tools</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="my-5 py-5 ">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-12">
+        <p>
+          We maintain a vareity of specialised, freely-available, open-source informatics tools that help research scientists 
+          from around the world answer specific research questions and identify and prioritise potential therapeutic drug targets.
+        </p>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 py-3 d-flex">
+        <div class="card p-4">
+          <img class="img-fluid mb-3" src="/assets/img/project-score-screenshot.jpg" />
+          <h4 class="text-center mb-3">Project Score</h4>
+          <p>
+            Project Score is a web portal that allows researchers to explore the results of CRISPR-Cas9 whole-genome 
+            drop out screens across a diverse collection of human cancer cell models and to identify dependencies in 
+            cancer cells to help guide precision cancer medicines. For more information, please see the supporting publication  
+            <a href="https://www.nature.com/articles/s41586-019-1103-9" target="_blank">Behan et al. 2019</a>.
+          </p>
+          <a class="text-center" href="https://score.depmap.sanger.ac.uk/" target="_blank">
+            <button class="btn btn-primary">Visit the Project Score website</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 py-3 d-flex">
+        <div class="card p-4">
+          <img class="img-fluid mb-3" src="/assets/img/eqtl-catalogue-screenshot.jpg" />
+          <h4 class="text-center mb-3">eQTL Catalogue</h4>
+          <p>
+            The eQTL Catalogue aims to provide uniformly processed gene expression and splicing QTLs from all available 
+            public studies on human. This resource focuses on expression cis-QTLs (cis-eQTL) where variants are associated 
+            to expression levels of nearby genes, and on splicing QTLs (sQTL) where variants are associated to specific 
+            splicing events on nearby splice junctions.
+          </p>
+          <a class="text-center" href="https://www.ebi.ac.uk/eqtl/" target="_blank">
+            <button class="btn btn-primary">Visit the eQTL Catalogue website</button>
+          </a>
+        </div>
+      </div>        
+
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 py-3 d-flex">
+        <div class="card p-4">
+          <img class="img-fluid mb-3" src="/assets/img/cheers-screenshot.jpg" />
+          <h4 class="text-center mb-3">CHEERS</h4>
+          <p>
+            CHEERS (Chromatin Element Enrichment Ranking by Specificity) is a method to determine enrichment of annotations in GWAS significant loci. 
+            In addition to SNP-peak overlap, CHEERS takes into account peak properties as reflected by quantitative changes in read counts within peaks. 
+            Please see <a href="http://dx.doi.org/10.1038/s41588-019-0493-9" target="_blank">Soskic et al. 2019</a> for an explanation of the approach.
+          </p>
+          <a class="text-center" href="https://github.com/trynkaLab/CHEERS" target="_blank">
+            <button class="btn btn-primary">Visit the CHEERS tool page</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 py-3 d-flex">
+        <div class="card p-4">
+          <img class="img-fluid mb-3" src="/assets/img/effectorness-paper-method-image.jpg" />
+          <h4 class="text-center mb-3">Effectorness</h4>
+          <p>
+            Naïve CD4+ T cells coordinate the immune response by acquiring an effector phenotype in response to cytokines. 
+            Here, we used quantitative proteomics, bulk RNA-seq and single-cell RNA-seq of over 40,000 human naïve and memory 
+            CD4+ T cells to generate a detailed map of cytokine-regulated gene expression programs. See  
+            <a href="https://doi.org/10.1101/753731" target="_blank">Cano Gamez et al. 2019</a>.
+          </p>
+          <a class="text-center" href="/projects/effectorness" target="_blank">
+            <button class="btn btn-primary">Visit the Effectorness project page</button>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 py-3 d-flex">
+        <div class="card p-4">
+          <img class="img-fluid mb-3" src="/assets/img/epichoose-screenshot.jpg" />
+          <h4 class="text-center mb-3">epiChoose</h4>
+          <p>
+            epiChoose is an application for quantifying the relatedness between cell lines and primary cells. 
+            We have extensively profiled a number of commonly used cell line models across a number of tissues. 
+            This profiling consists of epigenetic (histone modification, CTCF, ATAC-seq) and transcriptional 
+            (RNA-seq) whole-genome measurements. 
+          </p>
+          <a class="text-center" href="http://epichoose.shiny.opentargets.io/epiChoose/" target="_blank">
+            <button class="btn btn-primary">Visit the epiChoose tool page</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 py-3 d-flex">
+        <div class="card p-4">
+          <img class="img-fluid mb-3" src="/assets/img/cellector-screenshot.jpg" />
+          <h4 class="text-center mb-3">CELLector</h4>
+          <p>
+            CELLector is a computational tool implemented in an open source R Shiny application and R package that allows researchers to 
+            select the most relevant cancer cell lines in a genomic-guided fashion. CELLector leverages tumour genomics data to explore, rank, and select optimal cell line models, 
+            enabling scientists to make appropriate and informed choices about model inclusion/exclusion in retrospective analyses and future studies. See
+            <a href="https://www.biorxiv.org/content/early/2018/03/03/275032" target="_blank">Najgebauer et al. 2018</a> for more information.
+          </p>
+          <a class="text-center" href="https://ot-cellector.shinyapps.io/CELLector_App/" target="_blank">
+            <button class="btn btn-primary">Visit the CELLector tool page</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 py-3 d-flex">
+        <div class="card p-4">
+          <img class="img-fluid mb-3" src="/assets/img/dorothea-screenshot.jpg" />
+          <h4 class="text-center mb-3">DoRothEA</h4>
+          <p>
+            DoRothEA (Discriminant Regulon Expression Analysis) is a research resource that can be used to search 
+            candidate TF-drug interactions in cancer. Due to their location as downstream effectors of signalling pathways, 
+            aberrant activities in upstream driver genes (even if not mutated) will cause altered TF activities, thus 
+            proposing TFs as sensors of pathway dysregulation and alternative markers. Please see 
+            <a href="http://cancerres.aacrjournals.org/content/early/2017/12/09/0008-5472.CAN-17-1679" target="_blank">Garcia-Alonso et al. 2017</a> 
+            for an explanation of the approach.
+          </p>
+          <a class="text-center" href="http://dorothea.opentargets.io/#/" target="_blank">
+            <button class="btn btn-primary">Vist the DoRothEA website</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 py-3 d-flex">
+        <div class="card p-4">
+          <img class="img-fluid mb-3" src="/assets/img/link-screenshot.png" />
+          <h4 class="text-center mb-3">LINK</h4>
+          <p>
+            A new tool called LINK (LIterature coNcept Knowledgebase) has been developed that allows the exploration of 
+            half a billion relations between genes, diseases, drugs and key concepts extracted from PubMed abstracts using 
+            NLP (Natural Language Processing). Once MEDLINE relaxed their license for obtaining and analysing publication data,
+            we started looking for novel ways to mine their data. We wanted to exploit the biomedical knowledge often buried 
+            in the literature to help scientists generate new hypotheses for the identification of new drug targets. For this 
+            purpose, we have built Library, an open source ecosystem comprising: a pipeline that allows us to quickly run a
+            large-scale NLP analysis; an API that serves the resulting data; and a user interface to explore the data. Our 
+            pipeline annotates genes, diseases and drugs present in PubMed abstracts, and extracts key concepts. Please see
+            <a href="https://blog.opentargets.org/2018/01/18/link/" target="_blank">Andrea Pierleoni’s blog post</a> for more information.
+          </p>
+          <a class="text-center" href="https://link.opentargets.io/" target="_blank">
+            <button class="btn btn-primary">Vist the LINK website</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 py-3 d-flex">
+        <div class="card p-4">
+          <img class="img-fluid mb-3" src="/assets/img/crispr-cleanr-screenshot.png" />
+          <h4 class="text-center mb-3">CRISPRcleanR</h4>
+          <p>
+          Genome editing by CRISPR-Cas9 technology allows large-scale screening of gene essentiality in cancer. 
+          A confounding factor when interpreting CRISPR-Cas9 screens is the high false-positive rate in detecting 
+          essential genes within copy number amplified regions of the genome. We have developed the computational 
+          tool CRISPRcleanR which is capable of identifying and correcting gene-independent responses to CRISPR-Cas9 
+          targeting. CRISPRcleanR uses an unsupervised approach based on the segmentation of single-guide RNA fold 
+          change values across the genome, without making any assumption about the copy number status of the 
+          targeted genes. CRISPRcleanR is implemented as an R package and as an interactive Python package with 
+          full documentation, tutorials, built in datasets to reproduce the results in this manuscript, and is 
+          publically available as an <a href="https://github.com/francescojm/CRISPRcleanR" target="_blank">R package</a> 
+          and as a <a href="https://github.com/cancerit/pyCRISPRcleanR" target="_blank">Python package</a>. 
+          The Python implementation is dockerised making it platform-independent and 
+          <a href="https://dockstore.org/containers/quay.io/wtsicgp/dockstore-pycrisprcleanr" target="_blank">usable in cloud environments</a>.
+          Please see <a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4989-y" target="_blank">Iorio et al. 2018</a> 
+          for more information.
+          </p>
+          <a class="text-center" href="https://github.com/francescojm/CRISPRcleanR" target="_blank">
+            <button class="btn btn-primary">Vist the CRISPRcleanR GitHub repo</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+

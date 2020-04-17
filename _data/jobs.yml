@@ -1,0 +1,126 @@
+# Below you fill find the template for adding a new job ad.
+# Note: there is an intentional dash before the "title" attribute and all of the other attributes 
+# for that same job ad are indented with a tab of 2 spaces
+# Note: there is an intentional chevron after the "description" attribute and the text for the
+# description should start on the following line and be indented 4 spaces.
+
+# - title: 
+#   organisation: 
+#   logo: 
+#   closing_date: 
+#   link: 
+#   description: >
+
+- title: Web Developer
+  organisation: EMBL-EBI
+  logo: embl-ebi.png
+  closing_date: 2020-02-24
+  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01599
+  description: >
+    We are looking for an enthusiastic and talented Front-End Software Developer to join the Open Targets team and help us build the next generation of open source and big data tools and services that support the drug discovery process. As a key member of the Core Platform Team, you will work on developing and maintaining our two flagship open-source resources - the Open Targets Platform and the Open Targets Genetics Portal. Together, these two resources integrate, organise, and present vast amounts of biomedical data in order to help research scientists identify and prioritise potential therapeutic drug targets.
+
+- title: Statistical Geneticist
+  organisation: "Wellcome Sanger Institute"
+  logo: wellcome-sanger.png
+  closing_date: 2020-04-30
+  link: https://jobs.sanger.ac.uk/vacancy/statistical-geneticist-open-targets-417064.html
+  description: >
+    A Statistical Geneticist role is available at the Wellcome Sanger Institute in the Open Targets Genetics team under the leadership of Dr. Maya Ghoussaini. This is an exciting opportunity for you to participate in the enhancement of the Open Targets Genetics Portal through the development of new functionality and features. In this role, you will be actively engaged in the integration of new GWAS data (FinnGen, Biobank Japan, etc), eQTL datasets including splice QTLs and tissue-specific functional genomic datasets. You will develop and apply computational pipelines to elucidate causal mechanisms through integrative analyses of data from GWAS, eQTL/pQTL, chromatin interactions and conformation, biobanks, and other related sources to identify and prioritise drug targets.  
+
+- title: Senior Research Assistant
+  organisation: Wellcome Sanger Institute
+  logo: wellcome-sanger.png
+  closing_date: 2020-01-26
+  link: https://jobs.sanger.ac.uk/vacancy/senior-research-assistant-408769.html
+  description: >
+    We are seeking an enthusiastic and motivated Senior Research Assistant to provide experimental and operational 
+    support to the newly opened Open Targets Validation Lab at the Wellcome Sanger Institute. This exciting opportunity 
+    will involve working with world-leading experts from both academia and industry to validate targets in multiple 
+    disease areas, including oncology, neurodegeneration, and immunology. 
+
+- title: Software Developer
+  organisation: EMBL-EBI
+  logo: embl-ebi.png
+  closing_date: 2020-03-27
+  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01577
+  description: >
+    We are seeking a talented backend software engineer to support the development of the Open Targets Genetics Portal. 
+    You will join a dynamic and multidisciplinary team that uses a range of cutting-edge technologies to process, store, 
+    and aggregate the vast amount of human genetic data. You will have the opportunity to build on the most recent 
+    statistical genomics analysis and provide a robust infrastructure for both public and private instances of the 
+    Genetics Portal. Our current technologies include ElasticSearch, Spark, ClickHouse and a variety of Google Cloud 
+    services including Dataproc and BigQuery. 
+
+- title: Software Developer - Full-Stack
+  organisation: EMBL-EBI
+  logo: embl-ebi.png
+  closing_date: 2020-01-28
+  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01576
+  description: >
+    We are looking for an enthusiastic and talented Full Stack Developer to join the Open Targets Core Platform team 
+    and to support the development of our informatics services. The postholder’s primary tasks will be: 1) to 
+    support the active development of the Open Targets Platform and Open Targets Genetics Portal applications; and 
+    2) to ensure a reliable interface with their respective back-ends. Both applications share a common infrastructure 
+    based on React and GraphQL and so we encourage candidates with all levels of experience to apply including 
+    Front-End Web Developers and Full Stack Engineers. 
+
+- title: "Technical Project Lead"
+  organisation: EMBL-EBI
+  logo: embl-ebi.png
+  closing_date: 2020-01-03
+  link: "https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01575"
+  description: >
+    We are seeking a highly motivated technical lead for the Open Targets Core teams. The post holder will lead a team of 6 
+    back-end and front-end software developers and will be responsible for the technical development of the Open Targets Platform 
+    and Open Targets Genetics Portal. They will also work directly with the Platform Coordinator to establish the technical 
+    roadmap for our services.
+
+- title: "Postdoctoral Fellowship - Statistical Genetics"
+  organisation: "Wellcome Sanger Institute"
+  logo: "wellcome-sanger.png"
+  closing_date: 2020-04-30
+  link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellowship-statistical-genetics-416231.html"
+  description: >
+    Applications are invited for a 3-year Postdoctoral Fellowship at the Wellcome Sanger Institute based jointly in the teams of 
+    Dr. Carl Anderson (Human Genetics Programme) and Dr. Maya Ghoussaini (Open Targets). This is an exciting opportunity for you 
+    to bring together cutting-edge genetic and genomic datasets to identify novel candidate therapeutic targets for inflammatory 
+    bowel disease (IBD). During this fellowship, you will lead a collaborative project to build a causal evidence base for every 
+    gene within IBD associated GWAS loci. Your affiliation with the Ghoussaini Team will bring access to the massive cross-disease 
+    genetic and genomic datasets used in the Open Targets Platform and the Open Targets Genetics Portal. And as a member of the 
+    Anderson group, you will also have access to the latest large-scale genetic association data for IBD.
+
+- title: "Postdoctoral Fellow (Computational Genomics)"
+  organisation: "Wellcome Sanger Institute"
+  logo: "wellcome-sanger.png"
+  closing_date: 2019-12-15
+  link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-computational-genomics-394572.html"
+  description: >
+    We are looking for a post-doctoral fellow to join Matt Hurles’ group at the Wellcome Sanger Institute and to lead a project 
+    involving the large-scale computational analyses of RNA-seq datasets from cellular models for neurodevelopmental and 
+    psychiatric diseases. The project will focus on generating transcriptomic profiles from iPSC derived neural cells with 
+    CRISPR-engineered mutations modelling ~100 neurodevelopmental and psychiatric disorders due to mutations in chromatin-related 
+    genes, as well as transcriptomic profiles from drug response profiles of hundreds of pharmacological and genetic perturbations.
+
+- title: "Software Developer - Back-End"
+  organisation: EMBL-EBI
+  logo: embl-ebi.png
+  closing_date: 2020-01-09
+  link: "https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01565"
+  description: >
+    We are looking for a talented backend software engineer to join the Open Targets Core Platform team. The Core Platform team 
+    is a multi-disciplinary team embedded in the European Bioinformatics Institute (EMBL-EBI). We use a range of modern 
+    technologies - including ElasticSearch, Spark, ClickHouse and a variety of Google cloud services - to build open source 
+    tools that support researchers working in drug discovery.
+
+- title: "Postdoctoral Fellow - CRISPR screening and QTL mapping in neurodegeneration"
+  organisation: "Wellcome Sanger Institute"
+  logo: "wellcome-sanger.png"
+  closing_date: 2020-03-16
+  link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-crispr-screening-and-qtl-mapping-in-neurodegeneration-414163.html"
+  description: >
+    We have an exciting opportunity for a postdoctoral researcher to join an interdisciplinary team on an ambitious project aimed to 
+    identify new genes involved in neurodegeneration, especially Alzheimer’s disease. The successful candidate will use human 
+    induced pluripotent stem cell (hiPSC) derived microglia coupled with cutting edge high-throughput single cell 'omics techniques 
+    to assay the effects of natural and induced genetic variation on gene expression and cellular phenotypes. The overall aim is to 
+    identify novel genes involved in important microglial cellular processes that are relevant for disease biology and will therefore 
+    be candidate drug targets for further development.

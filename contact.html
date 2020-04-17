@@ -1,0 +1,102 @@
+---
+layout: default
+permalink: /contact
+title: Contact Us
+---
+
+<header class="py-5" style="background-color:#3489ca">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center text-white">
+        <h1>Contact us</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="py-5 my-5">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-12">
+        <p>
+          Do you want to learn more about Open Targets? Are you interested in becoming a partner or interviewing one of our
+          scientists? Do you have a support question related to the Open Targets Platform or the Open Targets Genetics Portal?
+        </p>
+        <p>
+          If so, complete the contact form below and the right member of our team will be in touch shortly! Alternatively, you can 
+          also email us at <a href="mailto:contact@opentargets.org">contact@opentargets.org</a>.
+        </p>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-lg-12">
+        <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://formspree.io/mjvydqqa" method="POST">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-first-name">First name</label>
+                <input class="form-control form-control-lg" name="first-name" id="contact-form-first-name" type="text">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-last-name">Last name</label>
+                <input class="form-control form-control-lg" name="last-name" id="contact-form-last-name" type="text">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-email-address">Email address</label>
+                <input class="form-control form-control-lg" name="email-address" id="contact-form-email-address" type="email">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-reason">Reason for message</label>
+                <select class="form-control form-control-lg" name="reason" id="contact-form-reason">
+                  <option value="" class="disabled-select-option" disabled selected hidden></option>
+                  <option value="contact-scientific-leadership-team">Contact the Executive Leadership Team</option>
+                  <option value="contact-scientific-leadership-team">Contact the Scientific Leadership Team</option>
+                  <option value="contact-press-office">Contact our press office</option>
+                  <option value="become-partner">Become an Open Targets partner</option>
+                  <option value="contact-platform-support">Contact Open Targets Platform support</option>
+                  <option value="contact-genetics-portal-support">Contact Open Targets Genetics Portal support</option>
+                  <option value="general-question">General question about Open Targets</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="form-group">
+                <label class="font-weight-bold" for="contact-form-message">Your message</label>
+                <textarea class="form-control" name="message" id="contact-form-message"></textarea>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <button id="send-message-btn" class="btn btn-primary btn-lg" type="submit">Send message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-12">
+        <h4>Press releases</h4>
+        <p>
+          To learn more about Open Targets or to arrange an interview with a member of our <a href="/people">team</a>,
+          please contact the press team. Your email will reach press officers at <a href="/partners">our partners</a>.
+        </p>
+        <p>
+          <b>Phone:</b> + 44 (0)1223 494 369
+        </p>
+        <p>
+          <b>Email:</b> <a href="mailto:press@opentargets.org">press@opentargets.org</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

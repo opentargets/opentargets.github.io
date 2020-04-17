@@ -1,44 +1,9 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+url: "https://www.opentargets.org/" 
+title: "Open Targets" 
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Open Targets
-author: Open Targets Team
-email: contact@opentargets.org
-description: > # this means to ignore newlines until "baseurl:"
-  Open Targets is a public-private initiative to generate evidence on the validity of therapeutic targets based on genome-scale experiments and analysis.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: targetvalidate
-github_username:  opentargets
-linkedin: https://www.linkedin.com/company/open-targets
-facebook: https://www.facebook.com/OpenTargets/
-repository: opentargets/opentargets.github.io
-
-# Build settings
-markdown: kramdown
-theme: minima
 plugins:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-#minima allows to specify the order in the header:
-header_pages:
-  - overview.md
-  - projects.md
-  - people.md
-  - jobs.md
-  - contact.md
+  - jekyll-get-json
+  
+jekyll_get_json:
+  - data: ghost_api_response
+    json: 'https://blog.opentargets.org/ghost/api/v0.1/posts/?limit=5&include=posts%2C%20author&fields=title%2C%20meta_description%2C%20published_at%2C%20slug%2C%20author&order=published_at%20DESC&client_id=ghost-frontend&client_secret=5fd090001a81'

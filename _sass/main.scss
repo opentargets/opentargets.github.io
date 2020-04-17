@@ -1,0 +1,108 @@
+@import url('https://rsms.me/inter/inter.css');
+
+$white: #ffffff;
+$bodyColor: #5a5f5f;
+$bodyFont: "Inter",Helvetica,Arial,sans-serif;
+$ot-corp-blue: #3489ca;
+$ot-corp-grey: #5a5f5f;
+
+body {
+  background: $white;
+  color: $ot-corp-grey;
+  font-family: $bodyFont;
+}
+
+.bg-blue {
+  background-color:$ot-corp-blue;
+}
+
+.bg-light-grey {
+  background-color: #D1CFCF;	
+}
+
+a {
+  color: $ot-corp-blue;
+}
+
+a:hover {
+  color: #98C5E3;
+}
+
+.principles-cta-icon {
+  font-size: 125px; 
+  color: $white;
+}
+
+.partner-logo {
+  max-width: 125px;
+}
+
+.carousel-item {
+  height: 35vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+.logo-small {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+  color: $ot-corp-blue
+}
+
+.navbar-light .navbar-nav .nav-link,
+.dropdown-item {
+  font-weight: bold;
+  color: $ot-corp-grey;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,{
+  color: $ot-corp-blue;
+}
+
+.dropdown-menu {
+  border: 2px solid $ot-corp-grey;
+}
+
+.dropdown-item:hover,
+.dropdown-item:active {
+  color: $ot-corp-blue;
+  background-color: lightgrey;
+}
+
+.active-icon {
+  color: $ot-corp-blue;
+}
+
+.disabled-icon {
+  color: $ot-corp-grey;
+  opacity: 0.5;
+}
+
+#blog-section {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+// used to set <p> min-height values on /people page so that names, job titles, and logos are aligned
+@media only screen and (min-width: 576px) {
+  .line-height-3em {
+    min-height: 3em;
+  }
+  .line-height-4em {
+    min-height: 4.5em;
+  }
+}
+
+
