@@ -40,46 +40,62 @@ title: Jobs
           conditions associated with the employer. 
         </p>
         <p>
-          Note: some applications will be reviewed on an ongoing basis and the advertised post(s) may be filled before 
+          Important note: applications may be reviewed on an ongoing basis and the advertised post(s) may be filled before 
           the stated deadline.
         </p>
       </div>
     </div>
+    <hr class="mb-5" />
     <div class="row">
       {% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
-      {% assign all_job_ads = site.data.jobs | sort: 'closing_date' %}
-      {% for job in all_job_ads %}
-        {% capture closing_date %}{{ job.closing_date | date: '%s' | plus : 86400 }}{% endcapture %}
-        {% if closing_date > now %}
-        <div class="row pb-4">
-          <div class="col-lg-12">
-            <div class="card">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-md-9">
-                    <h4 class="card-title">{{ job.title }}</h4>
-                    <h6 class="card-subtitle mb-4">
-                      Application closing date: {{ job.closing_date | date: "%-d %B %Y" }} 
-                    </h6>
+      {% assign active_job_ads = site.data.jobs | where: 'active', 'yes' | sort: 'closing_date' %}
+      {% if active_job_ads.size == 0 %}
+        <div class="col-12 text-center">
+          <p class="font-italic">
+            Unfortunately, there are no current open job advertisements. 
+          <br />
+            Please check this page frequently as our new projects will soon begin recruiting for staff.
+          </p>
+        </div>
+      {% else %}
+        {% for job in active_job_ads %}
+          {% capture closing_date %}{{ job.closing_date | date: '%s' | plus : 86400 }}{% endcapture %}
+          {% if closing_date > now %}
+          <div class="row pb-4">
+            <div class="col-lg-12">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <h4 class="card-title">{{ job.title }}</h4>
+                      <h6 class="card-subtitle mb-4">
+                        Application closing date: {{ job.closing_date | date: "%-d %B %Y" }} 
+                      </h6>
+                    </div>
+                    <div class="offset-md-1 col-md-2">
+                      <img class="img-fluid" src="/assets/img/logos/{{ job.logo }}" />
+                    </div>
                   </div>
-                  <div class="offset-md-1 col-md-2">
-                    <img class="img-fluid" src="/assets/img/logos/{{ job.logo }}" />
-                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p class="card-title">
+                        {{ job.description | truncate: 1000 }} <a href="{{ job.link }}" class="font-weight-bold" target="_blank">[ read more ]</a>
+                      </p>
+                    </div>
+                  </div>   
                 </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <p class="card-title">
-                      {{ job.description | truncate: 1000 }} <a href="{{ job.link }}" class="font-weight-bold" target="_blank">[ read more ]</a>
-                    </p>
-                  </div>
-                </div>   
               </div>
             </div>
           </div>
-        </div>
-        {% endif %}
-      {% endfor %} 
+          {% endif %}
+        {% endfor %} 
+      {% endif %}
 
+
+      <!-- {% assign all_active_job_ads = site.data.jobs | where: 'active', 'yes' | sort: 'closing_date' %}
+      {% for job in all_active_job_ads %}
+        <p>{{ job.title }}</p>
+      {% endfor %} -->
     </div>
   </div>
 </section>
