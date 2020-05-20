@@ -42,8 +42,9 @@
 - title: Software Developer
   organisation: EMBL-EBI
   logo: embl-ebi.png
-  closing_date: 2020-03-27
-  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01577
+  closing_date: 2020-07-01
+  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01643
+  active: "yes"
   description: >
     We are seeking a talented backend software engineer to support the development of the Open Targets Genetics Portal. 
     You will join a dynamic and multidisciplinary team that uses a range of cutting-edge technologies to process, store, 
