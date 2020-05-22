@@ -12,6 +12,16 @@
 #   doi: 
 #   pmid: 
 #   link: 
+- title: "CELLector: Genomics-Guided Selection of Cancer In Vitro Models" 
+  author: Najgebauer, H et al.
+  publication_name: Cell Systems
+  issue: 5
+  volume: 10
+  publication_year: 2020
+  pages: "424-432.e6"
+  doi: 10.1016/j.cels.2020.04.007
+  pmid: 32437684
+  link: https://www.sciencedirect.com/science/article/pii/S2405471220301502
 
 - title: Single-cell transcriptomics identifies an effectorness gradient shaping the response of CD4+ T cells to cytokines 
   author: Cano-Gamez, E et al.
