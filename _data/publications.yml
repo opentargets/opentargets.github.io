@@ -12,6 +12,19 @@
 #   doi: 
 #   pmid: 
 #   link: 
+
+- title: "Using Reactome to build an autophagy mechanism knowledgebase"
+  author: Varusai, TM et al.
+  publication_name: Autophagy
+  issue: 
+  volume: 
+  publication_year: 2020
+  pages: 1-12
+  doi: 10.1080/15548627.2020.1761659
+  pmid: 32486891 
+  link: https://www.tandfonline.com/doi/full/10.1080/15548627.2020.1761659
+
+
 - title: "CELLector: Genomics-Guided Selection of Cancer In Vitro Models" 
   author: Najgebauer, H et al.
   publication_name: Cell Systems
@@ -26,21 +39,21 @@
 - title: Single-cell transcriptomics identifies an effectorness gradient shaping the response of CD4+ T cells to cytokines 
   author: Cano-Gamez, E et al.
   publication_name: Nature Communications
-  issue:
+  issue: 1
   volume: 11
   publication_year: 2020
   pages: "Article number: 1801"
   doi: 10.1038/s41467-020-15543-y
-  pmid: 
+  pmid: 32286271
   link: https://www.nature.com/articles/s41467-020-15543-y
 
 - title: The Open Targets post-GWAS analysis pipeline 
   author: Peat, G et al.
   publication_name: Bioinformatics
-  issue: 
-  volume: 
+  issue: 9
+  volume: 36
   publication_year: 2020
-  pages: 
+  pages: 2936-2937
   doi: 10.1093/bioinformatics/btaa020
   pmid: 31930349 
   link: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaa020/5701644

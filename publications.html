@@ -57,7 +57,8 @@ title: Publications
                 <div>
                   <p class="font-weight-bold mb-1">{{ publication.title }}</p>
                   <p class="mb-1">{{ publication.author }}</p>
-                  <p class="mb-1"><em>{{ publication.publication_name }}</em>, {{ publication.volume }}, {{ publication.pages }}</p>
+                  <p class="mb-1"><em>{{ publication.publication_name }}</em>{% if publication.volume != null %}, {{ publication.volume }}{% endif %}, {{ publication.pages }}
+                  </p>
                   <p class="mb-1">
                     PubMed: <a href="http://europepmc.org/abstract/MED/{{ publication.pmid }}" target="_blank">{{ publication.pmid }}</a>
                     <span class="mx-1">|</span>
