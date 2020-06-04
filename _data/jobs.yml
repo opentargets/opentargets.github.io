@@ -12,6 +12,24 @@
 #   active: "yes" or "no" 
 #   description: >
 
+- title: "Postdoctoral Fellow: Neurodegenerative Disease Modelling using CRISPR"
+  organisation: "Wellcome Sanger Institute"
+  logo: wellcome-sanger.png
+  closing_date: 2020-07-05
+  link: https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-neurodegenerative-disease-modelling-using-crispr-419676.html
+  active: "yes"
+  description: >
+    We are seeking two postdoctoral fellows to join an interdisciplinary team on an exciting and ambitious new project using cutting-edge techniques to study how genes associated with neurodegeneration contribute to disease in a cell-type-specific manner. The team will perform targeted CRISPR screens in multiple disease-relevant cell populations derived from human induced pluripotent stem cells (hiPSCs) and assess the resulting phenotypes using a combination of single-cell RNA sequencing (scRNAseq) and high throughput cellular assays.
+
+- title: "Advanced Research Assistant: Neurodegenerative Disease Modelling using CRISPR"
+  organisation: "Wellcome Sanger Institute"
+  logo: wellcome-sanger.png
+  closing_date: 2020-07-05
+  link: https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-neurodegenerative-disease-modelling-using-crispr-419669.html
+  active: "yes" 
+  description: >
+    We are seeking a motivated Advanced Research Assistant to join an interdisciplinary team on an exciting and ambitious new project using cutting-edge techniques to study how genes associated with neurodegeneration contribute to disease in a cell-type-specific manner. The team will perform targeted CRISPR screens in multiple disease-relevant cell populations derived from human induced pluripotent stem cells (hiPSCs) and assess the resulting phenotypes using a combination of single-cell RNA sequencing (scRNAseq) and high throughput cellular assays.
+
 - title: Web Developer
   organisation: EMBL-EBI
   logo: embl-ebi.png
