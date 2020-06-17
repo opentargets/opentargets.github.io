@@ -12,6 +12,20 @@
 #   active: "yes" or "no" 
 #   description: >
 
+- title: Senior Database Curator - Cancer Genetics
+  organisation: "Wellcome Sanger Institute"
+  logo: wellcome-sanger.png
+  closing_date: 2020-07-15
+  link: https://jobs.sanger.ac.uk/vacancy/senior-database-curator-cancer-genetics-420152.html
+  active: "yes"
+  description: >
+    We are seeking a motivated and experienced scientist in cancer molecular biology and genetics to lead the expansion and curation of the Cancer Gene Census at the Wellcome Sanger Institute within COSMIC, 
+    a database of genetic mutations in cancer, a major resource in cancer research, widely used across informatics, diagnostic and pharmaceutical industries. This is an exciting position within the COSMIC team, 
+    where you will have the opportunity to explore & interpret a wide range of literature, database and analytic resources to create a complete landscape of genetic dysfunctions across all cancer types and explain 
+    which molecular mechanisms are most important in development of these diseases. Our first aim is to expand the Cancer Gene Census with new genes, and to generate full descriptive coverage of all Census genes 
+    with evidence of oncogenic activity. The Cancer Gene Census is frequently cited in publications and regularly used as a key data source in cancer genome analytics and databases; this project extends this 
+    high-profile resource, offering multiple opportunities for very citeable publications. This position is available for 18 months with a possibility of extension.
+
 - title: Bioinformatician
   organisation: "EMBL-EBI"
   logo: embl-ebi.png
@@ -107,16 +121,18 @@
 - title: "Postdoctoral Fellowship - Statistical Genetics"
   organisation: "Wellcome Sanger Institute"
   logo: "wellcome-sanger.png"
-  closing_date: 2020-05-30
-  link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellowship-statistical-genetics-416231.html"
+  closing_date: 2020-07-15
+  link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellowship-statistical-genetics-420112.html"
+  active: "yes"
   description: >
     Applications are invited for a 3-year Postdoctoral Fellowship at the Wellcome Sanger Institute based jointly in the teams of 
     Dr. Carl Anderson (Human Genetics Programme) and Dr. Maya Ghoussaini (Open Targets). This is an exciting opportunity for you 
     to bring together cutting-edge genetic and genomic datasets to identify novel candidate therapeutic targets for inflammatory 
     bowel disease (IBD). During this fellowship, you will lead a collaborative project to build a causal evidence base for every 
-    gene within IBD associated GWAS loci. Your affiliation with the Ghoussaini Team will bring access to the massive cross-disease 
-    genetic and genomic datasets used in the Open Targets Platform and the Open Targets Genetics Portal. And as a member of the 
-    Anderson group, you will also have access to the latest large-scale genetic association data for IBD.
+    gene within IBD associated GWAS loci. As a member of the Anderson group, you will also have access to the latest large-scale genetic 
+    association data for IBD, alongside functional genomics datasets derived from disease-relevant tissue in health and disease 
+    (single-cell RNA-seq and ATAC-seq). Your affiliation with the Ghoussaini Team will bring access to the massive cross-disease 
+    genetic and genomic datasets aggregated by Open Targets and presented in the Platform and Genetics Portal.
 
 - title: "Postdoctoral Fellow (Computational Genomics)"
   organisation: "Wellcome Sanger Institute"
