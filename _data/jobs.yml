@@ -12,6 +12,17 @@
 #   active: "yes" or "no" 
 #   description: >
 
+- title: Project Manager
+  organisation: EMBL-EBI
+  logo: embl-ebi.png
+  closing_date: 2020-07-31
+  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01651
+  active: "yes" 
+  description: >
+    We are seeking an enthusiastic, motivated individual to provide project management and operational support for the Open Targets Core team. You will support the ongoing delivery of the 
+    Open Targets Platform and Genetics Portal, helping the team build and execute development roadmaps, manage releases and ensure the team’s deliverables are executed on time, and risks 
+    are managed effectively. You will also be responsible for the Open Targets service desk for queries and requests regarding the platform, as well as carrying out some QC to support releases. 
+
 - title: Outreach Officer
   organisation: "EMBL-EBI"
   logo: embl-ebi.png
