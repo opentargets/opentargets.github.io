@@ -24,6 +24,17 @@
   pmid: 32477401
   link: https://www.frontiersin.org/article/10.3389/fgene.2020.00424  
 
+- title: "Ten simple rules for making training materials FAIR"
+  author: Garcia, L et al.
+  publication_name: PLoS Computational Biology
+  issue: 5
+  volume: 16
+  publication_year: 2020 
+  pages: e1007854
+  doi: 10.1371/journal.pcbi.1007854
+  pmid: 32437350
+  link: https://doi.org/10.1371/journal.pcbi.1007854
+
 - title: Applications of machine learning in drug discovery and development
   author: Vamathevan, J et al.
   publication_name: Nature Reviews Drug Discovery
