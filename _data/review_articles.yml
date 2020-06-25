@@ -13,6 +13,17 @@
 #   pmid: 
 #   link: 
 
+- title: "From GWAS to Function: Using Functional Genomics to Identify the Mechanisms Underlying Complex Diseases"
+  author: Cano-Gamez, E & Trynka, G
+  publication_name: Frontiers in Genetics
+  issue: 
+  volume: 11
+  publication_year: 2020 
+  pages: 424
+  doi: 10.3389/fgene.2020.00424
+  pmid: 32477401
+  link: https://www.frontiersin.org/article/10.3389/fgene.2020.00424  
+
 - title: Applications of machine learning in drug discovery and development
   author: Vamathevan, J et al.
   publication_name: Nature Reviews Drug Discovery
