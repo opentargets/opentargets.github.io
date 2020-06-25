@@ -16,6 +16,30 @@
 #   linkedin: 
 #   biography: >
 
+- first_name: Babatomiwa
+  last_name: Adebiyi
+  role: Intern - Data Team
+  picture: babatomiwa_adebiyi.jpg
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid:
+  twitter:
+  github: badebiyi-ebi 
+  linkedin: 
+  biography: >
+
+- first_name: Nicole
+  last_name: Toft
+  role: Intern - Data Team
+  picture: nicole_toft.jpg
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid:
+  twitter:
+  github: nbtoft
+  linkedin: 
+  biography: >
+
 - first_name: David
   last_name: Ochoa
   role: Platform Coordinator
@@ -36,7 +60,7 @@
     
 - first_name: Miguel
   last_name: Carmona
-  role: Technical Lead
+  role: Technical Team Lead
   picture: miguel_carmona.png
   organisation: EMBL-EBI
   organisation_logo: embl-ebi.png
@@ -91,7 +115,7 @@
 
 - first_name: Andrew
   last_name: Hercules
-  role: User Experience Design Lead
+  role: Product Design & Strategy Lead
   picture: andrew_hercules.png
   organisation: EMBL-EBI
   organisation_logo: embl-ebi.png
@@ -127,7 +151,7 @@
 
 - first_name: Daniel
   last_name: Suveges
-  role: Senior Bioinformatician
+  role: Data Team Lead
   picture: daniel_suveges.png
   organisation: EMBL-EBI
   organisation_logo: embl-ebi.png
