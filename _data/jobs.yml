@@ -12,6 +12,17 @@
 #   active: "yes" or "no" 
 #   description: >
 
+- title: Principal Bioinformatician
+  organisation: "Wellcome Sanger Institute"
+  logo: "wellcome-sanger.png"
+  closing_date: 2020-08-02
+  link: https://jobs.sanger.ac.uk/vacancy/principal-bioinformatician-open-targets-420967.html
+  active: "yes"  
+  description: >
+    We are looking for a Principal Bioinformatician to be based at the Wellcome Sanger Institute to provide computational support to our cutting-edge science within the Experimental Programme of 
+    Open Targets. This exciting opportunity will involve working with world-leading experts from both academia and industry to advance our understanding of disease causal processes to accelerate 
+    development of new therapies.
+
 - title: Bioinformatician/Senior Bioinformatician
   organisation: EMBL-EBI
   logo: embl-ebi.png
@@ -68,90 +79,11 @@
   link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01649
   active: "yes"
   description: >
-    We are seeking an enthusiastic Bioinformatician to join the Open Targets Core Team and contribute to the development of the Open Targets Platform. As a member of the Data team within the Core team, your role will involve the integration and analysis of the most relevant data sources, as well as building the appropriate models for integrating and scoring targets-disease associations. A good understanding of the biological questions that surround the drug discovery hypothesis is highly recommended. The role also involves collaborating closely with data providers across the Open Targets consortia, and demonstrating initiative in the development and refinement of suitable data feeds. Supported by a team of  software developers, the candidate is expected to leverage the more than 50 data sources we integrate in the OT Platform, in order to better identify and prioritise targets.  Manipulating files representing nested biological data will be a routine part of the role.
-
-- title: "Postdoctoral Fellow: Neurodegenerative Disease Modelling using CRISPR"
-  organisation: "Wellcome Sanger Institute"
-  logo: wellcome-sanger.png
-  closing_date: 2020-07-05
-  link: https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-neurodegenerative-disease-modelling-using-crispr-419676.html
-  active: "yes"
-  description: >
-    We are seeking two postdoctoral fellows to join an interdisciplinary team on an exciting and ambitious new project using cutting-edge techniques to study how genes associated with neurodegeneration contribute to disease in a cell-type-specific manner. The team will perform targeted CRISPR screens in multiple disease-relevant cell populations derived from human induced pluripotent stem cells (hiPSCs) and assess the resulting phenotypes using a combination of single-cell RNA sequencing (scRNAseq) and high throughput cellular assays.
-
-- title: "Advanced Research Assistant: Neurodegenerative Disease Modelling using CRISPR"
-  organisation: "Wellcome Sanger Institute"
-  logo: wellcome-sanger.png
-  closing_date: 2020-07-05
-  link: https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-neurodegenerative-disease-modelling-using-crispr-419669.html
-  active: "yes" 
-  description: >
-    We are seeking a motivated Advanced Research Assistant to join an interdisciplinary team on an exciting and ambitious new project using cutting-edge techniques to study how genes associated with neurodegeneration contribute to disease in a cell-type-specific manner. The team will perform targeted CRISPR screens in multiple disease-relevant cell populations derived from human induced pluripotent stem cells (hiPSCs) and assess the resulting phenotypes using a combination of single-cell RNA sequencing (scRNAseq) and high throughput cellular assays.
-
-- title: Web Developer
-  organisation: EMBL-EBI
-  logo: embl-ebi.png
-  closing_date: 2020-02-24
-  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01599
-  description: >
-    We are looking for an enthusiastic and talented Front-End Software Developer to join the Open Targets team and help us build the next generation of open source and big data tools and services that support the drug discovery process. As a key member of the Core Platform Team, you will work on developing and maintaining our two flagship open-source resources - the Open Targets Platform and the Open Targets Genetics Portal. Together, these two resources integrate, organise, and present vast amounts of biomedical data in order to help research scientists identify and prioritise potential therapeutic drug targets.
-
-- title: Statistical Geneticist
-  organisation: "Wellcome Sanger Institute"
-  logo: wellcome-sanger.png
-  closing_date: 2020-05-01
-  link: https://jobs.sanger.ac.uk/vacancy/statistical-geneticist-open-targets-417064.html
-  description: >
-    A Statistical Geneticist role is available at the Wellcome Sanger Institute in the Open Targets Genetics team under the leadership of Dr. Maya Ghoussaini. This is an exciting opportunity for you to participate in the enhancement of the Open Targets Genetics Portal through the development of new functionality and features. In this role, you will be actively engaged in the integration of new GWAS data (FinnGen, Biobank Japan, etc), eQTL datasets including splice QTLs and tissue-specific functional genomic datasets. You will develop and apply computational pipelines to elucidate causal mechanisms through integrative analyses of data from GWAS, eQTL/pQTL, chromatin interactions and conformation, biobanks, and other related sources to identify and prioritise drug targets.  
-
-- title: Senior Research Assistant
-  organisation: Wellcome Sanger Institute
-  logo: wellcome-sanger.png
-  closing_date: 2020-01-26
-  link: https://jobs.sanger.ac.uk/vacancy/senior-research-assistant-408769.html
-  description: >
-    We are seeking an enthusiastic and motivated Senior Research Assistant to provide experimental and operational 
-    support to the newly opened Open Targets Validation Lab at the Wellcome Sanger Institute. This exciting opportunity 
-    will involve working with world-leading experts from both academia and industry to validate targets in multiple 
-    disease areas, including oncology, neurodegeneration, and immunology. 
-
-- title: Software Developer
-  organisation: EMBL-EBI
-  logo: embl-ebi.png
-  closing_date: 2020-07-01
-  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01643
-  active: "no"
-  description: >
-    We are seeking a talented backend software engineer to support the development of the Open Targets Genetics Portal. 
-    You will join a dynamic and multidisciplinary team that uses a range of cutting-edge technologies to process, store, 
-    and aggregate the vast amount of human genetic data. You will have the opportunity to build on the most recent 
-    statistical genomics analysis and provide a robust infrastructure for both public and private instances of the 
-    Genetics Portal. Our current technologies include ElasticSearch, Spark, ClickHouse and a variety of Google Cloud 
-    services including Dataproc and BigQuery. 
-
-- title: Software Developer - Full-Stack
-  organisation: EMBL-EBI
-  logo: embl-ebi.png
-  closing_date: 2020-01-28
-  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01576
-  description: >
-    We are looking for an enthusiastic and talented Full Stack Developer to join the Open Targets Core Platform team 
-    and to support the development of our informatics services. The postholder’s primary tasks will be: 1) to 
-    support the active development of the Open Targets Platform and Open Targets Genetics Portal applications; and 
-    2) to ensure a reliable interface with their respective back-ends. Both applications share a common infrastructure 
-    based on React and GraphQL and so we encourage candidates with all levels of experience to apply including 
-    Front-End Web Developers and Full Stack Engineers. 
-
-- title: "Technical Project Lead"
-  organisation: EMBL-EBI
-  logo: embl-ebi.png
-  closing_date: 2020-01-03
-  link: "https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01575"
-  description: >
-    We are seeking a highly motivated technical lead for the Open Targets Core teams. The post holder will lead a team of 6 
-    back-end and front-end software developers and will be responsible for the technical development of the Open Targets Platform 
-    and Open Targets Genetics Portal. They will also work directly with the Platform Coordinator to establish the technical 
-    roadmap for our services.
+    We are seeking an enthusiastic Bioinformatician to join the Open Targets Core Team and contribute to the development of the Open Targets Platform. As a member of the Data team within the Core team, 
+    your role will involve the integration and analysis of the most relevant data sources, as well as building the appropriate models for integrating and scoring targets-disease associations. 
+    A good understanding of the biological questions that surround the drug discovery hypothesis is highly recommended. The role also involves collaborating closely with data providers across the Open Targets 
+    consortia, and demonstrating initiative in the development and refinement of suitable data feeds. Supported by a team of  software developers, the candidate is expected to leverage the more than 50 data 
+    sources we integrate in the Open Targets Platform, in order to better identify and prioritise targets.  Manipulating files representing nested biological data will be a routine part of the role.
 
 - title: "Postdoctoral Fellowship - Statistical Genetics"
   organisation: "Wellcome Sanger Institute"
@@ -168,39 +100,3 @@
     association data for IBD, alongside functional genomics datasets derived from disease-relevant tissue in health and disease 
     (single-cell RNA-seq and ATAC-seq). Your affiliation with the Ghoussaini Team will bring access to the massive cross-disease 
     genetic and genomic datasets aggregated by Open Targets and presented in the Platform and Genetics Portal.
-
-- title: "Postdoctoral Fellow (Computational Genomics)"
-  organisation: "Wellcome Sanger Institute"
-  logo: "wellcome-sanger.png"
-  closing_date: 2019-12-15
-  link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-computational-genomics-394572.html"
-  description: >
-    We are looking for a post-doctoral fellow to join Matt Hurles’ group at the Wellcome Sanger Institute and to lead a project 
-    involving the large-scale computational analyses of RNA-seq datasets from cellular models for neurodevelopmental and 
-    psychiatric diseases. The project will focus on generating transcriptomic profiles from iPSC derived neural cells with 
-    CRISPR-engineered mutations modelling ~100 neurodevelopmental and psychiatric disorders due to mutations in chromatin-related 
-    genes, as well as transcriptomic profiles from drug response profiles of hundreds of pharmacological and genetic perturbations.
-
-- title: "Software Developer - Back-End"
-  organisation: EMBL-EBI
-  logo: embl-ebi.png
-  closing_date: 2020-01-09
-  link: "https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01565"
-  description: >
-    We are looking for a talented backend software engineer to join the Open Targets Core Platform team. The Core Platform team 
-    is a multi-disciplinary team embedded in the European Bioinformatics Institute (EMBL-EBI). We use a range of modern 
-    technologies - including ElasticSearch, Spark, ClickHouse and a variety of Google cloud services - to build open source 
-    tools that support researchers working in drug discovery.
-
-- title: "Postdoctoral Fellow - CRISPR screening and QTL mapping in neurodegeneration"
-  organisation: "Wellcome Sanger Institute"
-  logo: "wellcome-sanger.png"
-  closing_date: 2020-03-16
-  link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-crispr-screening-and-qtl-mapping-in-neurodegeneration-414163.html"
-  description: >
-    We have an exciting opportunity for a postdoctoral researcher to join an interdisciplinary team on an ambitious project aimed to 
-    identify new genes involved in neurodegeneration, especially Alzheimer’s disease. The successful candidate will use human 
-    induced pluripotent stem cell (hiPSC) derived microglia coupled with cutting edge high-throughput single cell 'omics techniques 
-    to assay the effects of natural and induced genetic variation on gene expression and cellular phenotypes. The overall aim is to 
-    identify novel genes involved in important microglial cellular processes that are relevant for disease biology and will therefore 
-    be candidate drug targets for further development.
