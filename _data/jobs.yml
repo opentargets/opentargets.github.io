@@ -12,6 +12,17 @@
 #   active: "yes" or "no" 
 #   description: >
 
+- title: "EMBL-EBI-Sanger Postdoctoral Fellow - Investigation of genetic signatures associated with pharmacological outcomes for immune diseases"
+  organisation: "EMBL-EBI"
+  logo: embl-ebi.png
+  closing_date: 2020-09-12
+  link: https://www.ebi.ac.uk/research/postdocs/espods
+  active: "yes"  
+  description: >
+    The EBI–Sanger Postdoctoral (ESPOD) Programme builds on the collaborative relationship between EMBL-EBI and the Wellcome Sanger Institute, offering projects that combine experimental (wet-lab) and computational (dry-lab) approaches.
+    The project, Investigation of genetic signatures associated with pharmacological outcomes for immune diseases, will be supervised by Ellen McDonagh (Informatics Science Director - Open Targets ), Gosia Trynka (Experimental Science Director - Open Targets),
+    and Emma Davenport (Group Leader, Functional Genomics - Sanger). For more information, please review the <a href='https://www.ebi.ac.uk/sites/ebi.ac.uk/files/shared/ESPOD_2020_McDonagh_Trynka_Davenport.pdf' target='_blank'>project description</a>.
+
 - title: Principal Bioinformatician
   organisation: "Wellcome Sanger Institute"
   logo: "wellcome-sanger.png"
@@ -58,20 +69,6 @@
     press releases, online profiling, and ensure training material is up-to-date, to provide a professional, vibrant and consistent approach to Open Targets communications. You will also represent Open Targets 
     at key onsite (Industry Programme meetings) and offsite conferences and training events.
 
-- title: Senior Database Curator - Cancer Genetics
-  organisation: "Wellcome Sanger Institute"
-  logo: wellcome-sanger.png
-  closing_date: 2020-07-15
-  link: https://jobs.sanger.ac.uk/vacancy/senior-database-curator-cancer-genetics-420152.html
-  active: "yes"
-  description: >
-    We are seeking a motivated and experienced scientist in cancer molecular biology and genetics to lead the expansion and curation of the Cancer Gene Census at the Wellcome Sanger Institute within COSMIC, 
-    a database of genetic mutations in cancer, a major resource in cancer research, widely used across informatics, diagnostic and pharmaceutical industries. This is an exciting position within the COSMIC team, 
-    where you will have the opportunity to explore & interpret a wide range of literature, database and analytic resources to create a complete landscape of genetic dysfunctions across all cancer types and explain 
-    which molecular mechanisms are most important in development of these diseases. Our first aim is to expand the Cancer Gene Census with new genes, and to generate full descriptive coverage of all Census genes 
-    with evidence of oncogenic activity. The Cancer Gene Census is frequently cited in publications and regularly used as a key data source in cancer genome analytics and databases; this project extends this 
-    high-profile resource, offering multiple opportunities for very citeable publications. This position is available for 18 months with a possibility of extension.
-
 - title: Bioinformatician
   organisation: "EMBL-EBI"
   logo: embl-ebi.png
@@ -88,7 +85,7 @@
 - title: "Postdoctoral Fellowship - Statistical Genetics"
   organisation: "Wellcome Sanger Institute"
   logo: "wellcome-sanger.png"
-  closing_date: 2020-07-15
+  closing_date: 2020-07-30
   link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellowship-statistical-genetics-420112.html"
   active: "yes"
   description: >
