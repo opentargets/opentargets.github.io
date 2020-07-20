@@ -12,6 +12,17 @@
 #   active: "yes" or "no" 
 #   description: >
 
+- title: Safety Data Scientist
+  organisation: "EMBL-EBI"
+  logo: embl-ebi.png
+  closing_date: 2020-08-17
+  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01664
+  active: "yes"  
+  description: >
+    An exciting opportunity has been created for a talented safety data scientist to work on methods to characterise and quantify the potential safety liabilities of drug targets. 
+    Based in the ChEMBL team at the European Bioinformatics Institute (EMBL-EBI), you will work with the Open Targets partners to curate data and develop pipelines that 
+    will help to inform on the potential safety liabilities of biological targets in the Open Targets Platform.
+
 - title: "EMBL-EBI-Sanger Postdoctoral Fellow - Investigation of genetic signatures associated with pharmacological outcomes for immune diseases"
   organisation: "EMBL-EBI"
   logo: embl-ebi.png
@@ -87,7 +98,7 @@
   logo: "wellcome-sanger.png"
   closing_date: 2020-07-30
   link: "https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellowship-statistical-genetics-420112.html"
-  active: "yes"
+  active: "no"
   description: >
     Applications are invited for a 3-year Postdoctoral Fellowship at the Wellcome Sanger Institute based jointly in the teams of 
     Dr. Carl Anderson (Human Genetics Programme) and Dr. Maya Ghoussaini (Open Targets). This is an exciting opportunity for you 
