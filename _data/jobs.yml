@@ -50,7 +50,7 @@
   logo: embl-ebi.png
   closing_date: 2020-07-22
   link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01652
-  active: "yes" 
+  active: "no" 
   description: >
     We are looking for a highly motivated Bioinformatician/Senior Bioinformatician to contribute to the development of the analysis pipelines behind EMBL-EBI’s Expression Atlas and particularly 
     the Single Cell Expression Atlas, an added-value database providing information about gene expression in single cells across different cell types, tissues and conditions, across all species. 
