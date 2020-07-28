@@ -12,6 +12,19 @@
 #   active: "yes" or "no" 
 #   description: >
 
+- title: Computational Postdoctoral Fellow
+  organisation: EMBL-EBI
+  logo: embl-ebi.png
+  closing_date: 2020-08-21
+  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01680
+  active: "yes" 
+  description: >
+    We are looking for a postdoctoral fellow to join an Open Targets project under the leadership of Dr Ana Cvejic (Wellcome Sanger Institute), Moritz Gerstung (EBI), and Omer Bayraktar (WSI).
+    In this project you will analyse newly single cell (scRNA-Seq and scATAC-Seq) as well as novel and spatial transcriptomics data sets (In Situ Sequencing and 10x visium) generated in the Cvejic 
+    and Bayraktar labs to understand the molecular properties of immune cells infiltrating tumour sites. The underlying data sets comprise thousands of unique molecular signals measured for tens of 
+    thousands of cells or physical locations in each tumour. You will employ methods from high dimensional and spatial statistics developed in the Gerstung group to chart and understand the nature of 
+    different tumour-associated immune cells, how they interact and change biological functions and how the underlying molecular changes could be exploited as therapeutic targets.
+    
 - title: Safety Data Scientist
   organisation: "EMBL-EBI"
   logo: embl-ebi.png
