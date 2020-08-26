@@ -61,7 +61,7 @@ title: Open Targets Genetics Portal
       {% assign genetics_team = site.data.genetics_team | sort: 'last_name' %}
       {% for person in genetics_team %}
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
-          <div class="card shadow-lg p-4 bg-white rounded align-self-stretch">
+          <div class="card shadow-lg p-3 bg-white rounded align-self-stretch">
             <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
             <!-- <a data-toggle="modal" href="#modal-{{ person.last_name }}">
               <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
