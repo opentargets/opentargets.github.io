@@ -78,19 +78,15 @@
   organisation_logo: bristol-myers-squibb-logo.png
   orcid: 
   biography: >
-    Joe is a Principal Scientist in the Informatics and Predictive Sciences group at 
-    Celgene, working closely with the Immunology and Inflammation Therapeutic Center of 
-    Excellence. In this role, he uses human genetics to identify novel drug targets, enable 
-    indication selection, perform internal pharmacogenetic studies, and support other aspects 
-    of drug development. Prior to Celgene, he worked in the Genetics and Pharmacogenomics 
-    group at Merck & Co (MSD), where he focused on mapping molecular QTL (e.g. pQTL) and 
-    integrating these data with disease GWAS to enable target identification. He has an 
-    interdisciplinary background in statistical human genetics, computational biology, and 
-    pharmacology. He completed a postdoctoral fellowship in Clinical Pharmacology at the 
-    University of Chicago in 2014, and was certified by the American Board of Clinical 
-    Pharmacology in 2015. He received his PhD in Human Genetics from the University of 
-    Chicago in 2012, where he used eQTL mapping and other functional genomics approaches 
-    to understand the molecular basis of drug response phenotypes.
+    Joe is a Director in the Informatics and Predictive Sciences department at BMS, where he leads a 
+    team of computational scientists that combine human genetics with complementary data types to 
+    guide the development of novel therapies for immunological, cardiovascular, and fibrotic diseases. 
+    Prior to BMS, he worked at Celgene and Merck & Co (MSD), where he used human genetics to identify 
+    novel drug targets and support other aspects of drug development. He has an interdisciplinary 
+    background in statistical human genetics, computational biology, and pharmacology. He received 
+    his PhD in Human Genetics from the University of Chicago in 2012, completed a postdoctoral fellowship 
+    in Clinical Pharmacology at the University of Chicago in 2014, and was certified by the American 
+    Board of Clinical Pharmacology in 2015.
 
 - first_name: Moritz
   last_name: Gerstung
@@ -186,3 +182,26 @@
     development for GSK’s early-stage drug-discovery portfolio. For the last 6 years, I have been working to 
     identify potential drug targets through the integration of genetic/genomic evidence with innovative 
     experimental biology platforms in order to improve the quality of GSK’s drug discovery pipeline.
+
+- first_name: Philippe<br />  
+  last_name: Sanseau
+  role: GSK Scientific Lead
+  picture: philippe_sanseau.png
+  organisation: GSK
+  organisation_logo: gsk.png
+  orcid: 
+  biography: >
+    Philippe is Head of Computational Biology at GSK. He has a PhD from University of 
+    Rennes in France and conducted his postdoctoral training at the Imperial Cancer Research 
+    Fund in London (now Cancer Research UK), with a focus on immunogenetics. He joined GSK to 
+    work initially in the Genetics and Genomics Departments. Since 2001 he has held various 
+    senior roles in bioinformatics and computational biology. Philippe is currently leading 
+    the Computational Biology (CB) Department at GSK with scientists located in the UK and US. 
+    The CB Department is working on multiple therapeutic areas supporting drug discovery and 
+    development projects at all phases of the pipeline using diverse bioinformatics approaches 
+    applied to biomedical internal and external data. The Department maintains a strong 
+    scientific innovation agenda as demonstrated by our activities in target validation, drug 
+    repositioning, systems approaches, or microbiome analyses. CB at GSK has also developed an 
+    international network of academic collaborators and maintains a strong publication record. 
+    Philippe is a member of several international advisory boards and different UK and 
+    international funding committees.
