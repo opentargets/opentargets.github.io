@@ -12,17 +12,6 @@
 #   active: "yes" or "no" 
 #   description: >
   
-- title: "EMBL-EBI-Sanger Postdoctoral Fellow - Investigation of genetic signatures associated with pharmacological outcomes for immune diseases"
-  organisation: "EMBL-EBI"
-  logo: embl-ebi.png
-  closing_date: 2020-09-12
-  link: https://www.ebi.ac.uk/research/postdocs/espods
-  active: "yes"  
-  description: >
-    The EBI–Sanger Postdoctoral (ESPOD) Programme builds on the collaborative relationship between EMBL-EBI and the Wellcome Sanger Institute, offering projects that combine experimental (wet-lab) and computational (dry-lab) approaches.
-    The project, Investigation of genetic signatures associated with pharmacological outcomes for immune diseases, will be supervised by Ellen McDonagh (Informatics Science Director - Open Targets ), Gosia Trynka (Experimental Science Director - Open Targets),
-    and Emma Davenport (Group Leader, Functional Genomics - Sanger). For more information, please review the <a href='https://www.ebi.ac.uk/sites/ebi.ac.uk/files/shared/ESPOD_2020_McDonagh_Trynka_Davenport.pdf' target='_blank'>project description</a>.
-
 - title: Scientist Curator - Genetic Drivers of Cancer
   organisation: "Wellcome Sanger Institute"
   logo: wellcome-sanger.png
