@@ -16,6 +16,18 @@
 #   linkedin: 
 #   biography: >
 
+- first_name: Irene
+  last_name: Lopez
+  role: Bioinformatician
+  picture: irene_lopez.jpg
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid: 
+  twitter:
+  github:
+  linkedin: 
+  biography: >
+
 - first_name: Arwa
   last_name: Raies
   role: Postdoctoral Fellow
@@ -52,18 +64,6 @@
   linkedin: 
   biography: >
 
-- first_name: Nicole
-  last_name: Toft
-  role: Intern - Data Team
-  picture: nicole_toft.jpg
-  organisation: EMBL-EBI
-  organisation_logo: embl-ebi.png
-  orcid:
-  twitter:
-  github: nbtoft
-  linkedin: 
-  biography: >
-
 - first_name: David
   last_name: Ochoa
   role: Platform Coordinator
@@ -95,23 +95,6 @@
   biography: >
     Miguel Carmona is a highly-experienced software development professional who has spent the last decade developing applied research projects and 
     collaborating with research groups like CISTIB (UoS), CNRS-NED and GEB.
-
-- first_name: Denise
-  last_name: Carvalho-Silva
-  role: Scientific Outreach Lead
-  picture: denise_carvalho_silva.png
-  organisation: EMBL-EBI
-  organisation_logo: embl-ebi.png
-  orcid: 0000-0001-5662-1840
-  twitter: deniseome
-  github: deniseOme
-  linkedin: https://uk.linkedin.com/in/deniseome 
-  biography: > 
-    Denise joined EMBL-EBI’s Open Targets team in June 2016, where she delivers workshops, provides user support and creates online training materials 
-    for the Open Targets projects. Denise holds a PhD in Biochemistry from the Universidade Federal de Minas Gerais, Belo Horizonte, Brazil, and 
-    completed her postdoctoral training in Genetics at the Australian National University, Canberra, Australia. Before coming to Open Targets, she 
-    worked in Ensembl at EMBL-EBI, at the Wellcome Trust Sanger Institute as a Research Associate in Human Evolution, and as a Senior Computer 
-    Biologist in the HAVANA team on the GENCODE, EUCOMM and Pig genome projects.
 
 - first_name: Luca
   last_name: Fumis
