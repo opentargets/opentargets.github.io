@@ -37,3 +37,18 @@
   linkedin: https://uk.linkedin.com/in/alice-mann-a845b7124
   biography: >
     TBC
+
+- first_name: Emma
+  last_name: Duncan
+  role: Senior Research Assistant
+  picture: emma_duncan.png
+  organisation: Wellcome Sanger Institute
+  organisation_logo: wellcome-sanger.png
+  orcid: 
+  order: 3
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/emma-duncan-4921bb147/
+  biography: >
+    Emma Duncan joined Open Targets as a Senior Research Assistant in September 2020. For more information, please see Emma's 
+    <a href="https://www.linkedin.com/in/emma-duncan-4921bb147/" target="_blank">LinkedIn profile</a>.
