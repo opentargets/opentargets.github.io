@@ -13,6 +13,39 @@
 #   pmid: 
 #   link: 
 
+- title: "Project Score database: a resource for investigating cancer cell dependencies and prioritizing therapeutic targets"
+  author: Dwane, L et al.
+  publication_name: Nucleic Acids Research
+  issue: 
+  volume: 
+  publication_year: 2020
+  pages: 
+  doi: 10.1093/nar/gkaa882
+  pmid: 33068406 
+  link: http://doi.org/10.1093/nar/gkaa882
+
+- title: "Single-Cell Transcriptomics of Parkinson’s Disease Human In Vitro Models Reveals Dopamine Neuron-Specific Stress Responses"
+  author: Fernandes, H et al.
+  publication_name: Cell Reports
+  issue: 2
+  volume: 33 
+  publication_year: 2020
+  pages: 108263
+  doi: 10.1016/j.celrep.2020.108263
+  pmid: 33053338
+  link: https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31252-3
+
+- title: "Open Targets Genetics: systematic identification of trait-associated genes using large-scale genetics and functional genomics"
+  author: Ghoussaini, M et al.
+  publication_name: Nucleic Acids Research
+  issue: 
+  volume: 
+  publication_year: 2020
+  pages: 
+  doi: 10.1093/nar/gkaa840
+  pmid: 33045747
+  link: https://doi.org/10.1093/nar/gkaa840
+
 - title: "Using Reactome to build an autophagy mechanism knowledgebase"
   author: Varusai, TM et al.
   publication_name: Autophagy
