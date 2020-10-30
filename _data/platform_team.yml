@@ -16,6 +16,30 @@
 #   linkedin: 
 #   biography: >
 
+- first_name: Helena
+  last_name: Cornu
+  role: Outreach Officer
+  picture: helena_cornu.png
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid:
+  twitter: helenacornu
+  github: helenacornu
+  linkedin: https://www.linkedin.com/in/helena-cornu-088a3517a/
+  biography: >
+
+- first_name: Kostas
+  last_name: Tsirigos
+  role: Project Manager
+  picture: kostas_tsirigos.png
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid:
+  twitter:
+  github: ktsirigos
+  linkedin: https://www.linkedin.com/in/kostas-tsirigos/
+  biography: >
+
 - first_name: Irene
   last_name: Lopez
   role: Bioinformatician
