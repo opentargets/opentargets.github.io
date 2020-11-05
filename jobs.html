@@ -50,13 +50,13 @@ title: Jobs
       {% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
       {% assign active_job_ads = site.data.jobs | where: 'active', 'yes' | sort: 'closing_date' %}
       {% if active_job_ads.size == 0 %}
-        <div class="col-12 text-center">
-          <p class="font-italic">
-            Unfortunately, there are no current open job advertisements. 
-          <br />
-            Please check this page frequently as our new projects will soon begin recruiting for staff.
-          </p>
-        </div>
+      <div class="col-12 text-center">
+        <p class="font-italic">
+          Unfortunately, we have no vacancies at the moment. 
+        <br />
+          Please check this page frequently as our new and existing projects will soon start recruiting for staff.
+        </p>
+      </div>
       {% else %}
         {% for job in active_job_ads %}
           {% capture closing_date %}{{ job.closing_date | date: '%s' | plus : 86400 }}{% endcapture %}
