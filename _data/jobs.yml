@@ -25,3 +25,17 @@
     data to identify potential drug targets at disease-associated loci. In this role, you will be actively engaged in the integration of new GWAS data (FinnGen, Biobank Japan, etc), 
     eQTL datasets including splice QTLs and tissue-specific functional genomic datasets. You will develop and apply computational pipelines to elucidate causal mechanisms through 
     integrative analyses of data from GWAS, eQTL/pQTL, chromatin interactions and conformation, biobanks, and other related sources to identify and prioritise drug targets.
+
+- title: Bioinformatician
+  organisation: "EMBL-EBI"
+  logo: embl-ebi.png
+  closing_date: 2020-12-22
+  link: https://www.embl.de/jobs/searchjobs/index.php/EBI01735?ref=EBI01735
+  active: "yes"
+  description: >
+    We are seeking an enthusiastic Bioinformatician to join our team and contribute to the development of the <a href="http://targetvalidation.org" target="_blank">Open Targets Platform</a>, 
+    a freely-available, open-source tool that supports systematic drug target identification and prioritsation. As a member of the Data team within the broader Platform team, your role will involve 
+    the integration and analysis of the most relevant data sources, as well as building the appropriate models for integrating and scoring targets-disease associations. The role also involves 
+    collaborating closely with data providers across the Open Targets consortia and demonstrating initiative in the development and refinement of suitable data feeds. Supported by a team of 
+    software developers, the postholder is expected to leverage the more than 50 data sources we integrate in the Platform, in order to better identify and prioritise potential drug targets.
+
