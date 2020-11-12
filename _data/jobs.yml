@@ -30,7 +30,7 @@
   organisation: "EMBL-EBI"
   logo: embl-ebi.png
   closing_date: 2020-12-22
-  link: https://www.embl.de/jobs/searchjobs/index.php/EBI01735?ref=EBI01735
+  link: https://www.embl.de/jobs/searchjobs/index.php/EBI01735
   active: "yes"
   description: >
     We are seeking an enthusiastic Bioinformatician to join our team and contribute to the development of the <a href="http://targetvalidation.org" target="_blank">Open Targets Platform</a>, 
@@ -39,3 +39,16 @@
     collaborating closely with data providers across the Open Targets consortia and demonstrating initiative in the development and refinement of suitable data feeds. Supported by a team of 
     software developers, the postholder is expected to leverage the more than 50 data sources we integrate in the Platform, in order to better identify and prioritise potential drug targets.
 
+- title: Front-End Software Developer
+  organisation: "EMBL-EBI"
+  logo: embl-ebi.png
+  closing_date: 2020-12-31
+  link: https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01736
+  active: "yes"
+  description: >
+    We are looking for an enthusiastic and talented Front-End Software Developer to join our team and help us build the next generation of open source and big data tools 
+    and services that support the drug discovery process. As a key member of our technical team, you will work on developing and maintaining our two flagship open-source resources 
+    - the <a href="http://www.targetvalidation.org" target="_blank">Open Targets Platform</a> and the <a href="http://genetics.opentargets.org" target="_blank"> Open Targets Genetics Portal</a>. 
+    Together, these two resources integrate, organise, and present vast amounts of biomedical data in order to help research scientists identify and prioritise potential drug targets. 
+    You will join a fast-paced, international, startup-like environment, where the latest technologies in front-end development and data visualisation are utilised to offer our users a best-in-class 
+    experience and to influence decisions in the drug discovery area across the world.
