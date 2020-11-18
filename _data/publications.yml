@@ -13,8 +13,19 @@
 #   pmid: 
 #   link: 
 
+- title: "Open Targets Platform: supporting systematic drug–target identification and prioritisation"
+  author: Ochoa, D et al.
+  publication_name: Nucleic Acids Research
+  issue: 
+  volume: 
+  publication_year: 2020
+  pages: 
+  doi: 10.1093/nar/gkaa1027
+  pmid: 33196847 
+  link: https://doi.org/10.1093/nar/gkaa1027
+
 - title: "Screening for functional transcriptional and splicing regulatory variants with GenIE"
-  author: Cooper, S al.
+  author: Cooper, S et al.
   publication_name: Nucleic Acids Research
   issue: 
   volume: 
@@ -22,7 +33,7 @@
   pages: 
   doi: 10.1093/nar/gkaa960
   pmid: 33152068
-  link: https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa960/5957169
+  link: https://doi.org/10.1093/nar/gkaa960
 
 
 - title: "Project Score database: a resource for investigating cancer cell dependencies and prioritizing therapeutic targets"
