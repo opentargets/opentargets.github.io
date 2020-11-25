@@ -57,8 +57,7 @@ title: Publications
                 <div>
                   <p class="font-weight-bold mb-1">{{ publication.title }}</p>
                   <p class="mb-1">{{ publication.author }}</p>
-                  <p class="mb-1"><em>{{ publication.publication_name }}</em>{% if publication.volume != null %}, {{ publication.volume }}{% endif %}, {{ publication.pages }}
-                  </p>
+                  <p class="mb-1"><em>{{ publication.publication_name }}</em>{% if publication.volume != null %}, {{ publication.volume }}{% endif %}{% if publication.pages != null %}, {{ publication.pages }}{% endif %}</p>
                   <p class="mb-1">
                     PubMed: <a href="http://europepmc.org/abstract/MED/{{ publication.pmid }}" target="_blank">{{ publication.pmid }}</a>
                     <span class="mx-1">|</span>
@@ -193,16 +192,19 @@ title: Publications
                 <div>
                   <p class="font-weight-bold mb-1">{{ publication.title }}</p>
                   <p class="mb-1">{{ publication.author }}</p>
-                  <p class="mb-1"><em>{{ publication.publication_name }}</em>, {{ publication.volume }}, {{ publication.pages }}</p>
+                  <p class="mb-1"><em>{{ publication.publication_name }}</em>{% if publication.volume %}, {{ publication.volume }}{% endif %}{% if publication.pages %}, {{ publication.pages }}{% endif %}</p>
                   <p class="mb-1">
-                    PubMed: <a href="http://europepmc.org/abstract/MED/{{ publication.pmid }}" target="_blank">{{ publication.pmid }}</a>
-                    <span class="mx-1">|</span>
+                    {% if publication.pmid %}
+                      PubMed: <a href="http://europepmc.org/abstract/MED/{{ publication.pmid }}" target="_blank">{{ publication.pmid }}</a>
+                      <span class="mx-1">|</span>
+                    {% endif %}
                     DOI: <a href="http://dx.doi.org/{{ publication.doi }}" target="_blank">{{ publication.doi }}</a>
                   </p>
                   <hr class="my-4" />
                 </div>
               {% endfor %}
             {% endif %}
+
           </div>
           <div class="tab-pane fade" id="nav-2019-review-article" role="tabpanel" aria-labelledby="nav-2019-review-article-tab">
             {% assign all_2019_review_articles = site.data.review_articles | where_exp:"item", "item.publication_year == 2019"  %}
