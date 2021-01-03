@@ -16,6 +16,18 @@
 #   linkedin: 
 #   biography: >
 
+- first_name: Manuel
+  last_name: Bernal Llinares
+  role: Software Developer
+  picture: manuel_bernal_llinares.jpg
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid: 0000-0002-7368-180X
+  twitter: 
+  github: mbdebian
+  linkedin: https://www.linkedin.com/in/manuelbernal/
+  biography: >
+
 - first_name: Helena
   last_name: Cornu
   role: Outreach Officer
