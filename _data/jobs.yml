@@ -21,8 +21,7 @@
   description: >
     The <a href="https://www.sanger.ac.uk/group/trynka-faculty/" target="_blank">Trynka Group</a> at the Wellcome Sanger Institute is looking to recruit a statistical geneticist to join an exciting and ambitious project that will leverage large scale genetic datasets to model allelic series for immune diseases and other complex traits.
     In this role you will explore the existing Open Targets data resources as well as bring in available external data to construct allelic series for immune diseases and other complex traits.
-    Identifying genes affected by multiple naturally occurring genetic variants can inform on the effect sizes associated with gene perturbation, and provide an efficient way to reconstruct drug response curves. For example, loss-of-function variants correspond to complete drug inhibition while non-coding variants that down-regulate gene expression are equivalent to partial suppression. An informative genetic dose-response curve requires a spectrum of genetic variants with different effect sizes on a disease phenotype, as well as effects on intermediate cellular phenotypes which might mediate the risk of disease.
-    
+   
 - title: Statistical Geneticist
   organisation: "Wellcome Sanger Institute"
   logo: wellcome-sanger.png
@@ -40,11 +39,11 @@
 - title: "Advanced Research Assistant - Validation Lab"
   organisation: "Wellcome Sanger Institute"
   logo: wellcome-sanger.png
-  closing_date: 2021-01-10
+  closing_date: 2021-01-17
   link: https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-open-targets-validation-lab-433284.html
-  active: "no" 
+  active: "yes" 
   description: >
     We are seeking an enthusiastic and motivated scientist to provide experimental, scientific and operational support to the <a href="https://www.opentargets.org/validation-lab" target="_blank">Open Targets Validation Lab</a> at the Wellcome Sanger Institute. As a key member of the Validation Lab team, you will work closely with academic and industry partners to facilitate the transfer of expertise 
     and technology in neurodegeneration research to the Validation Lab and generate experimental evidence with the aim of identifying new routes to therapeutic intervention. You will perform genetic and pharmacological target perturbation experiments in a variety of neuronal, microglial and astrocyte cellular models, 
-    derived from hiPSCs using the latest directed- and transcription factor-driven differentiation protocols. Using state-of-the-art phenotyping methodologies, such as scRNAseq, scATACseq, FACS, live-cell and high-content imaging, you will interrogate targets through a variety of assay endpoints. 
+    derived from hiPSCs using the latest directed- and transcription factor-driven differentiation protocols. 
     
