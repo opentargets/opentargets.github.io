@@ -46,29 +46,3 @@
   description: >
     The <a href="https://www.sanger.ac.uk/group/trynka-faculty/" target="_blank">Trynka Group</a> at the Wellcome Sanger Institute is looking to recruit a statistical geneticist to join an exciting and ambitious project that will leverage large scale genetic datasets to model allelic series for immune diseases and other complex traits.
     In this role you will explore the existing Open Targets data resources as well as bring in available external data to construct allelic series for immune diseases and other complex traits.
-   
-- title: Statistical Geneticist
-  organisation: "Wellcome Sanger Institute"
-  logo: wellcome-sanger.png
-  closing_date: 2021-01-30
-  link: https://jobs.sanger.ac.uk/vacancy/statistical-geneticist-open-targets-430025.html
-  active: "yes"
-  description: >
-    We are seeking a Statistical Geneticist to join the Open Targets Genetics team under the leadership of Dr. Maya Ghoussaini. 
-    This is an exciting opportunity for you to participate in the enhancement of the <a href="http://genetics.opentargets.org" target="_blank">Open Targets Genetics Portal</a>
-    through the development of new functionality and features. The Open Targets Genetics Portal uses cutting-edge methods to aggregate large scale GWAS data with functional genomics 
-    data to identify potential drug targets at disease-associated loci. In this role, you will be actively engaged in the integration of new GWAS data (FinnGen, Biobank Japan, etc), 
-    eQTL datasets including splice QTLs and tissue-specific functional genomic datasets. You will develop and apply computational pipelines to elucidate causal mechanisms through 
-    integrative analyses of data from GWAS, eQTL/pQTL, chromatin interactions and conformation, biobanks, and other related sources to identify and prioritise drug targets.
-
-- title: "Advanced Research Assistant - Validation Lab"
-  organisation: "Wellcome Sanger Institute"
-  logo: wellcome-sanger.png
-  closing_date: 2021-01-17
-  link: https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-open-targets-validation-lab-433284.html
-  active: "no" 
-  description: >
-    We are seeking an enthusiastic and motivated scientist to provide experimental, scientific and operational support to the <a href="https://www.opentargets.org/validation-lab" target="_blank">Open Targets Validation Lab</a> at the Wellcome Sanger Institute. As a key member of the Validation Lab team, you will work closely with academic and industry partners to facilitate the transfer of expertise 
-    and technology in neurodegeneration research to the Validation Lab and generate experimental evidence with the aim of identifying new routes to therapeutic intervention. You will perform genetic and pharmacological target perturbation experiments in a variety of neuronal, microglial and astrocyte cellular models, 
-    derived from hiPSCs using the latest directed- and transcription factor-driven differentiation protocols. 
-    
