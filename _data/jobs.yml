@@ -12,19 +12,6 @@
 #   active: "yes" or "no" 
 #   description: >
 
-- title: "Research Fellow of Statistical Genetics and Bioinformatics"
-  organisation: "Institute of Computer Science, University of Tartu"
-  logo: university-of-tartu-ics.png
-  closing_date: 2021-02-04
-  link: https://www.ut.ee/en/welcome/job-offer/research-fellow-statistical-genetics-and-bioinformatics-0
-  active: "yes" 
-  description: >
-    We are seeking a postdoctoral research fellow to join the <a href="http://kauralasoo.github.io/" target="_blank">Alasoo lab</a> at the <a href="http://www.cs.ut.ee/en" target="_blank">Institute of Computer Science</a>, 
-    University of Tartu. The lab focuses on building tools and datasets to systematically interpret genetic variants associated with complex traits, including the <a href="http://www.ebi.ac.uk/eqtl" target="_blank">eQTL Catalogue</a>, the 
-    largest and most comprehensive database of genetic variants associated with gene expression in the world. This project will build upon the success of the eQTL Catalogue and aims to identify molecular and cellular processes perturbed 
-    by disease-associated genetic variants. You will lead the effort to systematically identify genetic variants with distal ('trans-eQTL') effects on gene expression across a range of cell types and tissues present in the eQTL Catalogue 
-    and other external datasets.
-
 - title: Data Manager
   organisation: "Wellcome Sanger Institute"
   logo: wellcome-sanger.png
@@ -36,13 +23,3 @@
     In this role, you will be working to develop and operate the process by which Open Targets project data is managed and shared with Open Targets partners and integrated into the Open Targets Platform and Open Targets Genetics Portal. 
     This involves working with large biological data sets (bulk and Single Cell sequencing & expression, eQTL, CRISPR screening) and managing versioning over time across the academic and industrial partners of Open Targets 
     as part of a multidisciplinary team committed to improving drug target identification and prioritisation.
-
-- title: Postdoctoral Fellow - Statistical Genetics
-  organisation: "Wellcome Sanger Institute"
-  logo: wellcome-sanger.png
-  closing_date: 2021-02-05
-  link: https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-statistical-genetics-434425.html
-  active: "yes"
-  description: >
-    The <a href="https://www.sanger.ac.uk/group/trynka-faculty/" target="_blank">Trynka Group</a> at the Wellcome Sanger Institute is looking to recruit a statistical geneticist to join an exciting and ambitious project that will leverage large scale genetic datasets to model allelic series for immune diseases and other complex traits.
-    In this role you will explore the existing Open Targets data resources as well as bring in available external data to construct allelic series for immune diseases and other complex traits.
