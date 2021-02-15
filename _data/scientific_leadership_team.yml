@@ -147,27 +147,6 @@
     for competitive evaluation of scientific patents. He holds an MSc in Biological 
     Sciences/Molecular Biology and a PhD from Sapienza Universitá di Roma.
 
-- first_name: Narender
-  last_name: Gavva
-  role: Takeda Scientific Lead
-  picture: narender_gavva.png
-  organisation: Takeda
-  organisation_logo: takeda.png
-  orcid: 
-  biography: >
-    Narender is the Head of Early Target Discovery (ETD) group at Takeda Research, California. 
-    The group focuses on gene expression, regulation and human genetics follow up TIDVAL for 
-    different indications in gastroenterology, neuroscience, and oncology Drug Discovery Units 
-    (DDUs). Prior to joining Takeda, he was a Scientific Director at Amgen Discovery Research 
-    where he spent 18 years in leading drug discovery projects and group of scientists in 
-    molecular biology, human genetics follow up, in vitro pharmacology, evaluation of new 
-    technologies, optimization of automated HTS assays, conducting focused screens, supporting 
-    lead optimization, clinical candidate selection. He led the teams that pursued small molecule, 
-    antibody and peptide modalities toward clinical candidate nomination. Narender contributed to 
-    research reports, patents, and/or IND/IBs for AMG 517, AMG 333, AMG 747, AMG 334 
-    (erenumab/Aimovig™). Prior to joining Amgen, Narender did a post-doctoral training in gene 
-    regulation at UC Davis and a PhD in University of Hyderabad, India.
-
 - first_name: Bill
   last_name: Cairns
   role: GSK Scientific Lead
@@ -183,7 +162,7 @@
     identify potential drug targets through the integration of genetic/genomic evidence with innovative 
     experimental biology platforms in order to improve the quality of GSK’s drug discovery pipeline.
 
-- first_name: Philippe<br />  
+- first_name: Philippe  
   last_name: Sanseau
   role: GSK Scientific Lead
   picture: philippe_sanseau.png
