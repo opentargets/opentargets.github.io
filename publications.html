@@ -34,7 +34,8 @@ title: Publications
       <div class="col-lg-12">
         <nav>
           <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link active font-weight-bold" id="nav-2020-research-pub-tab" data-toggle="tab" href="#nav-2020-research-pub" role="tab" aria-controls="nav-2020-research-pub" aria-selected="true">2020</a>
+            <a class="nav-item nav-link font-weight-bold active" id="nav-2021-research-pub-tab" data-toggle="tab" href="#nav-2021-research-pub" role="tab" aria-controls="nav-2021-research-pub" aria-selected="true">2021</a>
+            <a class="nav-item nav-link font-weight-bold" id="nav-2020-research-pub-tab" data-toggle="tab" href="#nav-2020-research-pub" role="tab" aria-controls="nav-2020-research-pub" aria-selected="false">2020</a>
             <a class="nav-item nav-link font-weight-bold" id="nav-2019-research-pub-tab" data-toggle="tab" href="#nav-2019-research-pub" role="tab" aria-controls="nav-2019-research-pub" aria-selected="false">2019</a>
             <a class="nav-item nav-link font-weight-bold" id="nav-2018-research-pub-tab" data-toggle="tab" href="#nav-2018-research-pub" role="tab" aria-controls="nav-2018-research-pub" aria-selected="false">2018</a>
             <a class="nav-item nav-link font-weight-bold" id="nav-2017-research-pub-tab" data-toggle="tab" href="#nav-2017-research-pub" role="tab" aria-controls="nav-2017-research-pub" aria-selected="false">2017</a>
@@ -46,7 +47,29 @@ title: Publications
     <div class="row mb-5">
       <div class="col-lg-12">
         <div class="tab-content py-4 px-3 px-sm-0" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="nav-2020-research-pub" role="tabpanel" aria-labelledby="nav-2020-research-pub-tab">
+          <div class="tab-pane fade show active" id="nav-2021-research-pub" role="tabpanel" aria-labelledby="nav-2021-research-pub-tab">
+            {% assign all_2021_publications = site.data.publications | where_exp:"item", "item.publication_year == 2021"  %}
+            {% if all_2021_publications.size == 0 %}
+              <p>
+                There are no research publications available for this year.
+              </p>
+            {% else %}
+              {% for publication in all_2021_publications %}
+                <div>
+                  <p class="font-weight-bold mb-1">{{ publication.title }}</p>
+                  <p class="mb-1">{{ publication.author }}</p>
+                  <p class="mb-1"><em>{{ publication.publication_name }}</em></p>
+                  <p class="mb-1">
+                    PubMed: <a href="http://europepmc.org/abstract/MED/{{ publication.pmid }}" target="_blank">{{ publication.pmid }}</a>
+                    <span class="mx-1">|</span>
+                    DOI: <a href="http://dx.doi.org/{{ publication.doi }}" target="_blank">{{ publication.doi }}</a>
+                  </p>
+                  <hr class="my-4" />
+                </div>
+              {% endfor %}
+            {% endif %}
+          </div>
+          <div class="tab-pane fade" id="nav-2020-research-pub" role="tabpanel" aria-labelledby="nav-2020-research-pub-tab">
             {% assign all_2020_publications = site.data.publications | where_exp:"item", "item.publication_year == 2020"  %}
             {% if all_2020_publications.size == 0 %}
               <p>
@@ -168,7 +191,8 @@ title: Publications
       <div class="col-lg-12">
         <nav>
           <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link active font-weight-bold" id="nav-2020-review-article-tab" data-toggle="tab" href="#nav-2020-review-article" role="tab" aria-controls="nav-2020-review-article" aria-selected="true">2020</a>
+            <a class="nav-item nav-link font-weight-bold" id="nav-2021-review-article-tab" data-toggle="tab" href="#nav-2021-review-article" role="tab" aria-controls="nav-2021-review-article" aria-selected="false">2021</a>
+            <a class="nav-item nav-link font-weight-bold active" id="nav-2020-review-article-tab" data-toggle="tab" href="#nav-2020-review-article" role="tab" aria-controls="nav-2020-review-article" aria-selected="true">2020</a>
             <a class="nav-item nav-link font-weight-bold" id="nav-2019-review-article-tab" data-toggle="tab" href="#nav-2019-review-article" role="tab" aria-controls="nav-2019-review-article" aria-selected="false">2019</a>
             <a class="nav-item nav-link font-weight-bold" id="nav-2018-review-article-tab" data-toggle="tab" href="#nav-2018-review-article" role="tab" aria-controls="nav-2018-review-article" aria-selected="false">2018</a>
             <a class="nav-item nav-link font-weight-bold" id="nav-2017-review-article-tab" data-toggle="tab" href="#nav-2017-review-article" role="tab" aria-controls="nav-2017-review-article" aria-selected="false">2017</a>
@@ -181,6 +205,30 @@ title: Publications
     <div class="row">
       <div class="col-lg-12">
         <div class="tab-content py-4 px-3 px-sm-0" id="nav-tabContent">
+          <div class="tab-pane fade" id="nav-2021-review-article" role="tabpanel" aria-labelledby="nav-2021-review-article-tab">
+            {% assign all_2021_review_articles = site.data.review_articles | where_exp:"item", "item.publication_year == 2021"  %}
+            {% if all_2021_review_articles.size == 0 %}
+            <p>
+              There are no review articles available for this year.
+            </p>
+            {% else %}
+              {% for publication in all_2021_review_articles %}
+                <div>
+                  <p class="font-weight-bold mb-1">{{ publication.title }}</p>
+                  <p class="mb-1">{{ publication.author }}</p>
+                  <p class="mb-1"><em>{{ publication.publication_name }}</em></p>
+                  <p class="mb-1">
+                    {% if publication.pmid %}
+                      PubMed: <a href="http://europepmc.org/abstract/MED/{{ publication.pmid }}" target="_blank">{{ publication.pmid }}</a>
+                      <span class="mx-1">|</span>
+                    {% endif %}
+                    DOI: <a href="http://dx.doi.org/{{ publication.doi }}" target="_blank">{{ publication.doi }}</a>
+                  </p>
+                  <hr class="my-4" />
+                </div>
+              {% endfor %}
+            {% endif %}
+          </div>
           <div class="tab-pane fade show active" id="nav-2020-review-article" role="tabpanel" aria-labelledby="nav-2020-review-article-tab">
             {% assign all_2020_review_articles = site.data.review_articles | where_exp:"item", "item.publication_year == 2020"  %}
             {% if all_2020_review_articles.size == 0 %}
