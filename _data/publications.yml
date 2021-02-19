@@ -13,12 +13,23 @@
 #   pmid: 
 #   link: 
 
+- title: "Genome-wide meta-analysis, fine-mapping and integrative prioritization implicate new Alzheimer’s disease risk genes"
+  author: Schwartzentruber, J et al.
+  publication_name: Nature Genetics
+  issue: 
+  volume: 
+  publication_year: 2021
+  pages: 
+  doi: 10.1038/s41588-020-00776-w
+  pmid: 33589840
+  link: https://www.nature.com/articles/s41588-020-00776-w
+
 - title: "Open Targets Platform: supporting systematic drug–target identification and prioritisation"
   author: Ochoa, D et al.
   publication_name: Nucleic Acids Research
   issue: 
   volume: 
-  publication_year: 2020
+  publication_year: 2021
   pages: 
   doi: 10.1093/nar/gkaa1027
   pmid: 33196847 
@@ -29,19 +40,18 @@
   publication_name: Nucleic Acids Research
   issue: 
   volume: 
-  publication_year: 2020
+  publication_year: 2021
   pages: 
   doi: 10.1093/nar/gkaa960
   pmid: 33152068
   link: https://doi.org/10.1093/nar/gkaa960
-
 
 - title: "Project Score database: a resource for investigating cancer cell dependencies and prioritizing therapeutic targets"
   author: Dwane, L et al.
   publication_name: Nucleic Acids Research
   issue: 
   volume: 
-  publication_year: 2020
+  publication_year: 2021
   pages: 
   doi: 10.1093/nar/gkaa882
   pmid: 33068406 
@@ -74,7 +84,7 @@
   publication_name: Nucleic Acids Research
   issue: 
   volume: 
-  publication_year: 2020
+  publication_year: 2021
   pages: 
   doi: 10.1093/nar/gkaa840
   pmid: 33045747
