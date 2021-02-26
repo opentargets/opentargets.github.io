@@ -88,18 +88,6 @@
   linkedin: 
   biography: >
 
-- first_name: Babatomiwa
-  last_name: Adebiyi
-  role: Intern - Data Team
-  picture: babatomiwa_adebiyi.jpg
-  organisation: EMBL-EBI
-  organisation_logo: embl-ebi.png
-  orcid:
-  twitter:
-  github: badebiyi-ebi 
-  linkedin: 
-  biography: >
-
 - first_name: David
   last_name: Ochoa
   role: Platform Coordinator
@@ -142,18 +130,6 @@
   twitter: lucafumis
   github: lucafumis
   linkedin: https://uk.linkedin.com/in/lucafumis
-  biography: >
-
-- first_name: Asier
-  last_name: Gonzalez
-  role: Bioinformatician
-  picture: asier_gonzalez.png
-  organisation: EMBL-EBI
-  organisation_logo: embl-ebi.png
-  orcid: 0000-0002-4159-6096
-  twitter: asier_gonzalez_
-  github: AsierGonzalez
-  linkedin: https://uk.linkedin.com/in/asiergonzalezuriarte
   biography: >
 
 - first_name: Andrew
@@ -202,18 +178,6 @@
   twitter:
   github: DSuveges
   linkedin: https://uk.linkedin.com/in/daniel-suveges
-  biography: >
-
-- first_name: Javier
-  last_name: Ferrer
-  role: Software Developer
-  picture: javier_ferrer.jpg
-  organisation: EMBL-EBI
-  organisation_logo: embl-ebi.png
-  orcid:
-  twitter:
-  github: 
-  linkedin: 
   biography: >
 
 - first_name: Jarrod
