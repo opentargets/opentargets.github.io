@@ -24,13 +24,24 @@
   pmid: "not yet available"
   link: https://www.nature.com/articles/s41467-021-21898-7
 
+- title: "Population-scale single-cell RNA-seq profiling across dopaminergic neuron differentiation"
+  author: Jerber, J et al.
+  publication_name: Nature Genetics
+  issue: 53
+  volume: 3
+  publication_year: 2021
+  pages: 304-312
+  doi: 10.1038/s41588-021-00801-6
+  pmid: 33664506
+  link: https://www.nature.com/articles/s41588-021-00801-6
+
 - title: "Genome-wide meta-analysis, fine-mapping and integrative prioritization implicate new Alzheimer’s disease risk genes"
   author: Schwartzentruber, J et al.
   publication_name: Nature Genetics
-  issue: 
-  volume: 
+  issue: 53
+  volume: 3
   publication_year: 2021
-  pages: 
+  pages: 392-402
   doi: 10.1038/s41588-020-00776-w
   pmid: 33589840
   link: https://www.nature.com/articles/s41588-020-00776-w
