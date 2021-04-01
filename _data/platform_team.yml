@@ -16,6 +16,19 @@
 #   linkedin: 
 #   biography: >
 
+- first_name: Kirill
+  last_name: Tsukanov
+  role: Bioinformatician
+  picture: kirill-tsukanov.jpg
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid:
+  twitter:
+  github: tskir
+  linkedin: 
+  biography: >
+
+
 - first_name: Carlos
   last_name: Cruz
   role: Software Developer
