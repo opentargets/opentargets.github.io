@@ -12,6 +12,20 @@
 #   active: "yes" or "no" 
 #   description: >
 
+- title: "Postdoctoral Fellow"
+  organisation: "EMBL-EBI"
+  logo: embl-ebi.png
+  closing_date: 2021-05-16
+  link: https://www.embl.org/jobs/position/EBI01825/
+  active: "yes" 
+  description: >
+    The <a href="https://www.ebi.ac.uk/research/petsalaki">Petsalaki Group at EMBL-EBI</a>  is looking to recruit a Postdoctoral Fellow
+    to work on a project to identify combination targets for KRAS-mutant colorectal cancer and triple negative breast cancer. 
+    You will be working in collaboration with the team to analyse the largest genetic interaction dataset generated to date in 
+    human cell lines (75K pairs across 50 cell lines) in order to prioritise candidate target pairs for therapeutic applications, 
+    understand the mechanisms and principles underpinning these genetic interactions. Additionally you will have the opportunity to 
+    develop a predictive model of drug synergy that is also interpretable in terms of mechanism of action. 
+
 - title: "Research Administrator"
   organisation: "Wellcome Sanger Institute"
   logo: "wellcome-sanger.png"
