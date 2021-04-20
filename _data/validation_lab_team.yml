@@ -13,6 +13,15 @@
 #   orcid: 
 #   biography: >
 
+- first_name: Stuart
+  last_name: Horswell
+  role: Principal Bioinformatician 
+  picture: stuart_horswell.jpg
+  organisation: Wellcome Sanger Institute
+  organisation_logo: wellcome-sanger.png
+  orcid: 
+  biography: >
+
 - first_name: Salman 
   last_name: Tamaddon-Jahromi 
   role: Advanced Research Assistant
@@ -20,7 +29,6 @@
   organisation: Wellcome Sanger Institute
   organisation_logo: wellcome-sanger.png
   orcid: 
-  order: 4
   biography: >
 
 - first_name: Panos
@@ -30,7 +38,6 @@
   organisation: Wellcome Sanger Institute
   organisation_logo: wellcome-sanger.png
   orcid:
-  order: 1 
   biography: >
     Panos Zalmas joined Open Targets as the Head of the Open Targets Validation Lab in October 2019.
 
@@ -41,12 +48,10 @@
   organisation: Wellcome Sanger Institute
   organisation_logo: wellcome-sanger.png
   orcid: 0000-0003-2402-8545
-  order: 2
   twitter: alicel_mann
   github: alicelmann
   linkedin: https://uk.linkedin.com/in/alice-mann-a845b7124
   biography: >
-    TBC
 
 - first_name: Emma
   last_name: Duncan
@@ -55,7 +60,6 @@
   organisation: Wellcome Sanger Institute
   organisation_logo: wellcome-sanger.png
   orcid: 
-  order: 3
   twitter: 
   github: 
   linkedin: https://www.linkedin.com/in/emma-duncan-4921bb147/
