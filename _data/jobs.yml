@@ -13,6 +13,23 @@
 #   description: >
 
 - title: "Postdoctoral Fellow"
+  organisation: "Human Technopole"
+  logo: human-technopole.png
+  closing_date: 2021-05-30
+  link: https://careers.humantechnopole.it/o/postdoctoral-fellow-milan
+  active: "yes" 
+  description: >
+    The Human Technopole is seeking a highly motivated researcher to fill a Postdoctoral Fellow 
+    position in the <a href="https://humantechnopole.it/en/research-groups/iorio-group/" target="_blank">group led by Francesco Iorio <a/>
+    within the <a href="https://humantechnopole.it/en/research-centres/computational-biology/" target="_blank">Centre for Computational Biology</a>. 
+    The project aims to identify new oncology therapeutic targets and perform in silico drug prescriptions 
+    based on the analysis of functional genomics and patient data. More specifically, the role will develop 
+    new algorithms and methods (and will extend existing computational tools) for calibrating thousands 
+    of cancer in vitro models (encompassing cell lines and 3D organoids, across tens of tissue lineages 
+    and cancer types) onto suitably represented cancer patients' sub-populations, 
+    via integrated analyses of data from their multi-omics characterisations and clinical prior knowledge. 
+
+- title: "Postdoctoral Fellow"
   organisation: "EMBL-EBI"
   logo: embl-ebi.png
   closing_date: 2021-05-16
