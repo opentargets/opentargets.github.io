@@ -279,14 +279,16 @@ title: Home
         <div class="news-section-content">
           <div id="blog-section">
             {% for post in site.data.ghost_api_response.posts %}
-            {% capture post_year %}{{ post.published_at | date: '%Y' }}{% endcapture %}
-            {% capture post_month %}{{ post.published_at | date: '%m' }}{% endcapture %}
-            {% capture post_day %}{{ post.published_at | date: '%d' }}{% endcapture %}
-            <a class="font-weight-bold mb-1" href="http://blog.opentargets.org/{{post_year}}/{{post_month}}/{{post_day}}/{{post.slug}}" target="_blank">
+            <a class="font-weight-bold mb-1" href="http://blog.opentargets.org/{{post.slug}}" target="_blank">
               {{ post.title }}
             </a>
-            <p class="mb-1 font-weight-light">{{post.author.name}} | {{ post.published_at | date: '%B %d, %Y'}} </p>
-            <p class="mb-4">{{post.meta_description | truncate: 100}}</p>      
+            <p class="mb-1 font-weight-light">
+              {% for author in post.authors %}
+                {{author.name}}{% unless forloop.last %},{% endunless %}              
+              {% endfor %}
+            </p>
+            <p class="mb-1 font-weight-light">{{ post.published_at | date: "%-d %B %Y"}} </p>
+            <p class="mb-4">{{post.meta_description}}</p>      
           {% endfor %}
           </div>
         </div>
