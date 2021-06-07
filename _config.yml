@@ -6,4 +6,4 @@ plugins:
   
 jekyll_get_json:
   - data: ghost_api_response
-    json: 'https://blog.opentargets.org/ghost/api/v0.1/posts/?limit=5&include=posts%2C%20author&fields=title%2C%20meta_description%2C%20published_at%2C%20slug%2C%20author&order=published_at%20DESC&client_id=ghost-frontend&client_secret=5fd090001a81'
+    json: 'https://open-targets-blog.ghost.io/ghost/api/v3/content/posts/?key=6f5f3e6aa359bf5ad18bb2855d&include=authors&limit=20&fields=title,slug,meta_description,published_at'
