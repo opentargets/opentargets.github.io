@@ -12,6 +12,18 @@
 #   active: "yes" or "no" 
 #   description: >
 
+- title: Advanced Research Assistant
+  organisation: Wellcome Sanger Institute
+  logo: wellcome-sanger.png
+  closing_date: 2021-06-27
+  link: https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-444171.html
+  active: "yes" 
+  description: >
+    We have an excellent opportunity for an Advanced Research Assistant to join the <a href="https://www.sanger.ac.uk/group/trynka-faculty/">Gosia Trynka</a>
+    and <a href="https://www.sanger.ac.uk/group/davenport-group/">Emma Davenport</a> research groups and work on projects to understand the genetic mechanisms 
+    underlying systemic lupus erythematosus (SLE) development and progress. You will be responsible for processing the blood samples (cell isolation and cell culture) 
+    and applying single-cell genomics technologies and to prepare libraries for sequencing. You will also have the opportunity to perform pilot studies to develop new SOPs.
+
 - title: Data Mining Scientist
   organisation: EMBL-EBI
   logo: embl-ebi.png
