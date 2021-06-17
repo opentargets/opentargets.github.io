@@ -88,23 +88,20 @@
     in Clinical Pharmacology at the University of Chicago in 2014, and was certified by the American 
     Board of Clinical Pharmacology in 2015.
 
-- first_name: Moritz
-  last_name: Gerstung
-  role: EMBL-EBI Scientific Lead
-  picture: moritz_gerstung.png
+- first_name: Evangelia 
+  last_name: Petsalaki
+  role: EBI Scientific Lead
+  picture: evangelia_petsalaki.jpg
   organisation: EMBL-EBI
   organisation_logo: embl-ebi.png
-  orcid: 
+  orcid: 0000-0002-8294-2995
   biography: >
-    Moritz leads a research group at EMBL-EBI investigating the underlying mechanisms of 
-    cancer development and seeking to understand the differences in therapy success and 
-    outcomes in different individuals. His team develops statistical models for relating 
-    different layers of genomic, molecular and clinical data to establish connections 
-    between genotype and phenotype, and tools to predict outcomes based on comprehensive, 
-    high-dimensional datasets. The group also explores the evolutionary dynamics of cancer. 
-    He has a PhD in Computational Biology from ETH Zurich (2012), and carried out 
-    postdoctoral work at the Wellcome Trust Sanger Institute (2012-2015). Moritz joined 
-    EMBL-EBI as a Research group leader in August 2015.
+    Evangelia Petsalaki's research group studies human cell signalling in healthy and disease conditions. 
+    The group uses interdisciplinary approaches, including data-driven network inference, modelling of cell 
+    processes and data integration, to understand how different environmental or genetic conditions affect 
+    cell signalling responses leading to diverse cell phenotypes. Evangelia has a PhD in structural 
+    bioinformatics from EMBL and the University of Heidelberg (2009) and did her post doctoral work 
+    at the Lunenfeld-Tanenbaum Research Institute in Toronto, Canada (2010-2016).
 
 - first_name: Jack
   last_name: Pollard
