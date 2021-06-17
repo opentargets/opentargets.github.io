@@ -13,15 +13,26 @@
 #   pmid: 
 #   link: 
 
+- title: "A map of transcriptional heterogeneity and regulatory variation in human microglia"
+  author: Young, A M H et al.
+  publication_name: "Nature Genetics"
+  issue: 6
+  volume: 53
+  publication_year: 2021 
+  pages: 861-868
+  doi: 10.1038/s41588-021-00875-2
+  pmid: 34083789
+  link: https://www.nature.com/articles/s41588-021-00875-2
+
 - title: "Integrated cross-study datasets of genetic dependencies in cancer"
   author: Pacini, C et al.
   publication_name: Nature Communications
-  issue: 
-  volume: 
+  issue: 1
+  volume: 12
   publication_year: 2021
   pages: 1661
   doi: 10.1038/s41467-021-21898-7
-  pmid: "not yet available"
+  pmid: 33712601
   link: https://www.nature.com/articles/s41467-021-21898-7
 
 - title: "Population-scale single-cell RNA-seq profiling across dopaminergic neuron differentiation"
