@@ -60,9 +60,9 @@ title: Our team
       {% assign executive_leadership_team = site.data.executive_leadership_team | sort: 'order' %}
       {% for person in executive_leadership_team %}
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
-          <div class="card shadow-lg p-4 bg-white rounded align-self-stretch">
+          <div class="card shadow-lg bg-white rounded align-self-stretch">
             <a data-toggle="modal" href="#modal-{{ person.last_name }}">
-              <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
+              <img class="card-img-top px-4 pt-4" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
             </a>
             <div class="card-body text-center">
               <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
@@ -110,9 +110,9 @@ title: Our team
       {% assign scientific_leadership_team = site.data.scientific_leadership_team | sort: 'last_name' %}
       {% for person in scientific_leadership_team %}
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
-          <div class="card shadow-lg p-4 bg-white rounded align-self-stretch">
+          <div class="card shadow-lg bg-white rounded align-self-stretch">
             <a data-toggle="modal" href="#modal-{{ person.last_name }}">
-              <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
+              <img class="card-img-top px-4 pt-4" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
             </a>
             <div class="card-body text-center">
               <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
@@ -173,9 +173,9 @@ title: Our team
       {% assign operations_team = site.data.operations_team | sort: 'last_name' %}
       {% for person in operations_team %}
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
-          <div class="card shadow-lg p-4 bg-white rounded align-self-stretch">
+          <div class="card shadow-lg bg-white rounded align-self-stretch">
             <a data-toggle="modal" href="#modal-{{ person.last_name }}">
-              <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
+              <img class="card-img-top px-4 pt-4" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
             </a>
             <div class="card-body text-center">
               <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
