@@ -12,18 +12,6 @@
 #   active: "yes" or "no" 
 #   description: >
 
-- title: Advanced Research Assistant
-  organisation: Wellcome Sanger Institute
-  logo: wellcome-sanger.png
-  closing_date: 2021-06-27
-  link: https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-444171.html
-  active: "yes" 
-  description: >
-    We have an excellent opportunity for an Advanced Research Assistant to join the <a href="https://www.sanger.ac.uk/group/trynka-faculty/">Gosia Trynka</a>
-    and <a href="https://www.sanger.ac.uk/group/davenport-group/">Emma Davenport</a> research groups and work on projects to understand the genetic mechanisms 
-    underlying systemic lupus erythematosus (SLE) development and progress. You will be responsible for processing the blood samples (cell isolation and cell culture) 
-    and applying single-cell genomics technologies and to prepare libraries for sequencing. You will also have the opportunity to perform pilot studies to develop new SOPs.
-
 - title: Data Mining Scientist
   organisation: EMBL-EBI
   logo: embl-ebi.png
@@ -38,3 +26,17 @@
     The first, BioChemGraph, is supported by the BBSRC and aims to enhance data integration 
     between the ChEMBL, PDBe and CSD databases. The second project is sponsored by Open 
     Targets and will deliver evidence linking specific protein targets to disease phenotypes.
+
+- title: Postdoctoral Fellow
+  organisation: Wellcome Sanger Institute
+  logo: wellcome-sanger.png
+  closing_date: 2021-07-25
+  link: https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-modelling-inflammatory-bowel-disease-in-organoids-448010.html
+  active: "yes" 
+  description: >
+    We have an opportunity for a postdoctoral researcher to join an interdisciplinary team of experimental and computational, and academic and drug discovery researchers. 
+    The aim of the project is to develop better cellular models of inflammatory bowel disease (IBD) and use the models to validate IBD risk genes identified by the 
+    computational arm of the <a href="https://www.sanger.ac.uk/group/anderson-group/" target="_blank">Anderson Lab</a>.
+    This is an exciting opportunity for you to apply cutting-edge technology, including induced pluripotent stem cells (iPSC), intestinal organoids, CRISPR/Cas genome editing, and single cell RNA-sequencing. 
+    You will differentiate iPSC carrying IBD risk alleles to intestinal organoids, and will stimulate them with cytokines to better mimic the inflammatory environment of the gut in IBD. Cells from primary intestinal organoids and iPSC-derived intestinal organoids will be prepared for single cell RNA-sequencing using the 10X Genomics Chromium platform. Data will be analysed and IBD gene mechanism will be dissected using functional assays.
+
