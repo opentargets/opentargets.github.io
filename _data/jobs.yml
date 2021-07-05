@@ -40,3 +40,18 @@
     This is an exciting opportunity for you to apply cutting-edge technology, including induced pluripotent stem cells (iPSC), intestinal organoids, CRISPR/Cas genome editing, and single cell RNA-sequencing. 
     You will differentiate iPSC carrying IBD risk alleles to intestinal organoids, and will stimulate them with cytokines to better mimic the inflammatory environment of the gut in IBD. Cells from primary intestinal organoids and iPSC-derived intestinal organoids will be prepared for single cell RNA-sequencing using the 10X Genomics Chromium platform. Data will be analysed and IBD gene mechanism will be dissected using functional assays.
 
+- title: Computational Postdoctoral Fellow
+  organisation: Wellcome Sanger Institute
+  logo: wellcome-sanger.png
+  closing_date: 2021-07-27
+  link: https://jobs.sanger.ac.uk/vacancy/computational-postdoctoral-fellow-450087.html
+  active: "yes" 
+  description: >
+    We have an opportunity for a postdoctoral fellow to join us under the leadership of Dr Ana Cvejic (Wellcome Sanger Institute) 
+    and Peter Campbell (WSI). In this project, you will analyse newly generated single cell (scRNA-Seq and scATAC-Seq) as well as 
+    novel and spatial transcriptomics data sets (In Situ Sequencing and 10x Visium) to understand the molecular properties of 
+    immune cells infiltrating tumour sites. The underlying data sets comprise thousands of unique molecular signals measured for 
+    tens of thousands of cells or physical locations in each tumour. You will employ methods from high dimensional and spatial 
+    statistics, and machine learning, to chart and understand the nature of different tumour-associated immune cells, how they 
+    interact and change biological functions and how the underlying molecular changes could be exploited as therapeutic targets.
+
