@@ -12,21 +12,6 @@
 #   active: "yes" or "no" 
 #   description: >
 
-- title: Data Mining Scientist
-  organisation: EMBL-EBI
-  logo: embl-ebi.png
-  closing_date: 2021-07-06
-  link: https://www.embl.org/jobs/position/EBI01852/
-  active: "yes" 
-  description: >
-    An exciting opportunity has been created for a talented scientist to work on the 
-    development of new methodologies to identify relevant bioactivity data from the 
-    literature and other sources for incorporation into the world-leading ChEMBL database. 
-    This work will directly contribute to two on-going projects. 
-    The first, BioChemGraph, is supported by the BBSRC and aims to enhance data integration 
-    between the ChEMBL, PDBe and CSD databases. The second project is sponsored by Open 
-    Targets and will deliver evidence linking specific protein targets to disease phenotypes.
-
 - title: Postdoctoral Fellow
   organisation: Wellcome Sanger Institute
   logo: wellcome-sanger.png
