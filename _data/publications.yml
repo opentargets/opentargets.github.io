@@ -13,6 +13,17 @@
 #   pmid: 
 #   link: 
 
+- title: "The PROTACtable genome"
+  author: Schneider, M et al.
+  publication_name: "Nature Reviews Drug Discovery"
+  issue: 
+  volume: 
+  publication_year: 2021
+  pages: 
+  doi: 10.1038/s41573-021-00245-x
+  pmid: 34285415
+  link: https://www.nature.com/articles/s41573-021-00245-x
+
 - title: "A map of transcriptional heterogeneity and regulatory variation in human microglia"
   author: Young, A M H et al.
   publication_name: "Nature Genetics"
