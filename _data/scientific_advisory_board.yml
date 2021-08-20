@@ -6,37 +6,7 @@
 #   last_name: 
 #   role: 
 #   organisation: 
-#   link: 
-
-- first_name: Caroline
-  last_name: Fox
-  role: Vice President and Head, Genetics and Pharmacogenomics
-  organisation: Merck
-  link: https://www.merck.com/about/our-people/caroline-fox.html
-
-- first_name: Bissan
-  last_name: Al-Lazikani
-  role: Team Leader - Computational Biology & Chemogenomics
-  organisation: The Institute of Cancer Research
-  link: http://www.icr.ac.uk/our-research/researchers-and-teams/dr-bissan-al-lazikani
-
-- first_name: Søren
-  last_name: Brunak
-  role: Professor and Founder, Center for Biological Sequence Analysis - Department of Systems Biology
-  organisation: Technical University of Denmark
-  link: http://www.cbs.dtu.dk/staff/show-staff.php?id=514
-
-- first_name: Tilmann 
-  last_name: Bürckstümmer
-  role: Chief Scientific Officer
-  organisation: Aelian Biotechnology GmbH
-  link: https://aelianbio.com/
-
-- first_name: Professor Sir Mike
-  last_name: Ferguson
-  role: Regius Professor of Life Sciences
-  organisation: School of Life Sciences, University of Dundee
-  link: https://www.lifesci.dundee.ac.uk/people/mike-ferguson
+#   link: (not yet used in UI)
 
 - first_name: Joanna
   last_name: Holbrook
@@ -44,14 +14,38 @@
   organisation: Cambridge Epigenetix
   link: https://cambridge-epigenetix.com/company?member=2
 
-- first_name: Robert
-  last_name: Vries
-  role: Chief Executive Officer
-  organisation: Hubrecht Organoid Technology
-  link: https://hub4organoids.eu/employees/robert-vries-ph-d/
+- first_name: Caroline
+  last_name: Fox
+  role: Vice President, Merck Research Labs (MRL) Head, Genetics and Pharmacogenomics (GpGx)
+  organisation: Merck Research Laboratories
+  link: https://www.linkedin.com/in/caroline-fox-785211a4
 
-- first_name: Núria 
-  last_name: López-Bigas
-  role: ICREA Research Professor
-  organisation: Pompeu Fabra University 
-  link: https://www.irbbarcelona.org/en/profile/nuria-lopez-bigas
+- first_name: Professor Sir Mike
+  last_name: Ferguson
+  role: Regius Professor of Life Sciences
+  organisation: School of Life Sciences, University of Dundee
+  link: https://www.lifesci.dundee.ac.uk/people/mike-ferguson
+
+- first_name: Anshul 
+  last_name: Kundaje
+  role: Assistant Professor of Genetics and of Computer Science
+  organisation: Stanford University
+  link: https://profiles.stanford.edu/anshul-kundaje
+
+- first_name: Olivia
+  last_name: Rossanese
+  role: Interim Director of the Cancer Research UK Cancer Therapeutics Unit and Interim Head of the Division of Cancer Therapeutics
+  organisation: The Institute of Cancer Research
+  link: https://www.icr.ac.uk/our-research/researchers-and-teams/dr-olivia-rossanese
+
+- first_name: Jay
+  last_name: Shendure
+  role: Professor of Genome Sciences
+  organisation: University of Washington
+  link: https://www.gs.washington.edu/faculty/shendure.htm
+
+- first_name: Mark 
+  last_name: McCarthy
+  role: Executive Director, Human Genetics and Senior Fellow, Human Genetics
+  organisation: Genentech
+  link: https://www.gene.com/scientists/our-scientists/mark-mccarthy
