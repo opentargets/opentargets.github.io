@@ -11,15 +11,3 @@
 #   link: 
 #   active: "yes" or "no" 
 #   description: >
-
-- title: "Postdoctoral Fellow - Drug Targets for Neurodegeneration Disorders"
-  organisation: Wellcome Sanger Institute 
-  logo: wellcome-sanger.png
-  closing_date: 2021-08-18
-  link: https://jobs.sanger.ac.uk/vacancy/postdoctoral-fellow-drug-targets-for-neurodegeneration-disorders-452863.html
-  active: "yes" 
-  description: >
-    The <a href="https://www.sanger.ac.uk/group/parts-group/" target="_blank">Parts lab</a> at the Wellcome Sanger Institute, in collaboration with Andrew Bassett (Sanger) and Florian Merkle (Cambridge), 
-    is seeking a highly motivated researcher with strong computational and quantitative skills to fill a postdoctoral fellow position. This role is focused on identifying new drug targets 
-    for neurodegenerative disorders using novel data from CRISPR + scRNAseq experiments and accumulated public datasets. Your projects will stem from the intersection of high-throughput 
-    single cell RNA sequencing, genetic perturbations via CRISPR/Cas, stem cell derived neuronal cell types, and external evidence to prioritize and understand genes that drive neurodegeneration.
