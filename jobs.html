@@ -18,7 +18,7 @@ title: Jobs
   <div class="container">
     <div class="row mb-5">
       <div class="col-12">
-        <img src="assets/img/open-targets-5-year-anniversary.jpg" class="img-fluid" />
+        <img src="/assets/img/open-targets-5-year-anniversary.jpg" class="img-fluid" />
         <small class="text-center">The Open Targets team at our 5 year anniversary celebration in June 2019</small>
       </div>
     </div>
@@ -47,18 +47,15 @@ title: Jobs
     </div>
     <hr class="mb-5" />
     <div class="row">
-      {% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
-      {% assign active_job_ads = site.data.jobs | where: 'active', 'yes' | sort: 'closing_date' %}
-      {% if active_job_ads.size == 0 %}
+      {% assign all_job_ads = site.jobs | sort: 'closing_date' %}
+      {% if all_job_ads.size == 0 %}
       <div class="col-12 text-center">
         <p class="font-italic">
           Unfortunately, we have no vacancies at the moment. 
         </p>
       </div>
       {% else %}
-        {% for job in active_job_ads %}
-          {% capture closing_date %}{{ job.closing_date | date: '%s' | plus : 86400 }}{% endcapture %}
-          {% if closing_date > now %}
+        {% for job in all_job_ads %}
           <div class="row pb-4">
             <div class="col-lg-12">
               <div class="card">
@@ -77,7 +74,7 @@ title: Jobs
                   <div class="row">
                     <div class="col-md-12">
                       <p class="card-title">
-                        {{ job.description | truncate: 1500 }} 
+                        {{ job.content | truncate: 1500 }} 
                       </p>
                       <p class="card-title">
                         <a href="{{ job.link }}" class="font-weight-bold" target="_blank">[ read more ]</a>
@@ -88,15 +85,11 @@ title: Jobs
               </div>
             </div>
           </div>
-          {% endif %}
         {% endfor %} 
       {% endif %}
 
 
-      <!-- {% assign all_active_job_ads = site.data.jobs | where: 'active', 'yes' | sort: 'closing_date' %}
-      {% for job in all_active_job_ads %}
-        <p>{{ job.title }}</p>
-      {% endfor %} -->
+
     </div>
   </div>
 </section>
