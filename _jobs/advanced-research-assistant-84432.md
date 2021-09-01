@@ -2,7 +2,7 @@
 title: 'Advanced Research Assistant'
 organisation: 'Wellcome Sanger Institute'
 logo: 'wellcome-sanger.png'
-closing_date: 2021-09-15
+closing_date: 2021-09-13
 link: 'https://jobs.sanger.ac.uk/vacancy/advanced-research-assistant-455995.html'
 ---
 
