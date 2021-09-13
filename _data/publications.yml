@@ -13,6 +13,17 @@
 #   pmid: 
 #   link: 
 
+- title: "A compendium of uniformly processed human gene expression and splicing quantitative trait loci"
+  author: Kerimov, N et al.
+  publication_name: "Nature Genetics"
+  issue: 53
+  volume: 9
+  publication_year: 2021
+  pages: 1290-1299
+  doi: 10.1038/s41588-021-00924-w
+  pmid: 34493866
+  link: https://www.nature.com/articles/s41588-021-00924-w
+
 - title: "A proteome-wide genetic investigation identifies several SARS-CoV-2-exploited host targets of clinical relevance"
   author: Anisul, M et al.
   publication_name: eLife
