@@ -74,10 +74,10 @@ title: Jobs
                   <div class="row">
                     <div class="col-md-12">
                       <p class="card-title">
-                        {{ job.content | truncate: 1500 }} 
+                        {{ job.content | truncate: 2000 }} 
                       </p>
                       <p class="card-title">
-                        <a href="{{ job.link }}" class="font-weight-bold" target="_blank">[ read more ]</a>
+                        <a href="{{ job.link }}" class="btn btn-primary" target="_blank">View full job description</a>
                       </p>
                     </div>
                   </div>   
@@ -87,9 +87,6 @@ title: Jobs
           </div>
         {% endfor %} 
       {% endif %}
-
-
-
     </div>
   </div>
 </section>
