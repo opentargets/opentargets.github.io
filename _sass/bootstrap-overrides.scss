@@ -1,11 +1,23 @@
 
+// adjust button default style
 .btn-primary {
     background-color: #3489ca;
     border: 1px solid #3489ca;
+    border-radius: 0px;
 }
 
+// adjust button on-hover style
 .btn-primary:hover {
     background-color: #98C5E3;
     border: 1px solid #98C5E3;
+    border-radius: 0px;
 }
+
+// adjust style of chips on publications page
+.badge-light {
+    color: $ot-corp-blue;
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+  
 
