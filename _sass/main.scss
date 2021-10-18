@@ -95,6 +95,20 @@ a:hover {
   overflow-y: scroll;
 }
 
+img.open-access-icon-lg {
+  height: 24px;
+}
+
+img.open-access-icon-sm {
+  height: 13px;
+}
+
+.badge-light {
+  color: $ot-corp-blue;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
 // used to set <p> min-height values on /people page so that names, job titles, and logos are aligned
 @media only screen and (min-width: 576px) {
   .line-height-3em {
