@@ -45,29 +45,6 @@
     Prior to joining the Open Targets team, she worked at the Wellcome Sanger Institute as the Human Genetics Team Administrator
     and oversaw the diary management and administrative support for five faculty members (Anderson, Barrett, Sandhu, Soranzo & Zeggini).
 
-- first_name: Sarah
-  last_name: Spain
-  role: Operations Manager
-  picture: sarah_spain.png
-  organisation: Wellcome Sanger Institute
-  organisation_logo: wellcome-sanger.png
-  orcid: 0000-0002-7591-8364
-  twitter:
-  github:
-  linkedin: 
-  biography: >
-    Sarah is an Operations Manager for Open Targets. She originally joined the Sanger Institute as a post-doctoral statistical 
-    geneticist working on the genetics of complex diseases with a focus on Inflammatory Bowel Disease (IBD), in particular, utilising 
-    fine-mappng data to infer genes that are potential drug targets. She has a molecular biology background and moved from the 
-    laboratory bench into statistical genetics during her PhD, which focused on the genetic analysis of the Colorectal Cancer 
-    genome-wide association study (GWAS). Since then, she has developed my analytical skills through two post-doctoral positions 
-    at King's College London. She has worked with GWAS, Immunochip finemapping and exome chip genotype data for a variety of international 
-    collaborative projects in complex diseases such as psoriasis, cognitive ability and Inflammatory Bowel Disease. Her scientific interests 
-    are focused on the genetic differences between individuals that confer an increased susceptibility to common diseases. 
-    In her research, as part of Open Targets, she utilised publically available and in-house tools to analyse large scale genetic data with 
-    the aim to identify target genes that may have therapeutic potential for diseases, such as IBD. More recently, Sarah has moved into a 
-    research administrator role to facilitate the smooth running of Open Targets' research projects.
-
 - first_name: Sally  
   last_name: Bygraves
   role: Research Administrator
