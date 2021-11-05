@@ -2,7 +2,7 @@
 title: "Technical Project Lead"
 organisation: "EMBL-EBI"
 logo: "embl-ebi.png"
-closing_date: 2021-11-07
+closing_date: 2021-11-21
 link: "https://www.embl.org/jobs/position/EBI01936"
 ---
 
