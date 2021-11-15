@@ -2,7 +2,7 @@
 title: "Computational Postdoctoral Fellow"
 organisation: "Wellcome Sanger Institute"
 logo: "wellcome-sanger.png"
-closing_date: 2021-11-15
+closing_date: 
 link: "https://jobs.sanger.ac.uk/vacancy/computational-postdoctoral-fellow-462616.html"
 ---
 
