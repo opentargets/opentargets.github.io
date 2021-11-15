@@ -64,7 +64,11 @@ title: Jobs
                     <div class="col-md-9">
                       <h4 class="card-title">{{ job.title }}</h4>
                       <h6 class="card-subtitle mb-4">
-                        Application closing date: {{ job.closing_date | date: "%-d %B %Y" }} 
+                        {% if job.closing_date %}
+                          Application closing date: {{ job.closing_date | date: "%-d %B %Y" }} 
+                        {% else %}
+                          Note: This is a rolling advert and we will consider applications and hold interviews on an ongoing basis so the role may close early if a successful appointment is made.
+                        {% endif %}
                       </h6>
                     </div>
                     <div class="offset-md-1 col-md-2">
