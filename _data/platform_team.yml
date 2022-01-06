@@ -16,6 +16,18 @@
 #   linkedin: 
 #   biography: >
 
+- first_name: Marine
+  last_name: Girardey
+  role: Intern - Data Team
+  picture: marine-girardey.png
+  organisation: EMBL-EBI
+  organisation_logo: embl-ebi.png
+  orcid:
+  twitter:
+  github: MarineGirardey
+  linkedin: 
+  biography: >
+
 - first_name: Kirill
   last_name: Tsukanov
   role: Bioinformatician
