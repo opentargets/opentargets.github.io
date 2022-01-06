@@ -130,20 +130,6 @@
     methods and network biology for predicting protein-protein interactions. After graduating, he joined as a postdoctoral fellow the group of 
     Pedro Beltrao at EMBL-EBI to better understand human signalling under perturbation and disease by leveraging the growing body of large-scale 
     proteomics data and the latest computational approaches in data analysis and machine learning.
-    
-- first_name: Miguel
-  last_name: Carmona
-  role: Technical Team Lead
-  picture: miguel_carmona.png
-  organisation: EMBL-EBI
-  organisation_logo: embl-ebi.png
-  orcid: 0000-0002-7582-4771
-  twitter: m_karmona
-  github: mkarmona
-  linkedin: https://uk.linkedin.com/in/mkarmona
-  biography: >
-    Miguel Carmona is a highly-experienced software development professional who has spent the last decade developing applied research projects and 
-    collaborating with research groups like CISTIB (UoS), CNRS-NED and GEB.
 
 - first_name: Luca
   last_name: Fumis
@@ -179,18 +165,6 @@
   twitter:
   github: cmalangone
   linkedin: https://uk.linkedin.com/in/cinziamalangone
-  biography: >
-
-- first_name: Alfredo
-  last_name: Miranda
-  role: Software Developer
-  picture: alfredo_miranda.png
-  organisation: EMBL-EBI
-  organisation_logo: embl-ebi.png
-  orcid: 0000-0001-8960-9012
-  twitter:
-  github: mirandaio
-  linkedin: https://uk.linkedin.com/in/alfredomiranda
   biography: >
 
 - first_name: Daniel
