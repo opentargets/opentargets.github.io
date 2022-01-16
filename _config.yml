@@ -8,7 +8,8 @@ collections:
   - jobs
   - executive_leadership_team
   - scientific_leadership_team
-    
+  - strategy_operations_team
+   
 plugins:
   - jekyll-get-json
   

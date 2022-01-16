@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-lg-12">
-    <h3 id="operations-team">Strategy and Operations Team</h3>
+    <h3 id="operations-team">Strategy and Operations Team  NEW</h3>
     <p>
       The Strategy and Operations Team manages our project portfolio, oversees scientific operations and works with the Executive 
       Leadership Team to develop and implement overall strategy. Our Senior Administrator also provides day-to-day support for 
@@ -9,7 +9,7 @@
   </div>
 </div>
 <div class="row mb-5">
-  {% assign operations_team = site.data.operations_team | sort: 'last_name' %}
+  {% assign operations_team = site.strategy_operations_team | sort: 'last_name' %}
   {% for person in operations_team %}
     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
       <div class="card shadow-lg bg-white rounded align-self-stretch">
