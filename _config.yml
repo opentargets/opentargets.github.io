@@ -7,6 +7,7 @@ collections_dir: my_collections
 collections:
   - jobs
   - executive_leadership_team
+  - scientific_leadership_team
     
 plugins:
   - jekyll-get-json
