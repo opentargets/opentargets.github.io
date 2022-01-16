@@ -57,7 +57,7 @@ title: Our team
       </div>
     </div>
     <div class="row mb-5">
-      {% assign executive_leadership_team = site.data.executive_leadership_team | sort: 'order' %}
+      {% assign executive_leadership_team = site.executive_leadership_team | sort: 'order' %}
       {% for person in executive_leadership_team %}
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
           <div class="card shadow-lg bg-white rounded align-self-stretch">
@@ -82,7 +82,7 @@ title: Our team
               </div>
               <div class="modal-body">
                 <p>
-                  {{ person.biography }}
+                  {{ person.content }}
                 </p>
               </div>
               <div class="text-center">
