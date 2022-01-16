@@ -1,9 +1,11 @@
 url: "https://www.opentargets.org/" 
+
 title: "Open Targets" 
 
+collections_dir: my_collections
+
 collections:
-  jobs:
-    output: true
+  - jobs
     
 plugins:
   - jekyll-get-json
