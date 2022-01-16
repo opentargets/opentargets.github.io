@@ -5,7 +5,7 @@
 </div>
 <div class="row">
   <div class="col-lg-12">
-    {% assign scientific_advisory_board = site.data.scientific_advisory_board | sort: 'last_name' %}
+    {% assign scientific_advisory_board = site.scientific_advisory_board | sort: 'last_name' %}
     <ul class="list-unstyled">
       {% for person in scientific_advisory_board %}
         <li class="mt-4">

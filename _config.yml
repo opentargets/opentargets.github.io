@@ -9,6 +9,7 @@ collections:
   - executive_leadership_team
   - scientific_leadership_team
   - strategy_operations_team
+  - scientific_advisory_board
    
 plugins:
   - jekyll-get-json
