@@ -12,6 +12,7 @@ collections:
   - scientific_advisory_board
   - platform_team
   - genetics_team
+  - validation_lab_team
    
 plugins:
   - jekyll-get-json
