@@ -7,6 +7,7 @@
   <div class="col-lg-12">
     <nav>
       <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link font-weight-bold" id="nav-2022-review-article-tab" data-toggle="tab" href="#nav-2022-review-article" role="tab" aria-controls="nav-2022-review-article" aria-selected="false">2022</a>
         <a class="nav-item nav-link font-weight-bold" id="nav-2021-review-article-tab" data-toggle="tab" href="#nav-2021-review-article" role="tab" aria-controls="nav-2021-review-article" aria-selected="false">2021</a>
         <a class="nav-item nav-link font-weight-bold active" id="nav-2020-review-article-tab" data-toggle="tab" href="#nav-2020-review-article" role="tab" aria-controls="nav-2020-review-article" aria-selected="true">2020</a>
         <a class="nav-item nav-link font-weight-bold" id="nav-2019-review-article-tab" data-toggle="tab" href="#nav-2019-review-article" role="tab" aria-controls="nav-2019-review-article" aria-selected="false">2019</a>
@@ -21,6 +22,35 @@
 <div class="row">
   <div class="col-lg-12">
     <div class="tab-content py-4 px-3 px-sm-0" id="nav-tabContent">
+      <div class="tab-pane fade" id="nav-2022-review-article" role="tabpanel" aria-labelledby="nav-2022-review-article-tab">
+        {% assign all_2022_review_articles = site.data.review-articles | where: "publication_year", "2022"  %}
+        {% if all_2022_review_articles.size == 0 %}
+        <p>
+          There are no review articles available for this year.
+        </p>
+        {% else %}
+          {% for publication in all_2022_review_articles %}
+            <div class="mb-4">
+              <p class="font-weight-bold mb-1">{{ publication.title }}</p>
+              <p class="mb-1">{{ publication.first_author }}</p>
+              <p class="mb-1"><em>{{ publication.publication_name }}</em></p>
+              <p>
+                {% if publication.open_access == "TRUE" %}
+                  <a href="http://dx.doi.org/{{ publication.doi }}" class="badge badge-pill badge-light"><img src="/assets/img/icons/open-access-icon-ot-blue.png" class="open-access-icon-sm mr-1"/>Open Access</a>
+                {% endif %}
+                {% if publication.full_text_available == "TRUE" %}
+                  <a href="http://europepmc.org/abstract/MED/{{ publication.pmid }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>Full text available (Europe PMC)</a>
+                {% else %}
+                  <a href="http://dx.doi.org/{{ publication.doi }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>DOI: {{ publication.doi }}</a>
+                {% endif %}
+                {% if publication.preprint_available == "TRUE" %}
+                  <a href="{{ publication.preprint_link }}" class="badge badge-pill badge-light"><i class="far fa-file-alt mr-2"></i>Preprint available</a>
+                {% endif %}
+              </p>
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
       <div class="tab-pane fade" id="nav-2021-review-article" role="tabpanel" aria-labelledby="nav-2021-review-article-tab">
         {% assign all_2021_review_articles = site.data.review-articles | where: "publication_year", "2021"  %}
         {% if all_2021_review_articles.size == 0 %}
