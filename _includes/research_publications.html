@@ -29,27 +29,7 @@
           </p>
         {% else %}
           {% for publication in all_2022_publications %}
-            <div class="mb-4">
-              <p class="font-weight-bold mb-1">{{ publication.title }}</p>
-              <p class="mb-1">{{ publication.first_author }}</p>
-              <p class="mb-1"><em>{{ publication.publication_name }}</em></p>
-              <p>
-                {% if publication.open_access == "TRUE" %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}" class="badge badge-pill badge-light"><img src="/assets/img/icons/open-access-icon-ot-blue.png" class="open-access-icon-sm mr-1"/>Open Access</a>
-                {% endif %}
-                {% if publication.full_text_available == "TRUE" %}
-                  <a href="http://europepmc.org/abstract/MED/{{ publication.pmid }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>Full text available (Europe PMC)</a>
-                {% else %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>DOI: {{ publication.doi }}</a>
-                {% endif %}
-                {% if publication.preprint_available == "TRUE" %}
-                  <a href="{{ publication.preprint_link }}" class="badge badge-pill badge-light"><i class="far fa-file-alt mr-2"></i>Preprint available</a>
-                {% endif %}
-                {% if publication.is_book_chapter == "TRUE" %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}" class="badge badge-pill badge-light"><i class="fas fa-book mr-2"></i>Book chapter</a>
-                {% endif %}
-              </p>
-            </div>
+            {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
       </div>
@@ -61,27 +41,7 @@
           </p>
         {% else %}
           {% for publication in all_2021_publications %}
-            <div class="mb-4">
-              <p class="font-weight-bold mb-1">{{ publication.title }}</p>
-              <p class="mb-1">{{ publication.first_author }}</p>
-              <p class="mb-1"><em>{{ publication.publication_name }}</em></p>
-              <p>
-                {% if publication.open_access == "TRUE" %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}" class="badge badge-pill badge-light"><img src="/assets/img/icons/open-access-icon-ot-blue.png" class="open-access-icon-sm mr-1"/>Open Access</a>
-                {% endif %}
-                {% if publication.full_text_available == "TRUE" %}
-                  <a href="http://europepmc.org/abstract/MED/{{ publication.pmid }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>Full text available (Europe PMC)</a>
-                {% else %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>DOI: {{ publication.doi }}</a>
-                {% endif %}
-                {% if publication.preprint_available == "TRUE" %}
-                  <a href="{{ publication.preprint_link }}" class="badge badge-pill badge-light"><i class="far fa-file-alt mr-2"></i>Preprint available</a>
-                {% endif %}
-                {% if publication.is_book_chapter == "TRUE" %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}" class="badge badge-pill badge-light"><i class="fas fa-book mr-2"></i>Book chapter</a>
-                {% endif %}
-              </p>
-            </div>
+            {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
       </div>
@@ -93,27 +53,7 @@
           </p>
         {% else %}
           {% for publication in all_2020_publications %}
-            <div class="mb-4">
-              <p class="font-weight-bold mb-1">{{ publication.title }}</p>
-              <p class="mb-1">{{ publication.first_author }}</p>
-              <p class="mb-1"><em>{{ publication.publication_name }}</em></p>
-              <p>
-                {% if publication.open_access == "TRUE" %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}" class="badge badge-pill badge-light"><img src="/assets/img/icons/open-access-icon-ot-blue.png" class="open-access-icon-sm mr-1"/>Open Access</a>
-                {% endif %}
-                {% if publication.full_text_available == "TRUE" %}
-                  <a href="http://europepmc.org/abstract/MED/{{ publication.pmid }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>Full text available (Europe PMC)</a>
-                {% else %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>DOI: {{ publication.doi }}</a>
-                {% endif %}
-                {% if publication.preprint_available == "TRUE" %}
-                  <a href="{{ publication.preprint_link }}" class="badge badge-pill badge-light"><i class="far fa-file-alt mr-2"></i>Preprint available</a>
-                {% endif %}
-                {% if publication.is_book_chapter == "TRUE" %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}" class="badge badge-pill badge-light"><i class="fas fa-book mr-2"></i>Book chapter</a>
-                {% endif %}
-              </p>
-            </div>
+            {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
       </div>
@@ -125,27 +65,7 @@
           </p>
         {% else %}
           {% for publication in all_2019_publications %}
-            <div class="mb-4">
-              <p class="font-weight-bold mb-1">{{ publication.title }}</p>
-              <p class="mb-1">{{ publication.first_author }}</p>
-              <p class="mb-1"><em>{{ publication.publication_name }}</em></p>
-              <p>
-                {% if publication.open_access == "TRUE" %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}" class="badge badge-pill badge-light"><img src="/assets/img/icons/open-access-icon-ot-blue.png" class="open-access-icon-sm mr-1"/>Open Access</a>
-                {% endif %}
-                {% if publication.full_text_available == "TRUE" %}
-                  <a href="http://europepmc.org/abstract/MED/{{ publication.pmid }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>Full text available (Europe PMC)</a>
-                {% else %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>DOI: {{ publication.doi }}</a>
-                {% endif %}
-                {% if publication.preprint_available == "TRUE" %}
-                  <a href="{{ publication.preprint_link }}" class="badge badge-pill badge-light"><i class="far fa-file-alt mr-2"></i>Preprint available</a>
-                {% endif %}
-                {% if publication.is_book_chapter == "TRUE" %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}" class="badge badge-pill badge-light"><i class="fas fa-book mr-2"></i>Book chapter</a>
-                {% endif %}
-              </p>
-            </div>
+            {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
       </div>
@@ -157,27 +77,7 @@
           </p>
         {% else %}
           {% for publication in all_2018_publications %}
-            <div class="mb-4">
-              <p class="font-weight-bold mb-1">{{ publication.title }}</p>
-              <p class="mb-1">{{ publication.first_author }}</p>
-              <p class="mb-1"><em>{{ publication.publication_name }}</em></p>
-              <p>
-                {% if publication.open_access == "TRUE" %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}" class="badge badge-pill badge-light"><img src="/assets/img/icons/open-access-icon-ot-blue.png" class="open-access-icon-sm mr-1"/>Open Access</a>
-                {% endif %}
-                {% if publication.full_text_available == "TRUE" %}
-                  <a href="http://europepmc.org/abstract/MED/{{ publication.pmid }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>Full text available (Europe PMC)</a>
-                {% else %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>DOI: {{ publication.doi }}</a>
-                {% endif %}
-                {% if publication.preprint_available == "TRUE" %}
-                  <a href="{{ publication.preprint_link }}" class="badge badge-pill badge-light"><i class="far fa-file-alt mr-2"></i>Preprint available</a>
-                {% endif %}
-                {% if publication.is_book_chapter == "TRUE" %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}" class="badge badge-pill badge-light"><i class="fas fa-book mr-2"></i>Book chapter</a>
-                {% endif %}
-              </p>
-            </div>
+            {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
       </div>
@@ -189,27 +89,7 @@
         </p>
         {% else %}
           {% for publication in all_2017_publications %}
-            <div class="mb-4">
-              <p class="font-weight-bold mb-1">{{ publication.title }}</p>
-              <p class="mb-1">{{ publication.first_author }}</p>
-              <p class="mb-1"><em>{{ publication.publication_name }}</em></p>
-              <p>
-                {% if publication.open_access == "TRUE" %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}" class="badge badge-pill badge-light"><img src="/assets/img/icons/open-access-icon-ot-blue.png" class="open-access-icon-sm mr-1"/>Open Access</a>
-                {% endif %}
-                {% if publication.full_text_available == "TRUE" %}
-                  <a href="http://europepmc.org/abstract/MED/{{ publication.pmid }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>Full text available (Europe PMC)</a>
-                {% else %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>DOI: {{ publication.doi }}</a>
-                {% endif %}
-                {% if publication.preprint_available == "TRUE" %}
-                  <a href="{{ publication.preprint_link }}" class="badge badge-pill badge-light"><i class="far fa-file-alt mr-2"></i>Preprint available</a>
-                {% endif %}
-                {% if publication.is_book_chapter == "TRUE" %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}" class="badge badge-pill badge-light"><i class="fas fa-book mr-2"></i>Book chapter</a>
-                {% endif %}
-              </p>
-            </div>
+            {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
       </div>
@@ -221,24 +101,7 @@
         </p>
         {% else %}
           {% for publication in all_2016_publications %}
-            <div class="mb-4">
-              <p class="font-weight-bold mb-1">{{ publication.title }}</p>
-              <p class="mb-1">{{ publication.first_author }}</p>
-              <p class="mb-1"><em>{{ publication.publication_name }}</em></p>
-              <p>
-                {% if publication.open_access == "TRUE" %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}" class="badge badge-pill badge-light"><img src="/assets/img/icons/open-access-icon-ot-blue.png" class="open-access-icon-sm mr-1"/>Open Access</a>
-                {% endif %}
-                {% if publication.full_text_available == "TRUE" %}
-                  <a href="http://europepmc.org/abstract/MED/{{ publication.pmid }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>Full text available (Europe PMC)</a>
-                {% else %}
-                  <a href="http://dx.doi.org/{{ publication.doi }}"  class="badge badge-pill badge-light"><i class="far fa-file-alt fa-1x mr-2"></i>DOI: {{ publication.doi }}</a>
-                {% endif %}
-                {% if publication.preprint_available == "TRUE" %}
-                  <a href="{{ publication.preprint_link }}" class="badge badge-pill badge-light"><i class="far fa-file-alt mr-2"></i>Preprint available</a>
-                {% endif %}
-              </p>
-            </div>
+            {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
       </div>
