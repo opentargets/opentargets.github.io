@@ -1,0 +1,35 @@
+---
+layout: default
+permalink: /news
+title: News
+---
+
+<header class="py-5" style="background-color:#3489ca">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center text-white">
+        <h1>News</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="py-5 my-5">
+  <div class="container">
+    <div class="row">
+      {% assign all_news = site.news | sort: 'date' | reverse %}
+        {% for news_item in all_news %}
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="row">
+                {% include news_item.html %}
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <hr class="my-5" />
+            </div>
+          </div>
+        {% endfor %} 
+    </div>
+  </div>
+</section>
