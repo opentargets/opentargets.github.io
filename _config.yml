@@ -5,15 +5,17 @@ title: "Open Targets"
 collections_dir: my_collections
 
 collections:
-  - jobs
-  - executive_leadership_team
-  - scientific_leadership_team
-  - strategy_operations_team
-  - scientific_advisory_board
-  - platform_team
-  - genetics_team
-  - validation_lab_team
-  - news
+  jobs:
+  executive_leadership_team:
+  scientific_leadership_team:
+  strategy_operations_team:
+  scientific_advisory_board:
+  platform_team:
+  genetics_team:
+  validation_lab_team:
+  news:
+      output: true
+
    
 plugins:
   - jekyll-get-json

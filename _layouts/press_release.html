@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-P66K3L6');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <meta name="description" content="Open Targets is a public-private initiative to generate evidence on the validity of therapeutic targets based on genome-scale experiments and analysis.">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="shortcut icon" href="/assets/img/favicons/open-targets-favicon.png" type="image/png" />
+    <script src="https://kit.fontawesome.com/3624e8890c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P66K3L6"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    {% include navigation.html %}
+
+    <header class="py-5" style="background-color:#3489ca">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center text-white">
+            <h1>Press Release</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="py-5 my-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            {% if page.image_filename == null %}
+              <img src="/assets/img/open_targets_logo_news_item_placeholder.png" class="img-fluid" alt="Open Targets Helix logo and wordmark"/>
+            {% else %}
+              <img src="/assets/img/{{ page.image_filename }}" class="img-fluid" alt="{{ page.image_alt_text }}"/>
+            {% endif %}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h1>{{ page.title }}</h1>
+            <h4>{{ page.date | date: "%-d %B %Y" }}</h4>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-12">
+            <p>
+              {{ page.content }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% include footer.html %}
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

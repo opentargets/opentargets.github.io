@@ -13,9 +13,16 @@
     {{ news_item.date | date: "%-d %B %Y" }}
   </p>
   <p>
-    {{ news_item.content }} 
+    {{ news_item.content | truncate: 500 }} 
   </p>
+  {% if news_item.link == null %}
+  <p class="card-title">
+    <a href="{{ news_item.url }}" class="btn btn-primary">Read more</a>
+  </p>
+  {% else %}
   <p class="card-title">
     <a href="{{ news_item.link }}" class="btn btn-primary" target="_blank">Read more</a>
   </p>
+  {% endif %}
+
 </div>  
