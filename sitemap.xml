@@ -2,54 +2,58 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://www.opentargets.org</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-28</lastmod>
   </url>
   <url>
     <loc>https://www.opentargets.org/science</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-28</lastmod>
   </url>
   <url>
     <loc>https://www.opentargets.org/history</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-28</lastmod>
   </url>
   <url>
     <loc>https://www.opentargets.org/partners</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-28</lastmod>
   </url>
   <url>
     <loc>https://www.opentargets.org/people</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-28</lastmod>
   </url>
   <url>
     <loc>https://www.opentargets.org/publications</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-28</lastmod>
   </url>
   <url>
     <loc>https://www.opentargets.org/platform</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-28</lastmod>
   </url>
   <url>
     <loc>https://www.opentargets.org/genetics</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-28</lastmod>
   </url>
   <url>
     <loc>https://www.opentargets.org/validation-lab</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-28</lastmod>
   </url>
   <url>
     <loc>https://www.opentargets.org/resources</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-28</lastmod>
   </url>
   <url>
     <loc>https://www.opentargets.org/jobs</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-28</lastmod>
   </url>
   <url>
     <loc>https://www.opentargets.org/contact</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-28</lastmod>
   </url>
   <url>
     <loc>https://www.opentargets.org/projects/effectorness</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-28</lastmod>
+  </url>
+  <url>
+    <loc>https://www.opentargets.org/news</loc>
+    <lastmod>2022-01-28</lastmod>
   </url>
 </urlset>
