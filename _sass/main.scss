@@ -103,6 +103,10 @@ img.open-access-icon-sm {
   height: 13px;
 }
 
+header.page-header {
+  padding: 100px;
+}
+
 // used to set <p> min-height values on /people page so that names, job titles, and logos are aligned
 @media only screen and (min-width: 576px) {
   .line-height-3em {

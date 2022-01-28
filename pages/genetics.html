@@ -1,0 +1,106 @@
+---
+layout: default
+permalink: /genetics
+title: Open Targets Genetics
+---
+
+{% include page_header.html %}
+
+<section class="my-5 py5">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-6">
+        <p>
+          <a href="https://genetics.opentargets.org/" target="_blank">Open Targets Genetics</a> 
+          is an open source, comprehensive tool that aggregates human GWAS and functional genomics 
+          data including gene expression, protein abundance, chromatin interaction and conformation 
+          data from a wide range of cell types and tissues to make robust connections between 
+          GWAS-associated loci, variants and likely causal genes. This enables systematic identification 
+          and prioritisation of likely causal variants and genes across all published trait-associated loci.
+        
+        </p>
+        <p>  
+          To get started with Open Targets Genetics, you can:
+          <ul>
+            <li>
+              Read the <a href="https://genetics-docs.opentargets.org" target="_blank">Genetics documentation</a>
+            </li>
+            <li>
+              Download <a href="https://genetics-docs.opentargets.org/citation#latest-publication" target="_blank">our latest publications</a>
+            </li>
+            <li>
+              Visit the <a href="https://community.opentargets.org/" target="_blank">Open Targets Community</a>
+            </li>
+          </ul>
+        </p>
+        <p>
+          If you have a question about how to use Open Targets Genetics, want to report a bug or submit a feature request, or are interested in booking
+          a training session, email us at <a href="mailto:helpdesk@opentargets.org">helpdesk@opentargets.org</a>. 
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid mb-3" src="/assets/img/open-targets-genetics-portal-screenshot.jpg" />
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-lg-12 text-center">
+        <a class="btn btn-primary btn-lg" href="https://genetics.opentargets.org/" target="_blank">
+          Visit the Open Targets Genetics Portal
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 id="genetics-team">Meet the Genetics Team</h3>
+        <p>
+          The Genetics Core Team focuses on using human genetics data to guide therapeutic target identification and prioritisation, 
+          inform drug repositioning and predict toxicity effects. The team also maintains the Genetics Portal, a first of its kind 
+          tool that enables users to browse, visualise and interpret human genetics and genomics data to unravel the genetic 
+          underpinnings of human diseases and traits and to give insights into disease biology so that this knowledge gets translated 
+          into therapeutic hypothesis.
+        </p>
+      </div>
+    </div>
+    <div class="row mb-5">
+      {% assign genetics_team = site.genetics_team | sort: 'last_name' %}
+      {% for person in genetics_team %}
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
+          <div class="card shadow-lg p-3 bg-white rounded align-self-stretch">
+            <a data-toggle="modal" href="#modal-{{ person.last_name }}">
+              <img class="card-img-top" src="/assets/img/people/{{ person.picture }}" alt="Photo of {{ person.first_name }} {{ person.last_name}}">
+            </a>
+            <div class="card-body text-center">
+              <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
+              <p class="card-subtitle mb-3">{{ person.role }}</p>
+            </div>
+          </div>
+        </div>  
+        <!-- Modal with biography -->
+        <div class="modal fade" id="modal-{{ person.last_name}}" tabindex="-1" role="dialog" aria-labelledby="modal-{{ person.last_name }}Label" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content px-3 py-5">
+              <div class="text-center">
+                <h3>{{ person.first_name }} {{ person.last_name}}'s biography</h3>
+              </div>
+              <div class="modal-body">
+                <p>
+                  {{ person.content }}
+                </p>
+              </div>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
