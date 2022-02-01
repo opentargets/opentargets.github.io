@@ -13,6 +13,7 @@ collections:
   platform_team:
   genetics_team:
   validation_lab_team:
+  history_timeline:
   news:
       output: true
 
