@@ -4,7 +4,7 @@ last_name: Biswas
 role: Bristol Myers Squibb Scientific Lead
 picture: shameek_biswas.png
 organisation: Bristol Myers Squibb
-organisation_logo: bristol-myers-squibb-logo.png
+organisation_logo: bms.png
 orcid: 0000-0002-9372-1143
 ---
 

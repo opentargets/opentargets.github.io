@@ -4,7 +4,7 @@ last_name: Holzinger
 role: Bristol Myers Squibb Scientific Lead
 picture: emily_holzinger.png
 organisation: Bristol Myers Squibb
-organisation_logo: bristol-myers-squibb-logo.png
+organisation_logo: bms.png
 orcid: 
 ---
 
