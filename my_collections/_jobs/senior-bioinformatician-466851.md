@@ -1,7 +1,7 @@
 ---
 title: "Senior Bioinformatician"
 organisation: "Wellcome Sanger Institute"
-logo: "wellcome-sanger.png"
+organisation_logo: "wellcome-sanger.png"
 closing_date: 
 link: "https://jobs.sanger.ac.uk/vacancy/-senior-bioinformatician-466851.html"
 ---
