@@ -1,7 +1,7 @@
 ---
 title: "Pfizer joins the Open Targets consortium"
 date: 2022-02-14
-image_filename: "Pfizer_press_release.png"
+image_filename: "Pfizer-press-release.png"
 image_alt_text: "Pfizer logo on a white background"
 ---
 Open Targets, a consortium focused on drug target identification, prioritisation, and validation, announced today that Pfizer has joined as a partner. Pfizer will contribute its unique expertise in oncology, immunology, and metabolic disorders as part of the innovative public-private partnership which uses human genetics and genomics data with the aim of improving the success rate for developing new medicines. This complements the strengths of the five current partners: EMBL’s European Bioinformatics Institute (EMBL-EBI), the Wellcome Sanger Institute, GSK, Bristol Myers Squibb, and Sanofi. 
