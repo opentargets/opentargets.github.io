@@ -2,7 +2,7 @@
 title: "Staff Scientist"
 organisation: "Wellcome Sanger Institute"
 organisation_logo: "wellcome-sanger.png"
-closing_date: 2 March 2022
+closing_date: 2022-03-02
 link: "https://jobs.sanger.ac.uk/vacancy/staff-scientist-cancer-drug-combination-therapies-474498.html"
 ---
 
