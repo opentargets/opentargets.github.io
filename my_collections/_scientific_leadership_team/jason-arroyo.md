@@ -1,7 +1,7 @@
 ---
 first_name: "Jason"
 last_name: "Arroyo"
-role: "Principal Scientist, Functional Genomics"
+role: "Pfizer Scientific Lead"
 picture: "jason_arroyo_web.png"
 organisation_logo: "pfizer.png"
 ---
