@@ -1,7 +1,7 @@
 ---
 first_name: "Xinli"
 last_name: "Hu"
-role: "Director of Human Genetics, Systems Immunology group"
+role: "Pfizer Scientific Lead"
 picture: "xinli_hu_web.png"
 organisation_logo: "pfizer.png"
 ---
