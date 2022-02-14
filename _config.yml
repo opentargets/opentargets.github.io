@@ -15,8 +15,9 @@ collections:
   validation_lab_team:
   history_timeline:
   news:
-      output: true
+    output: true
 
+future: true 
    
 plugins:
   - jekyll-get-json
