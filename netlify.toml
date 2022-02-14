@@ -1,6 +1,6 @@
 # Set Jekyll environment to "production" to ensure that 
-# Google Analytics code is added to <head> section on each page
-# see _includes/analytics.html
+# Google Tag Manager code is added to <head> section on each page
+# see _layouts/default.html
 
 [context.production]
   [context.production.environment]
