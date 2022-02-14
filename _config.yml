@@ -14,6 +14,7 @@ collections:
   genetics_team:
   validation_lab_team:
   history_timeline:
+  resources: 
   news:
     output: true
 
