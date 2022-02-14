@@ -1,4 +1,5 @@
 title,first_author,publication_name,publication_year,doi,pmid,publication_link,open_access,full_text_available,preprint_available,preprint_link
+Sample review article,"Author, First",Nature,2022,,1234567,,TRUE,TRUE,,
 Mining a GWAS of Severe Covid-19,"Karim, M et al.",The New England Journal of Medicine,2020,10.1056/NEJMc2025747,,https://www.nejm.org/doi/full/10.1056/NEJMc2025747,FALSE,FALSE,,
 From GWAS to Function: Using Functional Genomics to Identify the Mechanisms Underlying Complex Diseases,"Cano-Gamez, E & Trynka, G",Frontiers in Genetics,2020,10.3389/fgene.2020.00424,32477401,https://www.frontiersin.org/article/10.3389/fgene.2020.00424,FALSE,TRUE,,
 Ten simple rules for making training materials FAIR,"Garcia, L et al.",PLoS Computational Biology,2020,10.1371/journal.pcbi.1007854,32437350,https://doi.org/10.1371/journal.pcbi.1007854,TRUE,TRUE,,
