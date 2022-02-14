@@ -10,7 +10,7 @@
         <!-- <a class="nav-item nav-link font-weight-bold" id="nav-2025-review-article-tab" data-toggle="tab" href="#nav-2025-review-article" role="tab" aria-controls="nav-2025-review-article" aria-selected="false">2025</a> -->
         <!-- <a class="nav-item nav-link font-weight-bold" id="nav-2024-review-article-tab" data-toggle="tab" href="#nav-2024-review-article" role="tab" aria-controls="nav-2024-review-article" aria-selected="false">2024</a> -->
         <!-- <a class="nav-item nav-link font-weight-bold" id="nav-2023-review-article-tab" data-toggle="tab" href="#nav-2023-review-article" role="tab" aria-controls="nav-2023-review-article" aria-selected="false">2023</a> -->
-        <a class="nav-item nav-link font-weight-bold" id="nav-2022-review-article-tab" data-toggle="tab" href="#nav-2022-review-article" role="tab" aria-controls="nav-2022-review-article" aria-selected="false">2022</a>
+        <!-- <a class="nav-item nav-link font-weight-bold" id="nav-2022-review-article-tab" data-toggle="tab" href="#nav-2022-review-article" role="tab" aria-controls="nav-2022-review-article" aria-selected="false">2022</a> -->
         <a class="nav-item nav-link font-weight-bold" id="nav-2021-review-article-tab" data-toggle="tab" href="#nav-2021-review-article" role="tab" aria-controls="nav-2021-review-article" aria-selected="false">2021</a>
         <a class="nav-item nav-link font-weight-bold active" id="nav-2020-review-article-tab" data-toggle="tab" href="#nav-2020-review-article" role="tab" aria-controls="nav-2020-review-article" aria-selected="true">2020</a>
         <a class="nav-item nav-link font-weight-bold" id="nav-2019-review-article-tab" data-toggle="tab" href="#nav-2019-review-article" role="tab" aria-controls="nav-2019-review-article" aria-selected="false">2019</a>
@@ -61,7 +61,7 @@
           {% endfor %}
         {% endif %}
       </div> -->
-      <div class="tab-pane fade" id="nav-2022-review-article" role="tabpanel" aria-labelledby="nav-2022-review-article-tab">
+      <!-- <div class="tab-pane fade" id="nav-2022-review-article" role="tabpanel" aria-labelledby="nav-2022-review-article-tab">
         {% assign all_2022_review_articles = site.data.review-articles | where: "publication_year", "2022"  %}
         {% if all_2022_review_articles.size == 0 %}
         <p>
@@ -72,7 +72,7 @@
             {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
-      </div>
+      </div> -->
       <div class="tab-pane fade" id="nav-2021-review-article" role="tabpanel" aria-labelledby="nav-2021-review-article-tab">
         {% assign all_2021_review_articles = site.data.review-articles | where: "publication_year", "2021"  %}
         {% if all_2021_review_articles.size == 0 %}
