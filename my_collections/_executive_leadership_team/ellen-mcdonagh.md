@@ -13,8 +13,7 @@ Ellen (Ellie) McDonagh joined the Open Targets as the Informatics Science Direct
 
 Prior to joining the Open Targets team, she was the Head of Curation and Pharmacogenomics at Genomics England. She helped pioneer a crowdsourcing platform (PanelApp) for the expert review and curation of gene panels, which are used in genome interpretation for rare disease and cancer patients and the NHSE Genomic Medicine Service.
 
-Ellie also led projects to expand the scope of information analysed in patient genomes. These included 
-health-related additional findings, and evidence-based pharmacogenetics to support the prediction of drug responses to improve patient safety and therapeutic outcomes. 
+Ellie also led projects to expand the scope of information analysed in patient genomes. These included health-related additional findings, and evidence-based pharmacogenetics to support the prediction of drug responses to improve patient safety and therapeutic outcomes. 
 
 Before joining Genomics England, she worked as a Scientific Curator at the Pharmacogenomics Knowledge Base (PharmGKB). In this role, she produced clinical guidelines regarding therapeutic recommendations based on a patient’s genotype, provided critical assessment of evidence for gene-drug associations, and published genetically associated pharmacokinetic/pharmacodynamic pathways. 
 
