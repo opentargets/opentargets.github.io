@@ -9,5 +9,4 @@ orcid:
 ---
 
 Paris is the Open Targets Senior Administrator and provides day-to-day support to our Executive Leadership Team.
-Prior to joining the Open Targets team, she worked at the Wellcome Sanger Institute as the Human Genetics Team Administrator
-and oversaw the diary management and administrative support for five faculty members (Anderson, Barrett, Sandhu, Soranzo & Zeggini).
+Paris has over 10 years experience working as an administrator and has worked on the Wellcome Genome campus for the past 7 years learning lots about the way of working within both Sanger and EBI.
