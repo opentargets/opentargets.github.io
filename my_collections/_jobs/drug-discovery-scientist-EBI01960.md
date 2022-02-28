@@ -1,5 +1,5 @@
 ---
-title: "Drug Discovery scientist"
+title: "Target Identification Scientist"
 organisation_logo: "embl-ebi.png"
 closing_date: 2022-03-21
 link: "https://www.embl.org/jobs/position/EBI01960"
