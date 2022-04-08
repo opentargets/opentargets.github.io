@@ -1,6 +1,6 @@
 ---
 title: "Software Developer"
-organisation_logo: "ebi.png"
+organisation_logo: "embl-ebi.png"
 closing_date: 2022-04-23
 link: "https://www.embl.org/jobs/position/EBI01989"
 ---
