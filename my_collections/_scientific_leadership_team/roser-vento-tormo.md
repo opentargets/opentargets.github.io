@@ -2,7 +2,7 @@
 first_name: Roser
 last_name: Vento-Tormo
 role: Sanger Institute Scientific Lead
-picture: roser-vento.png
+picture: roser-vento.jpg
 organisation: Wellcome Sanger Institute
 organisation_logo: wellcome-sanger.png
 orcid: 
