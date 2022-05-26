@@ -1,8 +1,8 @@
 ---
 title: "Study tracking T-cell activation over time boosts search for immune disease treatments"
 date: 2022-05-26
-image_filename: 
-image_alt_text:
+image_filename: "soskic-cano-gamez-natgen-may22.png"
+image_alt_text: "DNA spiral formed by pale blue dots on a dark background"
 layout: press_release
 ---
 In a first-of-its-kind experiment, researchers have identified links between 127 genes and immune diseases, providing newfound insights into the sequence and timing of gene activity during the activation of T cells, a key process in regulating the body’s immune response.
