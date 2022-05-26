@@ -27,13 +27,19 @@ While this study focused on genes involved in 13 immune diseases, the approach a
 
 Dr Gosia Trynka, the senior author of the study from the Wellcome Sanger Institute and Experimental Science Director of Open Targets, said: “T cells are particularly dynamic cells, so being able to capture their activation process in such detail is an important achievement. Our data will provide crucial insight into key immune system mechanisms, helping us to understand which genes are affected, what might be causing disease, and what factors might be putting patients at risk. In particular, the ability to link genetic variants strongly tied to immune diseases with changes in the activity of genes during this activation is a crucial first step to developing new treatments.”
 
-Notes to editors:
-[1] <a href="https://doi.org/10.1038/s41467-020-15543-y">Cano-Gamez, E., Soskic, B., Roumeliotis, T.I. et al. Single-cell transcriptomics identifies an effectorness gradient shaping the response of CD4+ T cells to cytokines. Nat Commun 11, 1801 (2020).</a>
+
+**Notes to editors:**
+
+[1] Cano-Gamez, E., Soskic, B., Roumeliotis, T.I. et al. <a href="https://doi.org/10.1038/s41467-020-15543-y">Single-cell transcriptomics identifies an effectorness gradient shaping the response of CD4+ T cells to cytokines.</a> Nat Commun 11, 1801 (2020).
+
 [2] Single-cell RNA sequencing is used to profile gene expression in single cells
 
-Publication:
-Blagoje Soskic and Eddie Cano-Gamez et al. (2022). <a href="https://doi.org/10.1038/s41588-022-01066-3">Immune disease risk variants regulate gene expression dynamics during CD4+ T cell activation.</a> Nature Genetics. DOI: https://doi.org/10.1038/s41588-022-01066-3
 
-Funding:
+**Publication:**
+
+Blagoje Soskic and Eddie Cano-Gamez et al. (2022). <a href="https://doi.org/10.1038/s41588-022-01066-3">Immune disease risk variants regulate gene expression dynamics during CD4+ T cell activation.</a> Nature Genetics. 
+DOI: https://doi.org/10.1038/s41588-022-01066-3
+
+**Funding:**
 This work was funded by Open Targets and Wellcome.
 
