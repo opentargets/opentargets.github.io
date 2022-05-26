@@ -1,5 +1,5 @@
 ---
-title: "Study tracking T-cell activation over time boost search for immune disease treatments"
+title: "Study tracking T-cell activation over time boosts search for immune disease treatments"
 date: 2022-05-26
 image_filename: "Soskic-Cano-Gamez-NatGen.png"
 image_alt_text: "Simplified graphical abstract of the work: cells were sampled from 119 donors and used to create a time course of cell activation, which could then be used to study how genetic variation affects gene activity"
