@@ -37,7 +37,7 @@ Dr Gosia Trynka, the senior author of the study from the Wellcome Sanger Institu
 
 **Publication:**
 
-Blagoje Soskic and Eddie Cano-Gamez et al. (2022). <a href="https://doi.org/10.1038/s41588-022-01066-3">Immune disease risk variants regulate gene expression dynamics during CD4+ T cell activation.</a> Nature Genetics. 
+Blagoje Soskic and Eddie Cano-Gamez et al. (2022). <a href="https://www.nature.com/articles/s41588-022-01066-3">Immune disease risk variants regulate gene expression dynamics during CD4+ T cell activation.</a> Nature Genetics. 
 DOI: https://doi.org/10.1038/s41588-022-01066-3
 
 **Funding:**
