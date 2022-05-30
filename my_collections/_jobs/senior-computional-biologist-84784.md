@@ -1,7 +1,7 @@
 ---
 title: "Senior Computational Biologist/Computational Biologist"
 organisation_logo: "wellcome-sanger.png"
-closing_date: 2022-09-30
+closing_date: 
 link: "https://jobs.sanger.ac.uk/vacancy/senior-computational-biologist-computational-biologist-480327.html"
 ---
 Open Targets has launched Open Targets Genetics (https://genetics.opentargets.org), a portal that aggregates large scale GWAS data with functional genomics data to identify potential drug targets at disease and trait-associated loci.
