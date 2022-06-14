@@ -12,3 +12,5 @@ She first joined EMBL-EBI in 2017 as part of the GWAS Catalog, where she curated
 Before starting her role at EBI, Annalisa conducted her predoctoral and postdoctoral research in Genetics of Sensory Function at EMBL Rome, Wellcome Sanger Institute and King’s College London. 
 
 Annalisa holds a PhD in Medical Genetics and a M.Sc. in Pharmaceutical Chemistry from the University of Naples, Italy.
+
+Get in touch with Annalisa if you have questions about the Open Targets bioinformatics products and stakeholders.
