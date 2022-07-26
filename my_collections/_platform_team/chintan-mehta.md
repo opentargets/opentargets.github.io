@@ -5,4 +5,5 @@ role: "Web developer"
 picture: "generic-user-avatar.png"
 organisation_logo: "embl-ebi.png"
 ---
-The biography of the person (optional) goes here
+
+Chintan joined Open Targets in 2022 as a web developer in the front-end team. 
