@@ -2,7 +2,7 @@
 first_name: David
 last_name: Hulcoop
 role: Strategy & Operations Director
-picture: david_hulcoop.png
+picture: David_Hulcoop_June22.png
 organisation: GSK
 organisation_logo: gsk.png
 orcid: 0000-0003-1323-1759
