@@ -2,7 +2,7 @@
 first_name: Ellen
 last_name: McDonagh
 role: Informatics Science Director
-picture: ellen_mcdonagh.png
+picture: Ellie_McDonagh_June22.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
 orcid: 
