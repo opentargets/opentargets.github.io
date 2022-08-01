@@ -2,7 +2,7 @@
 first_name: Gosia
 last_name: Trynka
 role: Experimental Science Director
-picture: gosia_trynka.png
+picture: Gosia_Trynka_June22.png
 organisation: Wellcome Sanger Institute
 organisation_logo: wellcome-sanger.png
 orcid: 0000-0002-6955-9529

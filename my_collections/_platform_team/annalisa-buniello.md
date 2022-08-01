@@ -4,6 +4,7 @@ last_name: "Buniello"
 role: "Product Manager"
 picture: "annalisa_buniello.png"
 organisation_logo: "embl-ebi.png"
+orcid: 0000-0002-4623-8642
 ---
 Annalisa joined Open Targets as a product manager in June 2022.
 
