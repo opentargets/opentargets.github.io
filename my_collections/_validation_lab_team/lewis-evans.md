@@ -8,4 +8,6 @@ organisation_logo: wellcome-sanger.png
 orcid: 
 ---
 
-Lewis Evans is researching diseases of the brain using stem cell and CRISPR technologies and is currently leading two Open Targets funded projects. <a href="https://twitter.com/Lewis_D_Evans" target="_blank">@Lewis_D_Evans</a>
+Lewis Evans is researching diseases of the brain using stem cell and CRISPR technologies and is currently leading two Open Targets funded projects. 
+
+Find him on Twitter <a href="https://twitter.com/Lewis_D_Evans" target="_blank">@Lewis_D_Evans</a>
