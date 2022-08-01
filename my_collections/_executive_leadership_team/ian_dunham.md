@@ -2,7 +2,7 @@
 first_name: Ian
 last_name: Dunham
 role: Open Targets Director
-picture: ian_dunham.png
+picture: Ian_Dunham_June22.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
 orcid: 0000-0003-2525-5598
