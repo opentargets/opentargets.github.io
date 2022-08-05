@@ -2,7 +2,7 @@
 first_name: "Chintan"
 last_name: "Mehta"
 role: "Web developer"
-picture: "generic-user-avatar.png"
+picture: "Chintan_Mehta.jpg"
 organisation_logo: "embl-ebi.png"
 ---
 
