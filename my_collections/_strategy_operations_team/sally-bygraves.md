@@ -1,7 +1,7 @@
 ---
 first_name: Sally  
 last_name: Bygraves
-role: Research Administrator
+role: Research Manager
 picture: sally_bygraves.png
 organisation: Wellcome Sanger Institute
 organisation_logo: wellcome-sanger.png
