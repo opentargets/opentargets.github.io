@@ -1,7 +1,7 @@
 ---
 first_name: Jarrod
 last_name: Baker
-role: Software Developer
+role: Back-end Lead
 picture: jarrod_baker.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
