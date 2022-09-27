@@ -1,7 +1,7 @@
 ---
 first_name: Daniel
 last_name: Suveges
-role: Senior Bioinformatician
+role: Data team Lead
 picture: daniel_suveges.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
