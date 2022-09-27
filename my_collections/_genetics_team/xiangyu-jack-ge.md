@@ -2,7 +2,7 @@
 first_name: Xiangyu (Jack)
 last_name: Ge
 role: Statistical Geneticist
-picture: Xiangyu_Jack_Ge.png
+picture: Xiangyu_Ge.png
 organisation: Wellcome Sanger Institute
 organisation_logo: wellcome-sanger.png
 orcid:
