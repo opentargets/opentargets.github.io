@@ -1,7 +1,7 @@
 ---
 first_name: "Yakov"
 last_name: "Tsepilov"
-role: "Statistical Geneticist"
+role: "Senior Statistical Geneticist"
 picture: "Yakov_Tsepilov.png"
 organisation_logo: "sanger.png"
 ---
