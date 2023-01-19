@@ -1,8 +1,8 @@
 ---
 title: "Bowel cancer mutations that impact immunotherapy identified"
 date: 2023-01-19
-image_filename: ""
-image_alt_text: ""
+image_filename: "bowel-cancer-national-cancer-institute.png"
+image_alt_text: "Human colorectal cancer cells stained purple, blue, and green under a microscope."
 layout: press_release
 ---
 <strong>Researchers used CRISPR and mini tumours to discover more about how cancer develops and responds to the body’s immune response.</strong>
@@ -40,3 +40,6 @@ M. Coelho, S. Cooper, M. Strauss, et al. (2023) Base editing screens map mutatio
 
 <b>Funding:</b>
 This research was funded by Open Targets and Wellcome. A full acknowledgements list can be found on the publication. 
+
+[This press release was originally published on the Wellcome Sanger Institute website]([url](https://www.sanger.ac.uk/news_item/bowel-cancer-mutations-that-impact-immunotherapy-identified/)).
+Cover image by the National Cancer Institute on Unsplash.
