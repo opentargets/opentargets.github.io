@@ -1,7 +1,7 @@
 ---
-first_name: Carlos
-last_name: Cruz
-role: Web Developer
+first_name: "Carlos"
+last_name: "Cruz"
+role: "Senior Web Developer and Front End Lead"
 picture: carlos_cruz.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
