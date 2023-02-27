@@ -1,7 +1,7 @@
 ---
 title: "Postdoctoral Fellow - Developing Immune Cell Screening"
 organisation_logo: "wellcome-sanger.png"
-closing_date: 2023-03-19
+closing_date: 2023-04-24
 link: "https://sanger.wd3.myworkdayjobs.com/en-US/WellcomeSangerInstitute/job/Postdoctoral-Fellow--Developing-Immune-Cell-Screening_JR100588"
 ---
 We have an exciting opportunity for a Postdoctoral Fellow to join Vento-Tormo Lab in our Cellular Genetics Programme for a 3 year contract.
