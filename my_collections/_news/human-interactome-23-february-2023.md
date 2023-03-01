@@ -34,4 +34,6 @@ Funding
 This project was conceived and funded by Open Targets. 
 IB is supported by Open Targets; JS, QZ, and CAA are supported by Wellcome Trust Grant 206194.
 
+Image credit: Karen Arnott (EMBL-EBI)
+
 <a href="https://www.ebi.ac.uk/about/news/research-highlights/a-human-interactome-to-prioritise-drug-discovery/" target="_blank">This press release was originally published on the EMBL-EBI website.</a>
