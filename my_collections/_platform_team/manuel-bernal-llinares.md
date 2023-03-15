@@ -1,7 +1,7 @@
 ---
 first_name: Manuel
 last_name: Bernal Llinares
-role: Back End Lead
+role: Software Developer
 picture: manuel_bernal_llinares.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
