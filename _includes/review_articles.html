@@ -49,7 +49,7 @@
           {% endfor %}
         {% endif %}
       </div> -->
-      <!-- <div class="tab-pane fade" id="nav-2023-review-article" role="tabpanel" aria-labelledby="nav-2023-review-article-tab">
+      <div class="tab-pane fade show active" id="nav-2023-review-article" role="tabpanel" aria-labelledby="nav-2023-review-article-tab">
         {% assign all_2023_review_articles = site.data.review-articles | where: "publication_year", "2023"  %}
         {% if all_2023_review_articles.size == 0 %}
         <p>
@@ -60,8 +60,8 @@
             {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
-      </div> -->
-      <div class="tab-pane fade show active" id="nav-2022-review-article" role="tabpanel" aria-labelledby="nav-2022-review-article-tab">
+      </div>
+      <div class="tab-pane fade" id="nav-2022-review-article" role="tabpanel" aria-labelledby="nav-2022-review-article-tab">
         {% assign all_2022_review_articles = site.data.review-articles | where: "publication_year", "2022"  %}
         {% if all_2022_review_articles.size == 0 %}
         <p>
