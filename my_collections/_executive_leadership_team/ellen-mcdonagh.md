@@ -1,15 +1,16 @@
 ---
 first_name: Ellen
 last_name: McDonagh
-role: Informatics Science Director
+role: Translational Informatics Director
 picture: Ellie_McDonagh_June22.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
-orcid: 
+orcid: 0000-0001-5806-6174
 order: 3
 ---
 
-Ellen (Ellie) McDonagh joined the Open Targets as the Informatics Science Director in April 2020. 
+Ellen (Ellie) McDonagh joined the Open Targets as the Informatics Science Director in April 2020. As Translational Informatics Director, Ellie leads integrated informatics and data science strategies across projects, platforms, and core teams.
+ 
 
 Prior to joining the Open Targets team, she was the Head of Curation and Pharmacogenomics at Genomics England. She helped pioneer a crowdsourcing platform (PanelApp) for the expert review and curation of gene panels, which are used in genome interpretation for rare disease and cancer patients and the NHSE Genomic Medicine Service.
 
