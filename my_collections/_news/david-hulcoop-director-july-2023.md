@@ -3,7 +3,7 @@ title: "David Hulcoop appointed Open Targets Director"
 date: 2023-07-05
 image_filename: "HULCOOP_David_new_director_2023.png"
 image_alt_text: "A man in a blue shirt is standing on the balcony of an office building made of metal and glass. He is posing and smiling at the camera, left hand in his pocket and right hand resting on the balcony railing. Surrounding trees can be seen in the background and reflected in the building."
-link: ""
+layout: press_release
 ---
 <i>July 5, Cambridge</i> — Open Targets has appointed David Hulcoop as its new Executive Director, following the retirement of Ian Dunham. Hulcoop will build from the programme’s existing capabilities to maximise Open Targets impact on drug discovery decision making.
 
