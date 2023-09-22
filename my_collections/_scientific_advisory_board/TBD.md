@@ -1,5 +1,5 @@
 ---
-first_name: TDB
+first_name:
 last_name:
 role:
 organisation:
