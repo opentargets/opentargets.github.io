@@ -1,7 +1,6 @@
 ---
-first_name: Anshul 
-last_name: Kundaje
-role: Assistant Professor of Genetics and of Computer Science
+first_name: Barbara 
+last_name: Engelhardt
+role: Prof of Biomedical Data Science
 organisation: Stanford University
-link: https://profiles.stanford.edu/anshul-kundaje
 ---
