@@ -1,7 +1,7 @@
 ---
 first_name: "Yakov"
 last_name: "Tsepilov"
-role: "Genetic Analysis Team Leader"
+role: "Genetic Analysis Team Lead"
 picture: "Yakov_Tsepilov.png"
 organisation_logo: "sanger.png"
 ---
