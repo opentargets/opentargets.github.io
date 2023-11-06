@@ -2,7 +2,7 @@
 first_name: Gosia
 last_name: Trynka
 role: Scientific Director
-picture: Gosia_Trynka_June22.png
+picture: Gosia-Trynka-Jun23.png
 organisation: Wellcome Sanger Institute
 organisation_logo: wellcome-sanger.png
 orcid: 0000-0002-6955-9529
