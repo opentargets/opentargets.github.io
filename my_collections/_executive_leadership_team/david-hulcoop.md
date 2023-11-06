@@ -2,7 +2,7 @@
 first_name: David
 last_name: Hulcoop
 role: Executive Director
-picture: David_Hulcoop_June22.png
+picture: David_Hulcoop_Jun23.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
 orcid: 0000-0003-1323-1759
