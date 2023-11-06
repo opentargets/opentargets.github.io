@@ -1,10 +1,10 @@
 ---
 first_name: David
 last_name: Hulcoop
-role: Acting Director
+role: Executive Director
 picture: David_Hulcoop_June22.png
-organisation: GSK
-organisation_logo: gsk.png
+organisation: EMBL-EBI
+organisation_logo: embl-ebi.png
 orcid: 0000-0003-1323-1759
 order: 1
 ---
