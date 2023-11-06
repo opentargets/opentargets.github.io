@@ -2,7 +2,7 @@
 first_name: Ellen
 last_name: McDonagh
 role: Translational Informatics Director
-picture: Ellie_McDonagh_Jun23.png
+picture: Ellie-McDonagh-Jun23.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
 orcid: 0000-0001-5806-6174
