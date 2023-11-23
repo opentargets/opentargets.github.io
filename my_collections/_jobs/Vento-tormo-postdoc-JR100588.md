@@ -1,6 +1,6 @@
 ---
 title: "Postdoctoral Fellow - Engineer human macrophages & Dendritic Cells to unlock their Gene Regulatory Networks"
-organisation_logo: "sanger.png"
+organisation_logo: "wellcome-sanger.png"
 closing_date: yyyy-mm-dd
 link: "https://sanger.wd3.myworkdayjobs.com/en-US/WellcomeSangerInstitute/job/Postdoctoral-Fellow--Developing-Immune-Cell-Screening_JR100588"
 ---
