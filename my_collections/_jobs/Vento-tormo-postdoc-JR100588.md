@@ -1,7 +1,6 @@
 ---
 title: "Postdoctoral Fellow - Engineer human macrophages & Dendritic Cells to unlock their Gene Regulatory Networks"
 organisation_logo: "wellcome-sanger.png"
-closing_date: yyyy-mm-dd
 link: "https://sanger.wd3.myworkdayjobs.com/en-US/WellcomeSangerInstitute/job/Postdoctoral-Fellow--Developing-Immune-Cell-Screening_JR100588"
 ---
 We have an exciting opportunity for a Postdoctoral Fellow to join Vento-Tormo Lab in our Cellular Genetics Programme for a 3 year contract to focus on  engineering human macrophages and dendritic cells to unlock their gene regulatory networks.
