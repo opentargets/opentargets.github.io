@@ -1,7 +1,7 @@
 ---
 title: "Senior Computational Biologist"
 organisation_logo: "wellcome-sanger.png"
-link: "https://sanger.wd3.myworkdayjobs.com/en-US/WellcomeSangerInstitute/job/Postdoctoral-Fellow--Developing-Immune-Cell-Screening_JR100588"
+link: "https://sanger.wd3.myworkdayjobs.com/en-US/WellcomeSangerInstitute/job/Computational-Biologist_JR101452"
 ---
 This role provides a very exciting opportunity for a Senior Computational Biologist to join the Open Targets Core Team on a fixed term contract for three years, to develop and maintain the Open Target Genetics (OTG) (https://genetics.opentargets.org/) pipelines, following best practice standards and generate code that is ready for production.
 
