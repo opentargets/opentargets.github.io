@@ -7,10 +7,10 @@
   <div class="col-lg-12">
     <nav>
       <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-        <!-- <a class="nav-item nav-link font-weight-bold" id="nav-2025-research-pub-tab" data-toggle="tab" href="#nav-2025-research-pub" role="tab" aria-controls="nav-2025-research-pub" aria-selected="false">2025</a> -->
-        <!-- <a class="nav-item nav-link font-weight-bold" id="nav-2024-research-pub-tab" data-toggle="tab" href="#nav-2024-research-pub" role="tab" aria-controls="nav-2024-research-pub" aria-selected="false">2024</a> -->
-        <a class="nav-item nav-link font-weight-bold active" id="nav-2023-research-pub-tab" data-toggle="tab" href="#nav-2023-research-pub" role="tab" aria-controls="nav-2023-research-pub" aria-selected="true">2023</a>
-        <a class="nav-item nav-link font-weight-bold" id="nav-2022-research-pub-tab" data-toggle="tab" href="#nav-2022-research-pub" role="tab" aria-controls="nav-2022-research-pub" aria-selected="false">2022</a>
+        <!-- <a class="nav-item nav-link font-weight-bold" id="nav-2025-associated-pub-tab" data-toggle="tab" href="#nav-2025-associated-pub" role="tab" aria-controls="nav-2025-associated-pub" aria-selected="false">2025</a> -->
+        <!-- <a class="nav-item nav-link font-weight-bold" id="nav-2024-associated-pub-tab" data-toggle="tab" href="#nav-2024-associated-pub" role="tab" aria-controls="nav-2024-associated-pub" aria-selected="false">2024</a> -->
+        <a class="nav-item nav-link font-weight-bold active" id="nav-2023-associated-pub-tab" data-toggle="tab" href="#nav-2023-associated-pub" role="tab" aria-controls="nav-2023-associated-pub" aria-selected="true">2023</a>
+        <a class="nav-item nav-link font-weight-bold" id="nav-2022-associated-pub-tab" data-toggle="tab" href="#nav-2022-associated-pub" role="tab" aria-controls="nav-2022-associated-pub" aria-selected="false">2022</a>
       </div>
     </nav>
   </div>
@@ -18,50 +18,50 @@
 <div class="row mb-5">
   <div class="col-lg-12">
     <div class="tab-content py-4 px-3 px-sm-0" id="nav-tabContent">
-      <!-- <div class="tab-pane fade" id="nav-2025-research-pub" role="tabpanel" aria-labelledby="nav-2025-research-pub-tab">
-        {% assign all_2025_publications = site.data.associated-publications | where: "publication_year", "2025" %}
-        {% if all_2025_publications.size == 0 %}
+      <!-- <div class="tab-pane fade" id="nav-2025-associated-pub" role="tabpanel" aria-labelledby="nav-2025-associated-pub-tab">
+        {% assign all_2025_associated = site.data.associated-publications | where: "publication_year", "2025" %}
+        {% if all_2025_associated.size == 0 %}
           <p>
-            There are no research publications available for this year.
+            There are no associated publications available for this year.
           </p>
         {% else %}
-          {% for publication in all_2025_publications %}
+          {% for publication in all_2025_associated %}
             {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
       </div> -->
-      <!-- <div class="tab-pane fade" id="nav-2024-research-pub" role="tabpanel" aria-labelledby="nav-2024-research-pub-tab">
-        {% assign all_2024_publications = site.data.associated-publications | where: "publication_year", "2024" %}
-        {% if all_2024_publications.size == 0 %}
+      <!-- <div class="tab-pane fade" id="nav-2024-associated-pub" role="tabpanel" aria-labelledby="nav-2024-associated-pub-tab">
+        {% assign all_2024_associated = site.data.associated-publications | where: "publication_year", "2024" %}
+        {% if all_2024_associated.size == 0 %}
           <p>
-            There are no research publications available for this year.
+            There are no associated publications available for this year.
           </p>
         {% else %}
-          {% for publication in all_2024_publications %}
+          {% for publication in all_2024_associated %}
             {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
       </div> -->
-      <div class="tab-pane fade show active" id="nav-2023-research-pub" role="tabpanel" aria-labelledby="nav-2023-research-pub-tab">
-        {% assign all_2023_publications = site.data.associated-publications | where: "publication_year", "2023" %}
-        {% if all_2023_publications.size == 0 %}
+      <div class="tab-pane fade show active" id="nav-2023-associated-pub" role="tabpanel" aria-labelledby="nav-2023-associated-pub-tab">
+        {% assign all_2023_associated = site.data.associated-publications | where: "publication_year", "2023" %}
+        {% if all_2023_associated.size == 0 %}
           <p>
-            There are no research publications available for this year.
+            There are no associated publications available for this year.
           </p>
         {% else %}
-          {% for publication in all_2023_publications %}
+          {% for publication in all_2023_associated %}
             {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
       </div>
-      <div class="tab-pane fade" id="nav-2022-research-pub" role="tabpanel" aria-labelledby="nav-2022-research-pub-tab">
-        {% assign all_2022_publications = site.data.associated-publications | where: "publication_year", "2022" %}
-        {% if all_2022_publications.size == 0 %}
+      <div class="tab-pane fade" id="nav-2022-associated-pub" role="tabpanel" aria-labelledby="nav-2022-associated-pub-tab">
+        {% assign all_2022_associated = site.data.associated-publications | where: "publication_year", "2022" %}
+        {% if all_2022_associated.size == 0 %}
           <p>
-            There are no research publications available for this year.
+            There are no associated publications available for this year.
           </p>
         {% else %}
-          {% for publication in all_2022_publications %}
+          {% for publication in all_2022_associated %}
             {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
