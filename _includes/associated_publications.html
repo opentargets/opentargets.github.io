@@ -19,49 +19,49 @@
   <div class="col-lg-12">
     <div class="tab-content py-4 px-3 px-sm-0" id="nav-tabContent">
       <!-- <div class="tab-pane fade" id="nav-2025-associated-pub" role="tabpanel" aria-labelledby="nav-2025-associated-pub-tab">
-        {% assign all_2025_associated = site.data.associated-publications | where: "publication_year", "2025" %}
-        {% if all_2025_associated.size == 0 %}
+        {% assign all_2025_associated_publications = site.data.associated-publications | where: "publication_year", "2025" %}
+        {% if all_2025_associated_publications.size == 0 %}
           <p>
             There are no associated publications available for this year.
           </p>
         {% else %}
-          {% for publication in all_2025_associated %}
+          {% for publication in all_2025_associated_publications %}
             {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
       </div> -->
       <!-- <div class="tab-pane fade" id="nav-2024-associated-pub" role="tabpanel" aria-labelledby="nav-2024-associated-pub-tab">
-        {% assign all_2024_associated = site.data.associated-publications | where: "publication_year", "2024" %}
-        {% if all_2024_associated.size == 0 %}
+        {% assign all_2024_associated_publications = site.data.associated-publications | where: "publication_year", "2024" %}
+        {% if all_2024_associated_publications.size == 0 %}
           <p>
             There are no associated publications available for this year.
           </p>
         {% else %}
-          {% for publication in all_2024_associated %}
+          {% for publication in all_2024_associated_publications %}
             {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
       </div> -->
       <div class="tab-pane fade show active" id="nav-2023-associated-pub" role="tabpanel" aria-labelledby="nav-2023-associated-pub-tab">
-        {% assign all_2023_associated = site.data.associated-publications | where: "publication_year", "2023" %}
-        {% if all_2023_associated.size == 0 %}
+        {% assign all_2023_associated_publications = site.data.associated-publications | where: "publication_year", "2023" %}
+        {% if all_2023_associated_publications.size == 0 %}
           <p>
             There are no associated publications available for this year.
           </p>
         {% else %}
-          {% for publication in all_2023_associated %}
+          {% for publication in all_2023_associated_publications %}
             {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
       </div>
       <div class="tab-pane fade" id="nav-2022-associated-pub" role="tabpanel" aria-labelledby="nav-2022-associated-pub-tab">
-        {% assign all_2022_associated = site.data.associated-publications | where: "publication_year", "2022" %}
-        {% if all_2022_associated.size == 0 %}
+        {% assign all_2022_associated_publications = site.data.associated-publications | where: "publication_year", "2022" %}
+        {% if all_2022_associated_publications.size == 0 %}
           <p>
             There are no associated publications available for this year.
           </p>
         {% else %}
-          {% for publication in all_2022_associated %}
+          {% for publication in all_2022_associated_publications %}
             {% include publication_article_citation.html %}
           {% endfor %}
         {% endif %}
