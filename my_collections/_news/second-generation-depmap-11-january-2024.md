@@ -1,8 +1,8 @@
 ---
 title: "Cancer drug discovery accelerated as hundreds of overlooked targets prioritised"
 date: 2024-01-11
-image_filename: ""
-image_alt_text: ""
+image_filename: "nci-second-depmap.png"
+image_alt_text: "Laboratory Researcher setting up genetic samples and primers for polymerase chain reaction."
 layout: press_release
 ---
 <i>The second generation of the Cancer Dependency Map uncovers 370 priority drug targets, with strong links to specific cancer types.</i>
@@ -48,3 +48,6 @@ C. Pacini et al. (2023) ‘A comprehensive clinically informed map of dependenci
 
 <b>Funding</b> 
 This research was supported by Wellcome and Open Targets. For full funding acknowledgements, please refer to the publication.
+
+<b>Cover image</b>
+Photo by <a href="https://unsplash.com/@nci?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">National Cancer Institute</a> on <a href="https://unsplash.com/photos/person-holding-black-round-plate-E9Ucfek-Lp0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
