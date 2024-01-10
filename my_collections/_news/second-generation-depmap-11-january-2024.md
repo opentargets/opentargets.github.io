@@ -43,8 +43,10 @@ Dr Marianne Baker, science engagement manager at Cancer Research UK, said: “Tw
 4. CRISPR-CAS9 is a tool used to precisely edit DNA.
 These data can be accessed on the Sanger Institute’s Cancer Dependency Map website: https://depmap.sanger.ac.uk/ 
 
+<br>
+
 <b>Publication</b>
-C. Pacini et al. (2023) ‘A comprehensive clinically informed map of dependencies in cancer cells and framework for target prioritization’ Cancer Cell. DOI: 10.1016/j.ccell.2023.12.016
+<a href="https://doi.org/10.1016/j.ccell.2023.12.016">C. Pacini et al. (2023) ‘A comprehensive clinically informed map of dependencies in cancer cells and framework for target prioritization’ Cancer Cell. DOI: 10.1016/j.ccell.2023.12.016</a>
 
 <b>Funding</b> 
 This research was supported by Wellcome and Open Targets. For full funding acknowledgements, please refer to the publication.
