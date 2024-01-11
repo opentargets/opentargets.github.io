@@ -1,7 +1,7 @@
 ---
 title: "Cancer drug discovery accelerated as hundreds of overlooked targets prioritised"
 date: 2024-01-11
-image_filename: "second-depmap-cover-nci.png"
+image_filename: second-depmap-cover-nci.png
 image_alt_text: "Laboratory Researcher setting up genetic samples and primers for polymerase chain reaction."
 layout: press_release
 ---
