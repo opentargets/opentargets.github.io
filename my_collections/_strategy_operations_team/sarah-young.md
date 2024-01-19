@@ -1,6 +1,6 @@
 ---
 first_name: Sarah
-last_name: Young
+last_name: Young Hendrickson
 role: Data Manager
 picture: sarah_young.png
 organisation: Wellcome Sanger Institute
