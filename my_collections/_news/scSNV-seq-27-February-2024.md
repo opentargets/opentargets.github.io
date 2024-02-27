@@ -5,7 +5,7 @@ image_filename: "scSNV-seq-Feb24-Greg-Moss.png"
 image_alt_text: "A row of sequencing machines"
 layout: press_release
 ---
-Mechanisms driving diseases such as cancer, autoimmunity, Alzheimer's and Parkinson's could be uncovered using a new integrated single-cell approach to cellular genetic screening.
+<strong>Mechanisms driving diseases such as cancer, autoimmunity, Alzheimer's and Parkinson's could be uncovered using a new integrated single-cell approach to cellular genetic screening.</strong>
 
 Scientists have developed a new screening tool to uncover how genetic changes affect gene activity and can lead to diseases such as cancer, autoimmunity, neurodegeneration and cardiovascular disease. This new tool enables the investigation of thousands of DNA mutations identified by genetic studies in one experiment, guiding the development of advanced diagnostics and treatments.
 
@@ -38,4 +38,6 @@ S.E. Cooper et al. (2024) ‘scSNV-seq: high-throughput phenotyping of single nu
 <h3>Funding:</h3>
 This research was supported by Wellcome and Open Targets. For full funding acknowledgements, please refer to the publication.
 
-<a href="https://www.sanger.ac.uk/news_item/new-screening-tool-to-explore-mechanisms-behind-cancer-autoimmunity-and-neurodegeneration/" target="_blank">This article originally appeared on the Wellcome Sanger Institute website</a>.
+<br>
+
+<a href="https://www.sanger.ac.uk/news_item/new-screening-tool-to-explore-mechanisms-behind-cancer-autoimmunity-and-neurodegeneration/" target="_blank">This article originally appeared on the Wellcome Sanger Institute website</a>. Image credit: Greg Moss/Wellcome Sanger Institute
