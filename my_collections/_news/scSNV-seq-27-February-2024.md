@@ -23,17 +23,22 @@ Researchers from the Wellcome Sanger Institute and their collaborators set out t
 
 They demonstrated scSNV-seq could accurately categorise different types of genetic changes into three categories: benign, causing loss of function, and altering function. They showed certain mutations caused an intermediate phenotype cycling between different states – an observation not possible under existing approaches.
 
-“In an era where the rate of genetic variant discovery outpaces our ability to interpret their effects, scSNV-seq fills a major gap for studying challenging cells like T cells and neurons. We are already using it to shed light on the impact of Alzheimer’s and Parkinson’s risk variants on brain cells.”
-Dr Sarah Cooper, first author of the study at the Wellcome Sanger Institute: 
+“In an era where the rate of genetic variant discovery outpaces our ability to interpret their effects, scSNV-seq fills a major gap for studying challenging cells like T cells and neurons. We are already using it to shed light on the impact of Alzheimer’s and Parkinson’s risk variants on brain cells.” — Dr Sarah Cooper, first author of the study at the Wellcome Sanger Institute
 
-“Our technique is able to directly connect effects of mutations to how a cell behaves, revealing downstream impacts that previous technologies alone cannot deliver. The technique speeds up the identification of causal genetic mutations, which will allow better diagnosis and deepens our molecular understanding of diseases, paving the way for more targeted and effective treatments.”
-Dr Andrew Bassett, senior author of the study at the Wellcome Sanger Institute
+“Our technique is able to directly connect effects of mutations to how a cell behaves, revealing downstream impacts that previous technologies alone cannot deliver. The technique speeds up the identification of causal genetic mutations, which will allow better diagnosis and deepens our molecular understanding of diseases, paving the way for more targeted and effective treatments.” — Dr Andrew Bassett, senior author of the study at the Wellcome Sanger Institute and Open Targets
+
+<br>
+<br>
 
 <h2>More information</h2>
 1. scSNV-seq directly links genotype to whole-transcriptome readout, enabling accurate categorisation of whether variants are disease-causing or not, rather than predicting effects based on the guide RNAs used to edit the DNA, as relied on in other screening approaches.
 
+<br>
+
 <h3>Publication:</h3>
 S.E. Cooper et al. (2024) ‘scSNV-seq: high-throughput phenotyping of single nucleotide variants by coupled single-cell genotyping and transcriptomics.’ Genome Biology. DOI: 10.1186/s13059-024-03169-y.
+
+<br>
 
 <h3>Funding:</h3>
 This research was supported by Wellcome and Open Targets. For full funding acknowledgements, please refer to the publication.
