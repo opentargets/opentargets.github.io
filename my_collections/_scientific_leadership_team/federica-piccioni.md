@@ -5,4 +5,4 @@ role: "MSD Scientific Lead"
 picture: "generic-user-avatar.png"
 organisation_logo: "MSD.png"
 ---
-The biography of the person (optional) goes here
+Federica Piccioni is Senior Director, Dept of Data, AI & Genome Sciences at MSD.
