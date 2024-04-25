@@ -1,7 +1,7 @@
 ---
 title: "Postdoctoral fellow"
 organisation_logo: "embl-ebi.png"
-closing_date: 2024-04-24
+closing_date: 2024-04-30
 link: "https://www.embl.org/jobs/position/EBI02233"
 ---
 The Petsalaki group uses network analysis, data integration and machine learning to study human cell signalling. For this Open Targets project, the group is collaborating with the Garnett group (Sanger institute) to discover combination targets for two types of cancer with unmet need.
