@@ -1,7 +1,7 @@
 ---
 first_name: Sarah
 last_name: Young Hendrickson
-role: Data Manager
+role: Data and Operations Manager
 picture: sarah_young.png
 organisation: Wellcome Sanger Institute
 organisation_logo: wellcome-sanger.png
