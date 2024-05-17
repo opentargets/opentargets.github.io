@@ -40,6 +40,7 @@ Dr Carl Anderson, Open-IBD Scientific Lead from the Wellcome Sanger Institute an
 <br/>
 <ol>
 <li>The full project name is Open-IBD: A longitudinal multi-omics inception cohort in inflammatory bowel disease
+<br/>
 <li>Hospitals involved:
 <ul>
 <li>Newcastle upon Tyne Hospitals
@@ -50,6 +51,7 @@ Dr Carl Anderson, Open-IBD Scientific Lead from the Wellcome Sanger Institute an
 <li>Guy’s and St Thomas’ NHS Foundation Trust
 <li>St George’s University Hospitals
 </ul>
+<br/>
 <li>Single-cell RNA sequencing measures the RNA transcripts of individual cells in a given sample. Metagenomic shotgun sequencing allows researchers to comprehensively sample and sequence all genes in all organisms present in a complex sample. RNA gene sequencing can detect and count the RNA molecules present in a sample, allowing researchers to work out the gene expression in the sample, also known as transcriptome.
 </ol>
 
