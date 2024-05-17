@@ -1,8 +1,8 @@
 ---
 title: "Ambitious inflammatory bowel disease study aims to uncover disease biomarkers for personalised medicine"
 date: 2024-05-17
-image_filename: ""
-image_alt_text: ""
+image_filename: "openibd-press-release.png"
+image_alt_text: "Open-IBD logo"
 layout: press_release
 ---
 <strong>A unique study into IBD will bring together genomics and immunology experts, gastroenterologists, and patients from across the UK to identify new and personalised ways to predict, monitor, and treat Crohn’s disease and ulcerative colitis.</strong>
