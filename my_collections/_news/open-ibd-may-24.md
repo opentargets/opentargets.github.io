@@ -35,7 +35,9 @@ Dr Chris Lamb, Open-IBD Clinical Lead from Newcastle University and Honorary Con
 
 Dr Carl Anderson, Open-IBD Scientific Lead from the Wellcome Sanger Institute and Open Targets, said: “Open-IBD is unique in design, scope and scale, focusing on creating a truly collaborative network to try and translate research data into clinical impact as efficiently and quickly as possible. There is nothing currently like it, and we hope that Open-IBD will unravel the mysteries of this condition and empower partnerships between academia, industry, and the NHS to develop new ways to diagnose, monitor and treat inflammatory bowel disease.”
 
-
+<br/>
+<br/>
+<br/>
 <h2>More information</h2>
 <br/>
 <ol>
@@ -55,5 +57,5 @@ Dr Carl Anderson, Open-IBD Scientific Lead from the Wellcome Sanger Institute an
 <li>Single-cell RNA sequencing measures the RNA transcripts of individual cells in a given sample. Metagenomic shotgun sequencing allows researchers to comprehensively sample and sequence all genes in all organisms present in a complex sample. RNA gene sequencing can detect and count the RNA molecules present in a sample, allowing researchers to work out the gene expression in the sample, also known as transcriptome.
 </ol>
 
-<h2>Funding</h2>
+<strong>Funding</strong>
 Open IBD is funded by Open Targets and the Wellcome Sanger Institute. It is the biggest ever Open Targets funded project with Open Targets providing £7.1M and the Sanger Institute contributing an additional £4M.
