@@ -36,7 +36,7 @@ Dr Chris Lamb, Open-IBD Clinical Lead from Newcastle University and Honorary Con
 Dr Carl Anderson, Open-IBD Scientific Lead from the Wellcome Sanger Institute and Open Targets, said: “Open-IBD is unique in design, scope and scale, focusing on creating a truly collaborative network to try and translate research data into clinical impact as efficiently and quickly as possible. There is nothing currently like it, and we hope that Open-IBD will unravel the mysteries of this condition and empower partnerships between academia, industry, and the NHS to develop new ways to diagnose, monitor and treat inflammatory bowel disease.”
 
 
-<h2>More information</h2>h2
+<h2>More information</h2>
 1. The full project name is Open-IBD: A longitudinal multi-omics inception cohort in inflammatory bowel disease
 
 2. Hospitals involved:
