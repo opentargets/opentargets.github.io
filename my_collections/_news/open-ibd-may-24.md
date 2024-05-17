@@ -5,7 +5,7 @@ image_filename: "openibd-press-release.png"
 image_alt_text: "Open-IBD logo"
 layout: press_release
 ---
-<strong>A unique study into IBD will bring together genomics and immunology experts, gastroenterologists, and patients from across the UK to identify new and personalised ways to predict, monitor, and treat Crohn’s disease and ulcerative colitis.</strong>
+**A unique study into IBD will bring together genomics and immunology experts, gastroenterologists, and patients from across the UK to identify new and personalised ways to predict, monitor, and treat Crohn’s disease and ulcerative colitis.**
 
 A new one-of-a-kind study into inflammatory bowel disease (IBD) is bringing together research institutions, hospitals, pharmaceutical partners, and patients to uncover what drives IBD onset and severity, identifying biomarkers to inform personalised medicine.
 
@@ -33,29 +33,23 @@ Ruth Wakeman, Director of Services, Advocacy and Evidence at Crohn’s & Colitis
 
 Dr Chris Lamb, Open-IBD Clinical Lead from Newcastle University and Honorary Consultant in Gastroenterology at Newcastle Hospitals, said: “Inflammatory bowel disease, known as IBD, can have a profound impact on patients’ lives. For many people, the condition can be severe and unfortunately, treatments are either ineffective, or their effectiveness may lessen over time. We don’t understand why this is the case. Our goal with Open-IBD is to work with patients to uncover biomarkers that can be used to guide personalised treatment, helping to understand why IBD impacts people in different ways, and to provide new and tailored options to those living with this condition. We have launched Open-IBD at a crucial time where the treatment landscape of IBD is changing, and believe that this ambitious project can make a real difference for patients and the future of IBD management.”
 
-Dr Carl Anderson, Open-IBD Scientific Lead from the Wellcome Sanger Institute and Open Targets, said: “Open-IBD is unique in design, scope and scale, focusing on creating a truly collaborative network to try and translate research data into clinical impact as efficiently and quickly as possible. There is nothing currently like it, and we hope that Open-IBD will unravel the mysteries of this condition and empower partnerships between academia, industry, and the NHS to develop new ways to diagnose, monitor and treat inflammatory bowel disease.”
+Dr Carl Anderson, Open-IBD Scientific Lead from the Wellcome Sanger Institute and Open Targets, said: “Open-IBD is unique in design, scope and scale, focusing on creating a truly collaborative network to try and translate research data into clinical impact as efficiently and quickly as possible. There is nothing currently like it, and we hope that Open-IBD will unravel the mysteries of this condition and empower partnerships between academia, industry, and the NHS to develop new ways to diagnose, monitor and treat inflammatory bowel disease.”   
 
-<br/>
-<br/>
-<br/>
-<h2>More information</h2>
-<br/>
-<ol>
-<li>The full project name is Open-IBD: A longitudinal multi-omics inception cohort in inflammatory bowel disease
-<br/>
-<li>Hospitals involved:
-<ul>
-<li>Newcastle upon Tyne Hospitals
-<li>Cambridge University Hospitals NHS Trust
-<li>NHS Lothian
-<li>Royal Devon University Healthcare NHS Foundation Trust
-<li>Barts Health NHS Trust
-<li>Guy’s and St Thomas’ NHS Foundation Trust
-<li>St George’s University Hospitals
-</ul>
-<br/>
-<li>Single-cell RNA sequencing measures the RNA transcripts of individual cells in a given sample. Metagenomic shotgun sequencing allows researchers to comprehensively sample and sequence all genes in all organisms present in a complex sample. RNA gene sequencing can detect and count the RNA molecules present in a sample, allowing researchers to work out the gene expression in the sample, also known as transcriptome.
-</ol>
 
-<strong>Funding</strong>
+## More information   
+
+1. The full project name is Open-IBD: A longitudinal multi-omics inception cohort in inflammatory bowel disease
+2. Hospitals involved:
+- Newcastle upon Tyne Hospitals
+- Cambridge University Hospitals NHS Trust
+- NHS Lothian
+- Royal Devon University Healthcare NHS Foundation Trust
+- Barts Health NHS Trust
+- Guy’s and St Thomas’ NHS Foundation Trust
+- St George’s University Hospitals   
+
+3. Single-cell RNA sequencing measures the RNA transcripts of individual cells in a given sample. Metagenomic shotgun sequencing allows researchers to comprehensively sample and sequence all genes in all organisms present in a complex sample. RNA gene sequencing can detect and count the RNA molecules present in a sample, allowing researchers to work out the gene expression in the sample, also known as transcriptome.
+
+
+**Funding**
 Open IBD is funded by Open Targets and the Wellcome Sanger Institute. It is the biggest ever Open Targets funded project with Open Targets providing £7.1M and the Sanger Institute contributing an additional £4M.
