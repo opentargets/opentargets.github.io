@@ -37,6 +37,7 @@ Dr Carl Anderson, Open-IBD Scientific Lead from the Wellcome Sanger Institute an
 
 
 <h2>More information</h2>
+<br/>
 1. The full project name is Open-IBD: A longitudinal multi-omics inception cohort in inflammatory bowel disease
 
 2. Hospitals involved:
@@ -52,5 +53,5 @@ Dr Carl Anderson, Open-IBD Scientific Lead from the Wellcome Sanger Institute an
 
 3. Single-cell RNA sequencing measures the RNA transcripts of individual cells in a given sample. Metagenomic shotgun sequencing allows researchers to comprehensively sample and sequence all genes in all organisms present in a complex sample. RNA gene sequencing can detect and count the RNA molecules present in a sample, allowing researchers to work out the gene expression in the sample, also known as transcriptome.
 
-Funding:
-*Open IBD is funded by Open Targets and the Wellcome Sanger Institute. It is the biggest ever Open Targets funded project with Open Targets providing £7.1M and the Sanger Institute contributing an additional £4M.
+<h2>Funding</h2>
+Open IBD is funded by Open Targets and the Wellcome Sanger Institute. It is the biggest ever Open Targets funded project with Open Targets providing £7.1M and the Sanger Institute contributing an additional £4M.
