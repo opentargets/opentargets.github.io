@@ -1,4 +1,5 @@
 title,first_author,publication_name,publication_year,doi,pmid,publication_link,open_access,full_text_available,preprint_available,preprint_link
+Acquisition of epithelial plasticity in human chronic liver disease,"Gribben, C. et al.",Nature,2024,10.1038/s41586-024-07465-2,38778114,https://www.nature.com/articles/s41586-024-07465-2,TRUE,TRUE,FALSE,
 ProtVar: mapping and contextualizing human missense variation,"Stephenson, JD. et al",Nucleic Acids Research,2024,10.1093/nar/gkae413,38769064,https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae413/7676839,TRUE,TRUE,,
 An atlas of protein-protein associations of human tissues prioritizes candidate disease genes,"Laman Trip, DS. et al",bioRxiv,2024,10.1101/2024.05.15.594301,,https://www.biorxiv.org/content/10.1101/2024.05.15.594301v1,TRUE,TRUE,,
 CATD: a reproducible pipeline for selecting cell-type deconvolution methods across tissues,"Vathrakokoili Pournara, A et al.",Bioinformatics Advances,2024,10.1093/bioadv/vbae048,38638280,https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae048/7634289,TRUE,TRUE,TRUE,https://www.biorxiv.org/content/10.1101/2023.01.19.523443v1
