@@ -10,15 +10,15 @@ This is a static site about Open Targets and it is built with [Jekyll](https://j
 
 1. Create a branch - see [GitHub's documentation](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) for more information
 
-<img src="https://help.github.com/assets/images/help/branch/branch-selection-dropdown.png" width="240">
+<img src="docs/create-branch.png" width="33%">
 
 2. Edit the files you want to change - see [GitHub's documentation](https://help.github.com/articles/editing-files-in-your-repository/) for more information
 
-<img src="https://help.github.com/assets/images/help/repository/edit-file-edit-button.png" width="240">
+<img src="docs/edit-file.png" width="66%">
 
 3. When all of your changes are ready, create a pull request (PR) - see [GitHub's documentation](https://help.github.com/articles/creating-a-pull-request/#creating-the-pull-request) for more information 
 
-<img src="https://help.github.com/assets/images/help/pull_requests/pull-request-start-review-button.png" width="240">
+<img src="docs/create-pr.png" width="66%">
 
 ## Developing in a local environment
 
@@ -59,4 +59,4 @@ To update the `github-pages` gem, you can use the following command:
 
 `bundle update github-pages`
 
-It is a good idea to periodically update all gems using the `bundle update` command. 
+It is a good idea to periodically update all gems using the `bundle update` command.
