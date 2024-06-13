@@ -1,7 +1,7 @@
 ---
 title: "Postdoc in CRISPR Meta-Analytics and AI for Therapeutic Target Discovery and Priotisation"
 organisation_logo: "human-technopole.png"
-closing_date: 2024-06-14
+closing_date: 2024-06-28
 link: "https://careers.humantechnopole.it/o/postdoc-in-crispr-meta-analytics-and-ai-for-therapeutic-target-discovery-and-priotisation-open-targets-grant"
 ---
 
