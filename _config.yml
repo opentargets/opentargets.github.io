@@ -26,3 +26,6 @@ plugins:
 jekyll_get_json:
   - data: ghost_api_response
     json: 'https://open-targets-blog.ghost.io/ghost/api/v3/content/posts/?key=6f5f3e6aa359bf5ad18bb2855d&include=authors&limit=20&fields=title,slug,meta_description,published_at'
+
+exclude:
+  - docs/
