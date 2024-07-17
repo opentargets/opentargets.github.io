@@ -1,10 +1,8 @@
 ---
-first_name: Vivien
-last_name: Ho
-role: Bioinformatician
-picture: vivien_ho.png
-organisation: EMBL-EBI
-organisation_logo: embl-ebi.png
-orcid: 
+first_name: "Vivien"
+last_name: "Ho"
+role: "Bioinformatician"
+picture: "generic-user-avatar.png"
+organisation_logo: "embl-ebi.png"
 ---
-Vivien is a bioinformatician in the Open Targets data team. She joined the team in July 2024.
+Vivien is a bioinformatician in the Open Targets data team. She joined the team in July 2024. 
