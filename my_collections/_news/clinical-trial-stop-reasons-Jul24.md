@@ -7,6 +7,8 @@ layout: press_release
 ---
 <strong>Using machine learning to analyse the genetic factors behind early clinical trial termination, researchers find a link between genetic evidence and trial outcome.</strong>
 
+<br/>
+
 Failure is the most likely outcome of a clinical trial. Learning from these failures by understanding which factors maximise the chances of a successful trial would help improve the drug discovery process. However, accessing information about failed clinical trials is difficult since the drug discovery literature is biased towards publishing successful results.
 
 A representative source of trial results are stopped trials, meaning clinical trials that were halted before their scheduled endpoint. Stopped trials listed on ClinicalTrials.gov must now provide a freeform text reason for the stoppage. This information is openly available and can be mined to learn which features make trials more likely to fail. This could inform future drug discovery initiatives.
