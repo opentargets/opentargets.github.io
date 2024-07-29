@@ -30,4 +30,6 @@ Almost half of the stopped trials the team looked at were cancer trials, and the
 <br/>
 
 <b>Source article</b>
-Razuvayevskaya et al., <a href="https://www.nature.com/articles/s41588-024-01854-z">Genetic factors associated with reasons for clinical trial stoppage</a> (2024) <i>Nat Genet</i> DOI: 10.1038/s41588-024-01854-z
+<br/>
+Razuvayevskaya et al., <a href="https://www.nature.com/articles/s41588-024-01854-z">Genetic factors associated with reasons for clinical trial stoppage</a> (2024) <i>Nat Genet</i> 
+DOI: 10.1038/s41588-024-01854-z
