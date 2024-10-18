@@ -43,10 +43,10 @@ Dr Mathew Garnett, senior author from the Wellcome Sanger Institute and Open Tar
 
 
 <h3>Notes to Editors:</h3>
-<strong>Publication</strong>: M.A. Coelho, M.E. Strauss, A. Watterson, et al. (2024) Genetic landscape of cancer drug resistance mechanisms from base editing screens. Nature Genetics. DOI: 10.1038/s41588-024-01948-8
+<strong>Publication</strong>: M.A. Coelho, M.E. Strauss, A. Watterson, et al. (2024) <a href="https://www.nature.com/articles/s41588-024-01948-8">Genetic landscape of cancer drug resistance mechanisms from base editing screens</a>. Nature Genetics. DOI: 10.1038/s41588-024-01948-8 (Open Access)
 
 <strong>Funding</strong>: This research was funded by Wellcome. A full acknowledgement list can be found in the publication. 
 
 <strong>Image credit</strong>: M. Coelho, et al. 2023
 
-<a href="">This article was originally published by the Wellcome Sanger Institute.</a>
+<a href="https://www.sanger.ac.uk/news_item/cancer-drug-resistance-causes-and-categories-identified/">This article was originally published by the Wellcome Sanger Institute.</a>
