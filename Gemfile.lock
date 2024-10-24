@@ -42,7 +42,6 @@ GEM
       logger
     faraday-net_http (3.3.0)
       net-http
-    ffi (1.17.0)
     ffi (1.17.0-aarch64-linux-gnu)
     ffi (1.17.0-aarch64-linux-musl)
     ffi (1.17.0-arm-linux-gnu)
@@ -237,7 +236,6 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.6.1)
     mercenary (0.3.6)
-    mini_portile2 (2.8.7)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -245,9 +243,6 @@ GEM
     minitest (5.25.1)
     net-http (0.4.1)
       uri
-    nokogiri (1.16.7)
-      mini_portile2 (~> 2.8.2)
-      racc (~> 1.4)
     nokogiri (1.16.7-aarch64-linux)
       racc (~> 1.4)
     nokogiri (1.16.7-arm-linux)
@@ -296,30 +291,17 @@ GEM
 
 PLATFORMS
   aarch64-linux
-  aarch64-linux-android
   aarch64-linux-gnu
   aarch64-linux-musl
-  aarch64-mingw-ucrt
-  arm-linux-androideabi
+  arm-linux
   arm-linux-gnu
-  arm-linux-gnueabihf
   arm-linux-musl
-  arm-linux-musleabihf
   arm64-darwin
-  riscv64-linux-android
-  riscv64-linux-gnu
-  riscv64-linux-musl
-  ruby
-  x86-cygwin
   x86-linux
-  x86-linux-android
   x86-linux-gnu
   x86-linux-musl
-  x86-mingw-ucrt
-  x86_64-cygwin
   x86_64-darwin
   x86_64-linux
-  x86_64-linux-android
   x86_64-linux-gnu
   x86_64-linux-musl
 
