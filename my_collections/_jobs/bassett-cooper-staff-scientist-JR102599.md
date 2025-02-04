@@ -1,5 +1,5 @@
 ---
-title: "Staff Scientist | High-throughput single-cell CRIPSR screening"
+title: "Staff Scientist | High-throughput single-cell CRISPR screening"
 organisation_logo: "wellcome-sanger.png"
 closing_date: 2025-02-16
 link: "https://sanger.wd103.myworkdayjobs.com/en-US/WellcomeSangerInstitute/job/Hinxton-Cambridgeshire/Staff-Scientist---High-throughput-single-cell-CRIPSR-screening_JR102599"
