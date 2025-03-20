@@ -1,14 +1,14 @@
 <div class="row">
   <div class="col-lg-12">
-    <h3 id="product-team">Product Delivery Team</h3>
+    <h3 id="informatics-team">Informatics Team</h3>
     <p>
-      The Product Delivery Team is responsible for developing and maintaining our informatics resources and managing their delivery strategy. The team is composed of a diverse and experienced group of individuals with specialised skills in data science, bioinformatics, computer science, web development, statistical genetics, and stakeholder engagement.
+      The Informatics Team is responsible for developing and maintaining the Open Targets Platform and managing its delivery strategy. The team is composed of a diverse and experienced group of individuals with specialised skills in data science, bioinformatics, computer science, web development, statistical genetics, and stakeholder engagement.
     </p>
   </div>
 </div>
 <div class="row mb-5">
-  {% assign product_team = site.product_delivery_team | sort: 'last_name' %}
-  {% for person in product_team %}
+  {% assign product_team = site.informatics_team | sort: 'last_name' %}
+  {% for person in informatics_team %}
     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
       <div class="card shadow-lg bg-white rounded align-self-stretch">
         <a data-toggle="modal" href="#modal-{{ person.last_name }}">
