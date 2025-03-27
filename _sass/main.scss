@@ -1,8 +1,8 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url("https://rsms.me/inter/inter.css");
 
 $white: #ffffff;
 $bodyColor: #5a5f5f;
-$bodyFont: "Inter",Helvetica,Arial,sans-serif;
+$bodyFont: "Inter", Helvetica, Arial, sans-serif;
 $ot-corp-blue: #3489ca;
 $ot-corp-grey: #5a5f5f;
 
@@ -13,11 +13,11 @@ body {
 }
 
 .bg-blue {
-  background-color:$ot-corp-blue;
+  background-color: $ot-corp-blue;
 }
 
 .bg-light-grey {
-  background-color: #D1CFCF;	
+  background-color: #d1cfcf;
 }
 
 a {
@@ -25,11 +25,11 @@ a {
 }
 
 a:hover {
-  color: #98C5E3;
+  color: #98c5e3;
 }
 
 .principles-cta-icon {
-  font-size: 125px; 
+  font-size: 125px;
   color: $white;
 }
 
@@ -57,8 +57,8 @@ a:hover {
   max-height: 40px;
 }
 
-.navbar-light .navbar-nav .show>.nav-link {
-  color: $ot-corp-blue
+.navbar-light .navbar-nav .show > .nav-link {
+  color: $ot-corp-blue;
 }
 
 .navbar-light .navbar-nav .nav-link,
@@ -67,7 +67,7 @@ a:hover {
   color: $ot-corp-grey;
 }
 
-.navbar-light .navbar-nav .nav-link:hover,{
+.navbar-light .navbar-nav .nav-link:hover {
   color: $ot-corp-blue;
 }
 
@@ -95,6 +95,11 @@ a:hover {
   overflow-y: scroll;
 }
 
+#bluesky-section {
+  height: 400px;
+  overflow-y: scroll;
+}
+
 img.open-access-icon-lg {
   height: 24px;
 }
@@ -116,5 +121,3 @@ header.page-header {
     min-height: 4.5em;
   }
 }
-
-
