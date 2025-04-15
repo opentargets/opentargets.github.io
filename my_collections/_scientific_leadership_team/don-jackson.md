@@ -1,10 +1,8 @@
 ---
-first_name: "Donald"
-last_name: "Jackson"
+first_name: "Angela"
+last_name: "Hadjipanayis"
 role: "Sanofi Scientific Lead"
-picture: "don-jackson.png"
+picture: "angela-hadjipanayis.png"
 organisation_logo: "sanofi.png"
 ---
-Donald is Head of Precision Oncology Bioinformatics at Sanofi.
-
-He is an experienced bioinformatician with expertise in target discovery, target validation and biomarker discovery for oncology and immuno-oncology. 
+Angela is Head of Disease Profiling Genomics & Flow Cytometry PMCB at Sanofi.
