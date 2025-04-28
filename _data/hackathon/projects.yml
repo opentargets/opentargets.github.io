@@ -1,0 +1,12 @@
+# Project categories data
+- name: Data Integration
+  description: Projects focused on integrating new data sources or improving existing data integration pipelines.
+
+- name: Visualization Tools
+  description: Interactive visualizations, dashboards, or novel ways to explore Open Targets data.
+
+- name: ML Applications
+  description: Machine learning models for target prioritization, prediction tasks, or automated analysis.
+
+- name: Clinical Applications
+  description: Tools connecting target data with clinical outcomes, patient stratification, or precision medicine.
