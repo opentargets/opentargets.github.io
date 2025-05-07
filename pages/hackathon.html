@@ -22,22 +22,23 @@ title: Hackathon
           >
         </h1>
         <p class="lead mb-5">
-          Join us for a collaborative innovation event connecting scientists,
-          developers, and the bioinformatics community to advance drug discovery
-          through data and technology.
+          The Open Targets Platform turns 10 this year! Join us in person or online for a two-day hackathon connecting scientists, developers, and the bioinformatics community to explore data, analyses and tools for target discovery.
+
+          Registrations will open in June.
         </p>
         <div class="d-flex flex-wrap">
+          <!--
           <a href="#registration" class="btn btn-primary mr-3 mb-2"
             >Register Now</a
           >
+           -->
           <a href="#projects" class="btn btn-outline-primary mb-2"
-            >Submit Project</a
-          >
+            >Submit Project</a>
         </div>
       </div>
       <div class="col-lg-5">
         <img
-          src="{{ '/assets/images/placeholder.png' | relative_url }}"
+          src="{{ '/assets/img/Hackathon-logo.png' | relative_url }}"
           alt="Open Targets Hackathon"
           class="img-fluid rounded shadow-lg"
         />
@@ -54,7 +55,7 @@ title: Hackathon
         <h2 class="section-heading">About the Hackathon</h2>
         <p class="lead">
           Celebrating a decade of innovation in target identification and
-          prioritization for drug discovery
+          prioritisation for drug discovery
         </p>
       </div>
     </div>
@@ -62,25 +63,36 @@ title: Hackathon
     <div class="row">
       <div class="col-lg-6 mb-4">
         <p>
-          For the past 10 years, Open Targets has been at the forefront of
-          transforming drug discovery through its pioneering platform that
-          systematically identifies and prioritizes drug targets for disease. As
-          we celebrate this milestone, we're bringing together the brightest
-          minds in bioinformatics, data science, and drug discovery for a
-          collaborative hackathon.
+         The hackathon aims to encourage interdisciplinary solutions for target discovery challenges, accelerate research by leveraging Open Targets Platform data, and foster collaboration between academic, industry, and technology communities. 
         </p>
         <p>
-          This event marks not just a celebration of our journey, but an
-          opportunity to shape the future of target validation and drug
-          discovery with innovative solutions and approaches.
+         The event is open to anyone, but please be aware that any output from the hackathon must be released under a CC-BY license, and available for commercial usage (APACHE2). It is your responsibility to check that you are able to participate under these terms.
         </p>
       </div>
       <div class="col-lg-6 mb-4">
         <img
-          src="{{ '/assets/images/platform-screenshot.png' | relative_url }}"
+          src="{{ '/assets/img/platform-screenshot.png' | relative_url }}"
           alt="Open Targets Platform"
           class="img-fluid rounded shadow"
         />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mb-4">
+        <img
+          src="{{ '/assets/img/Open_Targets_Integration_Day_June_2019-38.png' | relative_url }}"
+          alt="Open Targets Platform"
+          class="img-fluid rounded shadow"
+        />
+      </div>
+      <div class="col-lg-6 mb-4">
+        <h2 class="section-heading">What is the Open Targets Platform?</h2>
+        <p>
+          The Open Targets Platform (https://platform.opentargets.org/) is a comprehensive tool that supports systematic identification and prioritisation of potential therapeutic drug targets. 
+        </p>
+        <p>
+          The Platform integrates publicly available datasets to build and score target-disease associations, assisting in drug target identification and prioritisation. Through our statistical genetics pipeline, we provide the largest and most comprehensive systematic analysis of common variation in humans.
+        </p>
       </div>
     </div>
 
@@ -249,11 +261,12 @@ title: Hackathon
           </li>
           {% endfor %}
         </ul>
-        <a href="#" class="btn btn-primary mt-3">Submit Your Project</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7YRGyx_y3kZNSuRKhZZKZdufgfe0xSLG8oPiXJSb0lRSU8Q/viewform?usp=header" class="btn btn-primary mt-3">Submit Your Project</a>
+        <!-- <a href="#" class="btn btn-primary mt-3">Explore possible projects</a> -->
       </div>
 
       <div class="col-lg-6">
-        <h4>Project Categories</h4>
+        <h4>Example Project Categories</h4>
         <div class="row">
           {% for project in site.data.hackathon.projects %} {% if project.name
           %}
@@ -278,7 +291,7 @@ title: Hackathon
     <div class="row justify-content-center mb-5">
       <div class="col-lg-8 text-center">
         <h2 class="section-heading">Registration</h2>
-        <p class="lead">Secure your spot at the 10th anniversary hackathon</p>
+        <p class="lead">Registrations will open on 30 June</p>
       </div>
     </div>
 
@@ -332,7 +345,7 @@ title: Hackathon
                         class="fas fa-check-circle mr-2"
                         style="color: var(--primary)"
                       ></i>
-                      Direct networking with Open Targets team and industry
+                      Direct mentoring by the Open Targets team and industry
                       experts
                     </li>
                     <li class="mb-3">
@@ -340,28 +353,21 @@ title: Hackathon
                         class="fas fa-check-circle mr-2"
                         style="color: var(--primary)"
                       ></i>
-                      Hands-on workshops and mentoring sessions
+                      Beginners welcome: develop your skills with hands-on learning
                     </li>
                     <li class="mb-3">
                       <i
                         class="fas fa-check-circle mr-2"
                         style="color: var(--primary)"
                       ></i>
-                      Catered meals and refreshments throughout the event
+                      Network and collaborate with other participants
                     </li>
                     <li class="mb-3">
                       <i
                         class="fas fa-check-circle mr-2"
                         style="color: var(--primary)"
                       ></i>
-                      Tour of the Wellcome Genome Campus facilities
-                    </li>
-                    <li class="mb-3">
-                      <i
-                        class="fas fa-check-circle mr-2"
-                        style="color: var(--primary)"
-                      ></i>
-                      Anniversary celebration dinner
+                      Catered meals and snacks throughout the day
                     </li>
                     <li class="mb-3">
                       <i
@@ -381,23 +387,14 @@ title: Hackathon
                   <p><strong>Deadline:</strong> October 12, 2025</p>
                   <p>
                     <strong>Fee:</strong> Free (sponsored by Open Targets
-                    consortium)
+                    consortium).
                   </p>
-                  <p><strong>Capacity:</strong> Limited to 100 participants</p>
+                  <p><strong>Capacity:</strong> Limited to 40 participants</p>
                   <p>
-                    <strong>Selection Criteria:</strong> If applications exceed
-                    capacity, participants will be selected based on diversity
-                    of expertise, institutional representation, and project
-                    proposals.
+                    <strong>Travel and accommodation:</strong> Prticipants are responsible for organising and funding their travel and accommodation expenses.
                   </p>
-                  <p>
-                    <strong>Accommodation:</strong> Limited on-campus
-                    accommodation is available at a subsidized rate. Details
-                    provided upon registration.
-                  </p>
-                  <a href="#" class="btn btn-primary mt-3 d-block"
-                    >Register for In-Person</a
-                  >
+                  <!-- <a href="#" class="btn btn-primary mt-3 d-block"
+                    >Register for In-Person</a>-->
                 </div>
               </div>
             </div>
@@ -421,7 +418,7 @@ title: Hackathon
                         class="fas fa-check-circle mr-2"
                         style="color: var(--primary)"
                       ></i>
-                      Access to all livestreamed sessions and workshops
+                      Access to all livestreamed sessions
                     </li>
                     <li class="mb-3">
                       <i
@@ -437,27 +434,6 @@ title: Hackathon
                       ></i>
                       Online Q&A with experts and mentors
                     </li>
-                    <li class="mb-3">
-                      <i
-                        class="fas fa-check-circle mr-2"
-                        style="color: var(--primary)"
-                      ></i>
-                      Digital hackathon materials and resources
-                    </li>
-                    <li class="mb-3">
-                      <i
-                        class="fas fa-check-circle mr-2"
-                        style="color: var(--primary)"
-                      ></i>
-                      Networking opportunities through virtual breakout rooms
-                    </li>
-                    <li class="mb-3">
-                      <i
-                        class="fas fa-check-circle mr-2"
-                        style="color: var(--primary)"
-                      ></i>
-                      Equal consideration for prizes and recognition
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -471,7 +447,6 @@ title: Hackathon
                     <strong>Fee:</strong> Free (sponsored by Open Targets
                     consortium)
                   </p>
-                  <p><strong>Capacity:</strong> Unlimited</p>
                   <p>
                     <strong>Requirements:</strong> Reliable internet connection,
                     webcam, and microphone for full participation in
@@ -482,9 +457,8 @@ title: Hackathon
                     to accommodate multiple time zones when possible. All
                     sessions will be recorded for asynchronous viewing.
                   </p>
-                  <a href="#" class="btn btn-primary mt-3 d-block"
-                    >Register for Virtual</a
-                  >
+                  <!-- <a href="#" class="btn btn-primary mt-3 d-block"
+                    >Register for Virtual</a> -->
                 </div>
               </div>
             </div>
@@ -496,6 +470,7 @@ title: Hackathon
 </section>
 
 <!-- Schedule Section -->
+ <!-- 
 <section id="schedule" class="bg-light">
   <div class="container">
     <div class="row justify-content-center mb-5">
@@ -535,10 +510,12 @@ title: Hackathon
             </a>
           </li>
         </ul>
+        -->
 
-        <div class="tab-content" id="scheduleTabContent">
+
+        <!-- <div class="tab-content" id="scheduleTabContent"> -->
           <!-- Day 1 -->
-          <div
+          <!-- <div
             class="tab-pane fade show active"
             id="day1"
             role="tabpanel"
@@ -565,10 +542,10 @@ title: Hackathon
                 </tbody>
               </table>
             </div>
-          </div>
+          </div> -->
 
           <!-- Day 2 -->
-          <div
+          <!-- <div
             class="tab-pane fade"
             id="day2"
             role="tabpanel"
@@ -631,10 +608,11 @@ title: Hackathon
       </div>
     </div>
   </div>
-</section>
+</section> -->
+
 
 <!-- Licensing Section -->
-<section id="licensing">
+<!-- <section id="licensing">
   <div class="container">
     <div class="row justify-content-center mb-5">
       <div class="col-lg-8 text-center">
@@ -709,7 +687,7 @@ title: Hackathon
             <p>
               Open Targets is committed to open science and believes that the
               most challenging problems in drug discovery require collaborative
-              approaches that transcend organizational boundaries.
+              approaches that transcend organisational boundaries.
             </p>
             <p>
               By releasing hackathon projects under open-source licenses, we:
@@ -728,12 +706,12 @@ title: Hackathon
               </div>
               <div class="col-md-6">
                 <ul>
-                  <li>Democratize access to cutting-edge tools and methods</li>
+                  <li>Democratise access to cutting-edge tools and methods</li>
                   <li>
                     Create opportunities for continued collaboration after the
                     hackathon
                   </li>
-                  <li>Advance the field of target validation collectively</li>
+                  <li>Advance the field of target discovery collectively</li>
                 </ul>
               </div>
             </div>
@@ -747,7 +725,7 @@ title: Hackathon
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- FAQ Section -->
 <section id="faq" class="bg-light">
@@ -832,9 +810,23 @@ title: Hackathon
                 Email
               </h5>
               <p class="mb-0">
-                <a href="mailto:hackathon@opentargets.org"
-                  >hackathon@opentargets.org</a
+                <a href="mailto:outreach@opentargets.org"
+                  >outreach@opentargets.org</a
                 >
+              </p>
+            </div>
+
+            <div class="mb-4">
+              <h5>
+                <i
+                  class="fa-solid fa-comments"
+                  style="color: var(--primary)"
+                ></i>
+                Discussion Forum
+              </h5>
+              <p class="mb-0"> 
+                <a href="https://community.opentargets.org"
+                  >Open Targets Community</a> <!-- Add hackathon-specific link -->
               </p>
             </div>
 
@@ -865,29 +857,23 @@ title: Hackathon
               <p class="mb-2">Follow us for updates about the hackathon:</p>
               <div class="social-icons">
                 <a
-                  href="https://twitter.com/opentargets"
-                  target="_blank"
-                  title="Twitter"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a
                   href="https://github.com/opentargets"
                   target="_blank"
                   title="GitHub"
-                  ><i class="fab fa-github"></i
+                  ><i class="fab fa-github" style="color: #1a4565;"></i
                 ></a>
                 <a
                   href="https://www.linkedin.com/company/open-targets"
                   target="_blank"
                   title="LinkedIn"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
+                  ><i class="fab fa-linkedin" style="color: #1a4565;">
+                  </i></a>
                 <a
-                  href="https://www.youtube.com/channel/UCLMrondxbT0DIGx5nGOSYOQ"
-                  target="_blank"
-                  title="YouTube"
-                  ><i class="fab fa-youtube"></i
-                ></a>
+                href="https://bsky.app/profile/opentargets.org"
+                target="_blank"
+                title="Bluesky"
+                ><i class="fab fa-bluesky"></i
+              ></a>
               </div>
             </div>
           </div>

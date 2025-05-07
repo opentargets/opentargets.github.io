@@ -366,7 +366,7 @@ footer a:hover {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 37, 89, 0.1);
   color: var(--background);
   border-radius: 50%;
   text-align: center;
