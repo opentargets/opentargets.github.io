@@ -24,8 +24,8 @@
 - question: Can I use external datasets or tools in my project?
   answer: Yes, you can use external datasets or tools as long as they're publicly available and you adhere to their respective licenses.
 
-- question: What happens to the projects after the hackathon?
-  answer: All projects will be hosted on GitHub under the Open Targets organisation with the appropriate open-source licenses. Projects with significant potential may receive further development support from Open Targets. We encourage continued collaboration after the event and will facilitate connections between participants and interested stakeholders.
+# - question: What happens to the projects after the hackathon?
+#   answer: All projects will be hosted on GitHub under the Open Targets organisation with the appropriate open-source licenses. Projects with significant potential may receive further development support from Open Targets. We encourage continued collaboration after the event and will facilitate connections between participants and interested stakeholders.
 
 - question: How accessible is the venue for the in-person event?
   answer: If you have specific accommodation needs, please indicate them during registration and we'll work to ensure your comfortable participation. For detailed accessibility information about the venue, please contact us directly.
