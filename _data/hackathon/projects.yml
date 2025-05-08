@@ -1,0 +1,12 @@
+# Project categories data
+- name: Data Integration
+  description: Projects focused on integrating new data sources or improving existing data integration pipelines.
+
+- name: Visualisation Tools
+  description: Interactive visualisations, dashboards, or novel ways to explore Open Targets data.
+
+- name: ML Applications
+  description: Machine learning models for target prioritisation, prediction tasks, or automated analysis.
+
+- name: Software development
+  description: New features, tools, or modules that can integrate into the existing Platform.

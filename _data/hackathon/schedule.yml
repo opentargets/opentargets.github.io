@@ -1,0 +1,79 @@
+# Schedule data for Open Targets Hackathon
+
+day1:
+  title: "Day 1 - October 21, 2025"
+  sessions:
+    - time: "08:30 - 09:30"
+      title: "Registration & Breakfast"
+      description: "Check-in, badge collection, and networking breakfast"
+
+    - time: "09:30 - 10:00"
+      title: "Welcome & Opening Remarks"
+      description: "Introduction by Open Targets Director and overview of the 10-year journey"
+
+    - time: "10:00 - 10:30"
+      title: "Platform Overview & API Tutorial"
+      description: "Quick technical introduction to the Open Targets Platform and API"
+
+    - time: "10:30 - 11:15"
+      title: "Project Pitches"
+      description: "Quick-fire presentations of project ideas by participants"
+
+    - time: "11:15 - 12:00"
+      title: "Team Formation"
+      description: "Self-organization into teams based on project interests"
+
+    - time: "12:00 - 13:00"
+      title: "Lunch"
+      description: "Networking lunch with Open Targets team members and industry experts"
+
+    - time: "13:00 - 17:30"
+      title: "Hacking Time"
+      description: "Teams work on their projects with mentors available for consultation"
+
+    - time: "17:30 - 18:30"
+      title: "Lightning Progress Updates"
+      description: "Quick team check-ins to share progress and challenges"
+
+    - time: "19:00 - 21:00"
+      title: "10th Anniversary Dinner"
+      description: "Celebration dinner with keynote talk on the future of target validation"
+
+day2:
+  title: "Day 2 - October 22, 2025"
+  sessions:
+    - time: "08:30 - 09:00"
+      title: "Breakfast"
+      description: "Continental breakfast and morning networking"
+
+    - time: "09:00 - 12:30"
+      title: "Hacking Time"
+      description: "Final stretch of project development"
+
+    - time: "12:30 - 13:30"
+      title: "Lunch"
+      description: "Last working lunch with opportunity for feedback from mentors"
+
+    - time: "13:30 - 14:00"
+      title: "Preparation for Presentations"
+      description: "Teams finalize their demonstrations and presentations"
+
+    - time: "14:00 - 16:00"
+      title: "Project Presentations"
+      description: "Teams showcase their work (8 minutes per team)"
+
+    - time: "16:00 - 16:30"
+      title: "Judging & Coffee Break"
+      description: "Judges deliberate while participants enjoy refreshments"
+
+    - time: "16:30 - 17:15"
+      title: "Awards Ceremony"
+      description: "Recognition of outstanding projects and special achievements"
+
+    - time: "17:15 - 17:30"
+      title: "Closing Remarks"
+      description: "Final thoughts and information on post-hackathon collaboration opportunities"
+
+    - time: "17:30 - 19:00"
+      title: "Networking Reception"
+      description: "Casual drinks and celebrations to conclude the event"

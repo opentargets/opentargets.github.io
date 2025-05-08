@@ -1,0 +1,31 @@
+# FAQ data for Open Targets Hackathon
+
+- question: What is Open Targets?
+  answer: Open Targets is a public-private partnership that uses human genetics and genomics data for systematic drug target identification and prioritisation. Our research programme brings together expertise from academia and industry to generate and analyse data to connect targets to diseases, assess the strength of this evidence, and help identify and prioritise targets for drug discovery. Find out more at opentargets.org/science.
+
+- question: Do I need to be an expert in genomics or drug discovery to participate?
+  answer: No, we welcome participants with diverse skill sets. Whether you're a bioinformatician, data scientist, software developer, UX designer, or a life sciences researcher, your expertise can contribute to innovative solutions. Teams typically benefit from a mix of technical and domain knowledge.
+
+- question: What kind of projects can I work on?
+  answer: Projects should centre around target discovery. We encourage you to explore, extend, or creatively apply the Open Targets Platform data, interface, or pipelines, but you are welcome to submit any project idea that fits the target discovery theme. Projects can focus on areas like data integration, visualisation tools, and machine learning applications. You can submit your own project idea or join an existing team.
+
+# - question: How do teams get formed?
+#   answer: Teams will be formed on the first day of the hackathon after project pitches. You can come with a pre-formed team (2-5 people) or join one during the event. We encourage diverse teams with complementary skills. If you have a project idea, you'll have the opportunity to pitch it and recruit team members.
+
+- question: Can I participate if I can't attend in person?
+  answer: Absolutely! You can join the hackathon online.
+
+# - question: What should I prepare before the hackathon?
+#   answer: Familiarize yourself with the Open Targets Platform (platform.opentargets.org) and API (docs.targetvalidation.org). Come with your laptop and any development environments you typically use. If you have a project idea, prepare a brief (1-minute) pitch. We also recommend joining our pre-hackathon orientation webinar for further preparation tips.
+
+# - question: Is there any funding or are there prizes for the winning projects?
+#   answer: Yes, we will offer prizes for different categories like "Most Innovative," "Best Technical Implementation," and "Highest Potential Impact." Winners will also have opportunities to present their work at future Open Targets events and potential support for continued project development. Details about specific prizes will be announced closer to the event.
+
+- question: Can I use external datasets or tools in my project?
+  answer: Yes, you can use external datasets or tools as long as they're publicly available and you adhere to their respective licenses.
+
+# - question: What happens to the projects after the hackathon?
+#   answer: All projects will be hosted on GitHub under the Open Targets organisation with the appropriate open-source licenses. Projects with significant potential may receive further development support from Open Targets. We encourage continued collaboration after the event and will facilitate connections between participants and interested stakeholders.
+
+- question: How accessible is the venue for the in-person event?
+  answer: If you have specific accommodation needs, please indicate them during registration and we'll work to ensure your comfortable participation. For detailed accessibility information about the venue, please contact us directly.
