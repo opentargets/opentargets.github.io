@@ -1,7 +1,7 @@
 ---
 first_name: David
 last_name: Ochoa
-role: Platform Coordinator
+role: Platform and Informatics Science Coordinator
 picture: david_ochoa.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
