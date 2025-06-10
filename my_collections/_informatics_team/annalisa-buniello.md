@@ -1,7 +1,7 @@
 ---
 first_name: "Annalisa"
 last_name: "Buniello"
-role: "Product Manager"
+role: "Senior Product Manager"
 picture: "annalisa_buniello.png"
 organisation_logo: "embl-ebi.png"
 orcid: 0000-0002-4623-8642
