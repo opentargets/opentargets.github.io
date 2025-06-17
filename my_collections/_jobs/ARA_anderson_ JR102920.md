@@ -1,6 +1,6 @@
 ---
 title: "Advanced Research Assistant"
-organisation_logo: "wellcome-sanger.md"
+organisation_logo: "wellcome-sanger.png"
 closing_date: 2025-06-25
 link: "https://sanger.wd103.myworkdayjobs.com/en-US/WellcomeSangerInstitute/job/Advanced-Research-Assistant_JR102920"
 ---
