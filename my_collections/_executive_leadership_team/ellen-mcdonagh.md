@@ -11,7 +11,6 @@ order: 3
 
 Ellen (Ellie) McDonagh joined the Open Targets as the Informatics Science Director in April 2020. As Translational Informatics Director, Ellie leads integrated informatics and data science strategies across projects, platforms, and core teams.
  
-
 Prior to joining the Open Targets team, she was the Head of Curation and Pharmacogenomics at Genomics England. She helped pioneer a crowdsourcing platform (PanelApp) for the expert review and curation of gene panels, which are used in genome interpretation for rare disease and cancer patients and the NHSE Genomic Medicine Service.
 
 Ellie also led projects to expand the scope of information analysed in patient genomes. These included health-related additional findings, and evidence-based pharmacogenetics to support the prediction of drug responses to improve patient safety and therapeutic outcomes. 
