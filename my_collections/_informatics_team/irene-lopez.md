@@ -7,4 +7,4 @@ organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
 orcid: 
 ---
-Irene is a bioinformatician working on the Open Targets Platform and Open Targets Genetics. She joined the team in 2020.
+Irene is a bioinformatician in the Open Targets Platform data team. She joined the team in 2020.

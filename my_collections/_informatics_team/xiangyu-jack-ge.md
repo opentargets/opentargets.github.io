@@ -10,4 +10,4 @@ orcid:
 
 Jack has a background is in mathematics (BSc) and computational biology (MPhil). His PhD project was focused on the functional genomics of Rheumatoid arthritis, exploring cell-type specific functions underlying existing GWAS associations.
 
-As a statistical geneticist in the Open Targets Genetics team, Jack currently focuses on developing and integrating tissue enrichment analysis for all publicly available GWAS into the Genetics portal.
+As a statistical geneticist in the Open Targets Platform's genetic analysis team, Jack currently focuses on developing and integrating tissue enrichment analysis for all publicly available GWAS.
