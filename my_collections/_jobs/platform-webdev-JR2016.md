@@ -1,9 +1,7 @@
 ---
-title: "Front-End Web Developer, Open Targets Platform"
-organisation_logo: "embl-ebi.png"
-closing_date: 2025-08-19
-link: "https://embl.wd103.myworkdayjobs.com/EMBL/job/Hinxton-Cambridgeshire/Front-End-Web-Developer_JR2016"
+title: "Postdoc in CRISPR Meta-Analytics and AI for Therapeutic Target Discovery and Priotisation (Perturbation Catalogue Project)"
+organisation_logo: "human-technopole.png"
+closing_date: 2025-10-05
+link: "https://www.linkedin.com/jobs/view/4301066505/"
 ---
-Design and build cloud-first, open-source applications - including our flagship Open Targets Platform, used by scientists worldwide to explore and prioritise potential drug targets. Working with leading partners like MSD, Genentech, GSK, Pfizer, Sanofi, and the Wellcome Sanger Institute, you’ll develop intuitive front-end experiences that turn complex data into powerful discovery tools. Be part of a vibrant, diverse team where collaboration thrives - working alongside talented professionals from around the globe, each bringing unique skills and perspectives.
-
-Built with React, the Platform offers powerful search tools, interactive visualisations, and seamless access to harmonised biomedical data via GraphQL APIs. Deployed on Google Cloud and customised by partners, the Platform evolves quarterly through close collaboration with industry and academia to address unmet clinical needs and maximise global impact.
+Play a key role in the Open Targets Perturbation Catalogue Project, which aims to create an online repository of data from functional genetics screens and, more generally, post-perturbational experiments (typically CRISPR screens with viability or transcriptomics readouts). We will focus on a specific meta-analytics work package, developing computational methods for the reproducibility assessment, harmonisation and analysis of inter-study CRISPR datasets, aggregating data and developing and using innovative AI based-methods for therapeutic target prioritisation pipelines3 on the resulting aggregated data for cancer, neurodegenerative disorders and other diseases.
