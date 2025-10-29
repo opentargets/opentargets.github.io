@@ -80,82 +80,133 @@ title: Hackathon Experience
   </div>
 </section>
 
-<!-- Event Gallery -->
-<section id="gallery" class="bg-light">
+<!-- Sponsors Section -->
+<section id="sponsors">
   <div class="container">
     <div class="row justify-content-center mb-5">
       <div class="col-lg-8 text-center">
-        <h2 class="section-heading">Event Gallery</h2>
-        <p class="lead">Capturing moments of collaboration and innovation</p>
+        <h2 class="section-heading">Our Sponsors</h2>
+        <p class="lead">
+          Thank you to our partners who make this event possible
+        </p>
       </div>
     </div>
 
-    <!-- Gallery Carousel with External Controls -->
-    <div class="position-relative">
-      <!-- Carousel Container -->
-      <div id="galleryCarousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-wrap="false">
-        <div class="carousel-inner">
-          {% assign images_per_slide = 4 %}
-          {% assign total_images = site.data.hackathon.gallery.size %}
-
-          {% for image in site.data.hackathon.gallery %}
-          {% assign image_position = forloop.index0 | modulo: images_per_slide %}
-
-          {% if image_position == 0 %}
-          {% unless forloop.first %}
+    <div class="row justify-content-center align-items-center mb-5">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mb-md-0 px-3">
+        <div class="d-flex justify-content-center align-items-center" style="min-height: 80px;">
+          <img src="{{ '/assets/img/gates-foundation-logo.png' | relative_url }}" alt="Gates Foundation"
+            class="img-fluid" style="max-height: 80px; width: auto;" />
         </div>
       </div>
-      {% endunless %}
-      <div class="carousel-item {% if forloop.first %}active{% endif %}">
-        <div class="row">
-          {% endif %}
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mb-md-0 px-3">
+        <div class="d-flex justify-content-center align-items-center" style="min-height: 80px;">
+          <img src="{{ '/assets/img/logo_googleCloud.png' | relative_url }}" alt="Google Cloud" class="img-fluid"
+            style="max-height: 80px; width: auto;" />
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mb-md-0 px-3">
+        <div class="d-flex justify-content-center align-items-center" style="min-height: 80px;">
+          <img src="{{ '/assets/img/the-hyve-logo.png' | relative_url }}" alt="The Hyve" class="img-fluid"
+            style="max-height: 80px; width: auto;" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-          <div class="col-md-3 col-sm-6 mb-3">
-            <div class="card border-0 shadow-sm h-100">
-              <div class="card-img-top"
-                style="min-height: 280px; max-height: 320px; overflow: hidden; background: linear-gradient(135deg, var(--primary), var(--secondary));">
-                <img src="{{ '/assets/img/gallery/' | append: image.filename | relative_url }}" alt="{{ image.title }}"
-                  class="w-100 h-100" style="object-fit: cover;"
-                  onerror="this.onerror=null; this.style.display='none'; this.parentElement.innerHTML='<i class=\'fas fa-image\' style=\'font-size: 3rem; opacity: 0.3; color: white; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;\'></i>';">
-              </div>
-              <div class="card-body p-2">
-                <p class="text-muted mb-0 small text-center">{{ image.title }}</p>
-              </div>
-            </div>
+<!-- Awards Section -->
+<section id="awards" class="bg-light">
+  <div class="container">
+    <div class="row justify-content-center mb-4">
+      <div class="col-lg-8 text-center">
+        <h2 class="section-heading">Awards & Recognition</h2>
+        <p class="lead">Celebrating exceptional achievements and innovation</p>
+      </div>
+    </div>
+
+
+    <!-- Mentors Choice & Hackathon Committee Choice (both in same row) -->
+    <div class="row mb-5">
+      <!-- Mentors Choice -->
+      <div class="col-12 col-md-6 mb-4 mb-md-4">
+        <h5 class="text-center mb-3 text-muted">
+          <i class="fas fa-user-graduate mr-2" style="color: var(--secondary);"></i>Mentors Choice
+        </h5>
+        <div class="card h-100" style="border: 3px solid var(--secondary);">
+          <div class="card-body text-center py-3">
+            <i class="fas fa-medal mb-2" style="font-size: 1.5rem; color: var(--secondary)"></i>
+            <p class="mb-1 small text-muted">Winner</p>
+            <p class="mb-0">
+              <strong class="small">Project Name</strong><br>
+              <small class="text-muted">Team Name</small>
+            </p>
           </div>
-
-          {% if forloop.last %}
         </div>
       </div>
-      {% endif %}
-      {% endfor %}
+      <!-- Hackathon Committee Choice -->
+      <div class="col-12 col-md-6 mb-4">
+        <h5 class="text-center mb-3 text-muted">
+          <i class="fas fa-star mr-2" style="color: var(--accent);"></i>Hackathon Committee Choice
+        </h5>
+        <div class="card h-100" style="border: 3px solid var(--accent);">
+          <div class="card-body text-center py-3">
+            <i class="fas fa-award mb-2" style="font-size: 1.5rem; color: var(--accent)"></i>
+            <p class="mb-1 small text-muted">Winner</p>
+            <p class="mb-0">
+              <strong class="small">Project Name</strong><br>
+              <small class="text-muted">Team Name</small>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <!-- External Navigation Controls -->
-  <button class="btn btn-carousel position-absolute" type="button" data-target="#galleryCarousel" data-slide="prev"
-    style="left: -60px; top: 50%; transform: translateY(-50%); z-index: 10; width: 50px; height: 50px; border-radius: 50%; background-color: white; border: 2px solid var(--primary); box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; outline: none; cursor: pointer;">
-    <i class="fas fa-chevron-left" style="font-size: 1.25rem; color: var(--primary); transition: color 0.3s ease;"></i>
-  </button>
-  <button class="btn btn-carousel position-absolute" type="button" data-target="#galleryCarousel" data-slide="next"
-    style="right: -60px; top: 50%; transform: translateY(-50%); z-index: 10; width: 50px; height: 50px; border-radius: 50%; background-color: white; border: 2px solid var(--primary); box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; outline: none; cursor: pointer;">
-    <i class="fas fa-chevron-right" style="font-size: 1.25rem; color: var(--primary); transition: color 0.3s ease;"></i>
-  </button>
+    <!-- All Participants Choice (3 winners) -->
+    <div class="row">
+      <div class="col-12 mb-3 mb-md-4">
+        <h5 class="text-center text-muted">
+          <i class="fas fa-users mr-2" style="color: var(--primary);"></i>All Participants Choice
+        </h5>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-4">
+        <div class="card h-100" style="border: 3px solid var(--primary);">
+          <div class="card-body text-center py-3">
+            <i class="fas fa-trophy mb-2" style="font-size: 1.5rem; color: var(--primary)"></i>
+            <p class="mb-1 small text-muted">Winner</p>
+            <p class="mb-0">
+              <strong class="small">Project Name</strong><br>
+              <small class="text-muted">Team Name</small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-4">
+        <div class="card h-100" style="border: 3px solid var(--primary);">
+          <div class="card-body text-center py-3">
+            <i class="fas fa-trophy mb-2" style="font-size: 1.5rem; color: var(--primary)"></i>
+            <p class="mb-1 small text-muted">Winner</p>
+            <p class="mb-0">
+              <strong class="small">Project Name</strong><br>
+              <small class="text-muted">Team Name</small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 mb-4">
+        <div class="card h-100" style="border: 3px solid var(--primary);">
+          <div class="card-body text-center py-3">
+            <i class="fas fa-trophy mb-2" style="font-size: 1.5rem; color: var(--primary)"></i>
+            <p class="mb-1 small text-muted">Winner</p>
+            <p class="mb-0">
+              <strong class="small">Project Name</strong><br>
+              <small class="text-muted">Team Name</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  </div>
-
-  <!-- Custom styles for carousel controls -->
-  <style>
-    .btn-carousel:hover {
-      background-color: var(--primary) !important;
-      transform: translateY(-50%) scale(1.1) !important;
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15) !important;
-    }
-
-    .btn-carousel:hover i {
-      color: white !important;
-    }
-  </style>
 
   </div>
 </section>
@@ -199,90 +250,10 @@ title: Hackathon Experience
   </div>
 </section>
 
-<!-- Awards Section -->
-<section id="awards" class="bg-light">
-  <div class="container">
-    <div class="row justify-content-center mb-5">
-      <div class="colHol-lg-8 text-center">
-        <h2 class="section-heading">Awards & Recognition</h2>
-        <p class="lead">Celebrating exceptional achievements and innovation</p>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-md-6 mb-4">
-        <div class="card h-100" style="border: 3px solid var(--accent)">
-          <div class="card-body text-center">
-            <i class="fas fa-trophy mb-3" style="font-size: 3rem; color: var(--accent)"></i>
-            <h4>Best Overall Project</h4>
-            <p class="text-muted mb-2">
-              <strong>Winner:</strong> Data Pioneers - Target Prediction Engine
-            </p>
-            <p class="h5 mb-2" style="color: var(--accent)">€5,000</p>
-            <p class="text-muted mb-0">
-              Recognized for outstanding innovation, technical excellence, and
-              real-world applicability to drug discovery workflows.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 mb-4">
-        <div class="card h-100" style="border: 3px solid var(--secondary)">
-          <div class="card-body text-center">
-            <i class="fas fa-chart-line mb-3" style="font-size: 3rem; color: var(--secondary)"></i>
-            <h4>Best Visualization Tool</h4>
-            <p class="text-muted mb-2">
-              <strong>Winner:</strong> Viz Masters - Pathway Explorer
-            </p>
-            <p class="h5 mb-2" style="color: var(--secondary)">€3,000</p>
-            <p class="text-muted mb-0">
-              Awarded for exceptional data visualization design and user
-              experience in exploring target-disease relationships.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 mb-4">
-        <div class="card h-100" style="border: 3px solid var(--primary)">
-          <div class="card-body text-center">
-            <i class="fas fa-lightbulb mb-3" style="font-size: 3rem; color: var(--primary)"></i>
-            <h4>Most Innovative Approach</h4>
-            <p class="text-muted mb-2">
-              <strong>Winner:</strong> Text Analysts - Literature Miner
-            </p>
-            <p class="h5 mb-2" style="color: var(--primary)">€2,000</p>
-            <p class="text-muted mb-0">
-              Honored for creative problem-solving and novel application of NLP
-              to enhance target validation insights.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 mb-4">
-        <div class="card h-100" style="border: 3px solid var(--accent)">
-          <div class="card-body text-center">
-            <i class="fas fa-heart mb-3" style="font-size: 3rem; color: var(--accent)"></i>
-            <h4>People's Choice Award</h4>
-            <p class="text-muted mb-2">
-              <strong>Winner:</strong> Integrators - Multi-Omics Pipeline
-            </p>
-            <p class="h5 mb-2" style="color: var(--accent)">€1,500</p>
-            <p class="text-muted mb-0">
-              Selected by participant vote for the project with greatest impact
-              on the hackathon community and workflows.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- Participant Quotes -->
-<section id="testimonials">
+<section id="testimonials" class="bg-light">
   <div class="container">
     <div class="row justify-content-center mb-5">
       <div class="col-lg-8 text-center">
@@ -293,10 +264,10 @@ title: Hackathon Experience
 
     <div class="row">
       <div class="col-md-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body p-4">
             <div class="d-flex align-items-center mb-3">
-              <div class="rounded-circle d-flex align-items-center justify-content-center mr-3" style="
+              <div class="rounded-circle d-flex align-items-center justify-content-center mr-3 flex-shrink-0" style="
                   width: 60px;
                   height: 60px;
                   background: linear-gradient(
@@ -310,15 +281,15 @@ title: Hackathon Experience
                 ">
                 JD
               </div>
-              <div>
+              <div class="flex-grow-1">
                 <h5 class="mb-0">Jane Doe</h5>
-                <p class="text-muted mb-0">Senior Data Scientist</p>
+                <p class="text-muted mb-0 small">Senior Data Scientist</p>
               </div>
             </div>
-            <div class="mb-2" style="color: var(--primary)">
-              <i class="fas fa-quote-left" style="font-size: 1.5rem"></i>
+            <div class="mb-3" style="color: var(--primary)">
+              <i class="fas fa-quote-left" style="font-size: 1.5rem; opacity: 0.7;"></i>
             </div>
-            <p class="mb-0">
+            <p class="mb-0" style="line-height: 1.6;">
               The collaborative atmosphere and access to Open Targets expertise
               made this an incredibly productive experience. We developed a
               solution I'm genuinely excited to bring back to my team.
@@ -328,10 +299,10 @@ title: Hackathon Experience
       </div>
 
       <div class="col-md-6 mb-4">
-        <div class="card h-.spring100">
-          <div class="card-body">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body p-4">
             <div class="d-flex align-items-center mb-3">
-              <div class="rounded-circle d-flex align-items-center justify-content-center mr-3" style="
+              <div class="rounded-circle d-flex align-items-center justify-content-center mr-3 flex-shrink-0" style="
                   width: 60px;
                   height: 60px;
                   background: linear-gradient(
@@ -345,15 +316,15 @@ title: Hackathon Experience
                 ">
                 JS
               </div>
-              <div>
+              <div class="flex-grow-1">
                 <h5 class="mb-0">John Smith</h5>
-                <p class="text-muted mb-0">PhD Student</p>
+                <p class="text-muted mb-0 small">PhD Student</p>
               </div>
             </div>
-            <div class="mb-2" style="color: var(--secondary)">
-              <i class="fas fa-quote-left" style="font-size: 1.5rem"></i>
+            <div class="mb-3" style="color: var(--secondary)">
+              <i class="fas fa-quote-left" style="font-size: 1.5rem; opacity: 0.7;"></i>
             </div>
-            <p class="mb-0">
+            <p class="mb-0" style="line-height: 1.6;">
               As a newcomer to this field, the mentorship and hands-on learning
               were invaluable. I'm now planning to integrate these approaches
               into my dissertation research.
@@ -363,10 +334,10 @@ title: Hackathon Experience
       </div>
 
       <div class="col-md-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body p-4">
             <div class="d-flex align-items-center mb-3">
-              <div class="rounded-circle dقق-flex align-items-center justify-content-center mr-3" style="
+              <div class="rounded-circle d-flex align-items-center justify-content-center mr-3 flex-shrink-0" style="
                   width: 60px;
                   height: 60px;
                   background: linear-gradient(135deg, var(--accent), var(--primary));
@@ -376,15 +347,15 @@ title: Hackathon Experience
                 ">
                 MA
               </div>
-              <div>
-                <h5 class="mb-0">Mail Ahmed</h5>
-                <p class="text-muted mb-0">Bioinformatician</p>
+              <div class="flex-grow-1">
+                <h5 class="mb-0">Mali Ahmed</h5>
+                <p class="text-muted mb-0 small">Bioinformatician</p>
               </div>
             </div>
-            <div class="mb-2" style="color: var(--accent)">
-              <i class="fas fa-quote-left" style="font-size: decidir 1.5rem"></i>
+            <div class="mb-3" style="color: var(--accent)">
+              <i class="fas fa-quote-left" style="font-size: 1.5rem; opacity: 0.7;"></i>
             </div>
-            <p class="mb-0">
+            <p class="mb-0" style="line-height: 1.6;">
               The network of connections formed here extends far beyond the
               event. We've already started discussing collaborative
               publications, and the innovation potential is exciting.
@@ -394,10 +365,10 @@ title: Hackathon Experience
       </div>
 
       <div class="col-md-6 mb-4">
-        <div class="card h-100">
-          <div class="ĉard-body">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body p-4">
             <div class="d-flex align-items-center mb-3">
-              <div class="rounded-circle d-flex align-items-center justify-content-center mr-3" style="
+              <div class="rounded-circle d-flex align-items-center justify-content-center mr-3 flex-shrink-0" style="
                   width: 60px;
                   height: 60px;
                   background: linear-gradient(
@@ -411,15 +382,15 @@ title: Hackathon Experience
                 ">
                 ES
               </div>
-              <div>
+              <div class="flex-grow-1">
                 <h5 class="mb-0">Emma Wilson</h5>
-                <p class="text-muted mb-0">Research Director</p>
+                <p class="text-muted mb-0 small">Research Director</p>
               </div>
             </div>
-            <div class="mb-2" style="color: var(--primary)">
-              <i class="fas fa-quote-left" style="font-size: 1.5rem"></i>
+            <div class="mb-3" style="color: var(--primary)">
+              <i class="fas fa-quote-left" style="font-size: 1.5rem; opacity: 0.7;"></i>
             </div>
-            <p class="mb-0">
+            <p class="mb-0" style="line-height: 1.6;">
               Seeing how researchers from different backgrounds approach the same
               challenges was inspiring. The diversity of solutions demonstrates
               the power of open, collaborative science.
@@ -431,79 +402,41 @@ title: Hackathon Experience
   </div>
 </section>
 
-<!-- Sponsors Section -->
-<section id="sponsors" class="bg-light">
+<!-- Event Gallery -->
+<section id="gallery">
   <div class="container">
     <div class="row justify-content-center mb-5">
       <div class="col-lg-8 text-center">
-        <h2 class="section-heading">Our Sponsors</h2>
-        <p class="lead">
-          Thank you to our partners who make this event possible
+        <h2 class="section-heading">Event Gallery</h2>
+        <p class="lead">Capturing moments of collaboration and innovation</p>
+      </div>
+    </div>
+
+    <!-- Flex Container with Growing Images -->
+    <div class="gallery-container"
+      style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: flex-start; justify-content: center;">
+      {% for image in site.data.hackathon.gallery %}
+      <div style="flex: 0 1 auto; min-width: 200px; max-width: calc(50% - 0.75rem); text-align: center;">
+        <img src="{{ '/assets/img/gallery/' | append: image.filename | relative_url }}" alt="{{ image.title }}"
+          style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
+          onerror="this.onerror=null; this.style.display='none';">
+        {% if image.title or image.caption %}
+        <p class="mt-2 mb-0">
+          {% if image.title %}<strong>{{ image.title }}</strong>{% endif %}
+          {% if image.caption %}<span class="text-muted"> - {{ image.caption }}</span>{% endif %}
         </p>
+        {% endif %}
       </div>
+      {% endfor %}
     </div>
 
-    <div class="row justify-content-center">
-      <div class="col-md-4 mb-4">
-        <div class="card text-center h-100">
-          <div class="card-body">
-            <div class="rounded-circle mx-auto d-flex align-items-center justify-content-center mb-3" style="
-                width: 100px;
-                height: 100px;
-                background: linear-gradient(135deg, var(--primary), var(--secondary));
-                color: white;
-              ">
-              <i class="fas fa-medal" style="font-size: 3rem"></i>
-            </div>
-            <h4>Platinum Sponsors</h4>
-            <p class="text-muted">
-              Major partners supporting innovation and collaboration in drug
-              discovery research.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <div class="card text-center h-100">
-          <div class="card-body">
-            <div class="rounded-circle mx-auto d-flex align-items-center justify-content-center mb-3" style="
-                width: 100px;
-                height: 100px;
-                background: linear-gradient(135deg, var(--secondary), var(--accent));
-                color: white;
-              ">
-              <i class="fas fa-gem" style="font-size: 3rem"></i>
-            </div>
-            <h4>Gold Sponsors</h4>
-            <p class="text-muted">
-              Committed partners enabling cutting-edge research and development
-              in target identification.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <div class="card text-center h-100">
-          <div class="card-body">
-            <div class="rounded-circle mx-auto d-flex align-items-center justify-content-center mb-3" style=" estar
-                width: 100px;
-                height: 100px;
-                background: linear-gradient(135deg, var(--accent zest), var(--primary));
-                color: Россия white;
-              ">
-              <i class="fas fa-star" style="font-size: 3rem"></i>
-            </div>
-            <h4>Silver Sponsors</h4>
-            <p class="text-muted">
-              Valued partners contributing to the success of our collaborative
-              hackathon experience.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <style>
+      /* Responsive: Full width on mobile */
+      @media (max-width: 768px) {
+        .gallery-container>div {
+          max-width: 100% !important;
+        }
+      }
+    </style>
   </div>
-  –
 </section>
