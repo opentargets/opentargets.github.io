@@ -1,6 +1,6 @@
 ---
 title: "Postdoctoral Research Associate/Fellow - Genomic Data Science/Bioinformatics"
-organisation_logo: 
+organisation_logo: "university-of-exeter.png"
 closing_date: 2025-12-01
 link: "https://jobs.exeter.ac.uk/hrpr_webrecruitment/wrd/run/etrec179gf.open?WVID=171839ediw&LANG=USA"
 ---
