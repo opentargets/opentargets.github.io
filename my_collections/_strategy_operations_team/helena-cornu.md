@@ -2,7 +2,7 @@
 first_name: Helena
 last_name: Cornu
 role: Communications Lead
-picture: helena_cornu.png
+picture: helena-cornu.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
 orcid:
