@@ -1,8 +1,8 @@
 ---
 title: "Immunotherapy success could be predicted with new biomarkers"
-date: 1998-01-21
+date: 2026-01-20
 image_filename: "cancer-biomarkers-watterson-jan26.png"
-image_alt_text: ""
+image_alt_text: "A tumoroid, colon cancer cells grown in 3D"
 link: "https://www.sanger.ac.uk/news_item/immunotherapy-success-could-be-predicted-with-new-biomarkers/"
 ---
 The deletion of two cancer genes, CHD1 and MAP3K7, improves how well tumours respond to cancer immunotherapy and could be used as biomarkers to help predict which patients are most likely to benefit from treatment, new research shows. 
