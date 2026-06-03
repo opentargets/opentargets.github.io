@@ -40,15 +40,19 @@ Dr Tim Raine, co-senior author and consultant gastroenterologist at CUH, said: �
 Dr Carl Anderson, co-senior author at the Wellcome Sanger Institute and Open Targets, said: “Genome-wide association studies have told us where in the genome IBD risk resides, but this study tells us which genes these risk variants disrupt and in which cell types this occurs. What’s really exciting about this, in addition to the many lessons we’ve learned about IBD biology, is that the same approach can be used to unlock the biological mysteries of many different diseases. Single-cell sequencing at scale provides a high-resolution view of disease biology, and by combining that with genetic variation, we can now make the insights needed to drive better drug target identification. ” 
 
 
-Notes:
+**Notes**:
 1. Vos T, Lim SS, Abbafati C, Abbas KM, Abbasi M, Abbasifard M, et al. Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019. Lancet. 2020;396:1204–22. doi: 10.1016/S0140-6736(20)30925-9. 
+
 2. Crohn’s & Colitis UK (2022). ‘New research shows over 1 in 123 people in UK living with Crohn’s or Colitis.’ Available at: https://crohnsandcolitis.org.uk/news-stories/news-items/new-research-shows-over-1-in-123-people-in-uk-living-with-crohn-s-or-colitis [Last accessed: September 2025] 
+
 3. 296 individuals without IBD and 125 with Crohn’s disease were recruited at Addenbrooke’s Hospital, Cambridge, UK. During routine endoscopy, gastrointestinal biopsies were collected from the rectum and terminal ileum, and blood samples were drawn after the procedure. Terminal ileal biopsies were obtained from 243 individuals without IBD and 119 individuals with Crohn’s disease. Rectal biopsies were collected from 275 individuals without IBD. Whole blood was collected from 95 individuals with Crohn’s disease. 
+
 4. Dendritic cells are a specialised subset of myeloids cells (immune cells) that develop in the bone marrow. They patrol cells, capture pathogens and present antigens to T cells to initiate immune responses.
+
 5. The Wnt-signalling pathways are a group of signalling pathways that begin with proteins that pass signals into a cell through cell surface receptors. The process regulates fundamental biological processes, including cell fate determination, proliferation and migration. 
 
-Publication: 
-T. Alegbe et al. (2026) ‘Cell-type-resolved genetic regulatory variation shapes inflammatory bowel disease risk’. Nature DOI: 10.1038/s41586-026-10627-z 
+**Publication**: 
+T. Alegbe et al. (2026) ‘Cell-type-resolved genetic regulatory variation shapes inflammatory bowel disease risk’. Nature DOI: <a href="https://www.nature.com/articles/s41586-026-10627-z">10.1038/s41586-026-10627-z</a>
 
-Funding: 
+**Funding**: 
 This research was supported in part by the NIHR Cambridge Biomedical Research Centre, Wellcome, The Crohn’s & Colitis Foundation Genetics Initiative and Open Targets. 
