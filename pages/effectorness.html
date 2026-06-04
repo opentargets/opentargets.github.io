@@ -30,7 +30,7 @@ title: Effectorness Project
     <div class="row mb-5">
       <div class="col-12">
         <p>
-          This page contains the data generated in the study "Single-cell transcriptomics identifies an 
+          Access the data generated in the study "Single-cell transcriptomics identifies an 
           effectorness gradient shaping the response of CD4+ T cells to cytokines". For a detailed explanation 
           of the study and the approaches for data generation, please refer to our publication:
         </p>
@@ -48,149 +48,18 @@ title: Effectorness Project
     </div>
     <div class="row mb-5">
       <div class="col-12">
-        <h4><i class="fa fa-table" aria-hidden="true"></i> Count tables</h4>
-        <ul>
-          <li>
-            Bulk RNA-sequencing: Raw counts per gene per sample obtained from RNA-sequencing and feature quantification (i.e. STAR and featureCounts)
-            <ul>
-              <li>
-                Metadata (
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/RNAseq/NCOMMS-19-7936188_bulk_RNAseq_metadata.txt.zip">
-                  .zip
-                </a>
-                | 
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/RNAseq/NCOMMS-19-7936188_bulk_RNAseq_metadata.txt">
-                  .txt
-                </a>
-                )
-              </li>
-              <li>
-                Raw counts (
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/RNAseq/NCOMMS-19-7936188_bulk_RNAseq_raw_counts.txt.zip">
-                  .zip
-                </a>
-                | 
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/RNAseq/NCOMMS-19-7936188_bulk_RNAseq_raw_counts.txt">
-                  .txt
-                </a>
-                )
-              </li>
-            </ul>
-          </li>
-          <li>
-            Quantitative proteomics: Relative protein abundances per gene per sample as inferred from mass spectrometry (LC-MS/MS)
-            <ul>
-              <li>
-                Metadata (
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/proteomics/NCOMMS-19-7936188_MassSpec_metadata.txt.zip">
-                  .zip
-                </a>
-                | 
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/proteomics/NCOMMS-19-7936188_MassSpec_metadata.txt">
-                  .txt
-                </a>
-                )
-              </li>
-              <li>
-                Scaled abundances (
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/proteomics/NCOMMS-19-7936188_MassSpec_scaled_abundances.txt.zip">
-                  .zip
-                </a>
-                | 
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/proteomics/NCOMMS-19-7936188_MassSpec_scaled_abundances.txt">
-                  .txt
-                </a>
-                )
-              </li>
-            </ul>
-          </li>
-          <li>
-            Single-cell RNA-sequencing: UMI counts per gene per cell obtained scRNA-seq (10X 3’ v2) and feature quantification (i.e. cellranger)
-            <ul>
-              <li>
-                Metadata (
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/scRNAseq/NCOMMS-19-7936188_metadata.txt.zip">
-                  .zip
-                </a>
-                | 
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/scRNAseq/NCOMMS-19-7936188_metadata.txt">
-                  .txt
-                </a>
-                )
-              </li>
-              <li>
-                scRNAseq barcodes (
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/scRNAseq/NCOMMS-19-7936188_scRNAseq_barcodes.tsv.zip">
-                  .zip
-                </a>
-                | 
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/scRNAseq/NCOMMS-19-7936188_scRNAseq_barcodes.tsv">
-                  .tsv
-                </a>
-                )
-              </li>
-              <li>
-                scRNAseq genes (
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/scRNAseq/NCOMMS-19-7936188_scRNAseq_genes.tsv.zip">
-                  .zip
-                </a>
-                | 
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/scRNAseq/NCOMMS-19-7936188_scRNAseq_genes.tsv">
-                  .tsv
-                </a>
-                )
-              </li>
-              <li>
-                scRNAseq raw UMIs (
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/scRNAseq/NCOMMS-19-7936188_scRNAseq_raw_UMIs.mtx.zip">
-                  .zip
-                </a>
-                | 
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/scRNAseq/NCOMMS-19-7936188_scRNAseq_raw_UMIs.mtx">
-                  .mtx
-                </a>
-                )
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="row mb-5">
-      <div class="col-12">
-        <h4><i class="fa fa-area-chart" aria-hidden="true"></i> Data visualisations and interactive web applications</h4>
-        <ul>
-          <li>
-            <a href="https://cytokines.cellgeni.sanger.ac.uk/" target="_blank">Bulk RNA and protein expression:</a> Shiny app to visualise RNA and protein expression levels for any gene across cytokine-polarized CD4+ T cell states
-          </li>
-          <li>
-            Single-cell gene expression: Interactive apps to visualise single-cell RNA expression in:
-            <ul>
-              <li>
-                <a href="https://cytokines.cellgeni.sanger.ac.uk/resting" target="_blank">Resting CD4+ T cells</a>
-              </li>
-              <li>
-                <a href="https://cytokines.cellgeni.sanger.ac.uk/simulated" target="_blank">Cytokine-polarized CD4+ T cell states</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            Alternatively, download the coordinates for every lower dimensional representation (UMAP, tSNE and PCA) of our single-cell data and analyse it locally:
-            <ul>
-              <li>
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/cell-coordinates/NCOMMS-19-7936188_resting-CD4cells_low-dimensional-representation-coordinates.csv">Resting CD4+ T cells</a>
-              </li>
-              <li>
-                <a href="https://storage.googleapis.com/otar040-cytoimmunogenomics/publication-project-data/cell-coordinates/NCOMMS-19-7936188_cytokinePolarised-CD4cells_low-dimensional-representation-coordinates.csv">Cytokine-polarized CD4+ T cell states</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <h4><i class="fa fa-envelope" aria-hidden="true"></i> Contact</h4>
+        <h4><i class="fa fa-table" aria-hidden="true"></i> Data Downloads</h4>
+ <p>
+          Datasets for this project can be accessed from this public repository:
+        </p>
+
+        <p class="text-center mt-4 mb-2">
+          <a href="https://www.ebi.ac.uk/biostudies/studies/S-BSST2978"
+             target="_blank"
+             class="btn btn-primary">
+            BioStudies S-BSST2978
+          </a>
+        </p>
       </div>
     </div>
   </div>
