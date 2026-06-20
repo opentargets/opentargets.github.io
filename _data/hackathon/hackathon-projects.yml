@@ -1,0 +1,99 @@
+# Hackathon 2025 - Submitted Projects
+# This file contains all project submissions from the 10th Anniversary Open Targets Hackathon
+
+- id: 1
+  title: "Target Prediction Engine"
+  team: "Data Pioneers"
+  category: "ML Applications"
+  categoryColor: "primary"
+  description: "Machine learning model to predict novel drug targets using integrated genomics data, combining genetic associations, pathway information, and expression profiles from the Open Targets Platform."
+  technologies:
+    - Python
+    - TensorFlow
+    - Open Targets API
+  githubUrl: "#"
+
+- id: 2
+  title: "Pathway Explorer"
+  team: "Viz Masters"
+  category: "Visualization Tools"
+  categoryColor: "secondary"
+  description: "Interactive visualization tool for exploring target-disease associations across biological pathways, enabling researchers to identify therapeutic opportunities through intuitive network mapping."
+  technologies:
+    - React
+    - D3.js
+    - REST API
+  githubUrl: "#"
+
+- id: 3
+  title: "Clinical Trial Matcher"
+  team: "Clinical Hackers"
+  category: "Clinical Applications"
+  categoryColor: "accent"
+  description: "Tool integrating Open Targets data with clinical trial information to identify the most promising targets for drug development, ranking by safety profile and disease relevance."
+  technologies:
+    - R
+    - Shiny
+    - PostgreSQL
+  githubUrl: "#"
+
+- id: 4
+  title: "Multi-Omics Pipeline"
+  team: "Integrators"
+  category: "Data Integration"
+  categoryColor: "primary"
+  description: "Automated pipeline for integrating genomics, proteomics, and transcriptomics data from Open Targets to create comprehensive target profiles for prioritization in drug discovery programs."
+  technologies:
+    - Nextflow
+    - Python
+    - Google Cloud
+  githubUrl: "#"
+
+- id: 5
+  title: "Target Prioritization ML"
+  team: "ML Innovators"
+  category: "ML Applications"
+  categoryColor: "secondary"
+  description: "Deep learning approach for ranking potential therapeutic targets based on druggability scores, disease association strength, and safety profiles from multi-modal data integration."
+  technologies:
+    - PyTorch
+    - Python
+    - Pandas
+  githubUrl: "#"
+
+- id: 6
+  title: "Target Dashboard"
+  team: "Dash Builders"
+  category: "Visualization Tools"
+  categoryColor: "accent"
+  description: "Comprehensive dashboard for exploring target characteristics, including disease associations, evidence types, and drug development status, with customizable filtering and export capabilities."
+  technologies:
+    - Python
+    - Plotly
+    - Streamlit
+  githubUrl: "#"
+
+- id: 7
+  title: "Safety Profiler"
+  team: "Safety First"
+  category: "Clinical Applications"
+  categoryColor: "primary"
+  description: "Application for assessing target safety through integration of adverse event data, expression patterns, and genetic constraint metrics to inform early-stage target selection decisions."
+  technologies:
+    - JavaScript
+    - Node.js
+    - MongoDB
+  githubUrl: "#"
+
+- id: 8
+  title: "Literature Miner"
+  team: "Text Analysts"
+  category: "Data Integration"
+  categoryColor: "secondary"
+  description: "Natural language processing pipeline for extracting target-disease associations from published literature and enriching Open Targets Platform data with real-world evidence from publications."
+  technologies:
+    - Python
+    - spaCy
+    - Elasticsearch
+  githubUrl: "#"
+
