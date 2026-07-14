@@ -42,6 +42,9 @@ To establish a set of diagnostic biomarkers, the team drew on previous research 
 
 “I was so surprised to see that biomarkers we identified based solely on the data were better at predicting patients’ disease stage than the state-of-the-art tests in the clinic,” said Evangelia Petsalaki, previously Group Leader at EMBL-EBI and the Open Targets project lead. “It’s also a strong argument to consider this approach for similar diseases, where it is hard to get repeated samples from patients.”
 
+<br>
+<br>
+
 
 ### References
 1. Govaere, O. et al. A proteo-transcriptomic map of non-alcoholic fatty liver disease signatures. Nature Metabolism 5, 572 (2023).
