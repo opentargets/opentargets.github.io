@@ -315,6 +315,10 @@ title: Home
     text-decoration: underline;
   }
 
+.ot-card-link i {
+  font-size:0.7rem;
+}
+
   /* Principles */
   .ot-principles-section {
     background-color: #f4f8fc;
@@ -340,10 +344,14 @@ title: Home
     margin-bottom: 0.75rem;
   }
   .ot-principle a {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #3489ca;
     font-weight: 600;
     text-decoration: none;
+  }
+
+  .ot-principle i {
+    font-size:0.7rem;
   }
   .ot-principle a:hover {
     text-decoration: underline;
@@ -383,6 +391,14 @@ title: Home
     border-radius: 3px;
     margin-bottom: 0.6rem;
   }
+  .ot-news-card img{
+  margin-bottom: 12px;
+  width:100%;
+  height:180px;
+  object-fit:cover;
+  border-radius:8px 8px 0 0;
+  }
+
   .ot-news-card h3 {
     font-size: 0.95rem;
     font-weight: 700;
@@ -458,6 +474,25 @@ title: Home
     color: #666;
     line-height: 1.45;
     margin: 0;
+  }
+  .ot-bluesky-container {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+  }
+  .ot-bluesky-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  .ot-bluesky-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+  }
+  .ot-bluesky-container::-webkit-scrollbar-thumb {
+    background: #dce8f2;
+    border-radius: 3px;
+  }
+  .ot-bluesky-container::-webkit-scrollbar-thumb:hover {
+    background: #3489ca;
   }
 </style>
 
@@ -675,7 +710,7 @@ title: Home
             dependencies.
           </p>
           <a href="/science#oncology" class="ot-card-link">
-            Read more <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i>
+            Read more <i class="fas fa-arrow-right ml-1"></i>
           </a>
         </div>
       </div>
@@ -691,7 +726,7 @@ title: Home
             signal to mechanism.
           </p>
           <a href="/science#neurodegeneration" class="ot-card-link">
-            Read more <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i>
+            Read more <i class="fas fa-arrow-right ml-1"></i>
           </a>
         </div>
       </div>
@@ -706,7 +741,7 @@ title: Home
             with the clearest causal evidence across conditions like IBD and RA.
           </p>
           <a href="/science#immunology" class="ot-card-link">
-            Read more <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i>
+            Read more <i class="fas fa-arrow-right ml-1"></i>
           </a>
         </div>
       </div>
@@ -729,7 +764,7 @@ title: Home
             We back targets with the strongest human genetic evidence —
             focusing resources where the biology gives the clearest signals.
           </p>
-          <a href="/science">Our scientific approach <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i></a>
+          <a href="/science">Our scientific approach <i class="fas fa-arrow-right ml-1"></i></a>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 py-2">
@@ -739,7 +774,7 @@ title: Home
             All data, tools, and publications are freely available as soon as
             possible. Science advances faster when it's shared.
           </p>
-          <a href="/publications">Our latest publications <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i></a>
+          <a href="/publications">Our latest publications <i class="fas fa-arrow-right ml-1"></i></a>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 py-2">
@@ -749,7 +784,7 @@ title: Home
             Our unique structure puts academic rigour and industrial scale in
             the same room — and the same pipelines.
           </p>
-          <a href="/partners">Our partners <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i></a>
+          <a href="/partners">Our partners <i class="fas fa-arrow-right ml-1"></i></a>
         </div>
       </div>
     </div>
@@ -775,13 +810,15 @@ title: Home
       {% for news_item in all_news limit:3 %}
       <div class="col-lg-4 col-md-6 py-2">
         <div class="ot-news-card">
-          {% if news_item.image %}
-          <img src="{{ news_item.image }}" alt="{{ news_item.title }}" style="width:100%;height:180px;object-fit:cover;border-radius:8px 8px 0 0;margin:-1.5rem -1.5rem 1rem -1.5rem;" />
-          {% endif %}
           {% if news_item.category %}
           <div class="ot-news-tag">{{ news_item.category }}</div>
           {% else %}
           <div class="ot-news-tag">News</div>
+          {% endif %}
+          {% if news_item.image_filename == null %}
+            <img src="/assets/img/open_targets_logo_news_item_placeholder.png" class="img-fluid" alt="Open Targets Helix logo and wordmark"/>
+          {% else %}
+            <img src="/assets/img/{{ news_item.image_filename }}" alt="{{ news_item.image_alt_text }}"/>
           {% endif %}
           <h3>
             {% if news_item.url %}
@@ -853,12 +890,14 @@ title: Home
           </a>
         </div>
         <p class="ot-social-sub">@opentargets.org</p>
-        <script
-          type="module"
-          src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js"
-          async
-        ></script>
-        <bsky-embed username="opentargets.org" limit="4" load-more="false"></bsky-embed>
+        <div class="ot-bluesky-container">
+          <script
+            type="module"
+            src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js"
+            async
+          ></script>
+          <bsky-embed username="opentargets.org" limit="5" load-more="false"></bsky-embed>
+        </div>
       </div>
 
     </div>
