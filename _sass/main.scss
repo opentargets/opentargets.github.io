@@ -1,15 +1,32 @@
 @import url("https://rsms.me/inter/inter.css");
 
-$white: #ffffff;
-$bodyColor: #5a5f5f;
 $bodyFont: "Inter", Helvetica, Arial, sans-serif;
-$ot-corp-blue: #3489ca;
-$ot-corp-grey: #5a5f5f;
+
+// Color palette
+$white: #ffffff;
+$ot-corp-navy: #1a4565; // headings, primary text on light backgrounds
+$ot-corp-blue: #3489ca; // brand blue, links, accents
+$ot-corp-blue-mid: #2a6fa3; // hover/active state for blue elements
+$ot-corp-blue-light: #98c5e3; // light blue hover/accent
+$ot-corp-grey: #5a5f5f; // body text
+$ot-bg-tint: #f4f8fc; // very light section background
+$ot-border-tint: #dce8f2; // light blue borders/dividers
+$ot-card-border: #e3eaf1; // card/box borders
+$ot-tag-bg: #e8f3fb; // small tag/badge backgrounds
 
 body {
   background: $white;
   color: $ot-corp-grey;
   font-family: $bodyFont;
+}
+
+// Lucide icons render as SVG, not a webfont, so they don't inherit
+// font-size the way Font Awesome glyphs do. Sizing to 1em keeps them
+// drop-in compatible with existing font-size-based icon sizing.
+.lucide {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
 }
 
 .bg-blue {
@@ -25,7 +42,70 @@ a {
 }
 
 a:hover {
-  color: #98c5e3;
+  color: $ot-corp-blue-light;
+}
+
+// Site-wide CTA button suite.
+// Opt-in: existing Bootstrap .btn-primary/.btn-secondary usages are
+// untouched. Use class="btn btn-ot-primary" or "btn btn-ot-secondary" on
+// a new button. Both compose with Bootstrap's .btn-sm / .btn-lg sizing.
+.btn-ot-primary {
+  background-color: $ot-corp-blue-mid;
+  border-color: $ot-corp-blue-mid;
+  color: $white;
+  font-weight: 700;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(26, 69, 101, 0.39);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-ot-primary:hover {
+  background-color: $ot-corp-navy;
+  border-color: $ot-corp-navy;
+  color: $white;
+  box-shadow: 0 8px 24px rgba(26, 69, 101, 0.5);
+}
+.btn-ot-primary:active {
+  box-shadow: 0 2px 8px rgba(26, 69, 101, 0.3);
+}
+.btn-ot-primary:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba($ot-corp-blue, 0.5);
+}
+.btn-ot-primary.disabled,
+.btn-ot-primary:disabled {
+  background-color: $ot-corp-blue-mid;
+  border-color: $ot-corp-blue-mid;
+  box-shadow: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.btn-ot-secondary {
+  background-color: transparent;
+  border: 1px solid $ot-corp-blue;
+  color: $ot-corp-blue;
+  font-weight: 700;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+.btn-ot-secondary:hover {
+  background-color: rgba($ot-corp-blue, 0.12);
+  border-color: $ot-corp-blue;
+  color: $ot-corp-blue;
+}
+.btn-ot-secondary:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba($ot-corp-blue, 0.5);
+}
+.btn-ot-secondary.disabled,
+.btn-ot-secondary:disabled {
+  background-color: transparent;
+  border-color: rgba($ot-corp-blue, 0.15);
+  color: $ot-corp-blue;
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .principles-cta-icon {
