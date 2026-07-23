@@ -1,6 +1,7 @@
 ---
 title: "Researchers decipher mechanisms of liver regeneration"
 date: 2024-05-23
+category: research highlight
 image_filename: "vallier-liver-regeneration.png"
 image_alt_text: "Liver hepatocytes"
 layout: press_release

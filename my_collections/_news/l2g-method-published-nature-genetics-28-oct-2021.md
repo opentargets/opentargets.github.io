@@ -1,6 +1,7 @@
 ---
 title: Locus-to-Gene method published in Nature Genetics
 date: 2021-10-28
+category: research highlight
 image_filename: l2g-pipeline-news-item.png
 image_alt_text: Screenshot of steps involved in Open Targets Locus2Gene assignment pipeline
 link:  https://www.nature.com/articles/s41588-021-00945-5

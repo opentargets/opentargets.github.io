@@ -1,6 +1,7 @@
 ---
 title: "Cancer drug resistance causes and categories identified"
 date: 2024-10-18
+category: research highlight
 image_filename: "tumour_organoid_WellcomeSangerInstitute.png"
 image_alt_text: "A tumoroid, colon cancer cells grown in 3D"
 layout: press_release

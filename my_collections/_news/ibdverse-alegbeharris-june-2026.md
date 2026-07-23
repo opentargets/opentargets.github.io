@@ -1,6 +1,7 @@
 ---
 title: "Study of millions of cells reveals new way to understand genetic risk of disease"
 date: 2026-06-03
+category: research highlight
 image_filename: "alegbeharris.png"
 image_alt_text: "Graphic describing the project"
 layout: press_release

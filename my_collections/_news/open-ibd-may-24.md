@@ -1,6 +1,7 @@
 ---
 title: "Ambitious inflammatory bowel disease study aims to uncover disease biomarkers for personalised medicine"
 date: 2024-05-17
+category: funding announcement
 image_filename: "openibd-press-release.png"
 image_alt_text: "Open-IBD logo"
 layout: press_release

@@ -1,6 +1,7 @@
 ---
 title: "New data initiative accelerates discovery and personalised care for mental health conditions"
 date: 2025-11-25
+category: funding announcement
 image_filename: "OPP-funding-announcement.png"
 image_alt_text: "Funding announcement"
 link: "https://www.ebi.ac.uk/about/news/announcements/new-data-initiative-launched-to-accelerate-discovery-and-personalised-care-for-mental-health-conditions/"

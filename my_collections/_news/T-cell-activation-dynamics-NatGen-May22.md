@@ -1,6 +1,7 @@
 ---
 title: "Study tracking T-cell activation over time boosts search for immune disease treatments"
 date: 2022-05-26
+category: research highlightÍ
 image_filename: "soskic-cano-gamez-natgen-may22.png"
 image_alt_text: "DNA spiral formed by pale blue dots on a dark background"
 layout: press_release

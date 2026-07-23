@@ -1,6 +1,7 @@
 ---
 title: "Bowel cancer mutations that impact immunotherapy identified"
 date: 2023-01-19
+category: research highlight
 image_filename: "bowel-cancer-national-cancer-institute.png"
 image_alt_text: "Human colorectal cancer cells stained purple, blue, and green under a microscope."
 layout: press_release
