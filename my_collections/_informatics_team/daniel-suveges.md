@@ -5,6 +5,7 @@ role: Data team Lead
 picture: daniel_suveges.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
+organisation_logo_alt: "EMBL-EBI logo"
 orcid: 0000-0003-4133-0447
 ---
 

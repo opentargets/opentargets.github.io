@@ -1,19 +1,29 @@
 <div class="row mb-4" id="associated-publications">
   <div class="col-lg-12">
-    <h3>Associated publications</h3>
+    <h2>Associated publications</h2>
   </div>
 </div>
 <div class="row">
   <div class="col-lg-12">
     <nav>
-      <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+      <div class="nav nav-tabs nav-fill ot-collapsible-tabs" id="nav-tab" role="tablist">
         <!-- <a class="nav-item nav-link font-weight-bold" id="nav-2028-associated-pub-tab" data-toggle="tab" href="#nav-2028-associated-pub" role="tab" aria-controls="nav-2028-associated-pub" aria-selected="false">2028</a> -->
         <!-- <a class="nav-item nav-link font-weight-bold" id="nav-2027-associated-pub-tab" data-toggle="tab" href="#nav-2027-associated-pub" role="tab" aria-controls="nav-2027-associated-pub" aria-selected="false">2027</a> -->
-        <a class="nav-item nav-link font-weight-bold active" id="nav-2026-associated-pub-tab" data-toggle="tab" href="#nav-2026-associated-pub" role="tab" aria-controls="nav-2026-associated-pub" aria-selected="true">2026</a>
-        <a class="nav-item nav-link font-weight-bold" id="nav-2025-associated-pub-tab" data-toggle="tab" href="#nav-2025-associated-pub" role="tab" aria-controls="nav-2025-associated-pub" aria-selected="false">2025</a>
-        <a class="nav-item nav-link font-weight-bold" id="nav-2024-associated-pub-tab" data-toggle="tab" href="#nav-2024-associated-pub" role="tab" aria-controls="nav-2024-associated-pub" aria-selected="false">2024</a>
-        <a class="nav-item nav-link font-weight-bold" id="nav-2023-associated-pub-tab" data-toggle="tab" href="#nav-2023-associated-pub" role="tab" aria-controls="nav-2023-associated-pub" aria-selected="false">2023</a>
-        <a class="nav-item nav-link font-weight-bold" id="nav-2022-associated-pub-tab" data-toggle="tab" href="#nav-2022-associated-pub" role="tab" aria-controls="nav-2022-associated-pub" aria-selected="false">2022</a>
+        <a class="nav-item nav-link font-weight-bold active" id="nav-2026-associated-pub-tab" data-toggle="tab"
+          href="#nav-2026-associated-pub" role="tab" aria-controls="nav-2026-associated-pub"
+          aria-selected="true">2026</a>
+        <a class="nav-item nav-link font-weight-bold" id="nav-2025-associated-pub-tab" data-toggle="tab"
+          href="#nav-2025-associated-pub" role="tab" aria-controls="nav-2025-associated-pub"
+          aria-selected="false">2025</a>
+        <a class="nav-item nav-link font-weight-bold" id="nav-2024-associated-pub-tab" data-toggle="tab"
+          href="#nav-2024-associated-pub" role="tab" aria-controls="nav-2024-associated-pub"
+          aria-selected="false">2024</a>
+        <a class="nav-item nav-link font-weight-bold" id="nav-2023-associated-pub-tab" data-toggle="tab"
+          href="#nav-2023-associated-pub" role="tab" aria-controls="nav-2023-associated-pub"
+          aria-selected="false">2023</a>
+        <a class="nav-item nav-link font-weight-bold" id="nav-2022-associated-pub-tab" data-toggle="tab"
+          href="#nav-2022-associated-pub" role="tab" aria-controls="nav-2022-associated-pub"
+          aria-selected="false">2022</a>
       </div>
     </nav>
   </div>
@@ -45,64 +55,74 @@
           {% endfor %}
         {% endif %}
       </div> -->
-      <div class="tab-pane fade show active" id="nav-2026-associated-pub" role="tabpanel" aria-labelledby="nav-2026-associated-pub-tab">
-        {% assign all_2026_associated_publications = site.data.associated-publications | where: "publication_year", "2026" %}
+      <div class="tab-pane fade show active" id="nav-2026-associated-pub" role="tabpanel"
+        aria-labelledby="nav-2026-associated-pub-tab">
+        {% assign all_2026_associated_publications = site.data.associated-publications | where: "publication_year",
+        "2026" %}
         {% if all_2026_associated_publications.size == 0 %}
-          <p>
-            There are no associated publications available for this year.
-          </p>
+        <p>
+          There are no associated publications available for this year.
+        </p>
         {% else %}
-          {% for publication in all_2026_associated_publications %}
-            {% include publication_article_citation.html %}
-          {% endfor %}
+        {% for publication in all_2026_associated_publications %}
+        {% include publication_article_citation.html %}
+        {% endfor %}
         {% endif %}
       </div>
-      <div class="tab-pane fade" id="nav-2025-associated-pub" role="tabpanel" aria-labelledby="nav-2025-associated-pub-tab">
-        {% assign all_2025_associated_publications = site.data.associated-publications | where: "publication_year", "2025" %}
+      <div class="tab-pane fade" id="nav-2025-associated-pub" role="tabpanel"
+        aria-labelledby="nav-2025-associated-pub-tab">
+        {% assign all_2025_associated_publications = site.data.associated-publications | where: "publication_year",
+        "2025" %}
         {% if all_2025_associated_publications.size == 0 %}
-          <p>
-            There are no associated publications available for this year.
-          </p>
+        <p>
+          There are no associated publications available for this year.
+        </p>
         {% else %}
-          {% for publication in all_2025_associated_publications %}
-            {% include publication_article_citation.html %}
-          {% endfor %}
+        {% for publication in all_2025_associated_publications %}
+        {% include publication_article_citation.html %}
+        {% endfor %}
         {% endif %}
       </div>
-      <div class="tab-pane fade" id="nav-2024-associated-pub" role="tabpanel" aria-labelledby="nav-2024-associated-pub-tab">
-        {% assign all_2024_associated_publications = site.data.associated-publications | where: "publication_year", "2024" %}
+      <div class="tab-pane fade" id="nav-2024-associated-pub" role="tabpanel"
+        aria-labelledby="nav-2024-associated-pub-tab">
+        {% assign all_2024_associated_publications = site.data.associated-publications | where: "publication_year",
+        "2024" %}
         {% if all_2024_associated_publications.size == 0 %}
-          <p>
-            There are no associated publications available for this year.
-          </p>
+        <p>
+          There are no associated publications available for this year.
+        </p>
         {% else %}
-          {% for publication in all_2024_associated_publications %}
-            {% include publication_article_citation.html %}
-          {% endfor %}
+        {% for publication in all_2024_associated_publications %}
+        {% include publication_article_citation.html %}
+        {% endfor %}
         {% endif %}
       </div>
-      <div class="tab-pane fade" id="nav-2023-associated-pub" role="tabpanel" aria-labelledby="nav-2023-associated-pub-tab">
-        {% assign all_2023_associated_publications = site.data.associated-publications | where: "publication_year", "2023" %}
+      <div class="tab-pane fade" id="nav-2023-associated-pub" role="tabpanel"
+        aria-labelledby="nav-2023-associated-pub-tab">
+        {% assign all_2023_associated_publications = site.data.associated-publications | where: "publication_year",
+        "2023" %}
         {% if all_2023_associated_publications.size == 0 %}
-          <p>
-            There are no associated publications available for this year.
-          </p>
+        <p>
+          There are no associated publications available for this year.
+        </p>
         {% else %}
-          {% for publication in all_2023_associated_publications %}
-            {% include publication_article_citation.html %}
-          {% endfor %}
+        {% for publication in all_2023_associated_publications %}
+        {% include publication_article_citation.html %}
+        {% endfor %}
         {% endif %}
       </div>
-      <div class="tab-pane fade" id="nav-2022-associated-pub" role="tabpanel" aria-labelledby="nav-2022-associated-pub-tab">
-        {% assign all_2022_associated_publications = site.data.associated-publications | where: "publication_year", "2022" %}
+      <div class="tab-pane fade" id="nav-2022-associated-pub" role="tabpanel"
+        aria-labelledby="nav-2022-associated-pub-tab">
+        {% assign all_2022_associated_publications = site.data.associated-publications | where: "publication_year",
+        "2022" %}
         {% if all_2022_associated_publications.size == 0 %}
-          <p>
-            There are no associated publications available for this year.
-          </p>
+        <p>
+          There are no associated publications available for this year.
+        </p>
         {% else %}
-          {% for publication in all_2022_associated_publications %}
-            {% include publication_article_citation.html %}
-          {% endfor %}
+        {% for publication in all_2022_associated_publications %}
+        {% include publication_article_citation.html %}
+        {% endfor %}
         {% endif %}
       </div>
     </div>
