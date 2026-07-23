@@ -1,6 +1,7 @@
 ---
 title: "Immunotherapy success could be predicted with new biomarkers"
 date: 2026-01-20
+category: research highlight
 image_filename: "cancer-biomarkers-watterson-jan26.png"
 image_alt_text: "A tumoroid, colon cancer cells grown in 3D"
 link: "https://www.sanger.ac.uk/news_item/immunotherapy-success-could-be-predicted-with-new-biomarkers/"

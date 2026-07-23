@@ -1,6 +1,7 @@
 ---
 title: Open Targets releases new version of the Genetics Portal with FinnGen data
 date: 2021-06-30
+category: platform news
 image_filename: Genetics_Portal_v5_release_PheWAS_plot.png
 image_alt_text: Screenshot of Open Targets Genetics PheWAS plot showing dropdown options
 link: https://blog.opentargets.org/open-targets-genetics-version-5/
