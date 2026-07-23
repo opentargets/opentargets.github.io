@@ -1,6 +1,7 @@
 ---
 title: Gosia Trynka awarded 2020 Leena Peltonen Prize
 date: 2020-06-06
+category: news
 image_filename:
 image_alt_text:
 link: /assets/docs/Trynka_Peltonen_prize_announcement.pdf

@@ -1,6 +1,7 @@
 ---
 title: "Open Targets project creates a human interactome to prioritise drug discovery"
 date: 2023-02-23
+category: research highlight
 image_filename: "Pleiotropy_Karen_Arnott.png"
 image_alt_text: "A stylized network of interconnected circles"
 layout: press_release

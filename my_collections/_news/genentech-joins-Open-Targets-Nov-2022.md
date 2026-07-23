@@ -1,6 +1,7 @@
 ---
 title: "Open Targets consortium welcomes Genentech as newest member"
 date: 2022-11-14
+category: news
 image_filename: "OT_logo_400x800.png"
 image_alt_text: "Open Targets logo"
 layout: press_release

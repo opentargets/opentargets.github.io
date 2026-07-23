@@ -1,6 +1,7 @@
 ---
 title: "Molecular map of liver disease could transform how MASLD is diagnosed and monitored"
 date: 2026-07-14
+category: research highlight
 image_filename: "masld-trajectory-july26.png"
 image_alt_text: "Graphic highlighting the liver in the human body, overlayed with data from the publication showing the established human MASLD trajectory based on patient transcriptomic data."
 layout: press_release

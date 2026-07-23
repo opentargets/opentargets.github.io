@@ -1,6 +1,7 @@
 ---
 title: "Cellular study maps gene activity changes across more than 50 gut cell types in Crohn’s disease"
 date: 2026-06-15
+category: research highlight
 image_filename: "krzak-ibdverse.png"
 image_alt_text: "UMAP of the data from the project"
 layout: press_release

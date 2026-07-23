@@ -1,6 +1,7 @@
 ---
 title: "Why clinical trials stop: the role of genetics"
 date: 2024-07-29
+category: research highlight
 image_filename: "clinical-trial-stop-reasons-Jul24.png"
 image_alt_text: "Graphic showing predicted trial stop reasons in rows with counts of trials per start year, clinical phase or therapeutic area shown by the color in each cell. The outcome groupings of the stopped reasons are shown using the color next to the stopped reason label."
 layout: press_release

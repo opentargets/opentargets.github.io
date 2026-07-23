@@ -1,6 +1,7 @@
 ---
 title: "MSD joins the Open Targets consortium"
 date: 2024-04-30
+category: news
 image_filename: "msd-press-release.png"
 image_alt_text: "MSD Logo"
 layout: press_release
