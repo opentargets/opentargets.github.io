@@ -20,30 +20,6 @@ body {
   font-family: $bodyFont;
 }
 
-h3 {
-  color: $ot-corp-navy;
-  font-weight: 600;
-}
-
-h3::after {
-  content: '';
-  display: block;
-  border-radius: 8px;
-  width: 50px;
-  height: 4px;
-  background-color: #3489ca;
-  margin: 8px 0 0;
-  margin-bottom: 15px;
-}
-
-h4 {
-  margin-top: 3rem;
-}
-
-img {
-  border-radius: 8px;
-}
-
 // Lucide icons render as SVG, not a webfont, so they don't inherit
 // font-size the way Font Awesome glyphs do. Sizing to 1em keeps them
 // drop-in compatible with existing font-size-based icon sizing.
@@ -67,10 +43,6 @@ a {
 
 a:hover {
   color: $ot-corp-blue-light;
-}
-
-li {
-  margin-bottom: 10px;
 }
 
 // Site-wide CTA button suite.
