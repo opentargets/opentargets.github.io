@@ -3,329 +3,870 @@ layout: default
 title: Home
 ---
 
-<header>
-  <div
-    id="carouselExampleIndicators"
-    class="carousel slide"
-    data-ride="carousel"
-    data-interval="10000"
-  >
-    <div class="carousel-inner text-center" role="listbox">
-      <!-- Slide 1 -->
-      <div
-        class="carousel-item active"
-        style="background-image: url('assets/img/homepage-hero-generic.jpg')"
-      >
-        <div class="d-flex h-100 align-items-center justify-content-center">
-          <div class="w-75 text-white">
-            <img
-              src="assets/img/ot-logo-white.png"
-              style="width: 200px"
-              alt="Open Targets helix logo and wordmark in white"
-              class="mb-2"
-            />
-            <h2 class="mt-2">
-              <b
-                >Delivering pre-competitive insights for systematic drug target
-                selection</b
-              >
-            </h2>
+<style>
+  /* Hero */
+  .ot-hero {
+    background-image: url('assets/img/homepage-hero-generic.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 1rem;
+  }
+  .ot-hero-inner {
+    max-width: 740px;
+    background-color: #fff;
+    padding: 2rem 2rem;
+    border-radius: 8px;
+  }
+  .ot-hero-badge {
+    display: inline-block;
+    background-color: rgba(52, 137, 202, 0.25);
+    border: 1px solid rgba(52, 137, 202, 0.5);
+    color: #1a4565;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 12px;
+    margin-bottom: 1.25rem;
+  }
+  .ot-hero h1 {
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: #1a4565;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  .ot-hero h1 span {
+    color: #3489ca;
+    font-style: italic;
+  }
+  .ot-hero p {
+    font-size: 1.2rem;
+    color: #5a5f5f;
+    line-height: 1.65;
+    margin-bottom: 2rem;
+    max-width: 530px;
+  }
+  .ot-hero .btn {
+    font-size: 1.2rem;
+    padding: 0.6rem 1.4rem;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .btn-ot-primary {
+    background-color: #3489ca;
+    border-color: #3489ca;
+    color: #fff;
+  }
+  .btn-ot-primary:hover {
+    background-color: #2a6fa3;
+    border-color: #2a6fa3;
+    color: #fff;
+  }
+  .btn-ot-outline {
+    background-color: transparent;
+    border: 1px solid rgba(52, 137, 202, 0.25);
+    color: #3489ca;
+  }
+  .btn-ot-outline:hover {
+    background-color: rgba(52, 137, 202, 0.1);
+    color: #3489ca;
+  }
+
+  /* Hero Stats */
+  .ot-hero-stats {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ot-hero-stat-image {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+  }
+  .ot-hero-stat-number {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #3489ca;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  .ot-hero-stat-label {
+    font-size: 1.5rem;
+    color: #1a4565;
+    font-weight: 600;
+  }
+  .ot-hero-stat-item {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  .ot-hero-stat-item.active {
+    display: block;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  /* Partners */
+  .ot-partners-section {
+    padding: 4rem 0;
+  }
+  .ot-partners-section h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1a4565;
+    margin-bottom: 0.4rem;
+  }
+  .ot-partners-section .ot-lead {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  .ot-partner-logo {
+    border: 1px transparent;
+    border-radius: 6px;
+    padding: 1.5rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
+  .ot-partner-logo img {
+    max-height: 48px;
+    max-width: 100%;
+    object-fit: contain;
+    transition: filter 0.15s ease;
+  }
+  .ot-partner-logo img.gsk {
+    max-height: 96px;
+  }
+  .ot-partner-quote {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: #f4f8fc;
+    border-left: 4px solid #1a4565;
+    border-radius: 8px;
+    padding: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+  .ot-partner-quote-img {
+    width: 120px;
+    height: 120px;
+    background: #dce8f2;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3489ca;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+  }
+  .ot-partner-quote-content {
+    flex: 1;
+  }
+  .ot-partner-quote-text {
+    font-size: 1rem;
+    color: #1a4565;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    max-width: 95%;
+  }
+  .ot-partner-quote-text strong {
+    font-style: normal;
+  }
+  .ot-partner-quote-author {
+    font-size: 0.85rem;
+    color: #555;
+    font-weight: 600;
+  }
+  .ot-partner-quote-title {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 0.25rem;
+  }
+
+  /* Platform section */
+  .ot-platform-section {
+    background-color: #1a4565;
+    border-top: 1px solid #dce8f2;
+    border-bottom: 1px solid #dce8f2;
+    padding: 4rem 0;
+  }
+  .ot-platform-section h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #efefef;
+    margin-bottom: 0.75rem;
+  }
+  .ot-platform-section .ot-lead {
+    font-size: 1rem;
+    color: #efefef;
+    line-height: 1.65;
+    margin-bottom: 1.25rem;
+  }
+  .ot-platform-feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 1rem;
+    color: #efefef;
+    margin-bottom: 0.5rem;
+  }
+  .ot-platform-feature i {
+    color: #3489ca;
+    margin-top: 2px;
+    flex-shrink: 0;
+  }
+
+  .ot-platform-image {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section shared */
+  .ot-section {
+    padding: 4rem 0;
+  }
+  .ot-section-label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #3489ca;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+  .ot-section h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: #1a4565;
+  }
+  .ot-section .ot-lead {
+    font-size: 1rem;
+    color: #555;
+    max-width: 600px;
+    line-height: 1.65;
+    margin-bottom: 2rem;
+  }
+
+  /* Research cards */
+  .ot-research-card {
+    border: 1px solid #e3eaf1;
+    border-radius: 8px;
+    padding: 1.5rem;
+    height: 100%;
+    background: #fff;
+    transition: box-shadow 0.15s ease;
+  }
+  .ot-research-card:hover {
+    box-shadow: 0 4px 16px rgba(52,137,202,0.12);
+  }
+  .ot-research-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  .ot-research-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1a4565;
+    margin-bottom: 0.5rem;
+  }
+  .ot-research-card p {
+    font-size: 0.875rem;
+    color: #555;
+    line-height: 1.55;
+    margin-bottom: 0.75rem;
+  }
+  .ot-card-link {
+    font-size: 1rem;
+    color: #1a4565;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .ot-card-link:hover {
+    color: #2a6fa3;
+    text-decoration: underline;
+  }
+
+  /* Principles */
+  .ot-principles-section {
+    background-color: #f4f8fc;
+    border-top: 1px solid #dce8f2;
+    border-bottom: 1px solid #dce8f2;
+    padding: 4rem 0;
+  }
+  .ot-principle {
+    border-top: 3px solid #3489ca;
+    padding-top: 1rem;
+    height: 100%;
+  }
+  .ot-principle h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1a4565;
+    margin-bottom: 0.5rem;
+  }
+  .ot-principle p {
+    font-size: 0.875rem;
+    color: #555;
+    line-height: 1.55;
+    margin-bottom: 0.75rem;
+  }
+  .ot-principle a {
+    font-size: 0.8rem;
+    color: #3489ca;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .ot-principle a:hover {
+    text-decoration: underline;
+  }
+
+  
+  /* News */
+  .ot-news-section {
+    padding: 4rem 0;
+  }
+  .ot-news-section h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1a4565;
+    margin-bottom: 0;
+  }
+  .ot-news-card {
+    border: 1px solid #e3eaf1;
+    border-radius: 8px;
+    padding: 1.5rem;
+    height: 100%;
+    background: #fff;
+    transition: box-shadow 0.15s ease;
+  }
+  .ot-news-card:hover {
+    box-shadow: 0 4px 16px rgba(52,137,202,0.1);
+  }
+  .ot-news-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #3489ca;
+    background: #e8f3fb;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-bottom: 0.6rem;
+  }
+  .ot-news-card h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a4565;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+  }
+  .ot-news-card p {
+    font-size: 0.825rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+  .ot-news-date {
+    font-size: 0.75rem;
+    color: #aaa;
+    margin-top: 0.75rem;
+  }
+
+  /* Social / Blog strip */
+  .ot-social-section {
+    background-color: #f4f8fc;
+    border-top: 1px solid #dce8f2;
+    padding: 4rem 0;
+  }
+  .ot-social-header {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1a4565;
+    margin-bottom: 0.25rem;
+  }
+  .ot-social-header a {
+    color: #1a4565;
+    text-decoration: none;
+  }
+  .ot-social-header a:hover {
+    color: #3489ca;
+  }
+  .ot-social-sub {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 1.25rem;
+  }
+  .ot-blog-post {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e3eaf1;
+  }
+  .ot-blog-post:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .ot-blog-post a {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #1a4565;
+    text-decoration: none;
+    line-height: 1.4;
+    display: block;
+    margin-bottom: 2px;
+  }
+  .ot-blog-post a:hover {
+    color: #3489ca;
+  }
+  .ot-blog-meta {
+    font-size: 0.75rem;
+    color: #999;
+    margin-bottom: 4px;
+  }
+  .ot-blog-desc {
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.45;
+    margin: 0;
+  }
+</style>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<header class="ot-hero">
+  <div class="container">
+    <div class="row align-items-stretch">
+      <div class="col-lg-8 mb-4 mb-lg-0">
+        <div class="ot-hero-inner">
+          <div class="ot-hero-badge">
+            <i class="fas fa-dna mr-1"></i> Public–private partnership · since 2014
           </div>
+          <h1>Genetics-<span>driven</span> targets</h1>
+          <p>
+            Open Targets is a collaborative programme that harnesses human genetics
+            and large-scale genomics to identify and prioritise the most promising
+            drug targets — accelerating the path from discovery to clinic.
+          </p>
+          <a href="https://platform.opentargets.org" class="btn btn-ot-primary" target="_blank">
+            <i class="fas fa-external-link-alt mr-1"></i> Explore the Platform
+          </a>
+          <a href="/science" class="btn btn-ot-outline">
+            <i class="fas fa-flask mr-1"></i> Our science
+          </a>
         </div>
       </div>
-      <!-- Slide 2 -->
-      <div
-        class="carousel-item"
-        style="background-image: url('assets/img/homepage-hero-platform.jpg')"
-      >
-        <div class="d-flex h-100 align-items-center justify-content-center">
-          <div class="p-4 w-75" style="background-color: white">
-            <h2 class="mb-4">The Open Targets Platform</h2>
-            <p class="px-6">
-              A freely-available, comprehensive, and open source tool that
-              aggregates multiple public data sources and helps scientists
-              identify and prioritise potential therapeutic drug targets for
-              further investigation.
-            </p>
-            <a href="https://platform.opentargets.org" class="btn btn-primary"
-              >Visit the Open Targets Platform</a
-            >
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <div class="ot-hero-stats">
+          <div class="ot-hero-stat-item active" data-stat="0">
+            <div class="ot-hero-stat-image" style="background-image: url('assets/img/homepage-hero-generic.jpg');"></div>
+            <div class="ot-hero-stat-number">10+</div>
+            <div class="ot-hero-stat-label">Years</div>
           </div>
-        </div>
-      </div>
-      <!-- Slide 3 -->
-      <div
-        class="carousel-item"
-        style="background-image: url('assets/img/homepage-hero-genetics.jpg')"
-      >
-        <div class="d-flex h-100 align-items-center justify-content-center">
-          <div class="p-4 w-75" style="background-color: white">
-            <h2 class="mb-4">Our research</h2>
-            <p>
-              Our research programme generates and analyses data to connect
-              targets to diseases, assess the strength of this evidence, and
-              help identify and prioritise targets for drug discovery. This
-              includes evidence that causally links targets and diseases, as
-              well as foundational data that helps us understand biological
-              processes and disease progression more deeply.
-            </p>
-            <a
-              href="https://www.opentargets.org/science"
-              class="btn btn-primary"
-              >Find out more</a
-            >
+          <div class="ot-hero-stat-item" data-stat="1">
+            <div class="ot-hero-stat-image" style="background-image: url('assets/img/homepage-hero-generic.jpg');"></div>
+            <div class="ot-hero-stat-number">7</div>
+            <div class="ot-hero-stat-label">Partners</div>
+          </div>
+          <div class="ot-hero-stat-item" data-stat="2">
+            <div class="ot-hero-stat-image" style="background-image: url('assets/img/homepage-hero-generic.jpg');"></div>
+            <div class="ot-hero-stat-number">100+</div>
+            <div class="ot-hero-stat-label">Projects</div>
+          </div>
+          <div class="ot-hero-stat-item" data-stat="3">
+            <div class="ot-hero-stat-image" style="background-image: url('assets/img/homepage-hero-generic.jpg');"></div>
+            <div class="ot-hero-stat-number">90+</div>
+            <div class="ot-hero-stat-label">Publications</div>
           </div>
         </div>
       </div>
     </div>
-    <a
-      class="carousel-control-prev"
-      href="#carouselExampleIndicators"
-      role="button"
-      data-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a
-      class="carousel-control-next"
-      href="#carouselExampleIndicators"
-      role="button"
-      data-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
 </header>
 
-<section class="py-5 my-5">
+<!-- ============================================================
+     PARTNERS
+     ============================================================ -->
+<section class="ot-partners-section">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2 class="text-center mb-5">Our Partners</h2>
-        <p>
-          At the heart of Open Targets is a consortium of complementary
-          <a href="/partners">partner institutions</a>
-          that bring their respective expertise to collaborative projects that
-          improve how we systematically identify and prioritise drug targets.
+    <div class="d-flex justify-content-between align-items-baseline mb-4 mb-lg-0">
+      <div>
+        <div class="ot-section-label">Our partners</div>
+        <h2>Seven world-leading institutions, one shared mission</h2>
+      </div>
+      <a href="/partners" class="ot-card-link" style="white-space:nowrap">
+        About the partnership <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i>
+      </a>
+    </div>
+    <p class="ot-lead">
+      Open Targets is a public–private partnership between leading academic
+      institutes and global pharmaceutical companies.</p>
+    <div class="ot-partner-quote">
+      <div class="ot-partner-quote-img">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="ot-partner-quote-content">
+        <p class="ot-partner-quote-text">
+          The skills and insights that all the partners bring is allowing us to systematically harness key advances in the understanding of biology, particularly in the human immune system. <strong>The work of Open Targets will continue to make a profound impact on how in pharma we select targets for new medicines.</strong>
         </p>
+        <div class="ot-partner-quote-author">Rab Prinjha</div>
+        <div class="ot-partner-quote-title">Vice President, Adaptive Immunity, GSK</div>
       </div>
     </div>
-    <div class="row mt-3 d-flex justify-content-center align-items-center">
+     <div class="row mt-3 d-flex justify-content-center align-items-center">
       <div class="col-lg-3 col-md-6 col-sm-6 col-6 py-2">
         <a href="https://www.ebi.ac.uk/" target="_blank">
-          <img src="assets/img/logos/embl-ebi.png" class="img-fluid" />
+          <div class="ot-partner-logo">
+            <img src="assets/img/logos/embl-ebi.png" class="img-fluid" />
+          </div>
         </a>
       </div>
       <div
         class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center"
       >
         <a href="https://www.gene.com/" target="_blank">
-          <img src="assets/img/logos/genentech.png" class="img-fluid" />
+          <div class="ot-partner-logo">
+            <img src="assets/img/logos/genentech.png" class="img-fluid" />
+          </div>
         </a>
       </div>
       <div
         class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center"
       >
         <a href="https://www.gsk.com" target="_blank">
-          <img src="assets/img/logos/gsk_signal.png" class="img-fluid" />
+          <div class="ot-partner-logo">
+            <img src="assets/img/logos/gsk_signal.png" class="img-fluid gsk" />
+          </div>
         </a>
       </div>
       <div
         class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center"
       >
         <a href="https://www.msd.com/" target="_blank">
-          <img src="assets/img/logos/msd.png" class="img-fluid" />
+          <div class="ot-partner-logo">
+            <img src="assets/img/logos/msd.png" class="img-fluid" />
+          </div>
         </a>
       </div>
       <div
         class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center"
       >
         <a href="https://www.pfizer.com/" target="_blank">
-          <img src="assets/img/logos/pfizer.png" class="img-fluid" />
+          <div class="ot-partner-logo">
+            <img src="assets/img/logos/pfizer.png" class="img-fluid" />
+          </div>
         </a>
       </div>
       <div
         class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center"
       >
         <a href="https://www.sanofi.com/" target="_blank">
-          <img src="assets/img/logos/sanofi.png" class="img-fluid" />
+          <div class="ot-partner-logo">
+            <img src="assets/img/logos/sanofi.png" class="img-fluid" />
+          </div>
         </a>
       </div>
       <div
         class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center"
       >
         <a href="https://www.sanger.ac.uk" target="_blank">
-          <img src="assets/img/logos/wellcome-sanger.png" class="img-fluid" />
+          <div class="ot-partner-logo">
+            <img src="assets/img/logos/wellcome-sanger.png" class="img-fluid" />
+          </div>
         </a>
       </div>
     </div>
   </div>
 </section>
 
-<div class="container">
-  <hr />
-</div>
 
-<section class="py-5 my-5">
+<!-- ============================================================
+     PLATFORM
+     ============================================================ -->
+<section class="ot-platform-section">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2 class="text-center mb-5">News</h2>
-      </div>
-      {% assign all_news = site.news | sort: 'date' | reverse %} {% for
-      news_item in all_news limit:1 %} {% include news_item.html %} {% endfor %}
-      <div class="col-lg-12 mt-5">
-        <p class="text-center">
-          <a href="/news">Read more news about Open Targets</a>
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="ot-section-label">Open Targets Platform</div>
+        <h2>Find the targets worth pursuing</h2>
+        <p class="ot-lead">
+          The Open Targets Platform integrates genetics, genomics, transcriptomics, clinical, and literature data to score target–disease associations—giving researchers a single, trusted starting point for target identification.
         </p>
+        <div class="ot-platform-feature">
+          <i class="fas fa-check-circle"></i>
+          Open source and freely available
+        </div>
+        <div class="ot-platform-feature">
+          <i class="fas fa-check-circle"></i>
+          Quarterly data releases
+        </div>
+        <div class="ot-platform-feature">
+          <i class="fas fa-check-circle"></i>
+          API and bulk data downloads available
+        </div>
+        <div class="ot-platform-feature">
+          <i class="fas fa-check-circle"></i>
+          Used by researchers in 100+ countries
+        </div>
+        <a href="https://platform.opentargets.org" class="btn btn-primary mt-4" target="_blank">
+          <i class="fas fa-external-link-alt mr-1"></i> Launch Platform
+        </a>
+      </div>
+      <div class="col-lg-6">
+        <a href="https://platform.opentargets.org"><div class="ot-platform-image" style="background-image: url('assets/img/homepage-hero-generic.jpg');"></div></a>
       </div>
     </div>
   </div>
 </section>
 
-<div class="container">
-  <hr />
-</div>
+<!-- ============================================================
+     RESEARCH AREAS
+     ============================================================ -->
+<section class="ot-section">
+  <div class="container">
+    <div class="ot-section-label">Our research</div>
+    <h2>Science built around what works in the clinic</h2>
+    <p class="ot-lead">
+      Drugs against genetically validated targets are more than twice as likely
+      to succeed in clinical trials. Our research programme generates the
+      large-scale experimental data needed to identify those targets and put them
+      in front of drug discovery teams.
+    </p>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-research-card">
+          <div class="ot-research-icon" style="background:#e8f3fb">
+            <i class="fas fa-ribbon" style="color:#3489ca"></i>
+          </div>
+          <h3>Oncology</h3>
+          <p>
+            Large-scale CRISPR screens and somatic genomics to find and validate
+            cancer targets, with a focus on resistance mechanisms and tumour
+            dependencies.
+          </p>
+          <a href="/science#oncology" class="ot-card-link">
+            Read more <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-research-card">
+          <div class="ot-research-icon" style="background:#f0eeff">
+            <i class="fas fa-brain" style="color:#6b5fcc"></i>
+          </div>
+          <h3>Neurodegeneration</h3>
+          <p>
+            Genetic dissection of diseases like Alzheimer's and Parkinson's,
+            combining GWAS, multi-omics, and human iPSC models to move from
+            signal to mechanism.
+          </p>
+          <a href="/science#neurodegeneration" class="ot-card-link">
+            Read more <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-research-card">
+          <div class="ot-research-icon" style="background:#fff0ec">
+            <i class="fas fa-shield-alt" style="color:#c0522a"></i>
+          </div>
+          <h3>Immunology &amp; inflammation</h3>
+          <p>
+            Decoding the genetics of immune-mediated diseases to surface targets
+            with the clearest causal evidence across conditions like IBD and RA.
+          </p>
+          <a href="/science#immunology" class="ot-card-link">
+            Read more <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<section class="py-5 my-5">
+<!-- ============================================================
+     PRINCIPLES
+     ============================================================ -->
+<section class="ot-principles-section">
+  <div class="container">
+    <div class="ot-section-label">How we work</div>
+    <h2 class="mb-4" style="font-size:1.75rem;font-weight:700;color:#1a4565">Our principles</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-principle">
+          <h3>Evidence-first target selection</h3>
+          <p>
+            We back targets with the strongest human genetic evidence —
+            focusing resources where the biology gives the clearest signals.
+          </p>
+          <a href="/science">Our scientific approach <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-principle">
+          <h3>Everything open, no exceptions</h3>
+          <p>
+            All data, tools, and publications are freely available as soon as
+            possible. Science advances faster when it's shared.
+          </p>
+          <a href="/publications">Our latest publications <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-principle">
+          <h3>Industry and academia, united</h3>
+          <p>
+            Our unique structure puts academic rigour and industrial scale in
+            the same room — and the same pipelines.
+          </p>
+          <a href="/partners">Our partners <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     NEWS
+     ============================================================ -->
+<section class="ot-news-section">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-baseline mb-4">
+      <div>
+        <div class="ot-section-label">Latest from Open Targets</div>
+        <h2>News &amp; research highlights</h2>
+      </div>
+      <a href="/news" class="ot-card-link" style="white-space:nowrap">
+        See all news <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i>
+      </a>
+    </div>
+    <div class="row">
+      {% assign all_news = site.news | sort: 'date' | reverse %}
+      {% for news_item in all_news limit:3 %}
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-news-card">
+          {% if news_item.image %}
+          <img src="{{ news_item.image }}" alt="{{ news_item.title }}" style="width:100%;height:180px;object-fit:cover;border-radius:8px 8px 0 0;margin:-1.5rem -1.5rem 1rem -1.5rem;" />
+          {% endif %}
+          {% if news_item.category %}
+          <div class="ot-news-tag">{{ news_item.category }}</div>
+          {% else %}
+          <div class="ot-news-tag">News</div>
+          {% endif %}
+          <h3>
+            {% if news_item.url %}
+            <a href="{{ news_item.url }}" style="color:inherit;text-decoration:none">{{ news_item.title }}</a>
+            {% else %}
+            {{ news_item.title }}
+            {% endif %}
+          </h3>
+          {% if news_item.excerpt %}
+          <p>{{ news_item.excerpt }}</p>
+          {% endif %}
+          <div class="ot-news-date">{{ news_item.date | date: "%-d %B %Y" }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     BLOG + BLUESKY
+     ============================================================ -->
+<section class="ot-social-section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-        <h2 class="text-center mb-5">Our Principles</h2>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 py-3">
-            <div class="card h-100">
-              <div class="bg-blue text-center">
-                <span class="principles-cta-icon">
-                  <i class="fas fa-crosshairs"></i>
-                </span>
-              </div>
-              <div class="card-body text-center">
-                <h5 class="card-title">A systematic approach</h5>
-                <p class="card-text">
-                  Systematically identify and prioritise the best targets to
-                  safely and effectively treat rare and common diseases
-                </p>
-                <div class="text-center">
-                  <a href="/science" class="btn btn-primary"
-                    >Our scientific approach</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 py-3">
-            <div class="card h-100">
-              <div class="text-center bg-blue">
-                <span class="principles-cta-icon">
-                  <i class="fas fa-book-open"></i>
-                </span>
-              </div>
-              <div class="card-body text-center">
-                <h5 class="card-title">Open Exchange of Ideas</h5>
-                <p class="card-text">
-                  We are committed to making our data, methods and results
-                  publicly available as soon as possible to foster an open
-                  exchange of ideas
-                </p>
-                <div class="text-center">
-                  <a href="/publications" class="btn btn-primary"
-                    >Our latest publications</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 py-3">
-            <div class="card h-100">
-              <div class="text-center bg-blue">
-                <span class="principles-cta-icon">
-                  <i class="fas fa-exchange-alt"></i>
-                </span>
-              </div>
-              <div class="card-body text-center">
-                <h5 class="card-title">Multidisciplinary collaboration</h5>
-                <p class="card-text">
-                  We believe in non-exclusive partnerships that foster the free
-                  exchange of ideas, expertise, and data
-                </p>
-                <div class="text-center">
-                  <a href="/partners" class="btn btn-primary"
-                    >Our partners and collaborators</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
+
+      <!-- Blog -->
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <div class="ot-section-label">Latest posts</div>
+        <div class="ot-social-header">
+          <a href="https://blog.opentargets.org/" target="_blank">
+            <i class="fas fa-rss mr-1" style="color:#3489ca"></i> Blog
+          </a>
         </div>
+        <p class="ot-social-sub">Insights, updates, and deep dives from the Open Targets team</p>
+        {% for post in site.data.ghost_api_response.posts limit:4 %}
+        <div class="ot-blog-post">
+          <a href="http://blog.opentargets.org/{{ post.slug }}" target="_blank">
+            {{ post.title }}
+          </a>
+          <div class="ot-blog-meta">
+            {% for author in post.authors %}{{ author.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+            &middot; {{ post.published_at | date: "%-d %B %Y" }}
+          </div>
+          {% if post.meta_description %}
+          <p class="ot-blog-desc">{{ post.meta_description }}</p>
+          {% endif %}
+        </div>
+        {% endfor %}
+        <a href="https://blog.opentargets.org/" target="_blank" class="ot-card-link mt-2 d-inline-block">
+          View all posts <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i>
+        </a>
       </div>
+
+      <!-- Bluesky -->
+      <div class="col-lg-6">
+        <div class="ot-section-label">Follow us</div>
+        <div class="ot-social-header">
+          <a href="https://bsky.app/profile/opentargets.org" target="_blank">
+            <i class="fa-brands fa-bluesky mr-1" style="color:#3489ca"></i> Bluesky
+          </a>
+        </div>
+        <p class="ot-social-sub">@opentargets.org</p>
+        <script
+          type="module"
+          src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js"
+          async
+        ></script>
+        <bsky-embed username="opentargets.org" limit="4" load-more="false"></bsky-embed>
+      </div>
+
     </div>
   </div>
 </section>
 
-<div class="container">
-  <hr />
-</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const statItems = document.querySelectorAll('.ot-hero-stat-item');
+    let currentIndex = 0;
+    const interval = 4000; // 4 seconds
 
-<section class="py-5 my-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 py-3">
-        <div class="news-section-header">
-          <h4 class="text-center">
-            <a href="https://blog.opentargets.org/" target="_blank">
-              <i class="fas fa-rss-square"></i>
-              Blog
-            </a>
-          </h4>
-        </div>
-        <hr />
-        <div class="news-section-content">
-          <div id="blog-section">
-            {% for post in site.data.ghost_api_response.posts %}
-            <a
-              class="font-weight-bold mb-1"
-              href="http://blog.opentargets.org/{{post.slug}}"
-              target="_blank"
-            >
-              {{ post.title }}
-            </a>
-            <p class="mb-1 font-weight-light">
-              {% for author in post.authors %} {{author.name}}{% unless
-              forloop.last %},{% endunless %} {% endfor %}
-            </p>
-            <p class="mb-1 font-weight-light">
-              {{ post.published_at | date: "%-d %B %Y"}}
-            </p>
-            <p class="mb-4">{{post.meta_description}}</p>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 py-3">
-        <div class="news-section-header">
-          <h4 class="text-center">
-            <a href="https://bsky.app/profile/opentargets.org" target="_blank">
-              <i class="fa fa-brands fa-bluesky"></i>
-              Bluesky
-            </a>
-          </h4>
-        </div>
-        <hr />
-        <div class="news-section-content">
-          <script
-            type="module"
-            src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js"
-            async
-          ></script>
-          <div id="bluesky-section">
-            <bsky-embed username="opentargets.org" limit="5" load-more="true">
-          </div>
-          </bsky-embed>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    setInterval(function() {
+      statItems[currentIndex].classList.remove('active');
+      currentIndex = (currentIndex + 1) % statItems.length;
+      statItems[currentIndex].classList.add('active');
+    }, interval);
+  });
+</script>
