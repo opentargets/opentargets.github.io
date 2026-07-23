@@ -3,6 +3,62 @@ layout: default
 title: Home
 ---
 
+<style>
+  /* Flip Card Styles */
+  .ot-principle {
+    perspective: 1000px;
+    cursor: pointer;
+    height: 200px;
+  }
+  .ot-principle-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  .ot-principle.flipped .ot-principle-inner {
+    transform: rotateY(180deg);
+  }
+  .ot-principle-front,
+  .ot-principle-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background: #fff;
+    border: 1px solid #e3eaf1;
+  }
+  .ot-principle-front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  .ot-principle-front h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a4565;
+    text-align: center;
+  }
+  .ot-principle-back {
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .ot-principle-back p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+    margin: 0;
+  }
+</style>
+
 <!-- ============================================================
      HERO
      ============================================================ -->
@@ -32,24 +88,24 @@ title: Home
       <div class="col-lg-4 mb-4 mb-lg-0">
         <div class="ot-hero-stats">
           <div class="ot-hero-stat-item active" data-stat="0">
-            <div class="ot-hero-stat-image" style="background-image: url('assets/img/homepage-hero-generic.jpg');"></div>
+            <div class="ot-hero-stat-image" style="background-image: url('assets/img/homepage/PhilMynottPhoto0113.jpg');"></div>
             <div class="ot-hero-stat-number">10+</div>
-            <div class="ot-hero-stat-label">Years</div>
+            <div class="ot-hero-stat-label">years</div>
           </div>
           <div class="ot-hero-stat-item" data-stat="1">
-            <div class="ot-hero-stat-image" style="background-image: url('assets/img/homepage-hero-generic.jpg');"></div>
+            <div class="ot-hero-stat-image" style="background-image: url('assets/img/homepage/hackathon.jpeg');"></div>
             <div class="ot-hero-stat-number">7</div>
-            <div class="ot-hero-stat-label">Partners</div>
+            <div class="ot-hero-stat-label">partners</div>
           </div>
           <div class="ot-hero-stat-item" data-stat="2">
-            <div class="ot-hero-stat-image" style="background-image: url('assets/img/homepage-hero-generic.jpg');"></div>
+            <div class="ot-hero-stat-image" style="background-image: url('assets/img/homepage/PhilMynottPhoto0257.jpg');"></div>
             <div class="ot-hero-stat-number">100+</div>
-            <div class="ot-hero-stat-label">Projects</div>
+            <div class="ot-hero-stat-label">projects</div>
           </div>
           <div class="ot-hero-stat-item" data-stat="3">
-            <div class="ot-hero-stat-image" style="background-image: url('assets/img/homepage-hero-generic.jpg');"></div>
+            <div class="ot-hero-stat-image" style="background-image: url('assets/img/homepage/PhilMynottPhoto0181.jpg');"></div>
             <div class="ot-hero-stat-number">90+</div>
-            <div class="ot-hero-stat-label">Publications</div>
+            <div class="ot-hero-stat-label">publications</div>
           </div>
         </div>
       </div>
@@ -181,12 +237,12 @@ title: Home
           <i data-lucide="circle-check"></i>
           Used by researchers in 100+ countries
         </div>
-        <a href="https://platform.opentargets.org" class="btn btn-primary mt-4" target="_blank">
+        <a href="https://platform.opentargets.org" class="btn btn-ot-primary mt-4" target="_blank">
           <i data-lucide="external-link" class="mr-1"></i> Launch Platform
         </a>
       </div>
       <div class="col-lg-6">
-        <a href="https://platform.opentargets.org"><div class="ot-platform-image" style="background-image: url('assets/img/homepage-hero-generic.jpg');"></div></a>
+        <a href="https://platform.opentargets.org"><div class="ot-platform-image" style="background-image: url('assets/img/homepage/Platform screenshot.png');"></div></a>
       </div>
     </div>
   </div>
@@ -266,33 +322,47 @@ title: Home
     <h2 class="mb-4" style="font-size:1.75rem;font-weight:700;color:#1a4565">Our principles</h2>
     <div class="row">
       <div class="col-lg-4 col-md-6 py-2">
-        <div class="ot-principle">
-          <h3>Evidence-first target selection</h3>
-          <p>
-            We back targets with the strongest human genetic evidence —
-            focusing resources where the biology gives the clearest signals.
-          </p>
-          <a href="/science">Our scientific approach <i data-lucide="arrow-right" class="ml-1"></i></a>
+        <div class="ot-principle" onclick="this.classList.toggle('flipped')">
+          <div class="ot-principle-inner">
+            <div class="ot-principle-front">
+              <h3>A systematic approach</h3>
+            </div>
+            <div class="ot-principle-back">
+              <p>
+                We leverage publicly available data to systematically identify and prioritise the best targets to safely and effectively treat rare and common diseases.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 py-2">
-        <div class="ot-principle">
-          <h3>Everything open, no exceptions</h3>
-          <p>
-            All data, tools, and publications are freely available as soon as
-            possible. Science advances faster when it's shared.
-          </p>
-          <a href="/publications">Our latest publications <i data-lucide="arrow-right" class="ml-1"></i></a>
+        <div class="ot-principle" onclick="this.classList.toggle('flipped')">
+          <div class="ot-principle-inner">
+            <div class="ot-principle-front">
+              <h3>Open exchange of ideas</h3>
+            </div>
+            <div class="ot-principle-back">
+              <p>
+                All our data, tools, and publications are made publicly available as soon as
+                possible. Science advances faster when ideas are shared openly.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 py-2">
-        <div class="ot-principle">
-          <h3>Industry and academia, united</h3>
-          <p>
-            Our unique structure puts academic rigour and industrial scale in
-            the same room — and the same pipelines.
-          </p>
-          <a href="/partners">Our partners <i data-lucide="arrow-right" class="ml-1"></i></a>
+        <div class="ot-principle" onclick="this.classList.toggle('flipped')">
+          <div class="ot-principle-inner">
+            <div class="ot-principle-front">
+              <h3>Multidisciplinary collaboration</h3>
+            </div>
+            <div class="ot-principle-back">
+              <p>
+                A public-private partneship puts academic rigour and industrial expertise in
+                the same room. We believe in non-exclusive partnerships that foster the free exchange of ideas, knowledge, and data.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
