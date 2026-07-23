@@ -1,15 +1,15 @@
 
 // adjust button default style
 .btn-primary {
-    background-color: #3489ca;
-    border: 1px solid #3489ca;
+    background-color: $ot-corp-blue;
+    border: 1px solid $ot-corp-blue;
     border-radius: 0px;
 }
 
 // adjust button on-hover style
 .btn-primary:hover {
-    background-color: #98C5E3;
-    border: 1px solid #98C5E3;
+    background-color: $ot-corp-blue-light;
+    border: 1px solid $ot-corp-blue-light;
     border-radius: 0px;
 }
 

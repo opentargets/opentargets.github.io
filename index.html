@@ -3,499 +3,6 @@ layout: default
 title: Home
 ---
 
-<style>
-  /* Hero */
-  .ot-hero {
-    background-image: url('assets/img/homepage-hero-generic.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 3rem 1rem;
-  }
-  .ot-hero-inner {
-    max-width: 740px;
-    background-color: #fff;
-    padding: 2rem 2rem;
-    border-radius: 8px;
-  }
-  .ot-hero-badge {
-    display: inline-block;
-    background-color: rgba(52, 137, 202, 0.25);
-    border: 1px solid rgba(52, 137, 202, 0.5);
-    color: #1a4565;
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    padding: 4px 12px;
-    border-radius: 12px;
-    margin-bottom: 1.25rem;
-  }
-  .ot-hero h1 {
-    font-size: 3.4rem;
-    font-weight: 700;
-    color: #1a4565;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-  }
-  .ot-hero h1 span {
-    color: #3489ca;
-    font-style: italic;
-  }
-  .ot-hero p {
-    font-size: 1.2rem;
-    color: #5a5f5f;
-    line-height: 1.65;
-    margin-bottom: 2rem;
-    max-width: 530px;
-  }
-  .ot-hero .btn {
-    font-size: 1.2rem;
-    padding: 0.6rem 1.4rem;
-    border-radius: 4px;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .btn-ot-primary {
-    background-color: #3489ca;
-    border-color: #3489ca;
-    color: #fff;
-  }
-  .btn-ot-primary:hover {
-    background-color: #2a6fa3;
-    border-color: #2a6fa3;
-    color: #fff;
-  }
-  .btn-ot-outline {
-    background-color: transparent;
-    border: 1px solid rgba(52, 137, 202, 0.25);
-    color: #3489ca;
-  }
-  .btn-ot-outline:hover {
-    background-color: rgba(52, 137, 202, 0.1);
-    color: #3489ca;
-  }
-
-  /* Hero Stats */
-  .ot-hero-stats {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 2rem;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .ot-hero-stat-image {
-    width: 300px;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 8px;
-    margin-bottom: 1.5rem;
-  }
-  .ot-hero-stat-number {
-    font-size: 4rem;
-    font-weight: 700;
-    color: #3489ca;
-    line-height: 1;
-    margin-bottom: 0.5rem;
-  }
-  .ot-hero-stat-label {
-    font-size: 1.5rem;
-    color: #1a4565;
-    font-weight: 600;
-  }
-  .ot-hero-stat-item {
-    display: none;
-    animation: fadeIn 0.5s ease-in-out;
-  }
-  .ot-hero-stat-item.active {
-    display: block;
-  }
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateX(0); }
-  }
-
-  /* Partners */
-  .ot-partners-section {
-    padding: 4rem 0;
-  }
-  .ot-partners-section h2 {
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: #1a4565;
-    margin-bottom: 0.4rem;
-  }
-  .ot-partners-section .ot-lead {
-    font-size: 1rem;
-    color: #555;
-    margin-bottom: 2rem;
-  }
-  .ot-partner-logo {
-    border: 1px transparent;
-    border-radius: 6px;
-    padding: 1.5rem;
-    background: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-  }
-  .ot-partner-logo img {
-    max-height: 48px;
-    max-width: 100%;
-    object-fit: contain;
-    transition: filter 0.15s ease;
-  }
-  .ot-partner-logo img.gsk {
-    max-height: 96px;
-  }
-  .ot-partner-quote {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    background: #f4f8fc;
-    border-left: 4px solid #1a4565;
-    border-radius: 8px;
-    padding: 2rem;
-    display: flex;
-    gap: 1.5rem;
-    align-items: flex-start;
-  }
-  .ot-partner-quote-img {
-    width: 120px;
-    height: 120px;
-    background: #dce8f2;
-    border-radius: 50%;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #3489ca;
-    font-size: 2rem;
-    margin-left: 2rem;
-    margin-right: 1rem;
-  }
-  .ot-partner-quote-content {
-    flex: 1;
-  }
-  .ot-partner-quote-text {
-    font-size: 1rem;
-    color: #1a4565;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    max-width: 95%;
-  }
-  .ot-partner-quote-text strong {
-    font-style: normal;
-  }
-  .ot-partner-quote-author {
-    font-size: 0.85rem;
-    color: #555;
-    font-weight: 600;
-  }
-  .ot-partner-quote-title {
-    font-size: 0.85rem;
-    color: #888;
-    margin-top: 0.25rem;
-  }
-
-  /* Platform section */
-  .ot-platform-section {
-    background-color: #1a4565;
-    border-top: 1px solid #dce8f2;
-    border-bottom: 1px solid #dce8f2;
-    padding: 4rem 0;
-  }
-  .ot-platform-section h2 {
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: #efefef;
-    margin-bottom: 0.75rem;
-  }
-  .ot-platform-section .ot-lead {
-    font-size: 1rem;
-    color: #efefef;
-    line-height: 1.65;
-    margin-bottom: 1.25rem;
-  }
-  .ot-platform-feature {
-    display: flex;
-    align-items: flex-start;
-    gap: 8px;
-    font-size: 1rem;
-    color: #efefef;
-    margin-bottom: 0.5rem;
-  }
-  .ot-platform-feature i {
-    color: #3489ca;
-    margin-top: 2px;
-    flex-shrink: 0;
-  }
-
-  .ot-platform-image {
-    width: 100%;
-    height: 400px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Section shared */
-  .ot-section {
-    padding: 4rem 0;
-  }
-  .ot-section-label {
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: #3489ca;
-    font-weight: 700;
-    margin-bottom: 0.4rem;
-  }
-  .ot-section h2 {
-    font-size: 1.75rem;
-    font-weight: 700;
-    margin-bottom: 0.75rem;
-    color: #1a4565;
-  }
-  .ot-section .ot-lead {
-    font-size: 1rem;
-    color: #555;
-    max-width: 600px;
-    line-height: 1.65;
-    margin-bottom: 2rem;
-  }
-
-  /* Research cards */
-  .ot-research-card {
-    border: 1px solid #e3eaf1;
-    border-radius: 8px;
-    padding: 1.5rem;
-    height: 100%;
-    background: #fff;
-    transition: box-shadow 0.15s ease;
-  }
-  .ot-research-card:hover {
-    box-shadow: 0 4px 16px rgba(52,137,202,0.12);
-  }
-  .ot-research-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
-  }
-  .ot-research-card h3 {
-    font-size: 1rem;
-    font-weight: 700;
-    color: #1a4565;
-    margin-bottom: 0.5rem;
-  }
-  .ot-research-card p {
-    font-size: 0.875rem;
-    color: #555;
-    line-height: 1.55;
-    margin-bottom: 0.75rem;
-  }
-  .ot-card-link {
-    font-size: 1rem;
-    color: #1a4565;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .ot-card-link:hover {
-    color: #2a6fa3;
-    text-decoration: underline;
-  }
-
-.ot-card-link i {
-  font-size:0.7rem;
-}
-
-  /* Principles */
-  .ot-principles-section {
-    background-color: #f4f8fc;
-    border-top: 1px solid #dce8f2;
-    border-bottom: 1px solid #dce8f2;
-    padding: 4rem 0;
-  }
-  .ot-principle {
-    border-top: 3px solid #3489ca;
-    padding-top: 1rem;
-    height: 100%;
-  }
-  .ot-principle h3 {
-    font-size: 1rem;
-    font-weight: 700;
-    color: #1a4565;
-    margin-bottom: 0.5rem;
-  }
-  .ot-principle p {
-    font-size: 0.875rem;
-    color: #555;
-    line-height: 1.55;
-    margin-bottom: 0.75rem;
-  }
-  .ot-principle a {
-    font-size: 1rem;
-    color: #3489ca;
-    font-weight: 600;
-    text-decoration: none;
-  }
-
-  .ot-principle i {
-    font-size:0.7rem;
-  }
-  .ot-principle a:hover {
-    text-decoration: underline;
-  }
-
-  
-  /* News */
-  .ot-news-section {
-    padding: 4rem 0;
-  }
-  .ot-news-section h2 {
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: #1a4565;
-    margin-bottom: 0;
-  }
-  .ot-news-card {
-    border: 1px solid #e3eaf1;
-    border-radius: 8px;
-    padding: 1.5rem;
-    height: 100%;
-    background: #fff;
-    transition: box-shadow 0.15s ease;
-  }
-  .ot-news-card:hover {
-    box-shadow: 0 4px 16px rgba(52,137,202,0.1);
-  }
-  .ot-news-tag {
-    display: inline-block;
-    font-size: 0.7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: #3489ca;
-    background: #e8f3fb;
-    padding: 3px 8px;
-    border-radius: 3px;
-    margin-bottom: 0.6rem;
-  }
-  .ot-news-card img{
-  margin-bottom: 12px;
-  width:100%;
-  height:180px;
-  object-fit:cover;
-  border-radius:8px 8px 0 0;
-  }
-
-  .ot-news-card h3 {
-    font-size: 0.95rem;
-    font-weight: 700;
-    color: #1a4565;
-    line-height: 1.4;
-    margin-bottom: 0.5rem;
-  }
-  .ot-news-card p {
-    font-size: 0.825rem;
-    color: #666;
-    line-height: 1.5;
-    margin-bottom: 0;
-  }
-  .ot-news-date {
-    font-size: 0.75rem;
-    color: #aaa;
-    margin-top: 0.75rem;
-  }
-
-  /* Social / Blog strip */
-  .ot-social-section {
-    background-color: #f4f8fc;
-    border-top: 1px solid #dce8f2;
-    padding: 4rem 0;
-  }
-  .ot-social-header {
-    font-size: 1rem;
-    font-weight: 700;
-    color: #1a4565;
-    margin-bottom: 0.25rem;
-  }
-  .ot-social-header a {
-    color: #1a4565;
-    text-decoration: none;
-  }
-  .ot-social-header a:hover {
-    color: #3489ca;
-  }
-  .ot-social-sub {
-    font-size: 0.8rem;
-    color: #888;
-    margin-bottom: 1.25rem;
-  }
-  .ot-blog-post {
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid #e3eaf1;
-  }
-  .ot-blog-post:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-  .ot-blog-post a {
-    font-size: 0.875rem;
-    font-weight: 700;
-    color: #1a4565;
-    text-decoration: none;
-    line-height: 1.4;
-    display: block;
-    margin-bottom: 2px;
-  }
-  .ot-blog-post a:hover {
-    color: #3489ca;
-  }
-  .ot-blog-meta {
-    font-size: 0.75rem;
-    color: #999;
-    margin-bottom: 4px;
-  }
-  .ot-blog-desc {
-    font-size: 0.8rem;
-    color: #666;
-    line-height: 1.45;
-    margin: 0;
-  }
-  .ot-bluesky-container {
-    max-height: 400px;
-    overflow-y: auto;
-    padding-right: 10px;
-  }
-  .ot-bluesky-container::-webkit-scrollbar {
-    width: 6px;
-  }
-  .ot-bluesky-container::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 3px;
-  }
-  .ot-bluesky-container::-webkit-scrollbar-thumb {
-    background: #dce8f2;
-    border-radius: 3px;
-  }
-  .ot-bluesky-container::-webkit-scrollbar-thumb:hover {
-    background: #3489ca;
-  }
-</style>
-
 <!-- ============================================================
      HERO
      ============================================================ -->
@@ -505,7 +12,7 @@ title: Home
       <div class="col-lg-8 mb-4 mb-lg-0">
         <div class="ot-hero-inner">
           <div class="ot-hero-badge">
-            <i class="fas fa-dna mr-1"></i> Public–private partnership · since 2014
+            <i data-lucide="dna" class="mr-1"></i> Public–private partnership · since 2014
           </div>
           <h1>Genetics-<span>driven</span> targets</h1>
           <p>
@@ -513,11 +20,12 @@ title: Home
             and large-scale genomics to identify and prioritise the most promising
             drug targets — accelerating the path from discovery to clinic.
           </p>
-          <a href="https://platform.opentargets.org" class="btn btn-ot-primary" target="_blank">
-            <i class="fas fa-external-link-alt mr-1"></i> Explore the Platform
+          <a href="https://platform.opentargets.org" class="btn btn-ot-primary" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="external-link" class="mr-1" aria-hidden="true"></i> Explore the Platform
+            <span class="sr-only">(opens in a new tab)</span>
           </a>
-          <a href="/science" class="btn btn-ot-outline">
-            <i class="fas fa-flask mr-1"></i> Our science
+          <a href="/science" class="btn btn-ot-secondary">
+            <i data-lucide="flask-conical" class="mr-1"></i> Our science
           </a>
         </div>
       </div>
@@ -560,7 +68,7 @@ title: Home
         <h2>Seven world-leading institutions, one shared mission</h2>
       </div>
       <a href="/partners" class="ot-card-link" style="white-space:nowrap">
-        About the partnership <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i>
+        About the partnership <i data-lucide="arrow-right" class="ml-1"></i>
       </a>
     </div>
     <p class="ot-lead">
@@ -568,7 +76,7 @@ title: Home
       institutes and global pharmaceutical companies.</p>
     <div class="ot-partner-quote">
       <div class="ot-partner-quote-img">
-        <i class="fas fa-user"></i>
+        <i data-lucide="user"></i>
       </div>
       <div class="ot-partner-quote-content">
         <p class="ot-partner-quote-text">
@@ -658,23 +166,23 @@ title: Home
           The Open Targets Platform integrates genetics, genomics, transcriptomics, clinical, and literature data to score target–disease associations—giving researchers a single, trusted starting point for target identification.
         </p>
         <div class="ot-platform-feature">
-          <i class="fas fa-check-circle"></i>
+          <i data-lucide="circle-check"></i>
           Open source and freely available
         </div>
         <div class="ot-platform-feature">
-          <i class="fas fa-check-circle"></i>
+          <i data-lucide="circle-check"></i>
           Quarterly data releases
         </div>
         <div class="ot-platform-feature">
-          <i class="fas fa-check-circle"></i>
+          <i data-lucide="circle-check"></i>
           API and bulk data downloads available
         </div>
         <div class="ot-platform-feature">
-          <i class="fas fa-check-circle"></i>
+          <i data-lucide="circle-check"></i>
           Used by researchers in 100+ countries
         </div>
         <a href="https://platform.opentargets.org" class="btn btn-primary mt-4" target="_blank">
-          <i class="fas fa-external-link-alt mr-1"></i> Launch Platform
+          <i data-lucide="external-link" class="mr-1"></i> Launch Platform
         </a>
       </div>
       <div class="col-lg-6">
@@ -701,7 +209,7 @@ title: Home
       <div class="col-lg-4 col-md-6 py-2">
         <div class="ot-research-card">
           <div class="ot-research-icon" style="background:#e8f3fb">
-            <i class="fas fa-ribbon" style="color:#3489ca"></i>
+            <i data-lucide="award" style="color:#3489ca"></i>
           </div>
           <h3>Oncology</h3>
           <p>
@@ -710,14 +218,14 @@ title: Home
             dependencies.
           </p>
           <a href="/science#oncology" class="ot-card-link">
-            Read more <i class="fas fa-arrow-right ml-1"></i>
+            Read more <i data-lucide="arrow-right" class="ml-1"></i>
           </a>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 py-2">
         <div class="ot-research-card">
           <div class="ot-research-icon" style="background:#f0eeff">
-            <i class="fas fa-brain" style="color:#6b5fcc"></i>
+            <i data-lucide="brain" style="color:#6b5fcc"></i>
           </div>
           <h3>Neurodegeneration</h3>
           <p>
@@ -726,14 +234,14 @@ title: Home
             signal to mechanism.
           </p>
           <a href="/science#neurodegeneration" class="ot-card-link">
-            Read more <i class="fas fa-arrow-right ml-1"></i>
+            Read more <i data-lucide="arrow-right" class="ml-1"></i>
           </a>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 py-2">
         <div class="ot-research-card">
           <div class="ot-research-icon" style="background:#fff0ec">
-            <i class="fas fa-shield-alt" style="color:#c0522a"></i>
+            <i data-lucide="shield" style="color:#c0522a"></i>
           </div>
           <h3>Immunology &amp; inflammation</h3>
           <p>
@@ -741,7 +249,7 @@ title: Home
             with the clearest causal evidence across conditions like IBD and RA.
           </p>
           <a href="/science#immunology" class="ot-card-link">
-            Read more <i class="fas fa-arrow-right ml-1"></i>
+            Read more <i data-lucide="arrow-right" class="ml-1"></i>
           </a>
         </div>
       </div>
@@ -764,7 +272,7 @@ title: Home
             We back targets with the strongest human genetic evidence —
             focusing resources where the biology gives the clearest signals.
           </p>
-          <a href="/science">Our scientific approach <i class="fas fa-arrow-right ml-1"></i></a>
+          <a href="/science">Our scientific approach <i data-lucide="arrow-right" class="ml-1"></i></a>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 py-2">
@@ -774,7 +282,7 @@ title: Home
             All data, tools, and publications are freely available as soon as
             possible. Science advances faster when it's shared.
           </p>
-          <a href="/publications">Our latest publications <i class="fas fa-arrow-right ml-1"></i></a>
+          <a href="/publications">Our latest publications <i data-lucide="arrow-right" class="ml-1"></i></a>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 py-2">
@@ -784,7 +292,7 @@ title: Home
             Our unique structure puts academic rigour and industrial scale in
             the same room — and the same pipelines.
           </p>
-          <a href="/partners">Our partners <i class="fas fa-arrow-right ml-1"></i></a>
+          <a href="/partners">Our partners <i data-lucide="arrow-right" class="ml-1"></i></a>
         </div>
       </div>
     </div>
@@ -802,7 +310,7 @@ title: Home
         <h2>News &amp; research highlights</h2>
       </div>
       <a href="/news" class="ot-card-link" style="white-space:nowrap">
-        See all news <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i>
+        See all news <i data-lucide="arrow-right" class="ml-1"></i>
       </a>
     </div>
     <div class="row">
@@ -850,7 +358,7 @@ title: Home
         <div class="ot-section-label">Latest posts</div>
         <div class="ot-social-header">
           <a href="https://blog.opentargets.org/" target="_blank">
-            <i class="fas fa-rss mr-1" style="color:#3489ca"></i> Blog
+            <i data-lucide="rss" class="mr-1" style="color:#3489ca"></i> Blog
           </a>
         </div>
         <p class="ot-social-sub">Insights, updates, and deep dives from the Open Targets team</p>
@@ -869,7 +377,7 @@ title: Home
         </div>
         {% endfor %}
         <a href="https://blog.opentargets.org/" target="_blank" class="ot-card-link mt-2 d-inline-block">
-          View all posts <i class="fas fa-arrow-right ml-1" style="font-size:0.7rem"></i>
+          View all posts <i data-lucide="arrow-right" class="ml-1"></i>
         </a>
       </div>
 
