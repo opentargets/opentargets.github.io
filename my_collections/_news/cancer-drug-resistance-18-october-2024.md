@@ -4,12 +4,13 @@ date: 2024-10-18
 category: research highlight
 image_filename: "tumour_organoid_WellcomeSangerInstitute.png"
 image_alt_text: "A tumoroid, colon cancer cells grown in 3D"
+image_caption: "Image credit: M. Coelho, et al. 2023"
 layout: press_release
+summary: "Researchers have mapped the genetic landscape of cancer drug resistance, uncovering that DNA changes can be grouped into four main categories and highlighting possible new therapeutic targets."
+publication: "M.A. Coelho, M.E. Strauss, A. Watterson, et al. (2024) Genetic landscape of cancer drug resistance mechanisms from base editing screens. Nature Genetics. DOI: 10.1038/s41588-024-01948-8 (Open Access)"
+publication_link: "https://www.nature.com/articles/s41588-024-01948-8"
+
 ---
-<strong>Researchers have mapped the genetic landscape of cancer drug resistance, uncovering that DNA changes can be grouped into four main categories and highlighting possible new therapeutic targets.</strong>
-
-<br/>
-
 All cancer mutations that cause drug resistance fall into one of four categories. New research has detailed each type, helping to uncover targets for drug development and identify potential effective second-line therapies. 
 
 In a new large-scale study, researchers from the Wellcome Sanger Institute, EMBL’s European Bioinformatics Institute (EMBL-EBI), Open Targets, and collaborators used CRISPR gene editing to map the genetic landscape of drug resistance in cancers, including colon, bone and lung cancer. The team explains how known mutations impact drug resistance and highlights new DNA changes that could be explored further. 
@@ -44,10 +45,7 @@ Dr Mathew Garnett, senior author from the Wellcome Sanger Institute and Open Tar
 
 
 <h3>Notes to Editors:</h3>
-<strong>Publication</strong>: M.A. Coelho, M.E. Strauss, A. Watterson, et al. (2024) <a href="https://www.nature.com/articles/s41588-024-01948-8">Genetic landscape of cancer drug resistance mechanisms from base editing screens</a>. Nature Genetics. DOI: 10.1038/s41588-024-01948-8 (Open Access)
 
 <strong>Funding</strong>: This research was funded by Wellcome. A full acknowledgement list can be found in the publication. 
-
-<strong>Image credit</strong>: M. Coelho, et al. 2023
 
 <a href="https://www.sanger.ac.uk/news_item/cancer-drug-resistance-causes-and-categories-identified/">This article was originally published by the Wellcome Sanger Institute.</a>

@@ -3,7 +3,11 @@ title: ""
 date: yyyy-mm-dd
 image_filename: ""
 image_alt_text: ""
+image_caption: ""
 layout: press_release
+summary: ""
+publication: ""
+publication_link: ""
 ---
 The text for the press release goes here
 
