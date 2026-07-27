@@ -10,6 +10,14 @@ summary: "Researchers used CRISPR and mini tumours to discover more about how ca
 publication: "M. Coelho, S. Cooper, M. Strauss, et al. (2023) Base editing screens map mutations affecting interferon-g signalling in cancer. Cancer Cell. DOI:10.1016/j.ccell.2022.12.009"
 publication_link: https://doi.org/10.1016/j.ccell.2022.12.009
 ---
+<div class="ot-news-bullets">
+    <h4 class="ot-news-bullets-summary">Summary</h4>
+    <ul>
+        <li>Test 1</li>
+        <li>Test 2</li>
+        <li>Test 3</li>
+    </ul>
+</div>
 
 A new library documenting hundreds of mutations can help to explain why some cancers don’t respond to immunotherapies, and highlights potential pathways that could be drug targets in the future. 
 
@@ -50,4 +58,3 @@ This research was funded by Open Targets and Wellcome. A full acknowledgements l
 
 
 [This press release was originally published on the Wellcome Sanger Institute website]([url](https://www.sanger.ac.uk/news_item/bowel-cancer-mutations-that-impact-immunotherapy-identified/)).
-

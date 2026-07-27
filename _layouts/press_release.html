@@ -25,7 +25,7 @@
       height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
+
     {% include navigation.html %}
 
     <header class="page-header">
@@ -74,14 +74,13 @@
           </div>
 
           <!-- Publication section -->
-          {% if page.publication == null %}
-          {% else %}
+          {% if page.publication %}
           <div class="ot-news-publication">
-            <div class="ot-highlight-box-label">Publication</div>
+            <div class="ot-news-publication-label">Publication</div>
             {% if page.publication_link %}
-            <p class="ot-news-publication-link"><a href="{{ page.publication_link }}" target="_blank">{{ page.publication }}</a></p>
+            <a href="{{ page.publication_link }}" class="ot-news-publication-link" target="_blank">{{ page.publication }}</a>
             {% else %}
-            <p class="ot-news-publication-link">{{ page.publication }}</p>
+            <div>{{ page.publication }}</div>
             {% endif %}
           </div>
           {% endif %}

@@ -49,7 +49,8 @@ Understanding more about the four different types of DNA changes can help suppor
 <author>Dr Mathew Garnett, </author>
 <affiliation>senior author from the Wellcome Sanger Institute and Open Targets</affiliation></blockquote>
 
-<h4>Notes to Editors:</h4>
+
+<h3>Notes to Editors:</h3>
 
 <strong>Funding</strong>: This research was funded by Wellcome. A full acknowledgement list can be found in the publication. 
 

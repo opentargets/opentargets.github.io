@@ -7,8 +7,8 @@ image_alt_text: ""
 image_caption: ""
 layout: press_release
 summary: ""
-publication:
-publication_link:
+publication: ""
+publication_link: ""
 ---
 <div class="ot-highlight-box">
     <div class="ot-highlight-box-label">Summary</div>
