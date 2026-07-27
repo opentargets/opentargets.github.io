@@ -27,38 +27,62 @@
     <!-- End Google Tag Manager (noscript) -->
     {% include navigation.html %}
 
-    <header class="py-5" style="background-color:#3489ca">
+    <header class="page-header">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center text-white">
-            <h1>Press Release</h1>
+            <h1>News</h1>
           </div>
         </div>
       </div>
     </header>
-    <section class="py-5 my-5">
+    <section class="ot-section py-5">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            {% if page.image_filename == null %}
-              <img src="/assets/img/open_targets_logo_news_item_placeholder.png" class="img-fluid" alt="Open Targets Helix logo and wordmark"/>
-            {% else %}
-              <img src="/assets/img/{{ page.image_filename }}" class="img-fluid" alt="{{ page.image_alt_text }}"/>
+        <div class="ot-news-item">
+          <!-- Badge with category and date -->
+          {% if page.category or page.date %}
+          <div class="mb-3">
+            {% if page.category %}
+            <span class="ot-news-badge">{{ page.category }}</span>
+            {% endif %}
+            {% if page.date %}
+            <span class="ot-news-badge">{{ page.date | date: "%-d %B %Y" }}</span>
             {% endif %}
           </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <h1>{{ page.title }}</h1>
-            <h4>{{ page.date | date: "%-d %B %Y" }}</h4>
+          {% endif %}
+
+          <!-- Title -->
+          <h1 class="ot-news-title">{{ page.title }}</h1>
+
+          <!-- Summary -->
+          {% if page.summary %}
+          <p class="ot-news-summary">{{ page.summary }}</p>
+          {% endif %}
+
+          <!-- Image with caption -->
+          {% if page.image_filename %}
+          <img src="/assets/img/{{ page.image_filename }}" class="ot-news-image" alt="{{ page.image_alt_text }}" />
+          {% if page.image_caption %}
+          <p class="ot-news-caption">{{ page.image_caption }}</p>
+          {% endif %}
+          {% endif %}
+
+          <!-- Main content -->
+          <div class="ot-news-content">
+            {{ page.content }}
           </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col-12">
-            <p>
-              {{ page.content }}
-            </p>
+
+          <!-- Publication section -->
+          {% if page.publication %}
+          <div class="ot-news-publication">
+            <div class="ot-news-publication-label">Publication</div>
+            {% if page.publication_link %}
+            <a href="{{ page.publication_link }}" class="ot-news-publication-link" target="_blank">{{ page.publication }}</a>
+            {% else %}
+            <div>{{ page.publication }}</div>
+            {% endif %}
           </div>
+          {% endif %}
         </div>
       </div>
     </section>

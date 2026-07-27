@@ -20,6 +20,22 @@ body {
   font-family: $bodyFont;
 }
 
+h3 {
+  color: $ot-corp-navy;
+  font-weight: 600;
+}
+
+h3::after {
+  content: '';
+  display: block;
+  border-radius: 8px;
+  width: 50px;
+  height: 4px;
+  background-color: #3489ca;
+  margin: 8px 0 0;
+  margin-bottom: 15px;
+}
+
 // Lucide icons render as SVG, not a webfont, so they don't inherit
 // font-size the way Font Awesome glyphs do. Sizing to 1em keeps them
 // drop-in compatible with existing font-size-based icon sizing.
@@ -189,7 +205,8 @@ img.open-access-icon-sm {
 }
 
 header.page-header {
-  padding: 100px;
+  padding: 60px;
+  background: linear-gradient(to bottom right, $ot-corp-navy, #2a6ea2);
 }
 
 // used to set <p> min-height values on /people page so that names, job titles, and logos are aligned

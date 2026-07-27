@@ -4,12 +4,13 @@ date: 2024-07-29
 category: research highlight
 image_filename: "clinical-trial-stop-reasons-Jul24.png"
 image_alt_text: "Graphic showing predicted trial stop reasons in rows with counts of trials per start year, clinical phase or therapeutic area shown by the color in each cell. The outcome groupings of the stopped reasons are shown using the color next to the stopped reason label."
+image_caption: ""
 layout: press_release
+summary: "Using machine learning to analyse the genetic factors behind early clinical trial termination, researchers find a link between genetic evidence and trial outcome."
+publication: "Razuvayevskaya et al., Genetic factors associated with reasons for clinical trial stoppage (2024) Nat Genet 
+DOI: 10.1038/s41588-024-01854-z"
+publication_link: "https://www.nature.com/articles/s41588-024-01854-z"
 ---
-<strong>Using machine learning to analyse the genetic factors behind early clinical trial termination, researchers find a link between genetic evidence and trial outcome.</strong>
-
-<br/>
-
 Failure is the most likely outcome of a clinical trial. Learning from these failures by understanding which factors maximise the chances of a successful trial would help improve the drug discovery process. However, accessing information about failed clinical trials is difficult since the drug discovery literature is biased towards publishing successful results.
 
 A representative source of trial results are stopped trials, meaning clinical trials that were halted before their scheduled endpoint. Stopped trials listed on ClinicalTrials.gov must now provide a freeform text reason for the stoppage. This information is openly available and can be mined to learn which features make trials more likely to fail. This could inform future drug discovery initiatives.
@@ -30,7 +31,3 @@ Almost half of the stopped trials the team looked at were cancer trials, and the
 
 <br/>
 
-<b>Source article</b>
-<br/>
-Razuvayevskaya et al., <a href="https://www.nature.com/articles/s41588-024-01854-z">Genetic factors associated with reasons for clinical trial stoppage</a> (2024) <i>Nat Genet</i> 
-DOI: 10.1038/s41588-024-01854-z
