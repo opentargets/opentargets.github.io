@@ -4,6 +4,7 @@ date: 2025-11-25
 category: funding announcement
 image_filename: "OPP-funding-announcement.png"
 image_alt_text: "Funding announcement"
+image_caption: "Credit: EMBL-EBI"
+summary: "EMBL-EBI receives UKRI Medical Research Council (MRC) and National Institute for Health and Care Research (NIHR) funding for enhancing and translating mental-health omics data into the Open Targets Platform."
 link: "https://www.ebi.ac.uk/about/news/announcements/new-data-initiative-launched-to-accelerate-discovery-and-personalised-care-for-mental-health-conditions/"
 ---
-EMBL-EBI receives UKRI Medical Research Council (MRC) and National Institute for Health and Care Research (NIHR) funding for enhancing and translating mental-health omics data into the Open Targets Platform. 

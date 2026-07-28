@@ -74,16 +74,16 @@ title: Home
     <p class="ot-lead">
       Open Targets is a public–private partnership between leading academic
       institutes and global pharmaceutical companies.</p>
-    <div class="ot-partner-quote">
-      <div class="ot-partner-quote-img">
+    <div class="ot-highlight-box">
+      <div class="ot-highlight-box-img">
         <i data-lucide="user"></i>
       </div>
-      <div class="ot-partner-quote-content">
-        <p class="ot-partner-quote-text">
+      <div class="ot-highlight-box-content">
+        <p class="ot-highlight-box-text">
           The skills and insights that all the partners bring is allowing us to systematically harness key advances in the understanding of biology, particularly in the human immune system. <strong>The work of Open Targets will continue to make a profound impact on how in pharma we select targets for new medicines.</strong>
         </p>
-        <div class="ot-partner-quote-author">Rab Prinjha</div>
-        <div class="ot-partner-quote-title">Vice President, Adaptive Immunity, GSK</div>
+        <div class="ot-highlight-box-author">Rab Prinjha</div>
+        <div class="ot-highlight-box-title">Vice President, Adaptive Immunity, GSK</div>
       </div>
     </div>
      <div class="row mt-3 d-flex justify-content-center align-items-center">
@@ -334,8 +334,8 @@ title: Home
             {{ news_item.title }}
             {% endif %}
           </h3>
-          {% if news_item.excerpt %}
-          <p>{{ news_item.excerpt }}</p>
+          {% if news_item.summary %}
+          <p>{{ news_item.summary | truncate: 300 }}</p>
           {% endif %}
           <div class="ot-news-date">{{ news_item.date | date: "%-d %B %Y" }}</div>
         </div>

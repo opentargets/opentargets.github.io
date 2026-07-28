@@ -18,6 +18,8 @@ The partnership is committed to rapid publication to openly share experimental d
 
 “We are pleased to join the Open Targets consortium and believe this unique public-private model will allow us to leverage large-scale genomics data along with advances in AI and machine learning, so we can better understand the underlying drivers of disease and enable more efficient target discovery,” said Iya Khalil, Vice President and Head of Data, AI and genome sciences, MSD Research Laboratories. “We look forward to working closely with our partners at Open Targets.” 
 
-<h2>References</h2>
-1.	Ochoa et al. (2022) Human genetics evidence supports two-thirds of the 2021 FDA-approved drugs. Nature Reviews Drug Discovery
-2.	Rusina et al. (2023) Genetic support for FDA-approved drugs over the past decade. Nature Reviews Drug Discovery
+<h4>References</h4>
+<ol>
+<li>Ochoa et al. (2022) Human genetics evidence supports two-thirds of the 2021 FDA-approved drugs. Nature Reviews Drug Discovery</li>
+<li>Rusina et al. (2023) Genetic support for FDA-approved drugs over the past decade. Nature Reviews Drug Discovery</li>
+</ol>

@@ -133,9 +133,8 @@
 .ot-partner-logo img.gsk {
   max-height: 96px;
 }
-.ot-partner-quote {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+.ot-highlight-box {
+  margin: 3rem 0;
   background: $ot-bg-tint;
   border-left: 4px solid $ot-corp-navy;
   border-radius: 8px;
@@ -144,7 +143,17 @@
   gap: 1.5rem;
   align-items: flex-start;
 }
-.ot-partner-quote-img {
+
+.ot-highlight-box-label {
+  color: $ot-corp-navy;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+}
+
+.ot-highlight-box-img {
   width: 120px;
   height: 120px;
   background: $ot-border-tint;
@@ -158,25 +167,25 @@
   margin-left: 2rem;
   margin-right: 1rem;
 }
-.ot-partner-quote-content {
+.ot-highlight-box-content {
   flex: 1;
 }
-.ot-partner-quote-text {
+.ot-highlight-box-text {
   font-size: 1rem;
   color: $ot-corp-navy;
   line-height: 1.6;
   margin-bottom: 1rem;
   max-width: 95%;
 }
-.ot-partner-quote-text strong {
+.ot-highlight-box-text strong {
   font-style: normal;
 }
-.ot-partner-quote-author {
+.ot-highlight-box-author {
   font-size: 0.85rem;
   color: #555;
   font-weight: 600;
 }
-.ot-partner-quote-title {
+.ot-highlight-box-title {
   font-size: 0.85rem;
   color: #888;
   margin-top: 0.25rem;
@@ -363,7 +372,7 @@
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: $ot-corp-blue;
-  background: $ot-tag-bg;
+  background: $ot-bg-tint;
   padding: 3px 8px;
   border-radius: 3px;
   margin-bottom: 0.6rem;
@@ -373,7 +382,6 @@
   width: 100%;
   height: 180px;
   object-fit: cover;
-  border-radius: 8px 8px 0 0;
 }
 .ot-news-card h3 {
   font-size: 0.95rem;
