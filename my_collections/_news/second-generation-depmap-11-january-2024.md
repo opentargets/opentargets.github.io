@@ -4,10 +4,12 @@ date: 2024-01-11
 category: research highlight
 image_filename: "second-depmap-cover-nci.png"
 image_alt_text: "Laboratory Researcher setting up genetic samples and primers for polymerase chain reaction."
+image_caption: "Photo by National Cancer Institute on Unsplash"
 layout: press_release
+summary: "The second generation of the Cancer Dependency Map uncovers 370 priority drug targets, with strong links to specific cancer types."
+publication: "C. Pacini et al. (2023) ‘A comprehensive clinically informed map of dependencies in cancer cells and framework for target prioritization’ Cancer Cell. DOI: 10.1016/j.ccell.2023.12.016"
+publication_link: "https://doi.org/10.1016/j.ccell.2023.12.016"
 ---
-<i>The second generation of the Cancer Dependency Map uncovers 370 priority drug targets, with strong links to specific cancer types.</i>
-
 A new, systematic analysis of cancer cells identifies 370 candidate priority drug targets across 27 cancer types, including breast, lung and ovarian cancers.
 
 By looking at multiple layers of functional and genomic information, researchers were able to create an unbiased, panoramic view of what enables cancer cells to grow and survive. They identify new opportunities for cancer therapies in a significant leap towards a new generation of smarter, more effective cancer treatments. 
@@ -29,28 +31,29 @@ The work provides a clearer understanding of which types of cancer can possibly 
 
 The findings underscore the importance of tailoring treatments to the unique characteristics of each cancer, promising more personalised care for patients with fewer side effects in the future.
 
-Dr Francesco Iorio, co-lead author of the study from the Computational Biology Research Centre of Human Technopole, said: “Analysing the largest-ever cancer dependency dataset, we present the most comprehensive map yet of human cancers' vulnerabilities - their "Achilles heel". We identify a new list of top-priority targets for potential treatments, along with clues about which patients might benefit the most - all made possible through the design and use of innovative computational and machine intelligence methodologies.”
+<blockquote><p>“Analysing the largest-ever cancer dependency dataset, we present the most comprehensive map yet of human cancers' vulnerabilities - their "Achilles heel". We identify a new list of top-priority targets for potential treatments, along with clues about which patients might benefit the most - all made possible through the design and use of innovative computational and machine intelligence methodologies.”</p>
+<author>Dr Francesco Iorio, </author>
+<affiliation>co-lead author of the study from the Computational Biology Research Centre of Human Technopole</affiliation></blockquote>
 
-Dr Mathew Garnett, co-lead author of the study at the Wellcome Sanger Institute and Open Targets, said: “Our work uncovers 370 candidate priority targets for tackling the most prevalent cancers, including breast, lung and colon cancers. This work exploits the latest in genomics and computational biology to understand how we can best target cancer cells. This will help drug developers focus their efforts on the highest value targets to bring new medicines to patients more quickly.” 
+<blockquote><p>“Our work uncovers 370 candidate priority targets for tackling the most prevalent cancers, including breast, lung and colon cancers. This work exploits the latest in genomics and computational biology to understand how we can best target cancer cells. This will help drug developers focus their efforts on the highest value targets to bring new medicines to patients more quickly.”</p>
+<author>Dr Mathew Garnett, </author>
+<affiliation>co-lead author of the study at the Wellcome Sanger Institute and Open Targets</affiliation></blockquote>
 
-Dr Marianne Baker, science engagement manager at Cancer Research UK, said: “Two people might have the same type of cancer, but their diseases can behave differently. That is why we need precision medicine. This ambitious work is a compelling example of research informing drug discovery from the start, paving the way for more effective precision cancer therapies. Giving people treatments for their unique cancer can improve the odds of success and help more people affected by cancer live longer, better lives.”
+<blockquote><p>“Two people might have the same type of cancer, but their diseases can behave differently. That is why we need precision medicine. This ambitious work is a compelling example of research informing drug discovery from the start, paving the way for more effective precision cancer therapies. Giving people treatments for their unique cancer can improve the odds of success and help more people affected by cancer live longer, better lives.”</p>
+<author>Dr Marianne Baker, </author>
+<affiliation>science engagement manager at Cancer Research UK</affiliation></blockquote>
 
-<br>
-<br>
 
-1. The Cancer Dependency Map is an international collaboration between the Wellcome Sanger Institute and the Broad Institute in the United States. The results of the first iteration of the Cancer Dependency Map were published in 2019. The Cancer Dependency Map at the Sanger Institute is a project that aims to assign a dependency to every cancer cell in a patient, which could be exploited to develop new therapies. It is linked with the Open Targets initiative to facilitate new drug target identification. Projects developed by the Open Targets consortium have supported elements of the Cancer Dependency map to facilitate new drug target identification inclusive of this research. https://depmap.sanger.ac.uk/ 
-2. https://www.cancerresearchuk.org/health-professional/cancer-statistics/worldwide-cancer 
-3. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9293739/ 
-4. CRISPR-CAS9 is a tool used to precisely edit DNA.
-These data can be accessed on the Sanger Institute’s Cancer Dependency Map website: https://depmap.sanger.ac.uk/ 
+<h4>Notes</h4>
+<ol>
+<li>The Cancer Dependency Map is an international collaboration between the Wellcome Sanger Institute and the Broad Institute in the United States. The results of the first iteration of the Cancer Dependency Map were published in 2019. The Cancer Dependency Map at the Sanger Institute is a project that aims to assign a dependency to every cancer cell in a patient, which could be exploited to develop new therapies. It is linked with the Open Targets initiative to facilitate new drug target identification. Projects developed by the Open Targets consortium have supported elements of the Cancer Dependency map to facilitate new drug target identification inclusive of this research. https://depmap.sanger.ac.uk/</li>
+<li><a href="https://www.cancerresearchuk.org/health-professional/cancer-statistics/worldwide-cancer">https://www.cancerresearchuk.org/health-professional/cancer-statistics/worldwide-cancer</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9293739/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9293739/</a></li>
+<li>CRISPR-CAS9 is a tool used to precisely edit DNA.</li>
+</ol>
 
-<br>
+These data can be accessed on the Sanger Institute’s Cancer Dependency Map website: <a href="https://depmap.sanger.ac.uk/ ">https://depmap.sanger.ac.uk/</a>
 
-<b>Publication</b>
-<a href="https://doi.org/10.1016/j.ccell.2023.12.016">C. Pacini et al. (2023) ‘A comprehensive clinically informed map of dependencies in cancer cells and framework for target prioritization’ Cancer Cell. DOI: 10.1016/j.ccell.2023.12.016</a>
 
-<b>Funding</b> 
+<h4>Funding</h4> 
 This research was supported by Wellcome and Open Targets. For full funding acknowledgements, please refer to the publication.
-
-<b>Cover image</b>
-Photo by <a href="https://unsplash.com/@nci?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">National Cancer Institute</a> on <a href="https://unsplash.com/photos/person-holding-black-round-plate-E9Ucfek-Lp0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

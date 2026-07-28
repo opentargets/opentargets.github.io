@@ -10,14 +10,6 @@ summary: "Researchers used CRISPR and mini tumours to discover more about how ca
 publication: "M. Coelho, S. Cooper, M. Strauss, et al. (2023) Base editing screens map mutations affecting interferon-g signalling in cancer. Cancer Cell. DOI:10.1016/j.ccell.2022.12.009"
 publication_link: https://doi.org/10.1016/j.ccell.2022.12.009
 ---
-<div class="ot-news-bullets">
-    <h4 class="ot-news-bullets-summary">Summary</h4>
-    <ul>
-        <li>Test 1</li>
-        <li>Test 2</li>
-        <li>Test 3</li>
-    </ul>
-</div>
 
 A new library documenting hundreds of mutations can help to explain why some cancers don’t respond to immunotherapies, and highlights potential pathways that could be drug targets in the future. 
 
@@ -43,12 +35,19 @@ While further research is needed in order to inform clinical practice, this libr
 
 Being able to see the impact of different genetic mutations on immunotherapy could also lead to more targeted treatment approaches in the future, where patients who will benefit the most from different immunotherapies can be identified. It also highlights mutations that could be targeted in drug development, leading to new therapies. 
 
-Dr Matthew Coelho, first author from the Wellcome Sanger Institute and Open Targets, said: “Using gene editing technology, we were able to gain an unbiased picture of the function of thousands of mutations, which we hope will be a valuable resource for the scientific community to conduct further research. We were able to shed light on the role these mutations play in modulating the body’s immune response to cancer. While our research focused on bowel cancer cells, many of the mutations investigated can be found in other cancers as well.”
+<blockquote>
+<p>“Using gene editing technology, we were able to gain an unbiased picture of the function of thousands of mutations, which we hope will be a valuable resource for the scientific community to conduct further research. We were able to shed light on the role these mutations play in modulating the body’s immune response to cancer. While our research focused on bowel cancer cells, many of the mutations investigated can be found in other cancers as well.”</p>
+<author>Dr Matthew Coelho, </author><affiliation>first author from the Wellcome Sanger Institute and Open Targets</affiliation></blockquote>
 
-Dr Mathew Garnett, senior author from the Wellcome Sanger Institute and Open Targets, said: “Immunotherapy has transformed cancer treatment over the last decade or so, but there are still unanswered questions about why it works for some patients’ tumours and not others. Our research has created a library documenting hundreds of mutations that influence how the tumour responds to the immune response. This can be used to further understand these differences, and hopefully in the future, help accelerate us towards precision medicine that will benefit as many people as possible.” 
+<blockquote><p>“Immunotherapy has transformed cancer treatment over the last decade or so, but there are still unanswered questions about why it works for some patients’ tumours and not others. Our research has created a library documenting hundreds of mutations that influence how the tumour responds to the immune response. This can be used to further understand these differences, and hopefully in the future, help accelerate us towards precision medicine that will benefit as many people as possible.”</p>
+<author>Dr Mathew Garnett, </author>
+<affiliation>senior author from the Wellcome Sanger Institute and Open Targets</affiliation></blockquote>
 
 
-<b>Funding:</b>
-This research was funded by Open Targets and Wellcome. A full acknowledgements list can be found on the publication. 
+<h4>Notes</h4>
+This research was funded by Open Targets and Wellcome. A full acknowledgements list can be found on the publication.
+
+
 
 [This press release was originally published on the Wellcome Sanger Institute website]([url](https://www.sanger.ac.uk/news_item/bowel-cancer-mutations-that-impact-immunotherapy-identified/)).
+
