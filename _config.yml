@@ -23,6 +23,7 @@ future: true
 
 plugins:
   - jekyll-get-json
+  - jekyll-paginate-v2
 
 jekyll_get_json:
   - data: ghost_api_response
