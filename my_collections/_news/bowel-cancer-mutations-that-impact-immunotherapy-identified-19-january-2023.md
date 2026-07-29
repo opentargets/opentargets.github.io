@@ -50,4 +50,7 @@ This research was funded by Open Targets and Wellcome. A full acknowledgements l
 
 
 [This press release was originally published on the Wellcome Sanger Institute website]([url](https://www.sanger.ac.uk/news_item/bowel-cancer-mutations-that-impact-immunotherapy-identified/)).
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/hc-website-test
