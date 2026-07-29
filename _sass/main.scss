@@ -20,12 +20,12 @@ body {
   font-family: $bodyFont;
 }
 
-h3 {
+h2 {
   color: $ot-corp-navy;
   font-weight: 600;
 }
 
-h3::after {
+h2::after {
   content: '';
   display: block;
   border-radius: 8px;
@@ -34,10 +34,6 @@ h3::after {
   background-color: #3489ca;
   margin: 8px 0 0;
   margin-bottom: 15px;
-}
-
-h4 {
-  margin-top: 3rem;
 }
 
 img {

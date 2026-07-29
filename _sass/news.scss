@@ -3,6 +3,11 @@
   max-width: 800px;
   margin: 0 auto;
 }
+
+.ot-news-item h4 {
+  margin-top: 10px;
+}
+
 .ot-news-badge {
   display: inline-block;
   background-color: $ot-bg-tint;
@@ -62,6 +67,11 @@
   margin-top: 3rem;
   font-weight: 600;
 }
+
+.ot-news-content h4 {
+  margin-top: 3rem;
+}
+
 .ot-news-content blockquote {
   border-left: 4px solid $ot-corp-blue;
   padding-left: 1.5rem;
