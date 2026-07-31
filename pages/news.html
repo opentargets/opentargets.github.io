@@ -8,10 +8,32 @@ title: News
 
 <section class="py-5 my-5">
   <div class="container">
+    <!-- Category Filter -->
+    <div class="row mb-4">
+      <div class="col-lg-12">
+        <div class="nav nav-tabs nav fill" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link font-weight-bold active" id="all-news-items-tab" data-toggle="tab"
+            href="#all-news" role="tab" aria-controls="all-news-items" aria-selected="true">All</a>
+          <a class="nav-item nav-link font-weight-bold" id="research-highlights-tab" data-toggle="tab"
+            href="#research-highlights" role="tab" aria-controls="research-highlights" aria-selected="false">Research
+            Highlights</a>
+          <a class="nav-item nav-link font-weight-bold" id="consortium-news-tab" data-toggle="tab"
+            href="#consortium-news" role="tab" aria-controls="consortium-news" aria-selected="false">Consortium News</a>
+          <a class="nav-item nav-link font-weight-bold" id="platform-news-tab" data-toggle="tab" href="#platform-news"
+            role="tab" aria-controls="platform-news" aria-selected="false">Platform News</a>
+          <a class="nav-item nav-link font-weight-bold" id="other-news-tab" data-toggle="tab" href="#other-news"
+            role="tab" aria-controls="other-news" aria-selected="false">Other News</a>
+        </div>
+      </div>
+    </div>
+
     <div class="row">
-      {% assign all_news = site.news | sort: 'date' | reverse %}
-        {% for news_item in all_news %}
-          <div class="row">
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="all-news" role="tabpanel" aria-labelledby="all-news-items-tab">
+          {% assign all_news = site.news | sort: 'date' | reverse %}
+          {% for news_item in all_news %}
+          <div class="row news-item"
+            data-category="{% if news_item.category %}{{ news_item.category | downcase }}{% else %}news{% endif %}">
             <div class="col-lg-12">
               <div class="row">
                 {% include news_item.html %}
@@ -21,7 +43,73 @@ title: News
               <hr class="my-5" />
             </div>
           </div>
-        {% endfor %} 
+          {% endfor %}
+        </div>
+        <div class="tab-pane fade" id="research-highlights" role="tabpanel" aria-labelledby="research-highlights-tab">
+          {% assign research_highlights = site.news | where: "category", "research highlight" | sort: 'date' | reverse
+          %}
+          {% for news_item in research_highlights %}
+          <div class="row news-item" data-category="{{ news_item.category | downcase }}">
+            <div class="col-lg-12">
+              <div class="row">
+                {% include news_item.html %}
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <hr class="my-5" />
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="tab-pane fade" id="consortium-news" role="tabpanel" aria-labelledby="consortium-news-tab">
+          {% assign consortium_news = site.news | where: "category", "consortium news" | sort: 'date' | reverse
+          %}
+          {% for news_item in consortium_news %}
+          <div class="row news-item" data-category="{{ news_item.category | downcase }}">
+            <div class="col-lg-12">
+              <div class="row">
+                {% include news_item.html %}
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <hr class="my-5" />
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="tab-pane fade" id="platform-news" role="tabpanel" aria-labelledby="platform-news-tab">
+          {% assign platform_news = site.news | where: "category", "platform news" | sort: 'date' | reverse
+          %}
+          {% for news_item in platform_news %}
+          <div class="row news-item" data-category="{{ news_item.category | downcase }}">
+            <div class="col-lg-12">
+              <div class="row">
+                {% include news_item.html %}
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <hr class="my-5" />
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="tab-pane fade" id="other-news" role="tabpanel" aria-labelledby="other-news-tab">
+          {% assign other_news = site.news | where: "category", "news" | sort: 'date' | reverse
+          %}
+          {% for news_item in other_news %}
+          <div class="row news-item" data-category="{{ news_item.category | downcase }}">
+            <div class="col-lg-12">
+              <div class="row">
+                {% include news_item.html %}
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <hr class="my-5" />
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
     </div>
   </div>
 </section>
