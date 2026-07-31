@@ -1,7 +1,7 @@
 ---
 title: "Pfizer joins the Open Targets consortium"
 date: 2022-02-14
-category: research highlight
+category: consortium news
 image_filename: "Pfizer-press-release.png"
 image_alt_text: "Pfizer logo on a white background"
 layout: press_release

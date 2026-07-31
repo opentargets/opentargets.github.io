@@ -3,42 +3,44 @@
   {% if news_item.link == null %}
   {% if news_item.image_filename == null %}
   <a href="{{ news_item.url }}/">
-  <img src="/assets/img/open_targets_logo_news_item_placeholder.png" class="img-fluid" alt="Open Targets Helix logo and wordmark"/>
+    <img src="/assets/img/open_targets_logo_news_item_placeholder.png" class="img-fluid"
+      alt="Open Targets Helix logo and wordmark" />
   </a>
   {% else %}
   <a href="{{ news_item.url }}/">
-  <img src="/assets/img/{{ news_item.image_filename }}" class="img-fluid" alt="{{ news_item.image_alt_text }}"/>
+    <img src="/assets/img/{{ news_item.image_filename }}" class="img-fluid" alt="{{ news_item.image_alt_text }}" />
   </a>
   {% endif %}
   {% else %}
   {% if news_item.image_filename == null %}
   <a href="{{ news_item.link }}/" target="_blank">
-  <img src="/assets/img/open_targets_logo_news_item_placeholder.png" class="img-fluid" alt="Open Targets Helix logo and wordmark"/>
+    <img src="/assets/img/open_targets_logo_news_item_placeholder.png" class="img-fluid"
+      alt="Open Targets Helix logo and wordmark" />
   </a>
   {% else %}
   <a href="{{ news_item.link }}/" target="_blank">
-  <img src="/assets/img/{{ news_item.image_filename }}" class="img-fluid" alt="{{ news_item.image_alt_text }}"/>
+    <img src="/assets/img/{{ news_item.image_filename }}" class="img-fluid" alt="{{ news_item.image_alt_text }}" />
   </a>
   {% endif %}
   {% endif %}
 </div>
 <div class="col-lg-6">
-<div class="ot-news-item">
-  {% if news_item.category %}
-  <span class="ot-news-tag">{{ news_item.category }}</span>
-  {% else %}
-  <span class="ot-news-tag">News</span>
-  {% endif %}
-  {% if news_item.date %}
-  <span class="ot-news-tag">{{ news_item.date | date: "%-d %B %Y" }}</span>
-  {% else %}
-  {% endif %}
+  <div class="ot-news-item">
+    {% if news_item.category %}
+    <span class="ot-news-tag">{{ news_item.category }}</span>
+    {% else %}
+    <span class="ot-news-tag">News</span>
+    {% endif %}
+    {% if news_item.date %}
+    <span class="ot-news-tag">{{ news_item.date | date: "%-d %B %Y" }}</span>
+    {% else %}
+    {% endif %}
   </div>
   <h4>{{ news_item.title }}</h4>
   <p>
     {{ news_item.summary }}
   </p>
-  <br/>
+  <br />
   {% if news_item.link == null %}
   <p class="card-title">
     <a href="{{ news_item.url }}" class="btn btn-ot-primary">Read more</a>
@@ -48,4 +50,4 @@
     <a href="{{ news_item.link }}" class="btn btn-ot-primary" target="_blank" rel="noopener noreferrer">Read more</a>
   </p>
   {% endif %}
-</div> 
+</div>
