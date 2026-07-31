@@ -322,20 +322,36 @@ title: Home
           {% else %}
           <div class="ot-news-tag">News</div>
           {% endif %}
+          <!-- Assuming that if there is no link then there must be a url -->
+          {% if news_item.link == null %}
           {% if news_item.image_filename == null %}
-            <img src="/assets/img/open_targets_logo_news_item_placeholder.png" class="img-fluid" alt="Open Targets Helix logo and wordmark"/>
+          <a href="{{ news_item.url }}/">
+          <img src="/assets/img/open_targets_logo_news_item_placeholder.png" class="img-fluid" alt="Open Targets Helix logo and wordmark"/>
+          </a>
           {% else %}
-            <img src="/assets/img/{{ news_item.image_filename }}" alt="{{ news_item.image_alt_text }}"/>
+          <a href="{{ news_item.url }}/">
+          <img src="/assets/img/{{ news_item.image_filename }}" class="img-fluid" alt="{{ news_item.image_alt_text }}"/>
+           </a>
           {% endif %}
           <h3>
-            {% if news_item.url %}
-            <a href="{{ news_item.url }}" style="color:inherit;text-decoration:none">{{ news_item.title }}</a>
-            {% else %}
-            {{ news_item.title }}
-            {% endif %}
+          <a href="{{ news_item.url }}" style="color:inherit;text-decoration:none">{{ news_item.title }}</a>
           </h3>
-          {% if news_item.excerpt %}
-          <p>{{ news_item.excerpt }}</p>
+          {% else %}
+          {% if news_item.image_filename == null %}
+          <a href="{{ news_item.link }}/" target="_blank">
+          <img src="/assets/img/open_targets_logo_news_item_placeholder.png" class="img-fluid" alt="Open Targets Helix logo and wordmark"/>
+          </a>
+          {% else %}
+          <a href="{{ news_item.link }}/" target="_blank">
+          <img src="/assets/img/{{ news_item.image_filename }}" class="img-fluid" alt="{{ news_item.image_alt_text }}"/>
+          </a>
+          {% endif %}
+          <h3>
+          <a href="{{ news_item.link }}" style="color:inherit;text-decoration:none">{{ news_item.title }}</a>
+          </h3>
+          {% endif %}
+          {% if news_item.summary %}
+          <p>{{ news_item.summary | truncate: 300 }}</p>
           {% endif %}
           <div class="ot-news-date">{{ news_item.date | date: "%-d %B %Y" }}</div>
         </div>
