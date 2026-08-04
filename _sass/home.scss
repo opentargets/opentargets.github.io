@@ -10,12 +10,14 @@
   background-position: center;
   padding: 3rem 1rem;
 }
+
 .ot-hero-inner {
   max-width: 740px;
   background-color: $white;
   padding: 2rem 2rem;
   border-radius: 8px;
 }
+
 .ot-hero-badge {
   display: inline-block;
   background-color: rgba($ot-corp-blue, 0.25);
@@ -29,6 +31,7 @@
   border-radius: 12px;
   margin-bottom: 1.25rem;
 }
+
 .ot-hero h1 {
   font-size: 3.4rem;
   font-weight: 700;
@@ -36,10 +39,12 @@
   line-height: 1.2;
   margin-bottom: 1rem;
 }
+
 .ot-hero h1 span {
   color: $ot-corp-blue;
   font-style: italic;
 }
+
 .ot-hero p {
   font-size: 1.2rem;
   color: $ot-corp-grey;
@@ -47,6 +52,7 @@
   margin-bottom: 2rem;
   max-width: 530px;
 }
+
 .ot-hero .btn {
   font-size: 1.2rem;
   padding: 0.6rem 1.4rem;
@@ -67,6 +73,7 @@
   align-items: center;
   text-align: center;
 }
+
 .ot-hero-stat-image {
   width: 300px;
   height: 200px;
@@ -75,6 +82,7 @@
   border-radius: 8px;
   margin-bottom: 1.5rem;
 }
+
 .ot-hero-stat-number {
   font-size: 4rem;
   font-weight: 700;
@@ -82,38 +90,53 @@
   line-height: 1;
   margin-bottom: 0.5rem;
 }
+
 .ot-hero-stat-label {
   font-size: 1.5rem;
   color: $ot-corp-navy;
   font-weight: 600;
 }
+
 .ot-hero-stat-item {
   display: none;
   animation: fadeIn 0.5s ease-in-out;
 }
+
 .ot-hero-stat-item.active {
   display: block;
 }
+
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateX(0); }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /* Partners */
 .ot-partners-section {
   padding: 4rem 0;
 }
+
 .ot-partners-section h2 {
   font-size: 1.75rem;
   font-weight: 700;
   color: $ot-corp-navy;
   margin-bottom: 0.4rem;
 }
+
 .ot-partners-section .ot-lead {
   font-size: 1rem;
   color: #555;
   margin-bottom: 2rem;
+  text-wrap: pretty;
 }
+
 .ot-partner-logo {
   border: 1px transparent;
   border-radius: 6px;
@@ -124,18 +147,20 @@
   justify-content: center;
   height: 100px;
 }
+
 .ot-partner-logo img {
   max-height: 48px;
   max-width: 100%;
   object-fit: contain;
   transition: filter 0.15s ease;
 }
+
 .ot-partner-logo img.gsk {
   max-height: 96px;
 }
-.ot-partner-quote {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+
+.ot-highlight-box {
+  margin: 3rem 0;
   background: $ot-bg-tint;
   border-left: 4px solid $ot-corp-navy;
   border-radius: 8px;
@@ -158,25 +183,30 @@
   margin-left: 2rem;
   margin-right: 1rem;
 }
-.ot-partner-quote-content {
+
+.ot-highlight-box-content {
   flex: 1;
 }
-.ot-partner-quote-text {
+
+.ot-highlight-box-text {
   font-size: 1rem;
   color: $ot-corp-navy;
   line-height: 1.6;
   margin-bottom: 1rem;
   max-width: 95%;
 }
-.ot-partner-quote-text strong {
+
+.ot-highlight-box-text strong {
   font-style: normal;
 }
-.ot-partner-quote-author {
+
+.ot-highlight-box-author {
   font-size: 0.85rem;
   color: #555;
   font-weight: 600;
 }
-.ot-partner-quote-title {
+
+.ot-highlight-box-title {
   font-size: 0.85rem;
   color: #888;
   margin-top: 0.25rem;
@@ -189,18 +219,26 @@
   border-bottom: 1px solid $ot-border-tint;
   padding: 4rem 0;
 }
+
+.ot-platform-section .ot-section-label {
+  color: #efefef;
+}
+
 .ot-platform-section h2 {
   font-size: 1.75rem;
   font-weight: 700;
   color: #efefef;
   margin-bottom: 0.75rem;
 }
+
 .ot-platform-section .ot-lead {
   font-size: 1rem;
   color: #efefef;
   line-height: 1.65;
   margin-bottom: 1.25rem;
+  text-wrap: pretty;
 }
+
 .ot-platform-feature {
   display: flex;
   align-items: center;
@@ -209,6 +247,7 @@
   color: #efefef;
   margin-bottom: 0.5rem;
 }
+
 .ot-platform-feature i {
   color: $ot-corp-blue;
   flex-shrink: 0;
@@ -227,6 +266,7 @@
 .ot-section {
   padding: 4rem 0;
 }
+
 .ot-section-label {
   font-size: 0.9rem;
   text-transform: uppercase;
@@ -235,18 +275,20 @@
   font-weight: 700;
   margin-bottom: 0.4rem;
 }
+
 .ot-section h2 {
   font-size: 1.75rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
   color: $ot-corp-navy;
 }
+
 .ot-section .ot-lead {
   font-size: 1rem;
   color: #555;
-  max-width: 600px;
   line-height: 1.65;
   margin-bottom: 2rem;
+  text-wrap: pretty;
 }
 
 /* Research cards */
@@ -257,10 +299,13 @@
   height: 100%;
   background: $white;
   transition: box-shadow 0.15s ease;
+  position: relative;
 }
+
 .ot-research-card:hover {
   box-shadow: 0 4px 16px rgba($ot-corp-blue, 0.12);
 }
+
 .ot-research-icon {
   width: 40px;
   height: 40px;
@@ -271,28 +316,34 @@
   font-size: 1.1rem;
   margin-bottom: 1rem;
 }
+
+
 .ot-research-card h3 {
   font-size: 1rem;
   font-weight: 700;
   color: $ot-corp-navy;
   margin-bottom: 0.5rem;
 }
+
 .ot-research-card p {
   font-size: 0.875rem;
   color: #555;
   line-height: 1.55;
   margin-bottom: 0.75rem;
 }
+
 .ot-card-link {
   font-size: 1rem;
   color: $ot-corp-navy;
   text-decoration: none;
   font-weight: 600;
 }
+
 .ot-card-link:hover {
   color: $ot-corp-blue-mid;
   text-decoration: underline;
 }
+
 .ot-card-link .lucide {
   font-size: 0.7rem;
 }
@@ -304,32 +355,38 @@
   border-bottom: 1px solid $ot-border-tint;
   padding: 4rem 0;
 }
+
 .ot-principle {
   border-top: 3px solid $ot-corp-blue;
   padding-top: 1rem;
   height: 100%;
 }
+
 .ot-principle h3 {
   font-size: 1.25rem;
   font-weight: 700;
   color: $ot-corp-navy;
   margin-bottom: 0.5rem;
 }
+
 .ot-principle p {
   font-size: 0.875rem;
   color: #555;
   line-height: 1.55;
   margin-bottom: 0.75rem;
 }
+
 .ot-principle a {
   font-size: 1rem;
   color: $ot-corp-blue;
   font-weight: 600;
   text-decoration: none;
 }
+
 .ot-principle .lucide {
   font-size: 0.7rem;
 }
+
 .ot-principle a:hover {
   text-decoration: underline;
 }
@@ -338,12 +395,14 @@
 .ot-news-section {
   padding: 4rem 0;
 }
+
 .ot-news-section h2 {
   font-size: 1.75rem;
   font-weight: 700;
   color: $ot-corp-navy;
   margin-bottom: 0;
 }
+
 .ot-news-card {
   border: 1px solid $ot-card-border;
   border-radius: 8px;
@@ -352,9 +411,11 @@
   background: $white;
   transition: box-shadow 0.15s ease;
 }
+
 .ot-news-card:hover {
   box-shadow: 0 4px 16px rgba($ot-corp-blue, 0.1);
 }
+
 .ot-news-tag {
   display: inline-block;
   font-size: 0.7rem;
@@ -367,6 +428,7 @@
   border-radius: 3px;
   margin-bottom: 0.6rem;
 }
+
 .ot-news-card img {
   margin-bottom: 12px;
   width: 100%;
@@ -374,6 +436,7 @@
   object-fit: cover;
   border-radius: 8px 8px 0 0;
 }
+
 .ot-news-card h3 {
   font-size: 0.95rem;
   font-weight: 700;
@@ -381,12 +444,14 @@
   line-height: 1.4;
   margin-bottom: 0.5rem;
 }
+
 .ot-news-card p {
   font-size: 0.825rem;
   color: #666;
   line-height: 1.5;
   margin-bottom: 0;
 }
+
 .ot-news-date {
   font-size: 0.75rem;
   color: #aaa;
@@ -399,34 +464,41 @@
   border-top: 1px solid $ot-border-tint;
   padding: 4rem 0;
 }
+
 .ot-social-header {
   font-size: 1rem;
   font-weight: 700;
   color: $ot-corp-navy;
   margin-bottom: 0.25rem;
 }
+
 .ot-social-header a {
   color: $ot-corp-navy;
   text-decoration: none;
 }
+
 .ot-social-header a:hover {
   color: $ot-corp-blue;
 }
+
 .ot-social-sub {
   font-size: 0.8rem;
   color: #888;
   margin-bottom: 1.25rem;
 }
+
 .ot-blog-post {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid $ot-card-border;
 }
+
 .ot-blog-post:last-child {
   border-bottom: none;
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
 .ot-blog-post a {
   font-size: 0.875rem;
   font-weight: 700;
@@ -436,36 +508,44 @@
   display: block;
   margin-bottom: 2px;
 }
+
 .ot-blog-post a:hover {
   color: $ot-corp-blue;
 }
+
 .ot-blog-meta {
   font-size: 0.75rem;
   color: #999;
   margin-bottom: 4px;
 }
+
 .ot-blog-desc {
   font-size: 0.8rem;
   color: #666;
   line-height: 1.45;
   margin: 0;
 }
+
 .ot-bluesky-container {
-  max-height: 400px;
+  max-height: 550px;
   overflow-y: auto;
   padding-right: 10px;
 }
+
 .ot-bluesky-container::-webkit-scrollbar {
   width: 6px;
 }
+
 .ot-bluesky-container::-webkit-scrollbar-track {
   background: #f1f1f1;
   border-radius: 3px;
 }
+
 .ot-bluesky-container::-webkit-scrollbar-thumb {
   background: $ot-border-tint;
   border-radius: 3px;
 }
+
 .ot-bluesky-container::-webkit-scrollbar-thumb:hover {
   background: $ot-corp-blue;
 }
