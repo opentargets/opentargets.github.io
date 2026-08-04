@@ -6,85 +6,200 @@ title: Science
 
 {% include page_header.html %}
 
-<section class="py-5 my-5">
+<section class="ot-section">
   <div class="container">
+    <div class="ot-section-label">Target selection</div>
+    <h2>Improving how targets are selected for drug discovery</h2>
+    <p class="ot-lead">We work together with scientists across our partner organisations to
+      identify areas where our
+      research programme
+      will enhance target identification and prioritisation either by integrating and analysing data, or by generating
+      new data in our therapeutic areas of interest.</p>
+    <p class="ot-lead">Drugs against genetically validated targets are more likely to progress
+      through clinical trials.
+      The influx of new data from modern genetics and genomics allows targets to be assessed in a comprehensive
+      genome-wide context. In addition, feasibility of new technologies in gene editing, single cell sequencing and cell
+      models allow new types of data to be generated to inform target selection.</p>
+    <p class="ot-lead">We bring these approaches together in an integrated pre-competitive
+      research programme.</p>
     <div class="row">
-      <div class="col-lg-12">
-        <p>
-          At Open Targets, we are improving how targets are selected for drug discovery. 
-        </p>
-        <hr class="my-5" />
-        <h3>Target selection</h3>
-        <p>
-          Drugs against genetically validated targets are more likely to progress through clinical trials. The influx of 
-          new data from modern genetics and genomics allows targets to be assessed in a comprehensive genome-wide context. 
-          In addition, feasibility of new technologies in gene editing, single cell sequencing and cell models allow new 
-          types of data to be generated to inform target selection.
-        </p> 
-        <p><strong>
-          We bring these approaches together in an integrated pre-competitive research programme. 
-        </strong></p> 
-        <p>
-          We consider target selection to encompass two key steps, target identification and target prioritisation. 
-          Target identification defines targets with significant associations to the disease biology. Target prioritisation 
-          refines the list of targets on the strength of the association evidence and additional target and disease parameters 
-          such as target tractability by drug modality, and likely target-based safety risks. We work together with scientists 
-          across our partner organisations to identify areas where our research programme will enhance target identification 
-          and prioritisation either by integrating and analysing data, or by generating new data in our therapeutic areas of 
-          interest.
-        </p>
+      <div class="col-lg-6 py-2">
+        <div class="ot-research-card">
+          <div class="ot-research-icon" style="background:#e8f3fb">
+            <i data-lucide="target" style="color:#3489ca"></i>
+          </div>
+          <h3>Target Identification</h3>
+          <p>Define targets with significant associations to disease biology, using whole-genome approaches that assess
+            candidates in a comprehensive genome-wide context.</p>
+          <p>Examines:</p>
+          <ul>
+            <li>
+              Genetic and genomic association evidence
+            </li>
+            <li>
+              Functional genomics and perturbation screens
+            </li>
+            <li>
+              Disease-relevant cellular systems
+            </li>
+          </ul>
+          <div class="ot-research-card-arrow">
+            <i data-lucide="move-right" style="color: #e8f3fb"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 py-2">
+        <div class="ot-research-card">
+          <div class="ot-research-icon" style="background:#e8f3fb">
+            <i data-lucide="funnel" style="color:#3489ca"></i>
+          </div>
+          <h3>Target Prioritisation</h3>
+          <p>Refine the list on the strength of association evidence together with additional target and disease
+            parameters, so effort goes where it is most likely to translate.</p>
+          <p>Examines:</p>
+          <ul>
+            <li>
+              Strength and consistency of evidence
+            </li>
+            <li>
+              Tractability by drug modality
+            </li>
+            <li>
+              Likely target-based safety risks
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-    <hr class="my-5" />
+  </div>
+</section>
+
+<hr class=" my-5" />
+
+<section class="ot-section">
+  <div class="container">
+    <div class="ot-section-label">
+      Research Programme
+    </div>
+    <h2>
+      Linking targets and diseases
+    </h2>
+    <p class="ot-lead">Our research programme generates and analyses data to connect targets
+      to diseases, assess the
+      strength of that evidence, and prioritise targets for drug discovery. This includes evidence that causally links
+      targets and diseases, as well as foundational data that deepens our understanding of biological processes and
+      disease progression.</p>
+    <p class="ot-lead">We combine whole-genome approaches with high-throughput methods in the
+      most relevant cellular
+      systems, drawing on the expertise of all our partners in emerging and established technologies across three
+      therapy areas.</p>
+  </div>
+</section>
+
+<hr class=" my-5" />
+
+<section class="ot-section">
+  <div class="container">
+    <div class="ot-section-label">
+      Informatics
+    </div>
+    <h2>Core informatics and data generation pipelines</h2>
+    <p class="ot-lead">Our core bioinformatics work brings together the data relevant to
+      targets so that drug discovery
+      scientists can explore it simply and seamlessly. We cover many data types relevant to human disease biology and
+      target identification, using expertise from Open Targets partners and beyond.</p>
+    <div>
+      <div class="platform-showcase">
+        <div class="row align-items-stretch">
+          <div class="col-lg-7 mb-4 mb-lg-0">
+            <div class="platform-showcase-badge"><i data-lucide="goal" class="mr-1"></i> Flagship
+              resource</div>
+            <h3>Open Targets Platform</h3>
+            <p>
+              Our approach to target identification and prioritisation is brought to life in the Platform, which
+              integrates
+              public data relevant to the association between targets and diseases and provides additional data and
+              tools
+              for prioritisation. It is an open source project, and continues to evolve as we bring new features and
+              data
+              to
+              bear.
+            </p>
+            <a href="https://platform.opentargets.org" class="btn btn-ot-primary mt-4" target="_blank">
+              <i data-lucide="external-link" class="mr-1"></i> Launch Platform
+            </a>
+          </div>
+          <div class="col-lg-5">
+            {% for post in site.data.ghost_api_releases.posts %}
+            <div class="platform-showcase-blog-card">
+              <h4>Latest: <a href="http://blog.opentargets.org/{{ post.slug }}" target="_blank">
+                  {{ post.title }}
+                </a></h4>
+              <a href="http://blog.opentargets.org/{{ post.slug }}">
+                <img src="{{ post.feature_image }}"></a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+<hr class=" my-5" />
+
+<section class="ot-section">
+  <div class="container">
+    <div class="ot-section-label">
+      In practice
+    </div>
+    <h2>Project examples</h2>
+    <p class="ot-lead">Our projects are multi-disciplinary collaborations across partner
+      organisations, combining
+      experimental data generation with informatics.</p>
     <div class="row">
-      <div class="col-lg-12">
-        <h3 id="research-programme" class="mb-3">Linking targets and diseases</h3>
-        <p>
-          Our research programme generates and analyses data to connect targets to diseases, assess the strength of this evidence, and help identify and prioritise targets for drug discovery. This includes evidence that causally links targets and diseases, as well as foundational data that helps us understand biological processes and disease progression more deeply.
-        </p>
-        <p>
-          Within the research programme, we combine whole genome approaches and high throughput methods to address the full range of relevant targets in disease in the most relevant cellular systems. We use the expertise of all our partners in emerging and established technologies, focusing on three therapy areas to generate new understanding:
-        </p>
-        <ul class="mb-5">
-          <li>
-            Oncology
-          </li>
-          <li>
-            Neurodegeneration
-          </li>
-          <li>
-            Immunology and Inflammation
-          </li>
-        </ul>
-        <p>
-          <a href="/publications" target="_blank"">Take a look at our publications to read about our recent work.</a>
-        </p>
-    <hr class="my-5" />
-    <div class="row">
-      <div class="col-lg-12">
-        <h3 id="platforms-and-pipelines" class="mb-3">Core informatics and data generation pipelines</h3>
-        <p class="mb-5">
-          Our core bioinformatics work focusses on bringing together the various, relevant data on targets to allow simple and seamless exploration 
-          by drug discovery scientists. We cover many data types relevant to human disease biology and target identification using the expertise from 
-          Open Targets partners and beyond.
-        </p>
-        <h4>Open Targets Platform</h4>
-        <p class="mb-5">
-          Our overall approach to target identification and prioritisation is brought to life in the 
-          <a href="https://platform.opentargets.org" target="_blank">Open Targets Platform</a>, which integrates public data relevant to the association 
-          between targets and diseases, and provides additional data and tools for prioritisation.
-        </p>
-        <p>
-          The Platform is  <a href="https://github.com/opentargets/platform" target="_blank">an open source project</a> and will continue to 
-          evolve as we bring new features and data to bear. Explore the Platform at <a href="https://platform.opentargets.org" target="_blank">platform.opentargets.org</a>.
-        </p>
-        <h4>Other bioinformatics services and tools</h4>
-        <p>          
-          Additional ancillary projects in the area of bioinformatics include development of the <a href="https://www.ebi.ac.uk/eqtl/" target="_blank">eQTL Catalogue</a>, 
-          network analysis for drug target list expansion, and enhanced data for the Open Targets Platform, including additional data from clinical trial records and data 
-          on the effect of mutations on protein function. We also release and support standalone informatics tools associated with our various 
-          projects. <a href="/resources">Explore our informatics tools</a>.
-        </p>
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-research-card">
+          <div class="ot-news-tag">Oncology</div>
+          <h3>Cancer Perturbation Atlas</h3>
+          <p>
+            Large-scale CRISPR screens and somatic genomics to find and validate
+            cancer targets, with a focus on resistance mechanisms and tumour
+            dependencies.
+          </p>
+          <a href="/science#oncology" class="ot-card-link">
+            Read more <i data-lucide="move-right" class="ml-1"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-research-card">
+          <div class="ot-news-tag">Neurodegeneration</div>
+          <h3>NeuroFlux</h3>
+          <p>
+            Genetic dissection of diseases like Alzheimer's and Parkinson's,
+            combining GWAS, multi-omics, and human iPSC models to move from
+            signal to mechanism.
+          </p>
+          <a href="/science#oncology" class="ot-card-link">
+            Read more <i data-lucide="move-right" class="ml-1"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-research-card">
+          <div class="ot-news-tag">Immunology &amp; inflammation</div>
+          <h3>IBDverse</h3>
+          <p>
+            Decoding the genetics of immune-mediated diseases to surface targets
+            with the clearest causal evidence across conditions like IBD and RA.
+          </p>
+          <a href="/science#oncology" class="ot-card-link">
+            Read more <i data-lucide="move-right" class="ml-1"></i>
+          </a>
+        </div>
       </div>
     </div>
   </div>

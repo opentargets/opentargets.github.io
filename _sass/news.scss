@@ -21,6 +21,7 @@
   border-radius: 12px;
   margin-bottom: 0.5rem;
 }
+
 .ot-news-title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -28,16 +29,19 @@
   line-height: 1.2;
   margin-bottom: 1rem;
 }
+
 .ot-news-summary {
   font-size: 1.1rem;
   color: $ot-corp-grey;
   line-height: 1.65;
   margin-bottom: 2rem;
 }
+
 .ot-news-image {
   width: 100%;
   border-radius: 15px;
 }
+
 .ot-news-caption {
   font-size: 0.85rem;
   color: $ot-corp-grey;
@@ -57,6 +61,7 @@
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+
 .ot-news-content p {
   margin-bottom: 1.25rem;
 }
@@ -72,7 +77,7 @@
   margin-top: 3rem;
 }
 
-.ot-news-content blockquote {
+blockquote {
   border-left: 4px solid $ot-corp-blue;
   padding-left: 1.5rem;
   margin: 2.5rem 0;
@@ -80,14 +85,14 @@
   padding-bottom: 10px;
 }
 
-.ot-news-content blockquote p {
+blockquote p {
   font-weight: 600;
   color: $ot-corp-navy;
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.ot-news-content blockquote author {
+blockquote author {
   display: inline-block;
   margin-top: 0.75rem;
   font-size: 1rem;
@@ -96,11 +101,11 @@
   font-style: normal;
 }
 
-.ot-news-content blockquote author::before {
+blockquote author::before {
   content: "— "
 }
 
-.ot-news-content blockquote affiliation {
+blockquote affiliation {
   display: inline-block;
   font-size: 1rem;
   font-weight: 400;
@@ -111,6 +116,7 @@
   color: $ot-corp-navy;
   font-weight: 700;
 }
+
 .ot-news-publication {
   background: $ot-bg-tint;
   border: 1px solid $ot-border-tint;
@@ -125,6 +131,7 @@
   font-weight: 400;
   padding: 4px 12px;
 }
+
 .ot-news-publication-link:hover {
   text-decoration: underline;
 }
