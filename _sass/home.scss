@@ -291,6 +291,13 @@
   text-wrap: pretty;
 }
 
+.ot-section h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: $ot-corp-navy;
+  margin-bottom: 0.5rem;
+}
+
 /* Research cards */
 .ot-research-card {
   border: 1px solid $ot-card-border;
@@ -318,7 +325,7 @@
 }
 
 
-.ot-research-card h3 {
+.ot-research-card h4 {
   font-size: 1rem;
   font-weight: 700;
   color: $ot-corp-navy;
@@ -349,7 +356,7 @@
 }
 
 /* Principles */
-.ot-principles-section {
+.ot-section-light-blue-bg {
   background-color: $ot-bg-tint;
   border-top: 1px solid $ot-border-tint;
   border-bottom: 1px solid $ot-border-tint;
