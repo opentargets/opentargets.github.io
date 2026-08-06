@@ -49,14 +49,6 @@ img {
   vertical-align: -0.125em;
 }
 
-.bg-blue {
-  background-color: $ot-corp-blue;
-}
-
-.bg-light-grey {
-  background-color: #d1cfcf;
-}
-
 a {
   color: $ot-corp-blue;
 }
@@ -128,29 +120,8 @@ a:hover {
   pointer-events: none;
 }
 
-.principles-cta-icon {
-  font-size: 125px;
-  color: $white;
-}
-
 .partner-logo {
   max-width: 125px;
-}
-
-.carousel-item {
-  height: 35vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.carousel-indicators li {
-  width: 15px;
-  height: 15px;
-  border-radius: 100%;
 }
 
 .logo-small {
@@ -179,15 +150,6 @@ a:hover {
 .dropdown-item:active {
   color: $ot-corp-blue;
   background-color: lightgrey;
-}
-
-.active-icon {
-  color: $ot-corp-blue;
-}
-
-.disabled-icon {
-  color: $ot-corp-grey;
-  opacity: 0.5;
 }
 
 #blog-section {
