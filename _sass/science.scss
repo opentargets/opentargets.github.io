@@ -88,3 +88,80 @@
 .platform-showcase-blog-card a {
     color: $ot-corp-navy;
 }
+
+// Tools section
+
+.ot-tools-section {
+    margin: 3rem 0;
+}
+
+.ot-tools-section .ot-tools-lead {
+    font-size: 0.95rem;
+    color: #64748b;
+    line-height: 1.65;
+    margin-bottom: 1.75rem;
+}
+
+.ot-tools-list {
+    border: 1px solid #dce8f2;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.ot-tool-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.25rem 1.5rem;
+    text-decoration: none;
+    border-bottom: 1px solid #dce8f2;
+    transition: background 0.15s;
+}
+
+.ot-tool-item:last-child {
+    border-bottom: none;
+}
+
+/* First item gets the blue highlight */
+.ot-tool-item:first-child {
+    background: #e8f3fb;
+}
+
+.ot-tool-item:first-child:hover {
+    background: #d6ebf7;
+}
+
+.ot-tool-item:not(:first-child):hover {
+    background: #f4f8fc;
+}
+
+.ot-tool-item-text {
+    flex: 1;
+}
+
+.ot-tool-item-title {
+    font-size: 0.975rem;
+    font-weight: 700;
+    color: #2b6cb0;
+    margin-bottom: 0.25rem;
+    line-height: 1.3;
+}
+
+.ot-tool-item-desc {
+    font-size: 0.875rem;
+    color: #64748b;
+    line-height: 1.55;
+    margin: 0;
+}
+
+/* External link icon */
+.ot-tool-icon {
+    flex-shrink: 0;
+    color: #94a3b8;
+    transition: color 0.15s;
+}
+
+.ot-tool-item:hover .ot-tool-icon {
+    color: #3489ca;
+}
