@@ -26,6 +26,7 @@
     background-color: $ot-bg-tint;
     padding: 2rem 4rem;
     border-radius: 24px;
+    margin-bottom: 4rem;
 }
 
 .platform-showcase-badge {
@@ -123,17 +124,8 @@
     border-bottom: none;
 }
 
-/* First item gets the blue highlight */
-.ot-tool-item:first-child {
-    background: #e8f3fb;
-}
-
-.ot-tool-item:first-child:hover {
-    background: #d6ebf7;
-}
-
-.ot-tool-item:not(:first-child):hover {
-    background: #f4f8fc;
+.ot-tool-item:hover {
+    background: $ot-bg-tint;
 }
 
 .ot-tool-item-text {
@@ -153,6 +145,7 @@
     color: #64748b;
     line-height: 1.55;
     margin: 0;
+    text-wrap: balance;
 }
 
 /* External link icon */
