@@ -134,7 +134,6 @@
   font-size: 1rem;
   color: #555;
   margin-bottom: 2rem;
-  text-wrap: pretty;
 }
 
 .ot-partner-logo {
@@ -287,7 +286,7 @@
   font-size: 1rem;
   color: #555;
   line-height: 1.65;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   text-wrap: pretty;
 }
 
@@ -361,6 +360,20 @@
   border-top: 1px solid $ot-border-tint;
   border-bottom: 1px solid $ot-border-tint;
   padding: 4rem 0;
+}
+
+.ot-section-light-blue-bg .ot-lead {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.65;
+  margin-bottom: 4rem;
+}
+
+.ot-section-light-blue-bg h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: $ot-corp-navy;
+  margin-bottom: 0.5rem;
 }
 
 .ot-principle {

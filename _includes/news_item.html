@@ -3,23 +3,23 @@
   {% if news_item.link == null %}
   {% if news_item.image_filename == null %}
   <a href="{{ news_item.url }}/">
-    <img src="/assets/img/open_targets_logo_news_item_placeholder.png" class="img-fluid"
+    <img src="/assets/img/news/open_targets_logo_news_item_placeholder.png" class="img-fluid"
       alt="Open Targets Helix logo and wordmark" />
   </a>
   {% else %}
   <a href="{{ news_item.url }}/">
-    <img src="/assets/img/{{ news_item.image_filename }}" class="img-fluid" alt="{{ news_item.image_alt_text }}" />
+    <img src="/assets/img/news/{{ news_item.image_filename }}" class="img-fluid" alt="{{ news_item.image_alt_text }}" />
   </a>
   {% endif %}
   {% else %}
   {% if news_item.image_filename == null %}
   <a href="{{ news_item.link }}/" target="_blank">
-    <img src="/assets/img/open_targets_logo_news_item_placeholder.png" class="img-fluid"
+    <img src="/assets/img/news/open_targets_logo_news_item_placeholder.png" class="img-fluid"
       alt="Open Targets Helix logo and wordmark" />
   </a>
   {% else %}
   <a href="{{ news_item.link }}/" target="_blank">
-    <img src="/assets/img/{{ news_item.image_filename }}" class="img-fluid" alt="{{ news_item.image_alt_text }}" />
+    <img src="/assets/img/news/{{ news_item.image_filename }}" class="img-fluid" alt="{{ news_item.image_alt_text }}" />
   </a>
   {% endif %}
   {% endif %}
