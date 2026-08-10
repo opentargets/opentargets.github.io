@@ -20,6 +20,10 @@ body {
   font-family: $bodyFont;
 }
 
+p {
+  line-height: 1.65;
+}
+
 h2 {
   color: $ot-corp-navy;
   font-weight: 600;
@@ -55,6 +59,10 @@ a {
 
 a:hover {
   color: $ot-corp-blue-light;
+}
+
+li {
+  line-height: 1.75;
 }
 
 // Site-wide CTA button suite.

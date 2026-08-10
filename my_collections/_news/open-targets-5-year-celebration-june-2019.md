@@ -5,5 +5,5 @@ category: consortium news
 image_filename: 5-year-celebration.png
 image_alt_text: Graphic image of blue outline birthday cake with 5 candles
 summary: "Colleagues from all of our consortium partners gathered at the Wellcome Genome Campus in Hinxton, UK to celebrate 5 years of Open Targets and plan the milestones for our next 5 years."
-layout: press_release
+link: "https://embl-em.de/latest-news/2019/12/12/open-targets-highlights-2019/"
 ---

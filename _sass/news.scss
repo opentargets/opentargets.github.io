@@ -163,3 +163,64 @@ blockquote affiliation {
 .ot-news-publication-link:hover {
   text-decoration: underline;
 }
+
+/* Image Gallery */
+.ot-news-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 0.5rem;
+  margin: 2rem 0;
+}
+
+.ot-news-gallery-item {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background: $white;
+  border: 1px solid $ot-card-border;
+  transition: box-shadow 0.15s ease;
+}
+
+.ot-news-gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.ot-news-gallery-item video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ot-news-gallery-caption {
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  color: $ot-corp-grey;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.ot-news-gallery-item.featured {
+  grid-column: span 2;
+}
+
+.ot-news-gallery-item.featured img {
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  .ot-news-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .ot-news-gallery-item.featured {
+    grid-column: span 1;
+  }
+
+  .ot-news-gallery-item.featured img {
+    height: 200px;
+  }
+}

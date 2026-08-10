@@ -294,7 +294,7 @@
   font-size: 1.4rem;
   font-weight: 600;
   color: $ot-corp-navy;
-  margin-bottom: 0.5rem;
+  margin-top: 3rem;
 }
 
 /* Research cards */
@@ -323,6 +323,9 @@
   margin-bottom: 1rem;
 }
 
+.ot-research-card h3 {
+  margin-top: 0;
+}
 
 .ot-research-card h4 {
   font-size: 1rem;
@@ -336,6 +339,10 @@
   color: #555;
   line-height: 1.55;
   margin-bottom: 0.75rem;
+}
+
+.ot-research-card li {
+  font-size: 0.875rem;
 }
 
 .ot-card-link {

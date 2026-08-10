@@ -310,9 +310,13 @@ title: Home
         <div class="ot-section-label">Latest from Open Targets</div>
         <h2>News &amp; research highlights</h2>
       </div>
-      <a href="/news" class="ot-card-link" style="white-space:nowrap">
-        See all news <i data-lucide="move-right" class="ml-1"></i>
-      </a>
+      <div>
+        <a href="/news" class="ot-card-link" style="white-space:nowrap">
+          See all news <i data-lucide="move-right" class="ml-1"></i>
+        </a><br />
+        <a href="https://us17.campaign-archive.com/home/?u=d11d0467053c1d4b918eb8738&id=f084c7a7c2" class="ot-card-link"
+          style="white-space:nowrap">Subscribe to our newsletter <i data-lucide="external-link" class="ml-1"></i></a>
+      </div>
     </div>
     <div class="row">
       {% assign all_news = site.news | sort: 'date' | reverse %}
