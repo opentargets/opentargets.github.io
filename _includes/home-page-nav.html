@@ -1,0 +1,37 @@
+<nav class="ot-page-nav" id="ot-page-nav" aria-label="Page sections">
+  <ul>
+    <li><a href="#partners"><span class="ot-page-nav-dot"></span><span class="ot-page-nav-label">Partners</span></a></li>
+    <li><a href="#platform"><span class="ot-page-nav-dot"></span><span class="ot-page-nav-label">Platform</span></a></li>
+    <li><a href="#research"><span class="ot-page-nav-dot"></span><span class="ot-page-nav-label">Research</span></a></li>
+    <li><a href="#principles"><span class="ot-page-nav-dot"></span><span class="ot-page-nav-label">Principles</span></a></li>
+    <li><a href="#news"><span class="ot-page-nav-dot"></span><span class="ot-page-nav-label">News</span></a></li>
+    <li><a href="#social"><span class="ot-page-nav-dot"></span><span class="ot-page-nav-label">Connect</span></a></li>
+  </ul>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var links = document.querySelectorAll('#ot-page-nav a');
+    if (!links.length) return;
+    var sections = Array.prototype.map.call(links, function (a) {
+      return document.querySelector(a.getAttribute('href'));
+    });
+
+    function updateActive() {
+      var pos = window.scrollY + window.innerHeight * 0.35;
+      var current = sections[0];
+      for (var i = 0; i < sections.length; i++) {
+        if (sections[i].offsetTop <= pos) {
+          current = sections[i];
+        }
+      }
+      Array.prototype.forEach.call(links, function (a) {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current.id);
+      });
+    }
+
+    window.addEventListener('scroll', updateActive, { passive: true });
+    window.addEventListener('resize', updateActive);
+    updateActive();
+  });
+</script>
