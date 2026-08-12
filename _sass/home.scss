@@ -592,6 +592,7 @@ html {
 }
 
 .ot-home-sections {
+
   @media (min-width: 992px) {
     display: flex;
     align-items: stretch;
@@ -609,19 +610,22 @@ html {
 
 .ot-page-nav {
   display: none;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 20px;
+  left: 20px;
   height: 100vh;
-  flex-shrink: 0;
+  z-index: 1000;
+  background-color: $white;
+  padding: 1rem;
+  // border-radius: 8px;
+  // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 
   @media (min-width: 992px) and (max-width: 1199px) {
     display: block;
-    flex-basis: 120px;
   }
 
   @media (min-width: 1200px) {
     display: block;
-    flex-basis: 240px;
   }
 }
 
@@ -644,6 +648,7 @@ html {
   left: 5px;
   width: 2px;
   background-color: $ot-border-tint;
+  z-index: -1;
 }
 
 .ot-page-nav li {
