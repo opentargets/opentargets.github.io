@@ -6,52 +6,60 @@ title: Jobs
 
 {% include page_header.html %}
 
-<section class="py-5 my-5">
-  <div class="container">
-    <div class="row mb-5">
-      <div class="col-12">
-        <img src="/assets/img/open-targets-10-year-anniversary.jpg" class="img-fluid" />
-        <small class="text-center">The Open Targets team at our 10 year anniversary celebration in October 2024</small>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <h2>Join our team!</h2>
-      </div>
-    </div>
-    <div class="row mb-5">
-      <div class="col-12">
-        <p>
-          Open Targets is based on the stunning Wellcome Genome Campus, home to some of the world's foremost institutes and organisations in 
-          genomics and computational biology. We work in dynamic teams at the interface of academic and pharma industry science on a crucial
-           problem, how to be more successful in making drugs. Working with us, you will be exposed to new technologies and a dynamic set of 
-           scientists dedicated to translational research. 
-        </p>
-        <p>
-          Our posts are usually in either one of our academic partners, The Wellcome Sanger Institute or EMBL-EBI and have terms and 
-          conditions associated with the employer. 
-        </p>
-        <p>
-          Important note: applications may be reviewed on an ongoing basis and the advertised post(s) may be filled before 
-          the stated deadline.
-        </p>
-      </div>
-    </div>
-    <hr class="mb-5" />
-    <div class="row">
-      {% assign all_job_ads = site.jobs | sort: 'closing_date' %}
-      {% if all_job_ads.size == 0 %}
-      <div class="col-12 text-center">
-        <p class="font-italic">
-          We have no vacancies at the moment.
-        </p>
-      </div>
-      {% else %}
-        {% for job in all_job_ads %}
-          {% include job_ad.html %}
-        {% endfor %} 
-      {% endif %}
-    </div>
-  </div>
-</section>
+<div class="page-constrained">
 
+  <section class="py-5 my-5">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12">
+          <img src="/assets/img/open-targets-10-year-anniversary.jpg" class="img-fluid" />
+          <small class="text-center">The Open Targets team at our 10 year anniversary celebration in October
+            2024</small>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h2>Join our team!</h2>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-12">
+          <p>
+            Open Targets is based on the stunning Wellcome Genome Campus, home to some of the world's foremost
+            institutes and organisations in
+            genomics and computational biology. We work in dynamic teams at the interface of academic and pharma
+            industry science on a crucial
+            problem, how to be more successful in making drugs. Working with us, you will be exposed to new technologies
+            and a dynamic set of
+            scientists dedicated to translational research.
+          </p>
+          <p>
+            Our posts are usually in either one of our academic partners, The Wellcome Sanger Institute or EMBL-EBI and
+            have terms and
+            conditions associated with the employer.
+          </p>
+          <p>
+            Important note: applications may be reviewed on an ongoing basis and the advertised post(s) may be filled
+            before
+            the stated deadline.
+          </p>
+        </div>
+      </div>
+      <hr class="mb-5" />
+      <div class="row">
+        {% assign all_job_ads = site.jobs | sort: 'closing_date' %}
+        {% if all_job_ads.size == 0 %}
+        <div class="col-12 text-center">
+          <p class="font-italic">
+            We have no vacancies at the moment.
+          </p>
+        </div>
+        {% else %}
+        {% for job in all_job_ads %}
+        {% include job_ad.html %}
+        {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </section>
+</div>
