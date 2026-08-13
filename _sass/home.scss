@@ -207,7 +207,7 @@
 
 .ot-highlight-box-title {
   font-size: 0.85rem;
-  color: #888;
+  color: $ot-grey-dark;
   margin-top: 0.25rem;
 }
 
@@ -270,7 +270,7 @@
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: $ot-corp-blue;
+  color: $ot-corp-navy;
   font-weight: 700;
   margin-bottom: 0.4rem;
 }
@@ -449,8 +449,8 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: $ot-corp-blue;
-  background: $ot-tag-bg;
+  color: $ot-corp-navy;
+  background: $ot-bg-tint;
   padding: 3px 8px;
   border-radius: 3px;
   margin-bottom: 0.6rem;
@@ -474,14 +474,14 @@
 
 .ot-news-card p {
   font-size: 0.825rem;
-  color: #666;
+  color: $ot-corp-grey;
   line-height: 1.5;
   margin-bottom: 0;
 }
 
 .ot-news-date {
   font-size: 0.75rem;
-  color: #aaa;
+  color: $ot-corp-grey;
   margin-top: 0.75rem;
 }
 
@@ -510,7 +510,7 @@
 
 .ot-social-sub {
   font-size: 0.8rem;
-  color: #888;
+  color: $ot-corp-grey;
   margin-bottom: 1.25rem;
 }
 
@@ -542,7 +542,7 @@
 
 .ot-blog-meta {
   font-size: 0.75rem;
-  color: #999;
+  color: $ot-corp-grey;
   margin-bottom: 4px;
 }
 

@@ -37,7 +37,9 @@
   <!-- End Google Tag Manager (noscript) -->
   {% endif %}
   {% include navigation.html %}
-  {{ content }}
+  <main>
+    {{ content }}
+  </main>
   {% include footer.html %}
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -48,9 +50,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-<script src="https://unpkg.com/lucide@1.26.0/dist/umd/lucide.min.js" crossorigin="anonymous"></script>
-    <script>lucide.createIcons();</script>
-    <script src="{{ '/assets/js/tabs-overflow.js' | relative_url }}"></script>
+  <script src="https://unpkg.com/lucide@1.26.0/dist/umd/lucide.min.js" crossorigin="anonymous"></script>
+  <script>lucide.createIcons();</script>
+  <script src="{{ '/assets/js/tabs-overflow.js' | relative_url }}"></script>
 </body>
 
 </html>
