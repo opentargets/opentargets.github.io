@@ -8,7 +8,8 @@ $ot-corp-navy: #1a4565; // headings, primary text on light backgrounds
 $ot-corp-blue: #3489ca; // brand blue, links, accents
 $ot-corp-blue-mid: #2a6fa3; // hover/active state for blue elements
 $ot-corp-blue-light: #98c5e3; // light blue hover/accent
-$ot-corp-grey: #5a5f5f; // body text
+$ot-corp-grey: #5a5f5f;
+$ot-grey-dark: #3f4343; // body text
 $ot-bg-tint: #f4f8fc; // very light section background
 $ot-border-tint: #dce8f2; // light blue borders/dividers
 $ot-card-border: #e3eaf1; // card/box borders
@@ -16,12 +17,13 @@ $ot-tag-bg: #e8f3fb; // small tag/badge backgrounds
 
 body {
   background: $white;
-  color: $ot-corp-grey;
+  color: $ot-grey-dark;
   font-family: $bodyFont;
 }
 
 p {
   line-height: 1.65;
+  color: $ot-grey-dark;
 }
 
 h2 {
