@@ -27,6 +27,7 @@
     // Reset links to their default styling before reorganising.
     links.forEach(function (link) {
       link.classList.remove('dropdown-item');
+      link.classList.add('nav-item', 'nav-link');
     });
 
     bar.innerHTML = '';
@@ -69,6 +70,7 @@
     menu.setAttribute('aria-labelledby', dropdownId);
 
     overflow.forEach(function (link) {
+      link.classList.remove('nav-item', 'nav-link');
       link.classList.add('dropdown-item');
       menu.appendChild(link);
     });
@@ -104,21 +106,38 @@
   }
 
   // Bootstrap's tab events bubble, so a single delegated handler covers
-  // dynamically moved links. Keep the "Earlier" toggle highlighted while
-  // the active year lives inside the dropdown, and close the dropdown
-  // once a hidden-year tab is activated (Bootstrap 4 menus stay open by
-  // default when clicked inside).
+  // dynamically moved links. Bootstrap 4.0.0 fails to clear `.active` from
+  // a previously-selected tab that lives inside the dropdown, so we manage
+  // the active state ourselves: exactly one linked tab is active at a time.
+  // Keep the "Earlier" toggle highlighted while the active year lives
+  // inside the dropdown. Bootstrap 4.0.0's `_clearMenus` already closes
+  // the menu when an item is clicked, so we only nudge it closed if a
+  // browser left it open (no `.dropdown('hide')` here: 4.0.0 has no such
+  // method and throws `TypeError`).
   $(document).on('shown.bs.tab', SELECTOR + ' a[data-toggle="tab"]', function () {
     var bar = $(this).closest(SELECTOR)[0];
     if (!bar) {
       return;
     }
+    var links = bar.querySelectorAll('a[data-toggle="tab"]');
+    Array.prototype.forEach.call(links, function (link) {
+      var isActive = link === this;
+      link.classList.toggle('active', isActive);
+      if (link.getAttribute('role') === 'tab') {
+        link.setAttribute('aria-selected', isActive);
+      }
+    }, this);
     var menu = bar.querySelector('.dropdown-menu');
     syncToggleActive(bar);
     if (menu && menu.contains(this)) {
       var drop = bar.querySelector('.dropdown');
-      if (drop) {
-        $(drop).dropdown('hide');
+      if (drop && drop.classList.contains('show')) {
+        drop.classList.remove('show');
+        menu.classList.remove('show');
+        var toggle = bar.querySelector('.dropdown-toggle');
+        if (toggle) {
+          toggle.setAttribute('aria-expanded', 'false');
+        }
       }
     }
   });

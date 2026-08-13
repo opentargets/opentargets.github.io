@@ -217,3 +217,7 @@ header.page-header {
     max-width: 65vw;
   }
 }
+
+.ot-collapsible-tabs .dropdown-item.active {
+  background-color: $ot-corp-navy;
+}
