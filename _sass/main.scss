@@ -211,3 +211,9 @@ header.page-header {
 .footer-ot {
   max-width: 350px;
 }
+
+@media (min-width: 1200px) {
+  .page-constrained .container {
+    max-width: 65vw;
+  }
+}
