@@ -59,9 +59,10 @@
     toggle.className = 'nav-link dropdown-toggle font-weight-bold';
     toggle.href = '#';
     toggle.setAttribute('data-toggle', 'dropdown');
-    toggle.setAttribute('role', 'button');
+    toggle.setAttribute('role', 'tab');
     toggle.setAttribute('aria-haspopup', 'true');
     toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-selected', 'false');
     toggle.setAttribute('id', dropdownId);
     toggle.textContent = 'Earlier';
 
@@ -83,6 +84,7 @@
       return link.classList.contains('active');
     });
     toggle.classList.toggle('active', activeInOverflow);
+    toggle.setAttribute('aria-selected', activeInOverflow ? 'true' : 'false');
   }
 
   function syncToggleActive(bar) {
@@ -92,7 +94,9 @@
       return;
     }
     var active = bar.querySelector('a[data-toggle="tab"].active');
-    toggle.classList.toggle('active', !!active && menu.contains(active));
+    var isActive = !!active && menu.contains(active);
+    toggle.classList.toggle('active', isActive);
+    toggle.setAttribute('aria-selected', isActive ? 'true' : 'false');
   }
 
   document.querySelectorAll(SELECTOR).forEach(function (bar, index) {

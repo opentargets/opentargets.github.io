@@ -5,6 +5,7 @@ role: Platform and Informatics Science Coordinator
 picture: david_ochoa.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
+organisation_logo_alt: "EMBL-EBI logo"
 orcid: 0000-0003-1857-278X
 ---
 
