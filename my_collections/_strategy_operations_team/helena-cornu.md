@@ -5,6 +5,7 @@ role: Communications Lead
 picture: helena-cornu.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
+organisation_logo_alt: "EMBL-EBI logo"
 orcid:
 ---
 Helena Cornu is responsible for all communications involving Open Targets. This includes our social media, blog, newsletters, and press releases. 

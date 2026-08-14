@@ -26,6 +26,10 @@ p {
   color: $ot-grey-dark;
 }
 
+.footer-ot p {
+  color: $white;
+}
+
 h2 {
   color: $ot-corp-navy;
   font-weight: 600;
@@ -56,22 +60,19 @@ img {
 }
 
 a {
-  color: $ot-corp-blue;
+  color: $ot-corp-navy;
 }
 
 a:hover {
-  color: $ot-corp-blue-light;
+  color: $ot-corp-blue;
 }
 
 li {
   line-height: 1.75;
 }
 
-// Site-wide CTA button suite.
-// Opt-in: existing Bootstrap .btn-primary/.btn-secondary usages are
-// untouched. Use class="btn btn-ot-primary" or "btn btn-ot-secondary" on
-// a new button. Both compose with Bootstrap's .btn-sm / .btn-lg sizing.
-.btn-ot-primary {
+
+.btn-primary {
   background-color: $ot-corp-blue-mid;
   border-color: $ot-corp-blue-mid;
   color: $white;
@@ -81,24 +82,24 @@ li {
   transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.btn-ot-primary:hover {
+.btn-primary:hover {
   background-color: $ot-corp-navy;
   border-color: $ot-corp-navy;
   color: $white;
   box-shadow: 0 8px 24px rgba(26, 69, 101, 0.5);
 }
 
-.btn-ot-primary:active {
+.btn-primary:active {
   box-shadow: 0 2px 8px rgba(26, 69, 101, 0.3);
 }
 
-.btn-ot-primary:focus-visible {
+.btn-primary:focus-visible {
   outline: none;
   box-shadow: 0 0 0 3px rgba($ot-corp-blue, 0.5);
 }
 
-.btn-ot-primary.disabled,
-.btn-ot-primary:disabled {
+.btn-primary.disabled,
+.btn-primary:disabled {
   background-color: $ot-corp-blue-mid;
   border-color: $ot-corp-blue-mid;
   box-shadow: none;
@@ -107,7 +108,7 @@ li {
   pointer-events: none;
 }
 
-.btn-ot-secondary {
+.btn-secondary {
   background-color: transparent;
   border: 1px solid $ot-corp-blue;
   color: $ot-corp-blue;
@@ -116,19 +117,19 @@ li {
   transition: background-color 0.2s ease;
 }
 
-.btn-ot-secondary:hover {
+.btn-secondary:hover {
   background-color: rgba($ot-corp-blue, 0.12);
   border-color: $ot-corp-blue;
   color: $ot-corp-blue;
 }
 
-.btn-ot-secondary:focus-visible {
+.btn-secondary:focus-visible {
   outline: none;
   box-shadow: 0 0 0 3px rgba($ot-corp-blue, 0.5);
 }
 
-.btn-ot-secondary.disabled,
-.btn-ot-secondary:disabled {
+.btn-secondary.disabled,
+.btn-secondary:disabled {
   background-color: transparent;
   border-color: rgba($ot-corp-blue, 0.15);
   color: $ot-corp-blue;
@@ -220,6 +221,49 @@ header.page-header {
   }
 }
 
+.ot-collapsible-tabs {
+  //whole nav
+  border-bottom: 1.5px solid $ot-corp-navy;
+}
+
+.ot-collapsible-tabs .nav-link {
+  //individual tabs
+  color: $ot-corp-grey;
+}
+
+.ot-collapsible-tabs .nav-link.active {
+  //active tab
+  background-color: $ot-corp-navy;
+  color: $white;
+  border-bottom: 1.5px solid $ot-corp-navy;
+  border-top: 1.5px solid $ot-corp-navy;
+  border-left: 1.5px solid $ot-corp-navy;
+  border-right: 1.5px solid $ot-corp-navy;
+}
+
+.ot-collapsible-tabs .nav-link:not(.active):hover {
+  background-color: transparent;
+  color: #8c8f8f;
+  border: 1.5px solid #8c8f8f;
+  border-bottom-color: transparent;
+}
+
+.ot-collapsible-tabs .nav-item.show .nav-link {
+  //"Earlier" dropdown
+  background-color: $ot-corp-grey;
+  color: $white;
+  border-top: 1.5px solid $ot-corp-grey;
+  border-left: 1.5px solid $ot-corp-grey;
+  border-right: 1.5px solid $ot-corp-grey;
+  border-bottom-color: $ot-corp-grey;
+}
+
+.ot-collapsible-tabs .dropdown-item:not(.active):hover {
+  background-color: $ot-corp-grey;
+  color: $white;
+}
+
 .ot-collapsible-tabs .dropdown-item.active {
   background-color: $ot-corp-navy;
+  color: $white;
 }

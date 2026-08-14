@@ -466,6 +466,18 @@
   margin-bottom: 0.6rem;
 }
 
+.publication-block .ot-news-tag:hover {
+  background: $ot-corp-navy;
+  transition: color 0.2s ease;
+}
+
+.publication-block .ot-news-tag:hover a {
+  color: $ot-bg-tint;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+
 .ot-news-card img {
   margin-bottom: 12px;
   width: 100%;
