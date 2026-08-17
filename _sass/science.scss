@@ -1,4 +1,4 @@
-.ot-research-card-arrow {
+.ot-pipeline-card-arrow {
     width: 40px;
     height: 40px;
     background-color: $ot-corp-blue;
@@ -8,18 +8,12 @@
     justify-content: center;
     font-size: 1.1rem;
     position: absolute;
+    top: -30px;
+    left: 50%;
+    right: auto;
     bottom: auto;
-    left: auto;
-    right: -20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-@media (max-width: 992px) {
-    .ot-research-card-arrow {
-        width: 0px;
-        height: 0px;
-    }
+    z-index: 1;
+    transform: translateX(-50%);
 }
 
 .platform-showcase {
@@ -158,4 +152,103 @@
 
 .ot-tool-item:hover .ot-tool-icon {
     color: #3489ca;
+}
+
+/* Target identification / prioritisation pipeline cards */
+
+.ot-pipeline-card {
+    border: 1px solid $ot-card-border;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background: $white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50%;
+}
+
+.ot-pipeline-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: $ot-corp-navy;
+    line-height: 1.3;
+    margin: 0 0 0.75rem;
+}
+
+.ot-pipeline-card p {
+    font-size: 0.9rem;
+    color: $ot-corp-grey;
+    line-height: 1.55;
+    margin: 0;
+}
+
+/* Stat cards */
+
+.ot-stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 1.75rem 1.5rem;
+    height: 48%;
+}
+
+.ot-stat-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ot-stat-card--simple {
+    background-color: $white;
+    border: 1px solid $ot-card-border;
+}
+
+.ot-stat-card--navy {
+    background-color: $ot-corp-navy;
+}
+
+.ot-stat-card--navy .ot-stat-number {
+    color: $white;
+}
+
+.ot-stat-card--navy .ot-stat-text {
+    color: rgba($white, 0.85);
+}
+
+.ot-stat-number {
+    font-size: 4.25rem;
+    font-weight: 700;
+    color: $ot-corp-navy;
+    line-height: 1;
+    margin-bottom: 0.75rem;
+}
+
+.ot-stat-text {
+    font-size: 1rem;
+    color: $ot-corp-grey;
+    line-height: 1.55;
+    margin: 0;
+    text-wrap: balance;
+}
+
+.ot-stat-ref {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+    line-height: 1.5;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.ot-stat-card--navy .ot-stat-ref {
+    color: rgba($white, 0.6);
 }
