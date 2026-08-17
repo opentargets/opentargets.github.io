@@ -119,22 +119,6 @@
 }
 
 /* Partners */
-.ot-partners-section {
-  padding: 4rem 0;
-}
-
-.ot-partners-section h2 {
-  font-size: 1.75rem;
-  font-weight: 700;
-  color: $ot-corp-navy;
-  margin-bottom: 0.4rem;
-}
-
-.ot-partners-section .ot-lead {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 2rem;
-}
 
 .ot-partner-logo {
   border: 1px transparent;
@@ -229,32 +213,6 @@
 }
 
 /* Platform section */
-.ot-platform-section {
-  background-color: $ot-corp-navy;
-  border-top: 1px solid $ot-border-tint;
-  border-bottom: 1px solid $ot-border-tint;
-  padding: 4rem 0;
-}
-
-.ot-platform-section .ot-section-label {
-  color: #efefef;
-}
-
-.ot-platform-section h2 {
-  font-size: 1.75rem;
-  font-weight: 700;
-  color: #efefef;
-  margin-bottom: 0.75rem;
-}
-
-.ot-platform-section .ot-lead {
-  font-size: 1rem;
-  color: #efefef;
-  line-height: 1.65;
-  margin-bottom: 1.25rem;
-  text-wrap: pretty;
-}
-
 .ot-platform-feature {
   display: flex;
   align-items: center;
@@ -314,6 +272,35 @@
   margin-top: 3rem;
 }
 
+/* Section modifiers */
+
+.ot-section--light-blue-bg {
+  background-color: $ot-bg-tint;
+  border-top: 1px solid $ot-border-tint;
+  border-bottom: 1px solid $ot-border-tint;
+}
+
+.ot-section--light-blue-bg h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.ot-section--navy {
+  background-color: $ot-corp-navy;
+  border-top: 1px solid $ot-border-tint;
+  border-bottom: 1px solid $ot-border-tint;
+}
+
+.ot-section--navy .ot-section-label,
+.ot-section--navy h2 {
+  color: #efefef;
+}
+
+.ot-section--navy .ot-lead {
+  color: #efefef;
+  margin-bottom: 1.25rem;
+}
+
 /* Research cards */
 .ot-research-card {
   border: 1px solid $ot-card-border;
@@ -338,6 +325,21 @@
   justify-content: center;
   font-size: 1.1rem;
   margin-bottom: 1rem;
+}
+
+.ot-research-card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.ot-research-card-head .ot-research-icon {
+  margin-bottom: 0;
+}
+
+.ot-research-card-head h3 {
+  margin-bottom: 0;
 }
 
 .ot-research-card h3 {
@@ -379,27 +381,6 @@
 }
 
 /* Principles */
-.ot-section-light-blue-bg {
-  background-color: $ot-bg-tint;
-  border-top: 1px solid $ot-border-tint;
-  border-bottom: 1px solid $ot-border-tint;
-  padding: 4rem 0;
-}
-
-.ot-section-light-blue-bg .ot-lead {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.65;
-  margin-bottom: 4rem;
-}
-
-.ot-section-light-blue-bg h3 {
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: $ot-corp-navy;
-  margin-bottom: 0.5rem;
-}
-
 .ot-principle {
   border-top: 3px solid $ot-corp-blue;
   padding-top: 1rem;
@@ -436,17 +417,6 @@
 }
 
 /* News */
-.ot-news-section {
-  padding: 4rem 0;
-}
-
-.ot-news-section h2 {
-  font-size: 1.75rem;
-  font-weight: 700;
-  color: $ot-corp-navy;
-  margin-bottom: 0;
-}
-
 .ot-news-card {
   border: 1px solid $ot-card-border;
   border-radius: 8px;
