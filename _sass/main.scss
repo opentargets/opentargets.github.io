@@ -204,6 +204,37 @@ header.page-header {
   }
 }
 
+// uniform card sizing on /people page so all cards render at the same size
+.people-card {
+  width: 100%;
+
+  .card-img-top {
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
+
+    @media (min-width: 576px) {
+      height: 220px;
+    }
+  }
+
+  .card-title {
+    min-height: 2.4em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .card-subtitle {
+    min-height: 5em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+}
+
 .footer-container {
   display: flex;
   justify-content: center;
@@ -218,6 +249,13 @@ header.page-header {
 @media (min-width: 1200px) {
   .page-constrained .container {
     max-width: 65vw;
+  }
+}
+
+// keep the /people grid at a fixed width on large screens so cards stay uniform and close together
+@media (min-width: 1200px) {
+  .people-page .container {
+    max-width: 1140px;
   }
 }
 
