@@ -14,7 +14,7 @@
   {% assign operations_team = site.strategy_operations_team | sort: 'last_name' %}
   {% for person in operations_team %}
   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
-    <div class="card shadow-lg bg-white rounded align-self-stretch">
+    <div class="card shadow-lg bg-white rounded align-self-stretch people-card">
       <a data-toggle="modal" href="#modal-{{ person.last_name }}">
         <img class="card-img-top px-4 pt-4" src="/assets/img/people/{{ person.picture }}"
           alt="Photo of {{ person.first_name }} {{ person.last_name}}">
