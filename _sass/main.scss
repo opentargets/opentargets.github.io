@@ -14,6 +14,9 @@ $ot-bg-tint: #f4f8fc; // very light section background
 $ot-border-tint: #dce8f2; // light blue borders/dividers
 $ot-card-border: #e3eaf1; // card/box borders
 $ot-tag-bg: #e8f3fb; // small tag/badge backgrounds
+$ot-oncology: #35711D;
+$ot-neuro: #71501D;
+$ot-immunology: #711D6A;
 
 body {
   background: $white;
@@ -30,9 +33,19 @@ p {
   color: $white;
 }
 
+.ot-lead {
+  font-size: 1rem;
+  color: $ot-grey-dark;
+  line-height: 1.65;
+  margin-bottom: 4rem;
+  text-wrap: pretty;
+}
+
 h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
   color: $ot-corp-navy;
-  font-weight: 600;
 }
 
 h2::after {
@@ -304,4 +317,65 @@ header.page-header {
 .ot-collapsible-tabs .dropdown-item.active {
   background-color: $ot-corp-navy;
   color: $white;
+}
+
+/* Image Gallery */
+.ot-image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.5rem;
+  margin: 2rem 0;
+}
+
+.ot-image-gallery-item {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background: $white;
+  border: 1px solid $ot-card-border;
+  transition: box-shadow 0.15s ease;
+}
+
+.ot-image-gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.ot-image-gallery-item video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ot-image-gallery-caption {
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  color: $ot-corp-grey;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.ot-image-gallery-item.featured {
+  grid-column: span 2;
+}
+
+.ot-image-gallery-item.featured img {
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  .ot-image-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .ot-image-gallery-item.featured {
+    grid-column: span 1;
+  }
+
+  .ot-image-gallery-item.featured img {
+    height: 200px;
+  }
 }

@@ -240,21 +240,6 @@
   margin-bottom: 0.4rem;
 }
 
-.ot-section h2 {
-  font-size: 1.75rem;
-  font-weight: 700;
-  margin-bottom: 0.75rem;
-  color: $ot-corp-navy;
-}
-
-.ot-section .ot-lead {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.65;
-  margin-bottom: 4rem;
-  text-wrap: pretty;
-}
-
 .ot-section h3 {
   font-size: 1.4rem;
   font-weight: 600;
@@ -306,6 +291,18 @@
   box-shadow: 0 4px 16px rgba($ot-corp-blue, 0.12);
 }
 
+// .ot-research-icon {
+//   width: 40px;
+//   height: 40px;
+//   border-radius: 8px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: 1.1rem;
+//   margin-bottom: 1rem;
+//   background-color: $ot-bg-tint;
+// }
+
 .ot-research-icon {
   width: 40px;
   height: 40px;
@@ -314,7 +311,23 @@
   align-items: center;
   justify-content: center;
   font-size: 1.1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+.ot-oncology-icon {
+  background-color: $ot-oncology;
+}
+
+.ot-research-icon .lucide {
+  color: $ot-bg-tint;
+}
+
+.ot-neuro-icon {
+  background-color: $ot-neuro;
+}
+
+.ot-immuno-icon {
+  background-color: $ot-immunology;
 }
 
 .ot-research-card-head {
@@ -322,10 +335,6 @@
   align-items: center;
   gap: 0.75rem;
   margin-bottom: 0.5rem;
-}
-
-.ot-research-card-head .ot-research-icon {
-  margin-bottom: 0;
 }
 
 .ot-research-card-head h3 {
@@ -431,6 +440,21 @@
   padding: 3px 8px;
   border-radius: 3px;
   margin-bottom: 0.6rem;
+}
+
+.oncology-tag {
+  color: $ot-bg-tint;
+  background-color: $ot-oncology;
+}
+
+.neuro-tag {
+  color: $ot-bg-tint;
+  background-color: $ot-neuro;
+}
+
+.immuno-tag {
+  color: $ot-bg-tint;
+  background-color: $ot-immunology;
 }
 
 .publication-block .ot-news-tag:hover {
