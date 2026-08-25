@@ -598,3 +598,87 @@
 .ot-bluesky-container::-webkit-scrollbar-thumb:hover {
   background: $ot-corp-blue;
 }
+
+/* Sidebar Navigation */
+.ot-sidebar-nav {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  background: $white;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.ot-sidebar-nav.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.ot-sidebar-nav nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ot-sidebar-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: $ot-corp-navy;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.ot-sidebar-link:hover {
+  background-color: $ot-corp-grey;
+  color: $white;
+  text-decoration: none;
+}
+
+.ot-sidebar-link.active {
+  background-color: $ot-corp-navy;
+  color: $white;
+  font-weight: 600;
+}
+
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mobile adaptive layout */
+@media (max-width: 768px) {
+  .ot-sidebar-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    transform: none;
+    border-radius: 12px 12px 0 0;
+    padding: 1rem;
+    background: $white;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .ot-sidebar-nav nav {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0.25rem;
+  }
+
+  .ot-sidebar-link {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
