@@ -213,7 +213,7 @@
 }
 
 .ot-stat-card--simple {
-    background-color: $white;
+    background-color: $ot-bg-tint;
     border: 1px solid $ot-card-border;
 }
 
@@ -247,7 +247,7 @@
 
 .ot-stat-ref {
     font-size: 0.75rem;
-    color: #94a3b8;
+    color: $ot-corp-grey;
     margin-top: 0.75rem;
     margin-bottom: 0;
     line-height: 1.5;
