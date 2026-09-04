@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href={{ '/' | relative_url }}>
       <img src="/assets/img/branding/OT_logo_colour_RGB.png" style="width:150px"
         alt="Open Targets helix logo and wordmark">
     </a>
@@ -16,10 +16,10 @@
             About
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="/partnership">The partnership</a>
-            <a class="dropdown-item" href="/people">Team</a>
-            <a class="dropdown-item" href="/science">Science overview</a>
-            <a class="dropdown-item" href="/publications">Publications</a>
+            <a class="dropdown-item" href={{ '/partnership' | relative_url }}>The partnership</a>
+            <a class="dropdown-item" href={{ '/people' | relative_url }}>Team</a>
+            <a class="dropdown-item" href={{ '/science' | relative_url }}>Science overview</a>
+            <a class="dropdown-item" href={{ '/publications' | relative_url }}>Publications</a>
           </div>
         </li>
         <li class="nav-item">
@@ -27,13 +27,13 @@
               class="mr-1"></i>Platform</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/news">News</a>
+          <a class="nav-link" href={{ '/news' | relative_url }}>News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/jobs">Jobs</a>
+          <a class="nav-link" href={{ '/jobs' | relative_url }}>Jobs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
+          <a class="nav-link" href={{ '/contact' | relative_url }}>Contact</a>
         </li>
       </ul>
     </div>
