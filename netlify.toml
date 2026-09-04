@@ -1,7 +1,0 @@
-# Set Jekyll environment to "production" to ensure that 
-# Google Tag Manager code is added to <head> section on each page
-# see _layouts/default.html
-
-[context.production]
-  [context.production.environment]
-    JEKYLL_ENV = "production"
