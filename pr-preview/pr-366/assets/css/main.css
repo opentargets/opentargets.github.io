@@ -111,7 +111,7 @@ header.page-header { padding: 60px; background: linear-gradient(to bottom right,
   .ot-image-gallery-item.featured { grid-column: span 1; }
   .ot-image-gallery-item.featured img { height: 200px; } }
 /* Hero */
-.ot-hero { background-image: url("/assets/img/homepage-hero-generic.jpg"); background-size: cover; background-position: center; padding: 3rem 1rem; }
+.ot-hero { background-image: url("../img/homepage-hero-generic.jpg"); background-size: cover; background-position: center; padding: 3rem 1rem; }
 
 .ot-hero-inner { max-width: 740px; background-color: #ffffff; padding: 2rem 2rem; border-radius: 8px; }
 
@@ -437,7 +437,7 @@ blockquote affiliation { display: inline-block; font-size: 1rem; font-weight: 40
 .ot-stat-card--navy .ot-stat-ref { color: rgba(255, 255, 255, 0.6); }
 
 /* Hero */
-.partnership-hero { background-image: url("/assets/img/illustrative/coffee_session.png"); background-size: cover; background-position: center; padding: 3rem 1rem; }
+.partnership-hero { background-image: url("../img/illustrative/coffee_session.png"); background-size: cover; background-position: center; padding: 3rem 1rem; }
 
 .partnership-hero-inner { max-width: 640px; background-color: #ffffff; padding: 2rem 2rem; border-radius: 8px; margin-left: 0; }
 
