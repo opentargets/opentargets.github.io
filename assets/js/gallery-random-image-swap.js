@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     galleryItems.forEach(function (img, index) {
       const randomImage = shuffledPool[index % shuffledPool.length];
-      img.src = randomImage;
+      img.src = 'randomImage | relative_url';
       img.alt = imageAltText[randomImage] || 'Gallery image'; // Set alt text
       currentImages.add(randomImage);
     });
