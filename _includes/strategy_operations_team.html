@@ -16,14 +16,14 @@
   <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 py-3 d-flex">
     <div class="card shadow-lg bg-white rounded align-self-stretch people-card">
       <a data-toggle="modal" href="#modal-{{ person.last_name }}">
-        <img class="card-img-top px-4 pt-4" src="/assets/img/people/{{ person.picture }}"
+        <img class="card-img-top px-4 pt-4" src="{{ '/assets/img/people/' | append: person.picture | relative_url }}"
           alt="Photo of {{ person.first_name }} {{ person.last_name}}">
       </a>
       <div class="card-body text-center">
         <h5 class="card-title">{{ person.first_name }} {{ person.last_name}}</h5>
         <p class="card-subtitle mb-3">{{ person.role }}</p>
         <div class="col-12">
-          <img src="/assets/img/logos/{{person.organisation_logo}}" class="img-fluid logo-small" alt="
+          <img src="{{ '/assets/img/logos/' | append: person.organisation_logo | relative_url }}" class="img-fluid logo-small" alt="
             {{person.organisation_logo_alt}}" />
         </div>
       </div>

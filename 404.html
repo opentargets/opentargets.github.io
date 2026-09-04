@@ -5,7 +5,7 @@ layout: default
 
 <div class="ot-404-wrapper">
   <div class="ot-404-inner">
-    <img src="/assets/Sad Sir Target Centered.png" alt="Sir Target is sad" class="ot-404-image">
+    <img src="{{ '/assets/Sad Sir Target Centered.png' | relative_url }}" alt="Sir Target is sad" class="ot-404-image">
     <!-- <div class="ot-404-icon" aria-hidden="true">
       <i data-lucide="dna-off"></i>
       <div class="ot-404-number">404</div>
@@ -14,7 +14,7 @@ layout: default
     <p class="ot-404-subtext">
       Sir Target can't find the page you're looking for.
     </p>
-    <a href={{ '/' | relative_url }} class="btn btn-primary mt-4">Return to homepage</a>
+    <a href="{{ '/' | relative_url }}" class="btn btn-primary mt-4">Return to homepage</a>
 
   </div>
 </div>

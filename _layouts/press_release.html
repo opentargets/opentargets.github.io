@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <link rel="shortcut icon" href={{ '/assets/img/favicons/open-targets-favicon.png' | relative_url }} type="image/png" />
+  <link rel="shortcut icon" href="{{ '/assets/img/favicons/open-targets-favicon.png' | relative_url }}" type="image/png" />
   <script src="https://kit.fontawesome.com/3624e8890c.js" crossorigin="anonymous"></script>
 </head>
 
@@ -69,7 +69,7 @@
 
         <!-- Image with caption -->
         {% if page.image_filename %}
-        <img src="/assets/img/news/{{ page.image_filename }}" class="ot-news-image" alt="{{ page.image_alt_text }}" />
+        <img src="{{ '/assets/img/news/' | append: page.image_filename | relative_url }}" class="ot-news-image" alt="{{ page.image_alt_text }}" />
         {% if page.image_caption %}
         <p class="ot-news-caption">{{ page.image_caption }}</p>
         {% endif %}
