@@ -5,6 +5,7 @@ role: Executive Director
 picture: David-Hulcoop-Jun23.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
+organisation_logo_alt: "EMBL-EBI logo"
 orcid: 0000-0003-1323-1759
 order: 1
 ---

@@ -1,8 +1,9 @@
 ---
 title: ""
 date: yyyy-mm-dd
+category: 
 image_filename: ""
 image_alt_text: ""
+summary: "Text about the news item goes here"
 link: ""
 ---
-Text about the news item goes here

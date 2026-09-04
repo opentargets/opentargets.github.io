@@ -5,6 +5,7 @@ role: Senior Administrator
 picture: paris_litterick.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
+organisation_logo_alt: "EMBL-EBI logo"
 orcid:
 ---
 

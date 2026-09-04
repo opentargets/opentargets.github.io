@@ -4,6 +4,7 @@ last_name: "Szyszkowski"
 role: "Senior Computational Biologist"
 picture: "szymon_szyszkowski.png"
 organisation_logo: "wellcome-sanger.png"
+organisation_logo_alt: "Wellcome Sanger Institute logo"
 ---
 Szymon studied at Lodz University of Technology (BEng). He started his professional carrier in Children's Health Memorial Institute in Warsaw where he was working on the rare diseases treatment in Polish population.
 

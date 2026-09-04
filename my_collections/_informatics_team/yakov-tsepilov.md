@@ -4,6 +4,7 @@ last_name: "Tsepilov"
 role: "Genetic Analysis Team Lead"
 picture: "Yakov_Tsepilov.png"
 organisation_logo: "wellcome-sanger.png"
+organisation_logo_alt: "Wellcome Sanger Institute logo"
 ---
 
 Yakov obtained his PhD in Statistical Genetics from Novosibirsk State University. He worked on the developing approaches for studying non-additive models and applied them to study the genetics of human metabolome.

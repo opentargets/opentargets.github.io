@@ -3,329 +3,455 @@ layout: default
 title: Home
 ---
 
-<header>
-  <div
-    id="carouselExampleIndicators"
-    class="carousel slide"
-    data-ride="carousel"
-    data-interval="10000"
-  >
-    <div class="carousel-inner text-center" role="listbox">
-      <!-- Slide 1 -->
-      <div
-        class="carousel-item active"
-        style="background-image: url('assets/img/homepage-hero-generic.jpg')"
-      >
-        <div class="d-flex h-100 align-items-center justify-content-center">
-          <div class="w-75 text-white">
-            <img
-              src="assets/img/ot-logo-white.png"
-              style="width: 200px"
-              alt="Open Targets helix logo and wordmark in white"
-              class="mb-2"
-            />
-            <h2 class="mt-2">
-              <b
-                >Delivering pre-competitive insights for systematic drug target
-                selection</b
-              >
-            </h2>
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<header class="ot-hero">
+  <div class="container">
+    <div class="row align-items-stretch">
+      <div class="col-lg-8 mb-4 mb-lg-0">
+        <div class="ot-hero-inner">
+          <div class="ot-hero-badge">
+            <i data-lucide="dna" class="mr-1"></i> Public–private partnership · since 2014
           </div>
+          <h1>Genetics-<span>driven</span> targets</h1>
+          <p>
+            Open Targets is a collaborative programme that harnesses human genetics
+            and large-scale genomics to identify and prioritise the most promising
+            drug targets — accelerating the path from discovery to clinic.
+          </p>
+          <a href="https://platform.opentargets.org" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="external-link" class="mr-1" aria-hidden="true"></i> Explore the Platform
+            <span class="sr-only">(opens in a new tab)</span>
+          </a>
+          <a href="{{ '/science' | relative_url }}" class="btn btn-secondary">
+            <i data-lucide="flask-conical" class="mr-1"></i> Our science
+          </a>
         </div>
       </div>
-      <!-- Slide 2 -->
-      <div
-        class="carousel-item"
-        style="background-image: url('assets/img/homepage-hero-platform.jpg')"
-      >
-        <div class="d-flex h-100 align-items-center justify-content-center">
-          <div class="p-4 w-75" style="background-color: white">
-            <h2 class="mb-4">The Open Targets Platform</h2>
-            <p class="px-6">
-              A freely-available, comprehensive, and open source tool that
-              aggregates multiple public data sources and helps scientists
-              identify and prioritise potential therapeutic drug targets for
-              further investigation.
-            </p>
-            <a href="https://platform.opentargets.org" class="btn btn-primary"
-              >Visit the Open Targets Platform</a
-            >
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <div class="ot-hero-stats">
+          <div class="ot-hero-stat-item active" data-stat="0">
+            <div class="ot-hero-stat-image"
+              style="background-image: url('assets/img/homepage/PhilMynottPhoto0113.jpg');"></div>
+            <div class="ot-hero-stat-number">10+</div>
+            <div class="ot-hero-stat-label">years</div>
           </div>
-        </div>
-      </div>
-      <!-- Slide 3 -->
-      <div
-        class="carousel-item"
-        style="background-image: url('assets/img/homepage-hero-genetics.jpg')"
-      >
-        <div class="d-flex h-100 align-items-center justify-content-center">
-          <div class="p-4 w-75" style="background-color: white">
-            <h2 class="mb-4">Our research</h2>
-            <p>
-              Our research programme generates and analyses data to connect
-              targets to diseases, assess the strength of this evidence, and
-              help identify and prioritise targets for drug discovery. This
-              includes evidence that causally links targets and diseases, as
-              well as foundational data that helps us understand biological
-              processes and disease progression more deeply.
-            </p>
-            <a
-              href="https://www.opentargets.org/science"
-              class="btn btn-primary"
-              >Find out more</a
-            >
+          <div class="ot-hero-stat-item" data-stat="1">
+            <div class="ot-hero-stat-image" style="background-image: url('assets/img/homepage/C1003_028.jpg');"></div>
+            <div class="ot-hero-stat-number">7</div>
+            <div class="ot-hero-stat-label">partners</div>
+          </div>
+          <div class="ot-hero-stat-item" data-stat="2">
+            <div class="ot-hero-stat-image"
+              style="background-image: url('assets/img/homepage/PhilMynottPhoto0257.jpg');"></div>
+            <div class="ot-hero-stat-number">100+</div>
+            <div class="ot-hero-stat-label">projects</div>
+          </div>
+          <div class="ot-hero-stat-item" data-stat="3">
+            <div class="ot-hero-stat-image"
+              style="background-image: url('assets/img/homepage/PhilMynottPhoto0181.jpg');"></div>
+            <div class="ot-hero-stat-number">90+</div>
+            <div class="ot-hero-stat-label">publications</div>
           </div>
         </div>
       </div>
     </div>
-    <a
-      class="carousel-control-prev"
-      href="#carouselExampleIndicators"
-      role="button"
-      data-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a
-      class="carousel-control-next"
-      href="#carouselExampleIndicators"
-      role="button"
-      data-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
 </header>
 
-<section class="py-5 my-5">
+<!-- ============================================================
+     SIDEBAR NAVIGATION
+     ============================================================ -->
+<aside class="ot-sidebar-nav">
+  <nav>
+    <a href="#partners" class="ot-sidebar-link">Partners</a>
+    <a href="#platform" class="ot-sidebar-link">Platform</a>
+    <a href="#research" class="ot-sidebar-link">Research</a>
+    <a href="#principles" class="ot-sidebar-link">Principles</a>
+    <a href="#news" class="ot-sidebar-link">News</a>
+  </nav>
+</aside>
+
+<!-- ============================================================
+     PARTNERS
+     ============================================================ -->
+<section class="ot-section" id="partners">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2 class="text-center mb-5">Our Partners</h2>
-        <p>
-          At the heart of Open Targets is a consortium of complementary
-          <a href="/partners">partner institutions</a>
-          that bring their respective expertise to collaborative projects that
-          improve how we systematically identify and prioritise drug targets.
+    <div class="d-flex justify-content-between align-items-baseline mb-4 mb-lg-0">
+      <div>
+        <div class="ot-section-label">Our partners</div>
+        <h2>Seven world-leading institutions, one shared mission</h2>
+      </div>
+      <a href="{{ '/partners' | relative_url }}" class="ot-card-link" style="white-space:nowrap">
+        About the partnership <i data-lucide="move-right" class="ml-1"></i>
+      </a>
+    </div>
+    <p class="ot-lead">
+      Open Targets is a public–private partnership between leading academic
+      institutes and global pharmaceutical companies.</p>
+    <div class="ot-highlight-box">
+      <div class="ot-highlight-box-img">
+        <img src="{{ '/assets/img/people/rab_prinjha.jpeg' | relative_url }}" class="img-fluid" alt="Rab Prinjha" />
+      </div>
+      <div class="ot-highlight-box-content">
+        <p class="ot-highlight-box-text">
+          The skills and insights that all the partners bring is allowing us to systematically harness key advances in
+          the understanding of biology, particularly in the human immune system. <strong>The work of Open Targets will
+            continue to make a profound impact on how in pharma we select targets for new medicines.</strong>
         </p>
+        <div class="ot-partner-quote-author">Rab Prinjha</div>
+        <div class="ot-partner-quote-title">Vice President, Adaptive Immunity, GSK</div>
       </div>
     </div>
     <div class="row mt-3 d-flex justify-content-center align-items-center">
       <div class="col-lg-3 col-md-6 col-sm-6 col-6 py-2">
-        <a href="https://www.ebi.ac.uk/" target="_blank">
-          <img src="assets/img/logos/embl-ebi.png" class="img-fluid" />
+        <a href="https://www.ebi.ac.uk/" target="_blank" aria-label="EMBL-EBI">
+          <div class="ot-partner-logo">
+            <img src="{{ 'assets/img/logos/embl-ebi.png' | relative_url }}" class="img-fluid" alt="EMBL-EBI logo" />
+          </div>
         </a>
       </div>
-      <div
-        class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center"
-      >
-        <a href="https://www.gene.com/" target="_blank">
-          <img src="assets/img/logos/genentech.png" class="img-fluid" />
+      <div class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center">
+        <a href="https://www.gene.com/" target="_blank" aria-label="Genentech">
+          <div class="ot-partner-logo">
+            <img src="{{ 'assets/img/logos/genentech.png' | relative_url }}" class="img-fluid" alt="Genentech logo" />
+          </div>
         </a>
       </div>
-      <div
-        class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center"
-      >
-        <a href="https://www.gsk.com" target="_blank">
-          <img src="assets/img/logos/gsk_signal.png" class="img-fluid" />
+      <div class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center">
+        <a href="https://www.gsk.com" target="_blank" aria-label="GSK">
+          <div class="ot-partner-logo">
+            <img src="{{ 'assets/img/logos/gsk_signal.png' | relative_url }}" class="img-fluid gsk"
+              alt="GSK partnership logo" />
+          </div>
         </a>
       </div>
-      <div
-        class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center"
-      >
-        <a href="https://www.msd.com/" target="_blank">
-          <img src="assets/img/logos/msd.png" class="img-fluid" />
+      <div class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center">
+        <a href="https://www.msd.com/" target="_blank" aria-label="MSD">
+          <div class="ot-partner-logo">
+            <img src="{{ 'assets/img/logos/MSD.png' | relative_url }}" class="img-fluid" alt="MSD logo" />
+          </div>
         </a>
       </div>
-      <div
-        class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center"
-      >
-        <a href="https://www.pfizer.com/" target="_blank">
-          <img src="assets/img/logos/pfizer.png" class="img-fluid" />
+      <div class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center">
+        <a href="https://www.pfizer.com/" target="_blank" aria-label="Pfizer">
+          <div class="ot-partner-logo">
+            <img src="{{ 'assets/img/logos/pfizer.png' | relative_url }}" class="img-fluid" alt="Pfizer logo" />
+          </div>
         </a>
       </div>
-      <div
-        class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center"
-      >
-        <a href="https://www.sanofi.com/" target="_blank">
-          <img src="assets/img/logos/sanofi.png" class="img-fluid" />
+      <div class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center">
+        <a href="https://www.sanofi.com/" target="_blank" aria-label="Sanofi">
+          <div class="ot-partner-logo">
+            <img src="{{ 'assets/img/logos/sanofi.png' | relative_url }}" class="img-fluid" alt="Sanofi logo" />
+          </div>
         </a>
       </div>
-      <div
-        class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center"
-      >
-        <a href="https://www.sanger.ac.uk" target="_blank">
-          <img src="assets/img/logos/wellcome-sanger.png" class="img-fluid" />
+      <div class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center">
+        <a href="https://www.sanger.ac.uk" target="_blank" aria-label="Wellcome Sanger Institute">
+          <div class="ot-partner-logo">
+            <img src="{{ 'assets/img/logos/wellcome-sanger.png' | relative_url }}" class="img-fluid"
+              alt="Wellcome Sanger Institute logo" />
+          </div>
         </a>
       </div>
     </div>
   </div>
 </section>
 
-<div class="container">
-  <hr />
-</div>
 
-<section class="py-5 my-5">
+<!-- ============================================================
+     PLATFORM
+     ============================================================ -->
+<section class="ot-section ot-section--navy" id="platform">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2 class="text-center mb-5">News</h2>
-      </div>
-      {% assign all_news = site.news | sort: 'date' | reverse %} {% for
-      news_item in all_news limit:1 %} {% include news_item.html %} {% endfor %}
-      <div class="col-lg-12 mt-5">
-        <p class="text-center">
-          <a href="/news">Read more news about Open Targets</a>
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="ot-section-label">Open Targets Platform</div>
+        <h2>Find the targets worth pursuing</h2>
+        <p class="ot-lead">
+          The Open Targets Platform integrates genetics, genomics, transcriptomics, clinical, and literature data to
+          score target–disease associations—giving researchers a single, trusted starting point for target
+          identification.
         </p>
+        <div class="ot-platform-feature">
+          <i data-lucide="circle-check"></i>
+          Open source and freely available
+        </div>
+        <div class="ot-platform-feature">
+          <i data-lucide="circle-check"></i>
+          Quarterly data releases
+        </div>
+        <div class="ot-platform-feature">
+          <i data-lucide="circle-check"></i>
+          API and bulk data downloads available
+        </div>
+        <div class="ot-platform-feature">
+          <i data-lucide="circle-check"></i>
+          Used by researchers in 100+ countries
+        </div>
+        <a href="https://platform.opentargets.org" class="btn btn-primary mt-4" target="_blank">
+          <i data-lucide="external-link" class="mr-1"></i> Launch Platform
+        </a>
+      </div>
+      <div class="col-lg-6">
+        <a href="https://platform.opentargets.org" aria-label="Open Targets Platform">
+          <div class="ot-platform-image" title="Platform screenshot"
+            style="background-image: url('assets/img/homepage/Platform screenshot.png');">
+          </div>
+        </a>
       </div>
     </div>
   </div>
 </section>
 
-<div class="container">
-  <hr />
-</div>
+<!-- ============================================================
+     RESEARCH AREAS
+     ============================================================ -->
+<section class="ot-section" id="research">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-baseline mb-4 mb-lg-0">
+      <div>
+        <div class="ot-section-label">Our research</div>
+        <h2>Science built around what works in the clinic</h2>
+      </div>
+      <a href="{{ '/science' | relative_url }}" class="ot-card-link" style="white-space:nowrap">
+        About the research programme<i data-lucide="move-right" class="ml-1"></i>
+      </a>
+    </div>
+    <p class="ot-lead">
+      Drugs against genetically validated targets are more than twice as likely
+      to succeed in clinical trials. Our research programme generates the
+      large-scale experimental data needed to identify those targets and put them
+      in front of drug discovery teams.
+    </p>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-research-card">
+          <div class="ot-research-card-head">
+            <div class="ot-research-icon ot-oncology-icon">
+              <i data-lucide="award"></i>
+            </div>
+            <h3>Oncology</h3>
+          </div>
+          <p>
+            Large-scale CRISPR screens and somatic genomics to find and validate
+            cancer targets, with a focus on resistance mechanisms and tumour
+            dependencies.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-research-card">
+          <div class="ot-research-card-head">
+            <div class="ot-research-icon ot-neuro-icon">
+              <i data-lucide="brain"></i>
+            </div>
+            <h3>Neurodegeneration</h3>
+          </div>
+          <p>
+            Genetic dissection of diseases like Alzheimer's and Parkinson's,
+            combining GWAS, multi-omics, and human iPSC models to move from
+            signal to mechanism.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-research-card">
+          <div class="ot-research-card-head">
+            <div class="ot-research-icon ot-immuno-icon">
+              <i data-lucide="shield"></i>
+            </div>
+            <h3>Immunology &amp; inflammation</h3>
+          </div>
+          <p>
+            Decoding the genetics of immune-mediated diseases to surface targets
+            with the clearest causal evidence across conditions like IBD and RA.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<section class="py-5 my-5">
+<!-- ============================================================
+     PRINCIPLES
+     ============================================================ -->
+<section class="ot-section ot-section--light-blue-bg" id="principles">
+  <div class="container">
+    <div class="ot-section-label">How we work</div>
+    <h2>Our principles</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-principle">
+          <h3>A systematic approach</h3>
+          <p>
+            We leverage publicly available data to systematically identify and prioritise the best targets to safely and
+            effectively treat rare and common diseases.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-principle">
+          <h3>Open exchange of ideas</h3>
+          <p>
+            Science advances faster when ideas are shared openly. All our data, tools, and publications are made
+            publicly available as soon as
+            possible.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-principle">
+          <h3>Multidisciplinary collaboration</h3>
+          <p>
+            We believe in non-exclusive partnerships that foster the free exchange of ideas, knowledge,
+            and data.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     NEWS
+     ============================================================ -->
+<section class="ot-section" id="news">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-baseline mb-4">
+      <div>
+        <div class="ot-section-label">Latest from Open Targets</div>
+        <h2>News &amp; research highlights</h2>
+      </div>
+      <div>
+        <a href="{{ '/news' | relative_url }}" class="ot-card-link" style="white-space:nowrap">
+          See all news <i data-lucide="move-right" class="ml-1"></i>
+        </a><br />
+        <a href="https://us17.campaign-archive.com/home/?u=d11d0467053c1d4b918eb8738&id=f084c7a7c2" class="ot-card-link"
+          style="white-space:nowrap">Subscribe to our newsletter <i data-lucide="external-link" class="ml-1"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      {% assign all_news = site.news | sort: 'date' | reverse %}
+      {% for news_item in all_news limit:3 %}
+      <div class="col-lg-4 col-md-6 py-2">
+        <div class="ot-news-card">
+          {% if news_item.category %}
+          <div class="ot-news-tag">{{ news_item.category }}</div>
+          {% else %}
+          <div class="ot-news-tag">News</div>
+          {% endif %}
+          <!-- Assuming that if there is no link then there must be a url -->
+          {% if news_item.link == null %}
+          {% if news_item.image_filename == null %}
+          <a href="{{ news_item.url }}/">
+            <img src="{{ '/assets/img/news/open_targets_logo_news_item_placeholder.png' | relative_url }}"
+              class="img-fluid" alt="Open Targets Helix logo and wordmark" />
+          </a>
+          {% else %}
+          <a href="{{ news_item.url }}/">
+            <img src="{{ '/assets/img/news/' | append: news_item.image_filename | relative_url }}" class="img-fluid"
+              alt="{{ news_item.image_alt_text }}" />
+          </a>
+          {% endif %}
+          <h3>
+            <a href="{{ news_item.url }}" style="color:inherit;text-decoration:none">{{ news_item.title }}</a>
+          </h3>
+          {% else %}
+          {% if news_item.image_filename == null %}
+          <a href="{{ news_item.link }}/" target="_blank">
+            <img src="{{ '/assets/img/news/open_targets_logo_news_item_placeholder.png' | relative_url }}"
+              class="img-fluid" alt="Open Targets Helix logo and wordmark" />
+          </a>
+          {% else %}
+          <a href="{{ news_item.link }}/" target="_blank">
+            <img src="{{ '/assets/img/news/' | append: news_item.image_filename | relative_url }}" class="img-fluid"
+              alt="{{ news_item.image_alt_text }}" />
+          </a>
+          {% endif %}
+          <h3>
+            <a href="{{ news_item.link }}" style="color:inherit;text-decoration:none">{{ news_item.title }}</a>
+          </h3>
+          {% endif %}
+          {% if news_item.summary %}
+          <p>{{ news_item.summary | truncate: 300 }}</p>
+          {% endif %}
+          <div class="ot-news-date">{{ news_item.date | date: "%-d %B %Y" }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     BLOG + BLUESKY
+     ============================================================ -->
+<section class="ot-social-section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-        <h2 class="text-center mb-5">Our Principles</h2>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 py-3">
-            <div class="card h-100">
-              <div class="bg-blue text-center">
-                <span class="principles-cta-icon">
-                  <i class="fas fa-crosshairs"></i>
-                </span>
-              </div>
-              <div class="card-body text-center">
-                <h5 class="card-title">A systematic approach</h5>
-                <p class="card-text">
-                  Systematically identify and prioritise the best targets to
-                  safely and effectively treat rare and common diseases
-                </p>
-                <div class="text-center">
-                  <a href="/science" class="btn btn-primary"
-                    >Our scientific approach</a
-                  >
-                </div>
-              </div>
-            </div>
+
+      <!-- Blog -->
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <div class="ot-section-label">Latest posts</div>
+        <div class="ot-social-header">
+          <a href="https://blog.opentargets.org/" target="_blank" aria-label="Open Targets blog">
+            <i data-lucide="rss" class="mr-1" style="color:#3489ca"></i> Blog
+          </a>
+        </div>
+        <p class="ot-social-sub">Insights, updates, and deep dives from the Open Targets team</p>
+        {% for post in site.data.ghost_api_response.posts limit:4 %}
+        <div class="ot-blog-post">
+          <a href="http://blog.opentargets.org/{{ post.slug }}" target="_blank">
+            {{ post.title }}
+          </a>
+          <div class="ot-blog-meta">
+            {% for author in post.authors %}{{ author.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+            &middot; {{ post.published_at | date: "%-d %B %Y" }}
           </div>
-          <div class="col-lg-4 col-md-6 py-3">
-            <div class="card h-100">
-              <div class="text-center bg-blue">
-                <span class="principles-cta-icon">
-                  <i class="fas fa-book-open"></i>
-                </span>
-              </div>
-              <div class="card-body text-center">
-                <h5 class="card-title">Open Exchange of Ideas</h5>
-                <p class="card-text">
-                  We are committed to making our data, methods and results
-                  publicly available as soon as possible to foster an open
-                  exchange of ideas
-                </p>
-                <div class="text-center">
-                  <a href="/publications" class="btn btn-primary"
-                    >Our latest publications</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 py-3">
-            <div class="card h-100">
-              <div class="text-center bg-blue">
-                <span class="principles-cta-icon">
-                  <i class="fas fa-exchange-alt"></i>
-                </span>
-              </div>
-              <div class="card-body text-center">
-                <h5 class="card-title">Multidisciplinary collaboration</h5>
-                <p class="card-text">
-                  We believe in non-exclusive partnerships that foster the free
-                  exchange of ideas, expertise, and data
-                </p>
-                <div class="text-center">
-                  <a href="/partners" class="btn btn-primary"
-                    >Our partners and collaborators</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
+          {% if post.custom_excerpt %}
+          <p class="ot-blog-desc">{{ post.custom_excerpt }}</p>
+          {% endif %}
+        </div>
+        {% endfor %}
+        <a href="https://blog.opentargets.org/" target="_blank" class="ot-card-link mt-2 d-inline-block">
+          View all posts <i data-lucide="move-right" class="ml-1"></i>
+        </a>
+      </div>
+
+      <!-- Bluesky -->
+      <div class="col-lg-6">
+        <div class="ot-section-label">Follow us</div>
+        <div class="ot-social-header">
+          <a href="https://bsky.app/profile/opentargets.org" target="_blank" aria-label="Open Targets Bluesky">
+            <i class="fa-brands fa-bluesky mr-1" style="color:#3489ca"></i> Bluesky
+          </a>
+        </div>
+        <p class="ot-social-sub">@opentargets.org</p>
+        <div class="ot-bluesky-container">
+          <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+          <bsky-embed username="opentargets.org" limit="5" load-more="false"></bsky-embed>
         </div>
       </div>
+
     </div>
   </div>
 </section>
 
-<div class="container">
-  <hr />
-</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const statItems = document.querySelectorAll('.ot-hero-stat-item');
+    let currentIndex = 0;
+    const interval = 4000; // 4 seconds
 
-<section class="py-5 my-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 py-3">
-        <div class="news-section-header">
-          <h4 class="text-center">
-            <a href="https://blog.opentargets.org/" target="_blank">
-              <i class="fas fa-rss-square"></i>
-              Blog
-            </a>
-          </h4>
-        </div>
-        <hr />
-        <div class="news-section-content">
-          <div id="blog-section">
-            {% for post in site.data.ghost_api_response.posts %}
-            <a
-              class="font-weight-bold mb-1"
-              href="http://blog.opentargets.org/{{post.slug}}"
-              target="_blank"
-            >
-              {{ post.title }}
-            </a>
-            <p class="mb-1 font-weight-light">
-              {% for author in post.authors %} {{author.name}}{% unless
-              forloop.last %},{% endunless %} {% endfor %}
-            </p>
-            <p class="mb-1 font-weight-light">
-              {{ post.published_at | date: "%-d %B %Y"}}
-            </p>
-            <p class="mb-4">{{post.meta_description}}</p>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 py-3">
-        <div class="news-section-header">
-          <h4 class="text-center">
-            <a href="https://bsky.app/profile/opentargets.org" target="_blank">
-              <i class="fa fa-brands fa-bluesky"></i>
-              Bluesky
-            </a>
-          </h4>
-        </div>
-        <hr />
-        <div class="news-section-content">
-          <script
-            type="module"
-            src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js"
-            async
-          ></script>
-          <div id="bluesky-section">
-            <bsky-embed username="opentargets.org" limit="5" load-more="true">
-          </div>
-          </bsky-embed>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    setInterval(function () {
+      statItems[currentIndex].classList.remove('active');
+      currentIndex = (currentIndex + 1) % statItems.length;
+      statItems[currentIndex].classList.add('active');
+    }, interval);
+  });
+</script>
+
+<script src="{{ '/assets/js/sidebar-navigation.js' | relative_url }}"></script>

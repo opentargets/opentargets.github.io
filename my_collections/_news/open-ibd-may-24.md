@@ -1,11 +1,15 @@
 ---
 title: "Ambitious inflammatory bowel disease study aims to uncover disease biomarkers for personalised medicine"
 date: 2024-05-17
+category: funding announcement
 image_filename: "openibd-press-release.png"
 image_alt_text: "Open-IBD logo"
+image_caption: ""
 layout: press_release
+summary: "A unique study into IBD will bring together genomics and immunology experts, gastroenterologists, and patients from across the UK to identify new and personalised ways to predict, monitor, and treat Crohn’s disease and ulcerative colitis."
+publication:
+publication_link:
 ---
-**A unique study into IBD will bring together genomics and immunology experts, gastroenterologists, and patients from across the UK to identify new and personalised ways to predict, monitor, and treat Crohn’s disease and ulcerative colitis.**
 
 A new one-of-a-kind study into inflammatory bowel disease (IBD) is bringing together research institutions, hospitals, pharmaceutical partners, and patients to uncover what drives IBD onset and severity, identifying biomarkers to inform personalised medicine.
 
@@ -29,27 +33,36 @@ Open-IBD will fund a research nurse and a clinical PhD fellow at each of the sev
 
 In addition to working with scientific experts, Open-IBD has been designed in collaboration with patients through multiple patient focus groups and assistance from Crohn’s & Colitis UK.
 
-Ruth Wakeman, Director of Services, Advocacy and Evidence at Crohn’s & Colitis UK, said: “This exciting project represents a unique opportunity to study newly diagnosed IBD patients with a focus on developing a greater understanding of the natural history of IBD as well as gathering data about biomarkers of treatment success and failure informing patient care and increasing quality of life for people living with IBD.”
+<blockquote><p>“This exciting project represents a unique opportunity to study newly diagnosed IBD patients with a focus on developing a greater understanding of the natural history of IBD as well as gathering data about biomarkers of treatment success and failure informing patient care and increasing quality of life for people living with IBD.”</p>
+<author>Ruth Wakeman, </author>
+<affiliation>Director of Services, Advocacy and Evidence at Crohn’s & Colitis UK</affiliation></blockquote>
 
-Dr Chris Lamb, Open-IBD Clinical Lead from Newcastle University and Honorary Consultant in Gastroenterology at Newcastle Hospitals, said: “Inflammatory bowel disease, known as IBD, can have a profound impact on patients’ lives. For many people, the condition can be severe and unfortunately, treatments are either ineffective, or their effectiveness may lessen over time. We don’t understand why this is the case. Our goal with Open-IBD is to work with patients to uncover biomarkers that can be used to guide personalised treatment, helping to understand why IBD impacts people in different ways, and to provide new and tailored options to those living with this condition. We have launched Open-IBD at a crucial time where the treatment landscape of IBD is changing, and believe that this ambitious project can make a real difference for patients and the future of IBD management.”
+<blockquote><p>“Inflammatory bowel disease, known as IBD, can have a profound impact on patients’ lives. For many people, the condition can be severe and unfortunately, treatments are either ineffective, or their effectiveness may lessen over time. We don’t understand why this is the case. Our goal with Open-IBD is to work with patients to uncover biomarkers that can be used to guide personalised treatment, helping to understand why IBD impacts people in different ways, and to provide new and tailored options to those living with this condition. We have launched Open-IBD at a crucial time where the treatment landscape of IBD is changing, and believe that this ambitious project can make a real difference for patients and the future of IBD management.”</p>
+<author>Dr Chris Lamb, </author>
+<affiliation>Open-IBD Clinical Lead from Newcastle University and Honorary Consultant in Gastroenterology at Newcastle Hospitals</affiliation></blockquote>
 
-Dr Carl Anderson, Open-IBD Scientific Lead from the Wellcome Sanger Institute and Open Targets, said: “Open-IBD is unique in design, scope and scale, focusing on creating a truly collaborative network to try and translate research data into clinical impact as efficiently and quickly as possible. There is nothing currently like it, and we hope that Open-IBD will unravel the mysteries of this condition and empower partnerships between academia, industry, and the NHS to develop new ways to diagnose, monitor and treat inflammatory bowel disease.”   
-
-
-## More information   
-
-1. The full project name is Open-IBD: A longitudinal multi-omics inception cohort in inflammatory bowel disease
-2. Hospitals involved:
-- Newcastle upon Tyne Hospitals
-- Cambridge University Hospitals NHS Trust
-- NHS Lothian
-- Royal Devon University Healthcare NHS Foundation Trust
-- Barts Health NHS Trust
-- Guy’s and St Thomas’ NHS Foundation Trust
-- St George’s University Hospitals   
-
-3. Single-cell RNA sequencing measures the RNA transcripts of individual cells in a given sample. Metagenomic shotgun sequencing allows researchers to comprehensively sample and sequence all genes in all organisms present in a complex sample. RNA gene sequencing can detect and count the RNA molecules present in a sample, allowing researchers to work out the gene expression in the sample, also known as transcriptome.
+<blockquote><p>“Open-IBD is unique in design, scope and scale, focusing on creating a truly collaborative network to try and translate research data into clinical impact as efficiently and quickly as possible. There is nothing currently like it, and we hope that Open-IBD will unravel the mysteries of this condition and empower partnerships between academia, industry, and the NHS to develop new ways to diagnose, monitor and treat inflammatory bowel disease.”</p>
+<author>Dr Carl Anderson, a</author>
+<affiliation>Open-IBD Scientific Lead from the Wellcome Sanger Institute and Open Targets</affiliation></blockquote>
 
 
-**Funding**
+<h4>More information</h4>
+<ol>
+<li>The full project name is Open-IBD: A longitudinal multi-omics inception cohort in inflammatory bowel disease</li>
+<li>Hospitals involved:
+<ul>
+<li>Newcastle upon Tyne Hospitals</li>
+<li>Cambridge University Hospitals NHS Trust</li>
+<li>NHS Lothian</li>
+<li>Royal Devon University Healthcare NHS Foundation Trust</li>
+<li>Barts Health NHS Trust</li>
+<li>Guy’s and St Thomas’ NHS Foundation Trust</li>
+<li>St George’s University Hospitals</li>
+</ul>
+</li>
+<li>Single-cell RNA sequencing measures the RNA transcripts of individual cells in a given sample. Metagenomic shotgun sequencing allows researchers to comprehensively sample and sequence all genes in all organisms present in a complex sample. RNA gene sequencing can detect and count the RNA molecules present in a sample, allowing researchers to work out the gene expression in the sample, also known as transcriptome.</li>
+</ol>
+
+
+<h4>Funding</h4>
 Open IBD is funded by Open Targets and the Wellcome Sanger Institute. It is the biggest ever Open Targets funded project with Open Targets providing £7.1M and the Sanger Institute contributing an additional £4M.
