@@ -30,3 +30,9 @@ jekyll_get_json:
 
 exclude:
   - docs/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - .sass-cache/
+  - .jekyll-cache/
