@@ -7,6 +7,7 @@ concurrency: preview-${{ github.ref }}
 permissions:
   contents: write
   pull-requests: write
+  pages: write
 
 jobs:
   preview:
@@ -22,7 +23,9 @@ jobs:
 
       - name: jekyll build
         if: github.event.action != 'closed'
-        run: bundle exec jekyll build --baseurl "/pr-preview/pr-${{ github.event.number }}"
+        run: |
+          bundle exec jekyll build --baseurl "/pr-preview/pr-${{ github.event.number }}"
+          touch _site/.nojekyll
 
       - uses: rossjrw/pr-preview-action@v1
         with:
@@ -30,3 +33,8 @@ jobs:
           preview-branch: gh-pages
           umbrella-dir: pr-preview
           pages-base-url: opentargets.org
+
+      - name: Trigger Pages build
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api -X POST repos/${{ github.repository }}/pages/builds
