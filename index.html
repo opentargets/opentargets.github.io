@@ -122,7 +122,8 @@ title: Home
       <div class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center">
         <a href="https://www.gsk.com" target="_blank" aria-label="GSK">
           <div class="ot-partner-logo">
-            <img src="{{ 'assets/img/logos/gsk_signal.png' | relative_url }}" class="img-fluid gsk" alt="GSK partnership logo" />
+            <img src="{{ 'assets/img/logos/gsk_signal.png' | relative_url }}" class="img-fluid gsk"
+              alt="GSK partnership logo" />
           </div>
         </a>
       </div>
@@ -150,7 +151,8 @@ title: Home
       <div class="col-lg-3 col-md-6 col-sm-6 col-6 py-2 d-flex justify-content-center">
         <a href="https://www.sanger.ac.uk" target="_blank" aria-label="Wellcome Sanger Institute">
           <div class="ot-partner-logo">
-            <img src="{{ 'assets/img/logos/wellcome-sanger.png' | relative_url }}" class="img-fluid" alt="Wellcome Sanger Institute logo" />
+            <img src="{{ 'assets/img/logos/wellcome-sanger.png' | relative_url }}" class="img-fluid"
+              alt="Wellcome Sanger Institute logo" />
           </div>
         </a>
       </div>
@@ -345,8 +347,8 @@ title: Home
           {% if news_item.link == null %}
           {% if news_item.image_filename == null %}
           <a href="{{ news_item.url }}/">
-            <img src="{{ '/assets/img/news/open_targets_logo_news_item_placeholder.png' | relative_url }}" class="img-fluid"
-              alt="Open Targets Helix logo and wordmark" />
+            <img src="{{ '/assets/img/news/open_targets_logo_news_item_placeholder.png' | relative_url }}"
+              class="img-fluid" alt="Open Targets Helix logo and wordmark" />
           </a>
           {% else %}
           <a href="{{ news_item.url }}/">
@@ -360,8 +362,8 @@ title: Home
           {% else %}
           {% if news_item.image_filename == null %}
           <a href="{{ news_item.link }}/" target="_blank">
-            <img src="{{ '/assets/img/news/open_targets_logo_news_item_placeholder.png' | relative_url }}" class="img-fluid"
-              alt="Open Targets Helix logo and wordmark" />
+            <img src="{{ '/assets/img/news/open_targets_logo_news_item_placeholder.png' | relative_url }}"
+              class="img-fluid" alt="Open Targets Helix logo and wordmark" />
           </a>
           {% else %}
           <a href="{{ news_item.link }}/" target="_blank">
@@ -389,14 +391,6 @@ title: Home
      ============================================================ -->
 <section class="ot-social-section">
   <div class="container">
-    <div class="ot-section-label">Our research</div>
-    <h2>Science built around what works in the clinic</h2>
-    <p class="ot-lead">
-      Drugs against genetically validated targets are more than twice as likely
-      to succeed in clinical trials. Our research programme generates the
-      large-scale experimental data needed to identify those targets and put them
-      in front of drug discovery teams.
-    </p>
     <div class="row">
 
       <!-- Blog -->
