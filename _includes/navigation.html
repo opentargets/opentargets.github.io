@@ -1,47 +1,41 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container">
-    <a class="navbar-brand" href="/">
-      <img src="/assets/img/ten-years-logo-colour.png" style="width:150px" alt="Ten year anniversary logo, Open Targets helix logo and wordmark">
+    <a class="navbar-brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/branding/OT_logo_colour_RGB.png' | relative_url }}" style="width:150px"
+        alt="Open Targets helix logo and wordmark">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             About
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="/partners">Partners</a>
-            <a class="dropdown-item" href="/people">Team</a>
-            <a class="dropdown-item" href="/history">History</a>
-            <a class="dropdown-item" href="/branding">Branding</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Research
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="/science">Science overview</a>
-            <a class="dropdown-item" href="/publications">Publications</a>
+            <a class="dropdown-item" href="{{ '/partnership' | relative_url }}">The partnership</a>
+            <a class="dropdown-item" href="{{ '/people' | relative_url }}">Team</a>
+            <a class="dropdown-item" href="{{ '/science' | relative_url }}">Science overview</a>
+            <a class="dropdown-item" href="{{ '/publications' | relative_url }}">Publications</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/news">News</a>
+          <a class="nav-link" href="https://platform.opentargets.org/" target="_blank"><i data-lucide="external-link"
+              class="mr-1"></i>Platform</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/jobs">Jobs</a>
+          <a class="nav-link" href="{{ '/news' | relative_url }}">News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://blog.opentargets.org/" target="_blank">Blog</a>
+          <a class="nav-link" href="{{ '/jobs' | relative_url }}">Jobs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
+          <a class="nav-link" href="{{ '/contact' | relative_url }}">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-  

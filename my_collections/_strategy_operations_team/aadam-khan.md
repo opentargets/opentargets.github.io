@@ -1,10 +1,11 @@
 ---
 first_name: "Aadam"
 last_name: "Khan"
-role: "Data Manager (maternity cover)"
+role: "Data Manager"
 picture: "aadam_khan.png"
 organisation: "Wellcome Sanger Institute"
 organisation_logo: "wellcome-sanger.png"
+organisation_logo_alt: "Wellcome Sanger Institute logo"
 orcid: 
 ---
 

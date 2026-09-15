@@ -5,6 +5,7 @@ role: Senior Research Manager
 picture: jess_east.png
 organisation: Wellcome Sanger Institute
 organisation_logo: wellcome-sanger.png
+organisation_logo_alt: "Wellcome Sanger Institute logo"
 orcid:
 ---
 

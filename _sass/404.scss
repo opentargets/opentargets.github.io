@@ -1,0 +1,59 @@
+.ot-404-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 70vh;
+    padding: 3rem 1rem;
+}
+
+.ot-404-inner {
+    max-width: 520px;
+}
+
+.ot-404-image {
+    width: auto;
+    height: 250px;
+    margin-bottom: 5rem;
+    // background-size: cover;
+    // background-position: center;
+}
+
+.ot-404-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 7rem;
+}
+
+.ot-404-icon .lucide {
+    font-size: 12rem;
+    color: #d6e7f4;
+    position: absolute;
+}
+
+.ot-404-number {
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 700;
+    color: $ot-corp-blue;
+    letter-spacing: -0.04em;
+    z-index: 1;
+    margin-bottom: 0.25rem;
+}
+
+.ot-404-heading {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: $ot-corp-navy;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.02em;
+}
+
+.ot-404-subtext {
+    font-size: 1rem;
+    color: $ot-corp-grey;
+    line-height: 1.65;
+    margin-bottom: 2rem;
+}

@@ -1,9 +1,14 @@
 ---
 title: "Open Targets project creates a human interactome to prioritise drug discovery"
 date: 2023-02-23
+category: research highlight
 image_filename: "Pleiotropy_Karen_Arnott.png"
 image_alt_text: "A stylized network of interconnected circles"
 layout: press_release
+image_caption: "A human interactome to prioritise drug discovery. Credit: Karen Arnott"
+summary: ""
+publication: "I. Barrio-Hernandez., et al. Network expansion of genetic associations defines a pleiotropy map of human cell biology. <i>Nature Genetics</i>. 10.1038/s41588-023-01327-9"
+publication_link: "https://www.nature.com/articles/s41588-023-01327-9"
 ---
 Scientists at Open Targets, EMBL’s European Bioinformatics Institute (EMBL-EBI), and GSK are revealing the shared basis of diseases using a map of interacting human proteins. By helping to understand how biological processes affect human traits and diseases, this work will prioritise new targets for drug discovery and identify drug repurposing opportunities.
 
@@ -27,13 +32,9 @@ In the present study, the researchers showed that the interactome could be used 
 
 “This is an exciting showcase of one of our Open Targets collaborative informatics projects that has generated an array of new insights for novel target discovery as well as drug repurposing, and informs our understanding of the connection between rare and common diseases through shared biological processes,” said Ellen McDonagh, Director of Informatics Science at Open Targets. “This is now being developed further to provide tissue and cell-type specific networks to help further prioritise targets for disease treatment.” 
 
-Source article
-I. Barrio-Hernandez., <i>et al.</i> <a href="https://www.nature.com/articles/s41588-023-01327-9" target="_blank">Network expansion of genetic associations defines a pleiotropy map of human cell biology.</a> <i>Nat Genet</i>. 10.1038/s41588-023-01327-9
 
-Funding
+<h4>Funding</h4>
 This project was conceived and funded by Open Targets. 
 IB is supported by Open Targets; JS, QZ, and CAA are supported by Wellcome Trust Grant 206194.
-
-Image credit: Karen Arnott (EMBL-EBI)
 
 <a href="https://www.ebi.ac.uk/about/news/research-highlights/a-human-interactome-to-prioritise-drug-discovery/" target="_blank">This press release was originally published on the EMBL-EBI website.</a>

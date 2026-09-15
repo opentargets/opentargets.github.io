@@ -4,5 +4,6 @@ last_name: "Hayhurst"
 role: "Software Developer"
 picture: "james_hayhurst.png"
 organisation_logo: "embl-ebi.png"
+organisation_logo_alt: "EMBL-EBI logo"
 ---
 James joined Open Targets in 2023 as a software developer working in the back-end team. He previously worked in the Samples, phenotypes, and ontologies team at EMBL-EBI. 
