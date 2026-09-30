@@ -1,12 +1,16 @@
 ---
 title: "Study tracking T-cell activation over time boosts search for immune disease treatments"
 date: 2022-05-26
+category: research highlight
 image_filename: "soskic-cano-gamez-natgen-may22.png"
 image_alt_text: "DNA spiral formed by pale blue dots on a dark background"
+image_caption: ""
 layout: press_release
+summary: "In a first-of-its-kind experiment, researchers have identified links between 127 genes and immune diseases, providing newfound insights into the sequence and timing of gene activity during the activation of T cells, a key process in regulating the body’s immune response."
+publication: "Blagoje Soskic and Eddie Cano-Gamez et al. (2022). Immune disease risk variants regulate gene expression dynamics during CD4+ T cell activation. <i>Nature Genetics</i>. 
+DOI: https://doi.org/10.1038/s41588-022-01066-3"
+publication_link: "https://www.nature.com/articles/s41588-022-01066-3"
 ---
-In a first-of-its-kind experiment, researchers have identified links between 127 genes and immune diseases, providing newfound insights into the sequence and timing of gene activity during the activation of T cells, a key process in regulating the body’s immune response.
-
 The study, led by researchers from Open Targets, the Wellcome Sanger Institute and GSK, is published today (26 May 2022) in Nature Genetics. The result of a 3 year research effort, it is the first to show that numerous disease-linked variants are active during different stages of T cell activation, providing key information to guide the development of new therapies for immune diseases such as rheumatoid arthritis, type-1 diabetes and Crohn’s disease. 
 
 T cells are a group of white blood cells that help to manage the human immune system. When T cells malfunction, they can cause severe immune deficiencies that leave patients at high risk of infection, as well as more common autoimmune diseases such as type 1 diabetes and rheumatoid arthritis, where the body mounts an attack against its own cells. 
@@ -28,18 +32,12 @@ While this study focused on genes involved in 13 immune diseases, the approach a
 Dr Gosia Trynka, the senior author of the study from the Wellcome Sanger Institute and Experimental Science Director of Open Targets, said: “T cells are particularly dynamic cells, so being able to capture their activation process in such detail is an important achievement. Our data will provide crucial insight into key immune system mechanisms, helping us to understand which genes are affected, what might be causing disease, and what factors might be putting patients at risk. In particular, the ability to link genetic variants strongly tied to immune diseases with changes in the activity of genes during this activation is a crucial first step to developing new treatments.”
 
 
-**Notes to editors:**
+<h4>Notes to editors</h4>
+<ol>
+<li>Cano-Gamez, E., Soskic, B., Roumeliotis, T.I. et al. <a href="https://doi.org/10.1038/s41467-020-15543-y">Single-cell transcriptomics identifies an effectorness gradient shaping the response of CD4+ T cells to cytokines.</a> Nat Commun 11, 1801 (2020).</li>
+<li>Single-cell RNA sequencing is used to profile gene expression in single cells</li>
+</ol>
 
-[1] Cano-Gamez, E., Soskic, B., Roumeliotis, T.I. et al. <a href="https://doi.org/10.1038/s41467-020-15543-y">Single-cell transcriptomics identifies an effectorness gradient shaping the response of CD4+ T cells to cytokines.</a> Nat Commun 11, 1801 (2020).
-
-[2] Single-cell RNA sequencing is used to profile gene expression in single cells
-
-
-**Publication:**
-
-Blagoje Soskic and Eddie Cano-Gamez et al. (2022). <a href="https://www.nature.com/articles/s41588-022-01066-3">Immune disease risk variants regulate gene expression dynamics during CD4+ T cell activation.</a> Nature Genetics. 
-DOI: https://doi.org/10.1038/s41588-022-01066-3
-
-**Funding:**
+<h4>Funding</h4>
 This work was funded by Open Targets and Wellcome.
 

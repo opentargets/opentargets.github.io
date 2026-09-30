@@ -5,6 +5,7 @@ role: Scientific Director
 picture: Gosia-Trynka-Jun23.png
 organisation: Wellcome Sanger Institute
 organisation_logo: wellcome-sanger.png
+organisation_logo_alt: "Wellcome Sanger Institute logo"
 orcid: 0000-0002-6955-9529
 order: 2
 ---

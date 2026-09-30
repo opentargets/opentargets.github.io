@@ -1,63 +1,165 @@
 @import url("https://rsms.me/inter/inter.css");
 
-$white: #ffffff;
-$bodyColor: #5a5f5f;
 $bodyFont: "Inter", Helvetica, Arial, sans-serif;
-$ot-corp-blue: #3489ca;
+
+// Color palette
+$white: #ffffff;
+$ot-corp-navy: #1a4565; // headings, primary text on light backgrounds
+$ot-corp-blue: #3489ca; // brand blue, links, accents
+$ot-corp-blue-mid: #2a6fa3; // hover/active state for blue elements
+$ot-corp-blue-light: #98c5e3; // light blue hover/accent
 $ot-corp-grey: #5a5f5f;
+$ot-grey-dark: #3f4343; // body text
+$ot-bg-tint: #f4f8fc; // very light section background
+$ot-border-tint: #dce8f2; // light blue borders/dividers
+$ot-card-border: #e3eaf1; // card/box borders
+$ot-tag-bg: #e8f3fb; // small tag/badge backgrounds
+$ot-oncology: #35711D;
+$ot-neuro: #71501D;
+$ot-immunology: #711D6A;
 
 body {
   background: $white;
-  color: $ot-corp-grey;
+  color: $ot-grey-dark;
   font-family: $bodyFont;
 }
 
-.bg-blue {
-  background-color: $ot-corp-blue;
+p {
+  line-height: 1.65;
+  color: $ot-grey-dark;
 }
 
-.bg-light-grey {
-  background-color: #d1cfcf;
+.footer-ot p {
+  color: $white;
+}
+
+.ot-lead {
+  font-size: 1rem;
+  color: $ot-grey-dark;
+  line-height: 1.65;
+  margin-bottom: 4rem;
+  text-wrap: pretty;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: $ot-corp-navy;
+}
+
+h2::after {
+  content: '';
+  display: block;
+  border-radius: 8px;
+  width: 50px;
+  height: 4px;
+  background-color: #3489ca;
+  margin: 8px 0 0;
+  margin-bottom: 15px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+// Lucide icons render as SVG, not a webfont, so they don't inherit
+// font-size the way Font Awesome glyphs do. Sizing to 1em keeps them
+// drop-in compatible with existing font-size-based icon sizing.
+.lucide {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
 }
 
 a {
-  color: $ot-corp-blue;
+  color: $ot-corp-navy;
 }
 
 a:hover {
-  color: #98c5e3;
+  color: $ot-corp-blue;
 }
 
-.principles-cta-icon {
-  font-size: 125px;
+li {
+  line-height: 1.75;
+}
+
+
+.btn-primary {
+  background-color: $ot-corp-blue-mid;
+  border-color: $ot-corp-blue-mid;
   color: $white;
+  font-weight: 700;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(26, 69, 101, 0.39);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: $ot-corp-navy;
+  border-color: $ot-corp-navy;
+  color: $white;
+  box-shadow: 0 8px 24px rgba(26, 69, 101, 0.5);
+}
+
+.btn-primary:active {
+  box-shadow: 0 2px 8px rgba(26, 69, 101, 0.3);
+}
+
+.btn-primary:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba($ot-corp-blue, 0.5);
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background-color: $ot-corp-blue-mid;
+  border-color: $ot-corp-blue-mid;
+  box-shadow: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid $ot-corp-blue;
+  color: $ot-corp-blue;
+  font-weight: 700;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: rgba($ot-corp-blue, 0.12);
+  border-color: $ot-corp-blue;
+  color: $ot-corp-blue;
+}
+
+.btn-secondary:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba($ot-corp-blue, 0.5);
+}
+
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+  background-color: transparent;
+  border-color: rgba($ot-corp-blue, 0.15);
+  color: $ot-corp-blue;
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .partner-logo {
   max-width: 125px;
 }
 
-.carousel-item {
-  height: 35vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.carousel-indicators li {
-  width: 15px;
-  height: 15px;
-  border-radius: 100%;
-}
-
 .logo-small {
   max-height: 40px;
 }
 
-.navbar-light .navbar-nav .show > .nav-link {
+.navbar-light .navbar-nav .show>.nav-link {
   color: $ot-corp-blue;
 }
 
@@ -81,15 +183,6 @@ a:hover {
   background-color: lightgrey;
 }
 
-.active-icon {
-  color: $ot-corp-blue;
-}
-
-.disabled-icon {
-  color: $ot-corp-grey;
-  opacity: 0.5;
-}
-
 #blog-section {
   height: 400px;
   overflow-y: scroll;
@@ -109,7 +202,8 @@ img.open-access-icon-sm {
 }
 
 header.page-header {
-  padding: 100px;
+  padding: 60px;
+  background: linear-gradient(to bottom right, $ot-corp-navy, #2a6ea2);
 }
 
 // used to set <p> min-height values on /people page so that names, job titles, and logos are aligned
@@ -117,7 +211,171 @@ header.page-header {
   .line-height-3em {
     min-height: 3em;
   }
+
   .line-height-4em {
     min-height: 4.5em;
+  }
+}
+
+// uniform card sizing on /people page so all cards render at the same size
+.people-card {
+  width: 100%;
+
+  .card-img-top {
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
+
+    @media (min-width: 576px) {
+      height: 220px;
+    }
+  }
+
+  .card-title {
+    min-height: 2.4em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .card-subtitle {
+    min-height: 5em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  // align-items: flex-start;
+}
+
+.footer-ot {
+  max-width: 350px;
+}
+
+@media (min-width: 1200px) {
+  .page-constrained .container {
+    max-width: 65vw;
+  }
+}
+
+// keep the /people grid at a fixed width on large screens so cards stay uniform and close together
+@media (min-width: 1200px) {
+  .people-page .container {
+    max-width: 1140px;
+  }
+}
+
+.ot-collapsible-tabs {
+  //whole nav
+  border-bottom: 1.5px solid $ot-corp-navy;
+}
+
+.ot-collapsible-tabs .nav-link {
+  //individual tabs
+  color: $ot-corp-grey;
+}
+
+.ot-collapsible-tabs .nav-link.active {
+  //active tab
+  background-color: $ot-corp-navy;
+  color: $white;
+  border-bottom: 1.5px solid $ot-corp-navy;
+  border-top: 1.5px solid $ot-corp-navy;
+  border-left: 1.5px solid $ot-corp-navy;
+  border-right: 1.5px solid $ot-corp-navy;
+}
+
+.ot-collapsible-tabs .nav-link:not(.active):hover {
+  background-color: transparent;
+  color: #8c8f8f;
+  border: 1.5px solid #8c8f8f;
+  border-bottom-color: transparent;
+}
+
+.ot-collapsible-tabs .nav-item.show .nav-link {
+  //"Earlier" dropdown
+  background-color: $ot-corp-grey;
+  color: $white;
+  border-top: 1.5px solid $ot-corp-grey;
+  border-left: 1.5px solid $ot-corp-grey;
+  border-right: 1.5px solid $ot-corp-grey;
+  border-bottom-color: $ot-corp-grey;
+}
+
+.ot-collapsible-tabs .dropdown-item:not(.active):hover {
+  background-color: $ot-corp-grey;
+  color: $white;
+}
+
+.ot-collapsible-tabs .dropdown-item.active {
+  background-color: $ot-corp-navy;
+  color: $white;
+}
+
+/* Image Gallery */
+.ot-image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.5rem;
+  margin: 2rem 0;
+}
+
+.ot-image-gallery-item {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background: $white;
+  border: 1px solid $ot-card-border;
+  transition: box-shadow 0.15s ease;
+}
+
+.ot-image-gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.ot-image-gallery-item video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ot-image-gallery-caption {
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  color: $ot-corp-grey;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.ot-image-gallery-item.featured {
+  grid-column: span 2;
+}
+
+.ot-image-gallery-item.featured img {
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  .ot-image-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .ot-image-gallery-item.featured {
+    grid-column: span 1;
+  }
+
+  .ot-image-gallery-item.featured img {
+    height: 200px;
   }
 }

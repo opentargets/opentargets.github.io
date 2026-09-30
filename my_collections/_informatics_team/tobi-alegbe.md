@@ -4,6 +4,7 @@ last_name: "Alegbe"
 role: "Single Cell Data Scientist"
 picture: "tobi-alegbe.png"
 organisation_logo: "embl-ebi.png"
+organisation_logo_alt: "EMBL-EBI logo"
 ---
 I'm a Londoner, born and raised (mostly). For my undergraduate degree, I stayed in London and studied Biological Sciences at UCL. I then followed this up with a Bioinformatics MSc at the University of Copenhagen and a PhD at the University of Cambridge.
 
