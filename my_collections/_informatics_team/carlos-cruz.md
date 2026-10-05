@@ -5,6 +5,7 @@ role: "Senior Web Developer and Front End Lead"
 picture: carlos_cruz.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
+organisation_logo_alt: "EMBL-EBI logo"
 orcid:
 ---
 

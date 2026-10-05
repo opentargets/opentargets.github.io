@@ -4,7 +4,8 @@ last_name: Kerber
 role: Business Development Lead
 picture: birgit_kerber.png
 organisation: EMBL
-organisation_logo: embl.png 
+organisation_logo: embl.png
+organisation_logo_alt: "EMBL logo"
 order: 4
 orcid: 
 ---

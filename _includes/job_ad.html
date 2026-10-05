@@ -8,31 +8,31 @@
               {% if job.closing_date %}
                 <h6 class="card-subtitle mb-4">
                   Application closing date: {{ job.closing_date | date: "%-d %B %Y" }}
-                </h6> 
+                </h6>
               {% else %}
                 <h6 class="card-subtitle">
                   Application closing date: N/A
                 </h6>
                 <p class="mb-4 font-weight-light font-italic">
-                  This is a rolling advert. We will consider applications and hold interviews on an ongoing 
+                  This is a rolling advert. We will consider applications and hold interviews on an ongoing
                   basis and the role will close when a successful appointment has been made.
                 </p>
               {% endif %}
           </div>
           <div class="offset-md-1 col-md-2">
-            <img class="img-fluid" src="/assets/img/logos/{{ job.organisation_logo }}" />
+            <img class="img-fluid" src="{{ '/assets/img/logos/' | append: job.organisation_logo | relative_url }}" />
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
             <p class="card-title">
-              {{ job.content | truncate: 2000 }} 
+              {{ job.content | truncate: 2000 }}
             </p>
             <p class="card-title">
               <a href="{{ job.link }}" class="btn btn-primary" target="_blank">View full job description</a>
             </p>
           </div>
-        </div>   
+        </div>
       </div>
     </div>
   </div>
