@@ -4,6 +4,7 @@ last_name: "Buniello"
 role: "Senior Product Manager"
 picture: "annalisa_buniello.png"
 organisation_logo: "embl-ebi.png"
+organisation_logo_alt: "EMBL-EBI logo"
 orcid: 0000-0002-4623-8642
 ---
 Annalisa is the Senior Product Manager at Open Targets.
