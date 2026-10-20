@@ -103,6 +103,42 @@
     margin-bottom: 1.75rem;
 }
 
+// Card header with logo and title
+.ot-card-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 1rem;
+}
+
+// Logo tile container
+.ot-card-logo-tile {
+  width: 64px;
+  height: 64px;
+  flex: none;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid $ot-card-border;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Logo image within tile
+.ot-card-logo-tile img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 0; // Override global img border-radius
+}
+
+// Adjust h4 margin when in header
+.ot-card-header h4 {
+  margin: 0;
+  flex: 1;
+}
+
 .ot-tools-list {
     border: 1px solid #dce8f2;
     border-radius: 12px;
@@ -243,6 +279,12 @@
     line-height: 1.55;
     margin: 0;
     text-wrap: balance;
+}
+
+// Override for people page stat cards - remove fixed height
+.people-page .ot-stat-card {
+  height: auto;
+  min-height: 140px;
 }
 
 .ot-stat-ref {
