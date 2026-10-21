@@ -1,0 +1,44 @@
+# Hackathon 2025 - Event Gallery
+# Add your image files to: assets/img/gallery/
+# Then add entries below with filename, title, and caption
+
+- filename: "gallery-1.jpeg"
+  title: "Opening Session"
+  caption: "Kickoff presentation and welcome ceremony"
+  category: "Session"
+
+- filename: "gallery-1.jpeg"
+  title: "Team Collaboration"
+  caption: "Participants working together on projects"
+  category: "Collaboration"
+
+- filename: "gallery-1.jpeg"
+  title: "Coding Session"
+  caption: "Intensive development and coding workshops"
+  category: "Workshop"
+
+- filename: "gallery-1.jpeg"
+  title: "Networking"
+  caption: "Community building and connections"
+  category: "Social"
+
+- filename: "gallery-1.jpeg"
+  title: "Mentorship"
+  caption: "Expert guidance and mentorship sessions"
+  category: "Mentorship"
+
+- filename: "gallery-1.jpeg"
+  title: "Presentation"
+  caption: "Team presentations and demos"
+  category: "Presentation"
+
+- filename: "gallery-1.jpeg"
+  title: "Awards Ceremony"
+  caption: "Celebrating outstanding achievements"
+  category: "Awards"
+
+- filename: "gallery-1.jpeg"
+  title: "Closing Event"
+  caption: "Final moments and farewell celebration"
+  category: "Closing"
+
