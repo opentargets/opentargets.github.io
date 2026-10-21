@@ -16,6 +16,7 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+          ruby-version: '3.3'
       - run: bundle exec jekyll build
       - uses: JamesIves/github-pages-deploy-action@v4
         with:

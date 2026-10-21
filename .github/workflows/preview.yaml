@@ -20,6 +20,7 @@ jobs:
         if: github.event.action != 'closed'
         with:
           bundler-cache: true
+          ruby-version: '3.3'
 
       - name: jekyll build
         if: github.event.action != 'closed'
