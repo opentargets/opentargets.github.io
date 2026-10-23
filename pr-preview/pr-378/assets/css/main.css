@@ -76,6 +76,9 @@ header.page-header { padding: 60px; background: linear-gradient(to bottom right,
 
 .footer-ot { max-width: 350px; }
 
+@media (max-width: 768px) { .footer-container { flex-direction: column; gap: 2rem; padding: 0 1rem; }
+  .footer-ot { max-width: 100%; }
+  .footer-container > div { min-width: auto; } }
 @media (min-width: 1200px) { .page-constrained .container { max-width: 65vw; } }
 @media (min-width: 1200px) { .people-page .container { max-width: 1140px; } }
 .ot-collapsible-tabs { border-bottom: 1.5px solid #1a4565; }
@@ -311,7 +314,16 @@ html { scroll-behavior: smooth; }
 /* Mobile adaptive layout */
 @media (max-width: 768px) { .ot-sidebar-nav { position: fixed; left: 0; right: 0; top: auto; bottom: 0; transform: none; border-radius: 12px 12px 0 0; padding: 1rem; background: #ffffff; box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1); }
   .ot-sidebar-nav nav { flex-direction: row; justify-content: space-around; gap: 0.25rem; }
-  .ot-sidebar-link { padding: 0.4rem 0.6rem; font-size: 0.8rem; text-align: center; } }
+  .ot-sidebar-link { padding: 0.4rem 0.6rem; font-size: 0.8rem; text-align: center; }
+  /* Hero responsive styles */
+  .ot-hero-inner { padding: 1.5rem; }
+  .ot-hero h1 { font-size: 2.5rem; }
+  .ot-hero p { font-size: 1rem; }
+  .ot-hero .btn { font-size: 1rem; padding: 0.5rem 1rem; }
+  .ot-hero-badge { font-size: 0.8rem; }
+  /* Highlight box stack on mobile */
+  .ot-highlight-box { flex-direction: column; }
+  .ot-partner-quote-img { margin-left: 0; margin-right: 0; margin-bottom: 1rem; } }
 /* News Item / Press Release */
 .ot-news-item { max-width: 800px; margin: 0 auto; }
 
@@ -446,6 +458,9 @@ blockquote affiliation { display: inline-block; font-size: 1rem; font-weight: 40
 
 .ot-stat-card--navy .ot-stat-ref { color: rgba(255, 255, 255, 0.6); }
 
+/* Mobile responsive gallery - show only 1 image */
+@media (max-width: 767px) { .ot-image-gallery-item:nth-child(2), .ot-image-gallery-item:nth-child(3) { display: none; }
+  .ot-image-gallery { grid-template-columns: 1fr; } }
 /* Hero */
 .partnership-hero { background-image: url("../img/illustrative/coffee_session.png"); background-size: cover; background-position: center; padding: 3rem 1rem; }
 
