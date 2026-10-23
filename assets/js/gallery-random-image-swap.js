@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
     '/assets/img/illustrative/poster_session_chat.png',
     '/assets/img/illustrative/symposium_2026.png',
     '/assets/img/illustrative/symposium_poster_session_jack.png',
+    '/assets/img/illustrative/C1003_028.jpg',
     // Add more images as needed
   ];
 
@@ -52,6 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
     '/assets/img/illustrative/poster_session_chat.png': 'Three people are stood chatting to one another during a busy poster session',
     '/assets/img/illustrative/symposium_2026.png': 'Seen from above, a large group of conference attendees look up and smile at the camera',
     '/assets/img/illustrative/symposium_poster_session_jack.png': 'Two people holding coffee cups are chatting and smiling during a scientific poster session',
+    '/assets/img/illustrative/C1003_028.jpg': 'Three men in suits are standing having a discussion, one is gesturing and smiling to the others.'
   };
 
   // siteBaseUrl is set globally in the page's <script> block from {{ site.baseurl }}
@@ -120,13 +122,18 @@ document.addEventListener('DOMContentLoaded', function () {
     const currentSrc = stripBaseUrl(new URL(imgElement.src).pathname);
     currentImages.delete(currentSrc);
 
-    const availableImages = imagePool.filter(img => !currentImages.has(img));
+    // Filter out images that are currently displayed AND the current image being swapped
+    const availableImages = imagePool.filter(img =>
+      !currentImages.has(img) && img !== currentSrc
+    );
 
     let newImage;
     if (availableImages.length > 0) {
       newImage = availableImages[Math.floor(Math.random() * availableImages.length)];
     } else {
-      newImage = imagePool[Math.floor(Math.random() * imagePool.length)];
+      // Fallback: pick any image except the current one
+      const otherImages = imagePool.filter(img => img !== currentSrc);
+      newImage = otherImages[Math.floor(Math.random() * otherImages.length)];
     }
 
     imgElement.style.opacity = '0';

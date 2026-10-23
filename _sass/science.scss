@@ -300,3 +300,15 @@
 .ot-stat-card--navy .ot-stat-ref {
     color: rgba($white, 0.6);
 }
+
+/* Mobile responsive gallery - show only 1 image */
+@media (max-width: 767px) {
+  .ot-image-gallery-item:nth-child(2),
+  .ot-image-gallery-item:nth-child(3) {
+    display: none;
+  }
+
+  .ot-image-gallery {
+    grid-template-columns: 1fr;
+  }
+}
