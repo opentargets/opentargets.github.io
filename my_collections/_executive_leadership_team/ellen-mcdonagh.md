@@ -5,6 +5,7 @@ role: Translational Informatics Director
 picture: Ellie-McDonagh-Jun23.png
 organisation: EMBL-EBI
 organisation_logo: embl-ebi.png
+organisation_logo_alt: "EMBL-EBI logo"
 orcid: 0000-0001-5806-6174
 order: 3
 ---
